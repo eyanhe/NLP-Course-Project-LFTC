@@ -1,0 +1,15 @@
+2026-11-07 17:42:07 UTC
+277871|tc-p1-yelp-emotion|PENDING|0:00|(Priority)
+277872|tc-p1-yahoo|PENDING|0:00|(Priority)
+278032|tc-sup14-emotion|RUNNING|1:44:10|cpu-2
+277871|tc-p1-yelp-emotion|PENDING|00:00:00|0:0
+277872|tc-p1-yahoo|PENDING|00:00:00|0:0
+278032|tc-sup14-emotion|RUNNING|01:44:10|0:0
+278032.batch|batch|RUNNING|01:44:10|0:0
+278032.extern|extern|RUNNING|01:44:10|0:0
+278038|tc-sup14-bank|COMPLETED|00:21:58|0:0
+278038.batch|batch|COMPLETED|00:21:58|0:0
+278038.extern|extern|COMPLETED|00:21:58|0:0
+278085|tc-sup4-ai|COMPLETED|00:00:08|0:0
+278085.batch|batch|COMPLETED|00:00:08|0:0
+278085.extern|extern|COMPLETED|00:00:08|0:0

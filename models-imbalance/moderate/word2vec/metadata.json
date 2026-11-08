@@ -1,0 +1,18 @@
+{
+  "imbalance_config_sha256": "67a4393c610aa6f8be812d3cb01b946ec12246279e1663f82e6e6f56b4baae95",
+  "data_sha256": {
+    "balanced": "45fb4a367454e3c33494813fee0898d7ab4c32754ce72e17c7cfb46377fa5787",
+    "mild": "bc14193e42365f420cce6f82ac4a8be9a056f280c7c200acc2e6bc0e287708a4",
+    "moderate": "e60a978198c4fc83a79bd258a7f37e03dd6f63a8797aac644528061a630230cc",
+    "severe": "e39f6743cf4df7752f1433c9e81c50808e3fca48af173ab070b0bbfd4c5c9995"
+  },
+  "balanced_data_sha256": {
+    "train": "45fb4a367454e3c33494813fee0898d7ab4c32754ce72e17c7cfb46377fa5787",
+    "validation": "48008639efaa1a0548090ac06f82fa9a8f2c888216b7be38de1c8bbc071e5aec",
+    "test": "889f17d86f4c27d75ec499bab8e4579a54870b38635c2df522b09e694525a61c"
+  },
+  "base_model_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "training_only": true,
+  "fit_seconds": 11.0663687999986,
+  "vocabulary_size": 10521
+}

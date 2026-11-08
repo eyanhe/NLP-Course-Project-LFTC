@@ -1,0 +1,374 @@
+{
+  "status": "complete",
+  "run_id": "7dcf705725c87a8ddc72826da2cc5fd5b9b84e11e2bfbbfe7b1ca4a8893bccbb",
+  "request_hash": "3e346feeb526d5417d8ab5f1fc49d5f51251c6f2b45f5eee04defc019a7141ca",
+  "run": {
+    "run_id": "7dcf705725c87a8ddc72826da2cc5fd5b9b84e11e2bfbbfe7b1ca4a8893bccbb",
+    "condition_id": "627aa9daf0f1cd15fa354a3996ebe520ef1d2b0604762de2671ee0c925fe50f8",
+    "model_id": "bilstm",
+    "training_seed": 42,
+    "hparams": {
+      "hidden_per_direction": 64,
+      "layers": 1,
+      "max_epochs": 10,
+      "effective_batch": 64,
+      "vocabulary_limit": 30000,
+      "embedding_initialization": {
+        "vector_size": 100,
+        "window": 5,
+        "min_count": 1,
+        "epochs": 10,
+        "workers": 1,
+        "seed": 2026,
+        "sg": 1,
+        "vocabulary_limit": 30000
+      },
+      "lr": 0.0003,
+      "dropout": 0.3,
+      "role_ids_hash": {
+        "train": "32e7891f679cf5ce28f0ef965a4d616829e00ff95159303bc24b8e342eb07441",
+        "select": "af354d52fc40cb0f5e121879b26e07d5e533d4ed054c53b6bb637410b75fac99",
+        "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "target_task": "multilabel",
+      "select_ap_mask": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "device": "cuda",
+      "micro_batch": 4,
+      "cpu_threads": 4,
+      "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+      "label_count": 28
+    },
+    "input_hash": "3d5c0471f7e31e1511976a82080453fca0619fca96f37cbfcbc413cbbdab5658",
+    "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+    "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+    "strict_no_val": false
+  },
+  "training_unique_rows": 6000,
+  "training_ids_sha256": "32e7891f679cf5ce28f0ef965a4d616829e00ff95159303bc24b8e342eb07441",
+  "holdout_labels_accessed": 3237,
+  "score_kind": "logit",
+  "files": {
+    "bundle.joblib": "538627e543a3a35642953652e4c37cce8c645bdb223253eb2f176a17e497f414",
+    "history.json": "593fcaa63d709b6c598b3326ae61ba5bda9920aeb7ac2151feb790329de194b6",
+    "checkpoint/model.safetensors": "130a5819231a974aea096c9b00a84f5ad88edecdbd4383472de4a74837436594"
+  },
+  "feature_degenerate": false,
+  "feature_seconds": 0.0470000000204891,
+  "fit_seconds": 117.31300000008196,
+  "total_seconds": 119.56300000008196,
+  "epochs_completed": 10,
+  "selected_epoch": 10,
+  "optimizer_updates": 940,
+  "micro_batch": 4,
+  "effective_batch": 64,
+  "oom_attempts": [],
+  "reload_verified": true,
+  "actual_model_training_run": true,
+  "official_test_predictions_generated": false,
+  "reload_max_absolute_difference": 0.0,
+  "validation": {
+    "task": "multilabel",
+    "score_kind": "logit",
+    "threshold": 0.0,
+    "rows": 3237,
+    "macro_ap": 0.04697031275694894,
+    "ap_mask": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "macro_f1": 0.0,
+    "masked_macro_f1": 0.0,
+    "micro_f1": 0.0,
+    "per_label": [
+      {
+        "label_id": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 279,
+        "ap": 0.09302976406425839
+      },
+      {
+        "label_id": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 184,
+        "ap": 0.05812647509763071
+      },
+      {
+        "label_id": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 114,
+        "ap": 0.05145235446904281
+      },
+      {
+        "label_id": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 183,
+        "ap": 0.05929591480604669
+      },
+      {
+        "label_id": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 226,
+        "ap": 0.06221267631425152
+      },
+      {
+        "label_id": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 96,
+        "ap": 0.025999711676307942
+      },
+      {
+        "label_id": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 89,
+        "ap": 0.02457580346757949
+      },
+      {
+        "label_id": 7,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 170,
+        "ap": 0.06022543367433022
+      },
+      {
+        "label_id": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 44,
+        "ap": 0.011801923911506489
+      },
+      {
+        "label_id": 9,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 91,
+        "ap": 0.025817008998726035
+      },
+      {
+        "label_id": 10,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 190,
+        "ap": 0.055202611981371094
+      },
+      {
+        "label_id": 11,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 59,
+        "ap": 0.01821403778366705
+      },
+      {
+        "label_id": 12,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 25,
+        "ap": 0.010163222751743466
+      },
+      {
+        "label_id": 13,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 55,
+        "ap": 0.02424790186104804
+      },
+      {
+        "label_id": 14,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 45,
+        "ap": 0.01697595751839967
+      },
+      {
+        "label_id": 15,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 200,
+        "ap": 0.08531428913309486
+      },
+      {
+        "label_id": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 8,
+        "ap": 0.0029913292317225075
+      },
+      {
+        "label_id": 17,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 97,
+        "ap": 0.04443953511968461
+      },
+      {
+        "label_id": 18,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 155,
+        "ap": 0.049298244788260934
+      },
+      {
+        "label_id": 19,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11,
+        "ap": 0.0025154976049355134
+      },
+      {
+        "label_id": 20,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 125,
+        "ap": 0.033806538252549354
+      },
+      {
+        "label_id": 21,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7,
+        "ap": 0.002074561262792286
+      },
+      {
+        "label_id": 22,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 76,
+        "ap": 0.018868422700202156
+      },
+      {
+        "label_id": 23,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11,
+        "ap": 0.003374044788952061
+      },
+      {
+        "label_id": 24,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 40,
+        "ap": 0.009940053730847963
+      },
+      {
+        "label_id": 25,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 87,
+        "ap": 0.02713617243128734
+      },
+      {
+        "label_id": 26,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 78,
+        "ap": 0.020830019144210427
+      },
+      {
+        "label_id": 27,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1064,
+        "ap": 0.41723925063012063
+      }
+    ]
+  },
+  "resources": {
+    "peak_rss_sampled_bytes": 2459328512,
+    "sample_count": 237,
+    "rss_sample_interval_seconds": 0.5,
+    "elapsed_seconds": 119.625,
+    "torch_cuda_peak_allocated_bytes": 101761536,
+    "torch_cuda_peak_reserved_bytes": 111149056,
+    "gpu_name": "NVIDIA GeForce RTX 4060",
+    "note": "sampled RSS maximum; allocated/reserved Torch memory is not total device usage"
+  }
+}

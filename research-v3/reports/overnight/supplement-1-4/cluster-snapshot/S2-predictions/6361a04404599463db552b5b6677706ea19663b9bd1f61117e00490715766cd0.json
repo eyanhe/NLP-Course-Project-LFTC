@@ -1,0 +1,4445 @@
+{
+  "run_id": "6361a04404599463db552b5b6677706ea19663b9bd1f61117e00490715766cd0",
+  "source_partition": "discovery",
+  "inference_device": "cpu",
+  "original_training_device": "cuda",
+  "cpu_gpu_bitwise_equivalence_claimed": false,
+  "status_sha256": "2cf221b613f69aefde3eb53a414bfbf2ca8aae184695f4f46ebd1ac5bc3bb681",
+  "frame_ids_hash": "b815d95b45ea8ff3123c229b2bce461bec4eebc8e246e9d1c3c51bc9fff30ff5",
+  "rows": [
+    {
+      "sample_id": "yelp/train/365554",
+      "group_id": "9dc4e7446a3ba1ffa330edf494e160f7a424feb1f6220dd2fec34a9e10a1b9d7",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.910038948059082,
+        -2.0127265453338623
+      ],
+      "input_text_hash": "57718c4e3aec5d08af8e88286fea12d62e15cebb597f6ec6016f393d3cbe8235"
+    },
+    {
+      "sample_id": "yelp/train/468856",
+      "group_id": "1548c886e5b32ad513f7fc6b7ce1ead493ba48facca1e5d0ac1d1c37c34109e1",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.8165349364280701,
+        1.0523821115493774
+      ],
+      "input_text_hash": "83ceadcc554a76116080dfdaaf86f1aeef196bf27b39149167345c5e6852f783"
+    },
+    {
+      "sample_id": "yelp/train/140735",
+      "group_id": "76e97fe6aec29c5aa97eec83f55a23ef6f1d35df2db79412460f6a88846f234f",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.1287633180618286,
+        1.447851538658142
+      ],
+      "input_text_hash": "b10d765ebfc404f9a085d58f6f3324f0ccac4cef766b30eb975fb315689262c0"
+    },
+    {
+      "sample_id": "yelp/train/156067",
+      "group_id": "b95037016abc959f18059db8612125a9d63acb4400b6227cf3f1fc910cd4817d",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.2455251216888428,
+        -2.208657741546631
+      ],
+      "input_text_hash": "1653fc519f183b3a581024b351d5da348e68018a80c97f4ecc80f1574eeea147"
+    },
+    {
+      "sample_id": "yelp/train/284538",
+      "group_id": "769cb0993913acbda65e80355955f06f0a620dbc09d1a7be640fc1881cd73879",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.6750597953796387,
+        3.2559895515441895
+      ],
+      "input_text_hash": "f47f7bc92ec92cd02ebe9635908fc3f092ee415c0acc612edafdd8b29f3a5e82"
+    },
+    {
+      "sample_id": "yelp/train/105221",
+      "group_id": "9e601c1246404667b3b9d718b380776d945d61cb219194768a1a42f22d0e3731",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [
+        0
+      ],
+      "false_positive_labels": [
+        1
+      ],
+      "scores": [
+        -0.17013415694236755,
+        0.16307410597801208
+      ],
+      "input_text_hash": "db46cacfc38c9e09215f8ab18609e62039123ba4bf55fff35387eb919394d551"
+    },
+    {
+      "sample_id": "yelp/train/119397",
+      "group_id": "f91b1ca87426e96734c0712dc25513b34a97b23dd00bbd0fb5f48949e7e9bd76",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.189396858215332,
+        2.7895281314849854
+      ],
+      "input_text_hash": "49421c74a673b3e38b90b82c9cbcdeab9f9defafb96a1c176fd7603c1e7320f2"
+    },
+    {
+      "sample_id": "yelp/train/328507",
+      "group_id": "1540ae0b655d80a81b313d039aed0fdd6b710ebf80e70a35a48ae62f13cd55fa",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.856748580932617,
+        3.5185811519622803
+      ],
+      "input_text_hash": "f7fe9689e86558fb6e43aee44e84d09fe30c0dff8007e1794af87167c63501ed"
+    },
+    {
+      "sample_id": "yelp/train/378561",
+      "group_id": "8a792b4cae36b5e41e1b23bc40bbb66cc3d99d7fd4792ca31e11aefcf28d7e5b",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [
+        0
+      ],
+      "false_positive_labels": [
+        1
+      ],
+      "scores": [
+        -1.8214930295944214,
+        2.3816957473754883
+      ],
+      "input_text_hash": "5af2a989d6820a5b7e1f5667aa79efdf14ad7adf8916d013f28bbfabba5942da"
+    },
+    {
+      "sample_id": "yelp/train/366810",
+      "group_id": "fb76081ea324fce736d8a0a17e850e92cdd232722161fb3de52850bc54e0dd92",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.2223756313323975,
+        -2.1658425331115723
+      ],
+      "input_text_hash": "800a80669ac7091f55e88853e381ff70d68e481ab493ca401f0444b79f6c8191"
+    },
+    {
+      "sample_id": "yelp/train/47028",
+      "group_id": "eb602ffe8fc02f4ef0ce434432ddb8a03b9f596536d6858409e171ffbf9ac70b",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -3.038865327835083,
+        3.609299659729004
+      ],
+      "input_text_hash": "95e5369146c4708ee891569fdcd6720f0f4b2eb4b6fa0649f1bc084cf16a4c01"
+    },
+    {
+      "sample_id": "yelp/train/398046",
+      "group_id": "de83bb7e98524476231d45593299d5f06fb33bfa8996dc200937c20699541c9e",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.3847713470458984,
+        -2.304205894470215
+      ],
+      "input_text_hash": "0dbc34521b7532327e7ffc227e3399b7d7e0fad83dd2b9160b04d54f269e6629"
+    },
+    {
+      "sample_id": "yelp/train/250788",
+      "group_id": "8f99099f3d3b6c0f87d1d8d248dad9c5cbba25a81739b7bc8422fc3afc9d193b",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.1872596740722656,
+        2.7175846099853516
+      ],
+      "input_text_hash": "73b15b148c7b8d787c1f0f9ead615039fa9048fbb90c3b00d9f92b40141d4a32"
+    },
+    {
+      "sample_id": "yelp/train/312606",
+      "group_id": "5ff8b5137b802fa9405ecc11cc500edfb5204b3a115ed66c673d6c84be83a990",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.6068198680877686,
+        3.263038158416748
+      ],
+      "input_text_hash": "209f040009a7e3318ee6f6ee45cb9f4525d9b98df4d113f175168144e9a29017"
+    },
+    {
+      "sample_id": "yelp/train/352288",
+      "group_id": "34d71b388825b334fb2f23e4b83aa4556ac2ca0fb163356fde275a7279f07cb2",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.517599105834961,
+        1.7892554998397827
+      ],
+      "input_text_hash": "6180d5f5d7456464044c4b65201240223262e3ab05a75e62a109fbd36e76e0fc"
+    },
+    {
+      "sample_id": "yelp/train/259326",
+      "group_id": "6fd6033a201eb859b9f7f4d65e981c99e840bbd7103bb86e0bae76afcfeb8115",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.761256456375122,
+        -1.690768837928772
+      ],
+      "input_text_hash": "e2cd4dd67cdedf1c8bc122baf1a818e12ba195328ffeeb076a37aebab2f710f0"
+    },
+    {
+      "sample_id": "yelp/train/103220",
+      "group_id": "31e26e3a55276e5fcd186b6d8a18b0201a81063203542b44893bdda8ef9d9198",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.7816953659057617,
+        -1.6942358016967773
+      ],
+      "input_text_hash": "5d29ee7e640bdd2ab1eb1d46982dd824a52904e0ea5091fbbefaef14b422e9cd"
+    },
+    {
+      "sample_id": "yelp/train/28881",
+      "group_id": "c10e0ea2fcb46abdf984d2605ff21880f1a245b98cdef66d6211557825c6b696",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.681972622871399,
+        2.1167287826538086
+      ],
+      "input_text_hash": "32f154f627f45c455a093d274ab2100c590a0d87e0896b4e344bda9363eea9e2"
+    },
+    {
+      "sample_id": "yelp/train/503201",
+      "group_id": "4af1d86a710c2cba64072740a28f5c64b87361a40b09adbac6f988b59c3c4115",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.263664722442627,
+        -2.1779727935791016
+      ],
+      "input_text_hash": "a72b6fd2800b0899f86ecbed800d1e8b9d58dd54d53b455408a8548cd45d549a"
+    },
+    {
+      "sample_id": "yelp/train/321577",
+      "group_id": "abb7e1a21113f7f3b2432e2a78dc11d3948b8cb01511ce7e9698fd35789bb63b",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        3.3847670555114746,
+        -3.1564297676086426
+      ],
+      "input_text_hash": "6f0db89a23336ed60439fb2194f431452066b563bcc634d0b071fca9ffe26f83"
+    },
+    {
+      "sample_id": "yelp/train/285166",
+      "group_id": "4b69ca1c8085e96c347903ce9eea24d380b05907db0fe865fabed3b628e8cf79",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.2638049125671387,
+        2.801083564758301
+      ],
+      "input_text_hash": "08eb65a7136aebba38ab20f1b0cfa98c1f8232ab30a82ef9f33892951b758e6f"
+    },
+    {
+      "sample_id": "yelp/train/112036",
+      "group_id": "0b553cb3dcfddee96e8a4fc60bf357a9f91812ec3ae42cc7e927ef8eb7d6a68e",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [
+        1
+      ],
+      "false_positive_labels": [
+        0
+      ],
+      "scores": [
+        1.9849671125411987,
+        -1.9605904817581177
+      ],
+      "input_text_hash": "a0893be46bf74d3262811b1f9f7a249c82bc290c2b2c1a88e7d92a4f39db0983"
+    },
+    {
+      "sample_id": "yelp/train/294483",
+      "group_id": "ee1db966d110234ba454fb7bafc1304c4a7899b4d18ce844d53b0c3d09f34366",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        0.8491251468658447,
+        -0.6668611764907837
+      ],
+      "input_text_hash": "1297ab2dd071a70f227ccc97be73bc23b7ca15866d180bde08cb0ad45aefdc66"
+    },
+    {
+      "sample_id": "yelp/train/261403",
+      "group_id": "991a03c29aba7bd009475c1c6cf57d5a701e1774f0ab78f5130b4551cb744795",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.643662452697754,
+        -1.5775851011276245
+      ],
+      "input_text_hash": "eac9ad542e1ce89b94c4f4d8faf527085a5ce3eb070a9af17ce2241d848a998d"
+    },
+    {
+      "sample_id": "yelp/train/445382",
+      "group_id": "5e91c8f4b72684868e2931d1a63c1d9eeb44e9d556e9658222c003605db0a3c8",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.342592239379883,
+        2.8781895637512207
+      ],
+      "input_text_hash": "38db111b066f350b96aa4a06a090dbdfc81ccda1cda62c182b690decb09d4e27"
+    },
+    {
+      "sample_id": "yelp/train/54787",
+      "group_id": "dbe5c5ebcd04965c3c6110112af20efddb299192db28b537af905838ecec5a93",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.4916200637817383,
+        -2.3305914402008057
+      ],
+      "input_text_hash": "4f2453e88452a52c97de62a3190f228d322b6c4eb51a68fa982ecc7913c4dd83"
+    },
+    {
+      "sample_id": "yelp/train/295988",
+      "group_id": "915349546ac564a8671bd2fdb86f72cb87adb5f5c1e740ddf55b932ce965bbdd",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [
+        0
+      ],
+      "false_positive_labels": [
+        1
+      ],
+      "scores": [
+        0.037511542439460754,
+        0.04240545630455017
+      ],
+      "input_text_hash": "05758397fe1ad3ec233647ca0629b5b576cbfe59de17472cfea2dcc93be1f0be"
+    },
+    {
+      "sample_id": "yelp/train/24559",
+      "group_id": "f5f7231020e769df014f542b949a970dad9a06f8be34bb68c841aedc7ffbe547",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.2290878295898438,
+        -2.1390957832336426
+      ],
+      "input_text_hash": "0ade1bea69db847c72dd26f3088dcd1c76d8ad9bc7caaa06cddbb00813f4cbf4"
+    },
+    {
+      "sample_id": "yelp/train/12363",
+      "group_id": "7e5502b6325dba8942d579f9e52344077352b55e61173e57644e22733f12f270",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [
+        0
+      ],
+      "false_positive_labels": [
+        1
+      ],
+      "scores": [
+        -1.746923804283142,
+        2.1752281188964844
+      ],
+      "input_text_hash": "1453668ba5cec3540bba4ac8e9122810983925955bf91e18f838db8cd88b3e21"
+    },
+    {
+      "sample_id": "yelp/train/157265",
+      "group_id": "11624620d5440cf9366d6a475f6281dd3e195e65aa7865d89fc22cd239a63ca5",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.218218594789505,
+        0.470270574092865
+      ],
+      "input_text_hash": "afe3ab9fa526bec92156d912f0b4880d426357381a8388ae291fa5458fcca9c5"
+    },
+    {
+      "sample_id": "yelp/train/289381",
+      "group_id": "9c258771bb6c89a5f80670e52d8a7bdfac3ae65f7408b425a9422e4614ed1b88",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.8917906284332275,
+        2.5048317909240723
+      ],
+      "input_text_hash": "29fe8b70b8a2bb6b515bddb8a2f097500d1b46b384b52ef2085355f3a02a18c4"
+    },
+    {
+      "sample_id": "yelp/train/187135",
+      "group_id": "d2ae56cad3e8c95947254251a3aff4870fff6c3f08ab6b8a63d3d0391194ed03",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.3004953861236572,
+        2.945737600326538
+      ],
+      "input_text_hash": "d942b0fe6c04ad12297bee07ec84ea43bc32323c663b37990eee1dbe6ffff0c7"
+    },
+    {
+      "sample_id": "yelp/train/136499",
+      "group_id": "4bbbf559ac5921c2d9ef6fee53b1bac8bb6e0ee08d95db851186b7c009b10454",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.180628538131714,
+        2.677436590194702
+      ],
+      "input_text_hash": "35bdd014a1c3c06ade741a5ce352755e476c0511d81e5c0131b3b6150b9ca4c1"
+    },
+    {
+      "sample_id": "yelp/train/88882",
+      "group_id": "30d11fe60795ff50148ad73739909ad9f444a04c4918940e8243c9f4c378ee4d",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [
+        0
+      ],
+      "false_positive_labels": [
+        1
+      ],
+      "scores": [
+        -1.1578993797302246,
+        1.4426501989364624
+      ],
+      "input_text_hash": "13ea2bb0c2c6efcc292c087edfb1be9f9bc185538477371172dad41297964ced"
+    },
+    {
+      "sample_id": "yelp/train/10307",
+      "group_id": "8635da2291937612454a39b11cc550c7353e5437b1f0d3f4144435ec3c30d739",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.2723848819732666,
+        2.8301596641540527
+      ],
+      "input_text_hash": "4218de1bfdcec9abd6928bcd2fc069bae74b2f7e2afa4b5f83b757f7022cce02"
+    },
+    {
+      "sample_id": "yelp/train/102434",
+      "group_id": "2cf7e71b63562270f37cab661f8be23630b06843e198d48c96d62e34a4490d1d",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.834402084350586,
+        -1.9496914148330688
+      ],
+      "input_text_hash": "469c8e7246d5e69302084a8fa09175806ac78c7a3acf2d8189dce11467b04f46"
+    },
+    {
+      "sample_id": "yelp/train/167907",
+      "group_id": "e793dd5bc8d43e3e4acc5499139d7d59a219a7b1ca7a29becde555c396d51e8f",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.8914971351623535,
+        2.5095908641815186
+      ],
+      "input_text_hash": "4214ff0b4c88ee7142e5316c51fe64f458aaf6dcd9a73d38a7c4fb77a5590f8d"
+    },
+    {
+      "sample_id": "yelp/train/465357",
+      "group_id": "74f9bf686c69c92acef4dddd3aac7f4a383aba43415cf1db51ed82b8ca8d8c5b",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.938974380493164,
+        3.591719150543213
+      ],
+      "input_text_hash": "bfa8dff5817da84d3da85f21372d10b6208034cf0f53c5f704c60b4d7d07c395"
+    },
+    {
+      "sample_id": "yelp/train/299635",
+      "group_id": "37351ddcf8ceb8b2a14cbd7852c4e0ca972b5cbcac967d68880a64d081c21a8f",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.292229175567627,
+        -2.157256841659546
+      ],
+      "input_text_hash": "6a73d30215cb1b5d052a9aa7cf8cbf838be8702dfcd145ad67827791866af81d"
+    },
+    {
+      "sample_id": "yelp/train/355556",
+      "group_id": "fc4c4a8cd5cf7b133e0cdc62d941b1f8108bc5c0c697c62547debcf9eea073c1",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.770807147026062,
+        2.2657504081726074
+      ],
+      "input_text_hash": "aa595e22b7a28aa33f16f28a6558a34c144129f02a3a1a9f45de41d397b54d3e"
+    },
+    {
+      "sample_id": "yelp/train/288946",
+      "group_id": "24f696defd6b5b0fa4885e9c83b41669708b2a26c41f475a9e8bfd85ae730274",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.0971426963806152,
+        -1.9959222078323364
+      ],
+      "input_text_hash": "f62a1d4662cfb054f1f6c1937cdd3f2ff880a2ea043973e7e4b8b08d6b9d0012"
+    },
+    {
+      "sample_id": "yelp/train/104259",
+      "group_id": "0d428a292635b7593d999be27610e88862ce1a965b39ef89537e1642066d55bd",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [
+        1
+      ],
+      "false_positive_labels": [
+        0
+      ],
+      "scores": [
+        0.8835006952285767,
+        -0.9120527505874634
+      ],
+      "input_text_hash": "7fd5bfa01f05d0003588cc58875d319140f4e929ca50e5f51c267391b5502184"
+    },
+    {
+      "sample_id": "yelp/train/520728",
+      "group_id": "5a12b28efdd57ea420f354b81167e9431e49772526a09456ed586763696a616f",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.2203779220581055,
+        2.9008445739746094
+      ],
+      "input_text_hash": "cfcf0f603b029f65f76bc254e10a941247b738b37680f87177c4704dcbeec45c"
+    },
+    {
+      "sample_id": "yelp/train/337134",
+      "group_id": "2bbe99b9440e0dc544bb0c3b7971e50ac8bdd17bd85813df00fb4c456e705bc1",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.0413146018981934,
+        2.391073226928711
+      ],
+      "input_text_hash": "733407ac099d7aefa0f2deca2d73a857f038a7519e248d5c7773e7252f626be4"
+    },
+    {
+      "sample_id": "yelp/train/245313",
+      "group_id": "8c0b26a1fc4a739d90aa6a56330ab388b9858fb3f537c47a08701ebf1265c516",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.5066466331481934,
+        -2.3665127754211426
+      ],
+      "input_text_hash": "f3c382484f58ac9d8c4f39579fe23e9ec2c82ac526ed71369190d0c39f273158"
+    },
+    {
+      "sample_id": "yelp/train/169695",
+      "group_id": "215af89551a6576ea97f9c1ab84dd3b7c2b70d0b88384369d0a2e7186790aa0a",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        0.8469314575195312,
+        -0.6773766875267029
+      ],
+      "input_text_hash": "a466201aa0cd15e39da33cad53b8705ef1f52c2758acea28fd7e1dbb0087649c"
+    },
+    {
+      "sample_id": "yelp/train/533775",
+      "group_id": "4547feb980d11d7a5aa6c2815d2201dae0da3feebedb9b4935c9518acf65e7ca",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.9095011353492737,
+        1.132137656211853
+      ],
+      "input_text_hash": "45aac25cec1c714a80b333b6bb912ab62c60e71d5a3577f0fa73d39fbb7ae1ca"
+    },
+    {
+      "sample_id": "yelp/train/106144",
+      "group_id": "1198c69f7d450e19ea8eb68a350fa85f7307084da2c465e20ed961855170dab7",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        0.41502052545547485,
+        -0.28904539346694946
+      ],
+      "input_text_hash": "96418f40a18b740ceeb0ccad0268293eec79233581116856be7efe1d4c1c398d"
+    },
+    {
+      "sample_id": "yelp/train/155553",
+      "group_id": "5fe0e9ab67af6fa22562b7a6f7629d8ba914fcd328ba9ef68fc872843997611d",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.219042181968689,
+        -1.2432416677474976
+      ],
+      "input_text_hash": "f3cd14251d78110287778d1df7c45a9f6a17c59e14acca6e90dd9c370f967913"
+    },
+    {
+      "sample_id": "yelp/train/180528",
+      "group_id": "c4f82c5c9e7d5624143fa385275d4bbc2abab9fe685f187ccad7a320afb1aaa7",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        0.6964375376701355,
+        -0.65609210729599
+      ],
+      "input_text_hash": "3f86a94a2e5c840511a759f0b6446fe4e560a4e20d9c9086a9164d5e1bc3837c"
+    },
+    {
+      "sample_id": "yelp/train/287232",
+      "group_id": "51c754d05402df2dd7b0061a80dd990e8b053ca144772390107fe64b4e01666b",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.2317414283752441,
+        1.549161434173584
+      ],
+      "input_text_hash": "e7f7114ec9b60bd8cf325c6031fde5f43f1d284910c0eab646f2cbb391dcee42"
+    },
+    {
+      "sample_id": "yelp/train/350996",
+      "group_id": "89bd243a92b9051dc7649d5d3fcceed710bc1320be09e19c6026065537d0571b",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [
+        0
+      ],
+      "false_positive_labels": [
+        1
+      ],
+      "scores": [
+        -1.3867201805114746,
+        1.7005316019058228
+      ],
+      "input_text_hash": "bd5b3f9662819bd5e419f188839108a87d40088b9016ca91c648157e73045fc9"
+    },
+    {
+      "sample_id": "yelp/train/436217",
+      "group_id": "650109454b1ec47c1361c3a7f62cfd1342982c3e54768086b432290eab7ff554",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [
+        1
+      ],
+      "false_positive_labels": [
+        0
+      ],
+      "scores": [
+        1.799445629119873,
+        -1.7001174688339233
+      ],
+      "input_text_hash": "aee9c33ca01fe50a112d022fda395512127caf7933be1fccc3325498681ec1c8"
+    },
+    {
+      "sample_id": "yelp/train/213529",
+      "group_id": "652e7b24191132e15bbf843cec423fba8e0c2fce3b9bb72a83238ed09bf059b4",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.3944005966186523,
+        2.933229923248291
+      ],
+      "input_text_hash": "11398146020b14259104cec1d8ada33addd537bd78a41d2b84bd890a3705eddf"
+    },
+    {
+      "sample_id": "yelp/train/132528",
+      "group_id": "cf4bdfade55a1fdefca524aab27fa3f7e9cb48a66305287027d7d02b2fed7db5",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.1685001850128174,
+        -1.8242985010147095
+      ],
+      "input_text_hash": "e7ce0ab6a5a8fdc6be8b9f557d4e15569fc9de0c8f676a41a3f684876806abd3"
+    },
+    {
+      "sample_id": "yelp/train/138509",
+      "group_id": "32290aeaa4fbb1f1f426973d0fde9d0d76b8e2a0069661bbd58b69941d15a444",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.4089767932891846,
+        -2.3862853050231934
+      ],
+      "input_text_hash": "35f6aa3e1f95a57a6a9b0120018e15a0860efd65ca32c3922c7d692d5ee92460"
+    },
+    {
+      "sample_id": "yelp/train/329866",
+      "group_id": "94d89e793b33ba4af4474a721acf36126144440d219b52b320d14eab84ec70db",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.074185848236084,
+        2.7119922637939453
+      ],
+      "input_text_hash": "fa09fb46b8e08cec89bdd8603a1b37f76f4861c85fb0d67fa98e3e8108d0427a"
+    },
+    {
+      "sample_id": "yelp/train/260655",
+      "group_id": "ce516c9cfef57b40840e0b689945fc2a2e97861be7946a09a271b9aaab7b45b6",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [
+        0
+      ],
+      "false_positive_labels": [
+        1
+      ],
+      "scores": [
+        -0.3499866724014282,
+        0.5087056756019592
+      ],
+      "input_text_hash": "fecaed6c07d92363e231f6fa6063d22c2a2daff37768416f38651ba277fc1974"
+    },
+    {
+      "sample_id": "yelp/train/234961",
+      "group_id": "4b70fefd73b606f9d3112433024234c76a2b04f5d6e937feb3332fd21430b5ab",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.6133480072021484,
+        -2.495504856109619
+      ],
+      "input_text_hash": "1693d6306094a87ab824b6eda7e61917bf7277582cd2f3536729001d16c52611"
+    },
+    {
+      "sample_id": "yelp/train/185102",
+      "group_id": "63202fd2e1ec188dea936705741f446616087435ac7177d7d2ee0285d6773204",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.088294267654419,
+        1.315508246421814
+      ],
+      "input_text_hash": "be6c2e28883d78a6695b46ab4f6c88993e1788f6b30b3b2827fcc86eb3928bdf"
+    },
+    {
+      "sample_id": "yelp/train/547683",
+      "group_id": "b7145f54809579f724e8d4dd3c89c28d9bef91851ba1beb2e45b4dbb10cc46f2",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.949561357498169,
+        3.6874308586120605
+      ],
+      "input_text_hash": "df4bccbc8ae668e20c5349c320bbe6ae248a58b03a03b4cc8a73cc2d17e34c6d"
+    },
+    {
+      "sample_id": "yelp/train/264867",
+      "group_id": "ee075f08b5c223fb621208c4f22a73a1d5867f573c7f9241b89e8d8303c29b59",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.062208652496338,
+        2.4373483657836914
+      ],
+      "input_text_hash": "599455688e315add02ed024b651615806c75ff3ce0b3323d65f8f046f705cc37"
+    },
+    {
+      "sample_id": "yelp/train/307200",
+      "group_id": "980f74ba22b60451cfb8a39b578a6a87dbdae8f296bc5cd5a02a4c043590e1e4",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.5344340801239014,
+        -2.40586519241333
+      ],
+      "input_text_hash": "9eedbd6cc55e9eaddba3e8248342e3edcd1a4a2be9794b47c03a30ed634e3450"
+    },
+    {
+      "sample_id": "yelp/train/11034",
+      "group_id": "051027b28311a88bb3a6128de0777047b46971c6f4f67f84dd07caca5a34cfde",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.8590130805969238,
+        2.286715507507324
+      ],
+      "input_text_hash": "60aeb2ea55356f63cc9da4c6cbf0580566fe1487fa17eacdfcbfe967c28e3bea"
+    },
+    {
+      "sample_id": "yelp/train/527156",
+      "group_id": "10d549d1ae38e64ee1ba11bf91bc0ce6f2832fb180aa02e7d6062f02b90aa73c",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.8115968704223633,
+        3.553126811981201
+      ],
+      "input_text_hash": "5c0d98fba67cc3198f3fb73f664647871284ff4f16903df6009c9ea245c501de"
+    },
+    {
+      "sample_id": "yelp/train/238447",
+      "group_id": "f4dd9529b577b862037666893fa222d1fcc2f2eb579f539b702ac119cd487534",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.1558904647827148,
+        -1.0351771116256714
+      ],
+      "input_text_hash": "147a48f132a42efe616555ebc5a4593f564e09cef515010b5823799b90629086"
+    },
+    {
+      "sample_id": "yelp/train/406741",
+      "group_id": "f3e33ccf7ddf72cff614fcaa7d03f8778652bfc35a397e9641a24e11316ddf18",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.573317527770996,
+        3.1592612266540527
+      ],
+      "input_text_hash": "14aceeda4399b31a5e7ec73d5c269a75df270a3b78361d0a8a2f30e8e370343d"
+    },
+    {
+      "sample_id": "yelp/train/61442",
+      "group_id": "875f015d5fdd3aa76fc8906a35ab02d49eb6e39b1ba86eb93f90be0be9701296",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.687584400177002,
+        3.4234375953674316
+      ],
+      "input_text_hash": "8cd736074f8c108f58d8fa08e549c86541c544141ad635e75fe2a485f9ceb106"
+    },
+    {
+      "sample_id": "yelp/train/268162",
+      "group_id": "82acae5fcaaa0ca675255318031ff755409a5371b8b3abf8469e7a74d6f1b4f2",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.803253650665283,
+        3.6001505851745605
+      ],
+      "input_text_hash": "48ba7e7497447728dc811af873579503fc0b8f63ee5e86be869b7aa64d69a60a"
+    },
+    {
+      "sample_id": "yelp/train/29386",
+      "group_id": "2e31a13f90e60c1eb2d74ca007fc5f9e06df511ae720e667fb1dadcf818d34c3",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.482448101043701,
+        -2.4086475372314453
+      ],
+      "input_text_hash": "8098f0d82b12f572d3f0698b8008059a92fac3eb3ad182dc113195ef3b4a7523"
+    },
+    {
+      "sample_id": "yelp/train/348638",
+      "group_id": "c2e76fd43bd6b04013de9163df4359ddbb471db2946109bc110b5fc0bec9fdd3",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.952793002128601,
+        -1.9091145992279053
+      ],
+      "input_text_hash": "ddc56be4aeb6c1ef79023927e80ef9fcfde220a37f0851b6c82e76a0ffbf8a4a"
+    },
+    {
+      "sample_id": "yelp/train/252603",
+      "group_id": "db7f5df58063824b91d059d0efadaad475a54d6dfe9884bf84559713a99549b6",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.3605237007141113,
+        1.7756569385528564
+      ],
+      "input_text_hash": "b70813778f1d1fcba6590ea10733378566561c492744b358eccd877b9ff3b2f7"
+    },
+    {
+      "sample_id": "yelp/train/368649",
+      "group_id": "314f8aa79060829301385641fafa06cca72423118819e532cdd127bdd6a2753a",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        0.6138527989387512,
+        -0.4640767574310303
+      ],
+      "input_text_hash": "7350c5c27f0efa62a631c30e82faa29024c1e45e70829fcb3df1aa5af602386d"
+    },
+    {
+      "sample_id": "yelp/train/69351",
+      "group_id": "dd303b424f9b1dd2cd196fddccdad1d3bd713aae4ddd87e1e3d413730280bed2",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.022852659225464,
+        2.452362060546875
+      ],
+      "input_text_hash": "281b677b3c32d2c08a6bb04461b3cd02c97eb3e76f186c23588a280cd86c3695"
+    },
+    {
+      "sample_id": "yelp/train/176448",
+      "group_id": "646f7b07ef29fc21eb7b73dc8520194481ea72b2de962983bb4ee11aef54f06e",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.024606466293335,
+        2.292585849761963
+      ],
+      "input_text_hash": "a85d3c09bce212aa26e93084775676f341b5b2ddc408b88a49ab04c34fd4afc2"
+    },
+    {
+      "sample_id": "yelp/train/234701",
+      "group_id": "737b5e747e80650a9ad43899472d15463d0eca93753a5cc5fbc89512eb8ef3be",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.8365949392318726,
+        -1.9116315841674805
+      ],
+      "input_text_hash": "868986287bb9037c7b739ba6b9f51acaaa396e4e7299aca6b419268445b43402"
+    },
+    {
+      "sample_id": "yelp/train/335118",
+      "group_id": "cdb3eb8dd059c2509331a8573daf002ae19fcee6d56760a5afcc32beaab9a150",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [
+        0
+      ],
+      "false_positive_labels": [
+        1
+      ],
+      "scores": [
+        0.015746988356113434,
+        0.1769874542951584
+      ],
+      "input_text_hash": "0148fcfd47588bc99cf1ae5071f2fc55893d3abc3dc176a72fb2de04b6f7fcd0"
+    },
+    {
+      "sample_id": "yelp/train/171889",
+      "group_id": "ac4f5b42b40ce9e1747f99e7c8d84bc29f2980749c2133325e497b254ab539b6",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.8473563194274902,
+        3.639451026916504
+      ],
+      "input_text_hash": "60d954cb75a15da59d021b9b57970c64f28b4382a615faa5ab44675fb4a71d2b"
+    },
+    {
+      "sample_id": "yelp/train/171610",
+      "group_id": "31efed465352ab006bfa987fd38bb5eefb5a9171ba1e4b1f422d7d878d0eb75e",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.16033470630645752,
+        0.4551132917404175
+      ],
+      "input_text_hash": "50a80e43a9dc1244683038f30c0059309126c30560622b4b631d8a49577b24d1"
+    },
+    {
+      "sample_id": "yelp/train/548911",
+      "group_id": "c24bcb480589c657e298992260ca035815002bdf49b8817346ef6e05456c0d68",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.8838695287704468,
+        1.187742829322815
+      ],
+      "input_text_hash": "067321a8734efa76e9d414044860b6985e6f925bad01591769337b1b0bd4cc38"
+    },
+    {
+      "sample_id": "yelp/train/98843",
+      "group_id": "f89c4b593a756615be2ac3d6e93dddcd8f61b5aab050b070d2e9cb4161d76a24",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.441229820251465,
+        2.946810483932495
+      ],
+      "input_text_hash": "ec6d75ab04dbdf64050440d3c9c23d0753b9da6dc2486b7546ae07be02d9f64f"
+    },
+    {
+      "sample_id": "yelp/train/507483",
+      "group_id": "55fa9ec6c75fafa56b918c750e9c3d3f69dd94d96560761a987c0cc5aeccfeb9",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.9949021339416504,
+        2.5562291145324707
+      ],
+      "input_text_hash": "de641e1fcc6e88b5dd900d22f557767d633ee8a5d8240b761b48e7f983846dc3"
+    },
+    {
+      "sample_id": "yelp/train/315904",
+      "group_id": "8cacd58e4c400756fdce5e21aa2d6cc44f6a11e0413e1e30e809e7274de4dbeb",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.1396446228027344,
+        2.7176642417907715
+      ],
+      "input_text_hash": "d39ad216dc8dae1bd3d3a6d9f3575a0c5701f208ab7c6fa358b4b01df571d6fe"
+    },
+    {
+      "sample_id": "yelp/train/7139",
+      "group_id": "b422fb9fe84f8956c1542b1afa8fb185c515ad31331b274743597b75c7a2e33b",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.110339641571045,
+        -2.1237940788269043
+      ],
+      "input_text_hash": "6f8d8bfd967133b95fd287ca4337c6f2966f9cd95ecb930bb8d0bbf327715055"
+    },
+    {
+      "sample_id": "yelp/train/188046",
+      "group_id": "1d6148c156279178853af8cf41090ba52bb95f5e966ee941220eeefcdf96a72d",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.167875289916992,
+        2.584413528442383
+      ],
+      "input_text_hash": "e39036b572e305b9e58fe2a9a92a768c4b873bcdc3228bcaa81e685e7e19f324"
+    },
+    {
+      "sample_id": "yelp/train/430617",
+      "group_id": "3b1ae85190c26fc29388f220d9430339fca475840903ed0838e4f59f2eeb2eb5",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [
+        0
+      ],
+      "false_positive_labels": [
+        1
+      ],
+      "scores": [
+        -0.4946831464767456,
+        0.7191479802131653
+      ],
+      "input_text_hash": "9af838a5807604ae30876a43d7528c893a83ba6bcc8e6f81dc23d037d0cb35f1"
+    },
+    {
+      "sample_id": "yelp/train/543523",
+      "group_id": "f356c45ad1aaa17185ec399c2b9dcd8e582e63b57d2b7953d3a5369cf67ecbc4",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.5451420545578003,
+        0.6868529319763184
+      ],
+      "input_text_hash": "eaaefb908ea1dcc3f3d45691eb8608104ff2c05a71c4641005f2e263d63ee51d"
+    },
+    {
+      "sample_id": "yelp/train/514641",
+      "group_id": "568fb6f2738de59e1cd3c2a54825111889591c24e802bdac56d18dd34cb16147",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.8856247663497925,
+        2.374236822128296
+      ],
+      "input_text_hash": "a00dbc3d17b8b71cf4f9ccb4a1201257e747ab5eae07861bf169c438574d5a22"
+    },
+    {
+      "sample_id": "yelp/train/351585",
+      "group_id": "0e82830d39076bb0fe4e87360b5e51dbdbbca761f140fd894296e13eb7491734",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.8334717750549316,
+        -2.7185399532318115
+      ],
+      "input_text_hash": "2ed9c994f27b4760f12df74d0a38ff211fc9aa31a4ffb1794fd1fb0a8e548fbb"
+    },
+    {
+      "sample_id": "yelp/train/329466",
+      "group_id": "28a8f3b0718e6aa89aeb971d51504839fe6d3e63a4c6dddcc7f4db06d863404a",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.762467384338379,
+        3.412477970123291
+      ],
+      "input_text_hash": "35afed14ca08084431cd20db867a5615c8e3a99726250d41f42daafbd6a6b906"
+    },
+    {
+      "sample_id": "yelp/train/432119",
+      "group_id": "b95b670bf466ba8d7dede45ed45eacd2477efcb55fbff9eee01761c9dbb42be8",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.7218217849731445,
+        1.87406587600708
+      ],
+      "input_text_hash": "e2c370afa5b5a0e84876d90cf23c2bf7900b1d4d6dd7ea72636832081c9f5067"
+    },
+    {
+      "sample_id": "yelp/train/23333",
+      "group_id": "97a11a8c9e57ba68ce1a6fcff6b579b5ceeaa1c673e78f42e460a7555fd8057b",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.4684183597564697,
+        -1.3340528011322021
+      ],
+      "input_text_hash": "1418e5af8866928b7fec8bbc078335dce00f1169ff638736b87c62eecb902da7"
+    },
+    {
+      "sample_id": "yelp/train/487423",
+      "group_id": "e02e2e6484fa09542477211e8649c2b8fce07aa64f70160a9052ed5983212baa",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.5347914695739746,
+        -2.461331605911255
+      ],
+      "input_text_hash": "31c422d26720cdbb4eedfdea655ca216eec3b34782a0e0cf50535f1f3d9c1039"
+    },
+    {
+      "sample_id": "yelp/train/313749",
+      "group_id": "0f8304248dfd74d8ea6bef2730305de0dd5cf73cfb4e28741c2742ace6864c05",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.0443172454833984,
+        2.4498817920684814
+      ],
+      "input_text_hash": "84981130e27c0095712d15934f45dfe74d0e12e8d81d483459e2263f56e1ebf4"
+    },
+    {
+      "sample_id": "yelp/train/186619",
+      "group_id": "a67177ef772a95bb8c8f3381788a835f5aec43ba9387cce7fa331cd72257867d",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.420928478240967,
+        2.8836190700531006
+      ],
+      "input_text_hash": "7a284a2321018e4b5c2e50285cf3cedcf3433d5300cdbe7f4f1534c043798d5a"
+    },
+    {
+      "sample_id": "yelp/train/345983",
+      "group_id": "dcd415df12d6fef843c77132f104a5f6b51737b3d7639647a19594f5a03182e8",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.8442672491073608,
+        1.1448312997817993
+      ],
+      "input_text_hash": "b30d4b543d684f91aa631ca361c1fdd35fcb7d5bd882e9a3be186153e6686d20"
+    },
+    {
+      "sample_id": "yelp/train/519252",
+      "group_id": "c5830d84d40a06ea353e5aee42d633e4ca403f7b63477ba5de7b57af0888c11c",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.5352575778961182,
+        -1.4969844818115234
+      ],
+      "input_text_hash": "3af8280a0b15ca67ea724bebf25c62117e65e4e8badba008cbf447043af7526c"
+    },
+    {
+      "sample_id": "yelp/train/453346",
+      "group_id": "62fb6c7955c97b97d1553be1bfdf9591d20fadac97cba1d12a6c7b23445ce895",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.145364761352539,
+        -2.092550277709961
+      ],
+      "input_text_hash": "fbe0f4f461ca3d6999f4dad6223784746d2fdecb40dfcaa74541a0775d08dbe2"
+    },
+    {
+      "sample_id": "yelp/train/457882",
+      "group_id": "c9347c640599b0541047de8b55f602890654b1c674319f679afa11de5d7ff112",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.0715126991271973,
+        -1.9516962766647339
+      ],
+      "input_text_hash": "91a3ebad6eee230c373e357d3854e86295b35b626840fe1c3dd92176d50a5a41"
+    },
+    {
+      "sample_id": "yelp/train/426192",
+      "group_id": "9158bdf869ff8b39c8867c1c87407ec465e60430c49a7d68a3eda0ac9d07fdec",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.4127068519592285,
+        2.9332468509674072
+      ],
+      "input_text_hash": "5a8696af652c4f00a288b25bf55abcebad88f7748efa2f846836080c08f4010a"
+    },
+    {
+      "sample_id": "yelp/train/85270",
+      "group_id": "3b5824c788c8a7ec7478b35a3c24e68347eb3b1798829dbd3e71671b5999c22b",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.0915894508361816,
+        -1.171804428100586
+      ],
+      "input_text_hash": "81b74cf418cfc6bf17af4a74ae5f32f8696f99b3db09a0e81a52622c775b8b16"
+    },
+    {
+      "sample_id": "yelp/train/280048",
+      "group_id": "6c4af46ad4b6e5e73fb04cc4d5a9510cabe1352f9d6e3c83a025d0a54b176f2d",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.578066349029541,
+        -2.5428361892700195
+      ],
+      "input_text_hash": "0d203cbe1403944798a59bda93a4447ff28c5ea34ff47bae8f6a404b69b65887"
+    },
+    {
+      "sample_id": "yelp/train/20350",
+      "group_id": "f7fb93ba75173c7d6e14d882180415aa323a27571db0bce65f2809f1c6577b6a",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.4331462383270264,
+        -2.3056886196136475
+      ],
+      "input_text_hash": "a8355832e754ae6dae12dd6b0fa28324d51759eb7cc589070adebdcb883d5b41"
+    },
+    {
+      "sample_id": "yelp/train/390507",
+      "group_id": "52614961ba65afb2f4b30e59b2543dd246f0d5e146df4f2957cfaab82ff59597",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.7708407640457153,
+        2.097796678543091
+      ],
+      "input_text_hash": "ff32aa2c6b4567a89220fdec91d005fab64f0ff335ead26ba09eebb6f57455e6"
+    },
+    {
+      "sample_id": "yelp/train/291305",
+      "group_id": "3d351569a0e39eebf2df57c401e479c2c28db389ce79e055764402bee34459e8",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        0.8087596893310547,
+        -0.7168542146682739
+      ],
+      "input_text_hash": "9ac9f6d1be8c3f5baa13351106f17876315cfe83cd24e3229c04e0c7cadae455"
+    },
+    {
+      "sample_id": "yelp/train/282996",
+      "group_id": "c84428c6fd5d7133d58ce22a14c23424f31a6905330b7830784091c465e08c36",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.388897180557251,
+        0.6278499960899353
+      ],
+      "input_text_hash": "a716aead4c29458cbba0b5b51484ba50a7734e67c3083be9c9552b792b837cbd"
+    },
+    {
+      "sample_id": "yelp/train/484542",
+      "group_id": "e0b7b93f4ba8d03066f20cb81b2d5f76b4f1f06c34ed8d5945f392dc2b26b59e",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.648491144180298,
+        3.3345649242401123
+      ],
+      "input_text_hash": "a5a541e50c030726c838a7c79d1b500364da2fa45ae53507eb7b8aaa03483077"
+    },
+    {
+      "sample_id": "yelp/train/103733",
+      "group_id": "33b0b2878a43005dcf95871c7f2f4019e0c195ee1b416b80e582f40801b51669",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [
+        1
+      ],
+      "false_positive_labels": [
+        0
+      ],
+      "scores": [
+        0.9146532416343689,
+        -0.7474641799926758
+      ],
+      "input_text_hash": "ce04ead9305963f9fabeda762f0159979ce8c4a3f3f5b2431826327eb083276f"
+    },
+    {
+      "sample_id": "yelp/train/41923",
+      "group_id": "515ddf05234d2806ab9a11de79aa3c6160b8b3c5a1e868d4585dc265e9d362f6",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.5558958053588867,
+        -2.483628273010254
+      ],
+      "input_text_hash": "89baf1f7ed5144b782db934dab2f6cb14eff883009e918e5ff897ecd83266f87"
+    },
+    {
+      "sample_id": "yelp/train/18671",
+      "group_id": "297c526aafa0ea29246333dff1ed86f6a3015fbbdcbb58fb24cefc0a7f97b476",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.2050962448120117,
+        2.7490086555480957
+      ],
+      "input_text_hash": "b5e9db5eb83ec6b05a12dcf85ec42e2ec6d077ee89b2dc6e0d3c6bb6718eb335"
+    },
+    {
+      "sample_id": "yelp/train/155614",
+      "group_id": "f690aa99a6edfd07d65073c27d1f9ecab7ef5a092d6c7694b59accddd6a77483",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [
+        1
+      ],
+      "false_positive_labels": [
+        0
+      ],
+      "scores": [
+        1.3502333164215088,
+        -1.3819268941879272
+      ],
+      "input_text_hash": "bb53de82b2287f234b415a224f0faa419113dcf37c2d6e72ee025413f29f9b2c"
+    },
+    {
+      "sample_id": "yelp/train/405405",
+      "group_id": "4e9caf7a5083eb01fa99cec6eebc691feee57d84acb8af28a8a06b1ad7e72127",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.750037431716919,
+        -2.650510311126709
+      ],
+      "input_text_hash": "0573edf5b6e4be0bf692b87d4fd7ade497ee35c0aa93565802869afde495fbe3"
+    },
+    {
+      "sample_id": "yelp/train/253578",
+      "group_id": "24866e7bbc57ea3184d4beabaa9e7ae5a5649892b1bb042887eda299dd800fc4",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        0.304056853055954,
+        -0.1212034523487091
+      ],
+      "input_text_hash": "9984ed404df4ff1beb978378a180e65cb3598a8cb04776b15b1b98e3cb8d4686"
+    },
+    {
+      "sample_id": "yelp/train/106416",
+      "group_id": "1c5c3b67dc22f75e5fd342b01416b855debc7c760576ad69131124185b79e81e",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.8295437097549438,
+        -1.9252697229385376
+      ],
+      "input_text_hash": "bc683cee050589ecd381b6ccbbd00a9921a50cf51d0c95a79503014464622604"
+    },
+    {
+      "sample_id": "yelp/train/263909",
+      "group_id": "f35ba6ccd083e95949c5619b173b01b70af89d800aa5ac28e5c129bcb786fce6",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.5184738636016846,
+        -2.4641032218933105
+      ],
+      "input_text_hash": "68a6144028a4c461ae5faf85f7250e56dc2acc3d837c428bbcf7c8bcf4f64fe5"
+    },
+    {
+      "sample_id": "yelp/train/267493",
+      "group_id": "645241541c8437456b02fd511e30818eb72d17567bcab44ea268af5a708b2c03",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.3971593379974365,
+        -2.3788070678710938
+      ],
+      "input_text_hash": "69b44b8d864e9b362366a12fa754556bbbd8807bbc442aeeaa438ba328d18658"
+    },
+    {
+      "sample_id": "yelp/train/45873",
+      "group_id": "37ea2dd7f125a31d1b4a41a548d8dff805e315bfec5e1a15c9755d13c80719c7",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.673689365386963,
+        2.2316818237304688
+      ],
+      "input_text_hash": "caeae0470d0c509387bd2cfbe1a029da9bd373ce8075a1c08ab165205e38de48"
+    },
+    {
+      "sample_id": "yelp/train/101730",
+      "group_id": "d265172bfe38f65a948b1ee83d4774ac506265fd466bdffc51e9f07ac8df15e3",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.470344066619873,
+        -1.4438408613204956
+      ],
+      "input_text_hash": "589ce48f863e48f68f0200ffebbc6c49d9ddbd20f710ad0df2351f638bc38f72"
+    },
+    {
+      "sample_id": "yelp/train/450240",
+      "group_id": "573aaf21ce77c350587555b26d0f4ec2f4a5d317cd2ae8ffb8c260d258089722",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        0.2380635142326355,
+        0.026008695363998413
+      ],
+      "input_text_hash": "fc2899e18a296d3440bac222a491d13db23c7955f0f0bc168196f938c104ec18"
+    },
+    {
+      "sample_id": "yelp/train/179058",
+      "group_id": "e7bb0ad036addca607c8a418a3dcdfc95f7cea475ba2cd4d03d9203b208db094",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        0.44246870279312134,
+        -0.15995532274246216
+      ],
+      "input_text_hash": "60be0d1358935f64ed2f91127570cdee31a20bc4e7457eba31370d1eac9b68a8"
+    },
+    {
+      "sample_id": "yelp/train/101518",
+      "group_id": "900aec814152b39e0016bb8cd781d3690517e035c9ad2eb581e822f1af25dddc",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.4779486656188965,
+        -1.5068947076797485
+      ],
+      "input_text_hash": "3eb1cccde2510ae5d50849226d69e09e88291a1827340889debc7b526ac1d99e"
+    },
+    {
+      "sample_id": "yelp/train/93388",
+      "group_id": "fa1d2cb5a6ec68380a39363261ae8e023c21ec96cb2c9a434519ec77bb8a617a",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.8136041164398193,
+        2.1740224361419678
+      ],
+      "input_text_hash": "110626d167b8a54aa33d6c7fafd1ee0697b437187cf36d96b9ac2f2509a0aa73"
+    },
+    {
+      "sample_id": "yelp/train/39079",
+      "group_id": "6841c7b7f7d24cfa909ecdb1cbd451b8137e554ec26925b2df1cf91450b6a13e",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.663275718688965,
+        -2.621185302734375
+      ],
+      "input_text_hash": "8639aefe895e8b0b4cb469efd38db26849d26147bf3aea0904850740ab202f16"
+    },
+    {
+      "sample_id": "yelp/train/453006",
+      "group_id": "c54f4cbc6e348cf1d903cb3b50d949fda2da40653a0d2fcc30d7a6a4a7a3abc7",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.2373533248901367,
+        -1.2390509843826294
+      ],
+      "input_text_hash": "a6130d8e2845c57811416c65404062d2d685e49d4b4eeff39cf62defcb410a9b"
+    },
+    {
+      "sample_id": "yelp/train/129062",
+      "group_id": "f94fb2d3d48ea416ba62b9daa3f14a1afccadbf5b482ce559fb52fe700cfea52",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.1029105186462402,
+        -2.0069503784179688
+      ],
+      "input_text_hash": "4a525f105c9d6ea66a8b8670c7c7d4e483a9acb12122e45bc5723ed142a6b348"
+    },
+    {
+      "sample_id": "yelp/train/558305",
+      "group_id": "9b2ae30ab9a80e715511fb3caae45e9a92f4c810601a8b6040f13dd9a4cb534f",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [
+        0
+      ],
+      "false_positive_labels": [
+        1
+      ],
+      "scores": [
+        -0.06806231290102005,
+        0.18417391180992126
+      ],
+      "input_text_hash": "95ab43e0b22c2467b0b26a40cea2b59fe1d2bb5ef8458b7acdbdb602d2ff93f6"
+    },
+    {
+      "sample_id": "yelp/train/237686",
+      "group_id": "1a722beab9e0ae570ae1a1e6be05bba33ab8840aeac507b124874740c1a331b0",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.9520961046218872,
+        2.4565165042877197
+      ],
+      "input_text_hash": "b87c9609fd3da02fd50cfaebabf8339761930f5ab10c15718bd055cacd996527"
+    },
+    {
+      "sample_id": "yelp/train/78451",
+      "group_id": "017ba21e24a3bea61776e4f85abf9e8850b5c29bdaee25428c44f91a3c248bd9",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.6836934089660645,
+        -1.6726067066192627
+      ],
+      "input_text_hash": "0ab4e07afdab0182fc144f194df06293b440b5e60e5ad9971aee76f60443964d"
+    },
+    {
+      "sample_id": "yelp/train/190472",
+      "group_id": "3211358cbdea4e45a06355a492f44306e8b3d66b7875a8c7c99a04cfc7be0f87",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.0866450071334839,
+        1.267386555671692
+      ],
+      "input_text_hash": "a43448a9bc05e22111eff2a004ff2b8faaef46e1efecfe5d2bebe8078fc70d5b"
+    },
+    {
+      "sample_id": "yelp/train/552556",
+      "group_id": "5f0da017133847025a986183fea59f58b8fdc790e5725214b01c8a77aa0fa4b1",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.212174654006958,
+        2.7782278060913086
+      ],
+      "input_text_hash": "f52083d5c220f8b22e7a0d8ad0e965eb7fcf5b902f0b7ca70ab4aabf68ca34ce"
+    },
+    {
+      "sample_id": "yelp/train/65037",
+      "group_id": "9674c77a18740c8292278b495e6598cdf8c90569df7c7d58fd381a00d8923bfc",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.8566641807556152,
+        -2.572714328765869
+      ],
+      "input_text_hash": "70822182b6fd447b685550dbc17d219aefb8695d1087b1774a01d41d086575a7"
+    },
+    {
+      "sample_id": "yelp/train/547284",
+      "group_id": "4445b86476ab1e7d10130244cef3050c468bc17be9b64927a0d64c79a4b7a856",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.281702995300293,
+        -2.2380857467651367
+      ],
+      "input_text_hash": "e0b2d4f85fa0289250ab218015c51684167ebb4fdfe4127780e1dde6c43adc59"
+    },
+    {
+      "sample_id": "yelp/train/500682",
+      "group_id": "1fdfd2576ebe56cac78657bd06ce9a7df5dc1af15b4e06f59460efb934bdb371",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.2678942680358887,
+        -2.144620895385742
+      ],
+      "input_text_hash": "baee1d1e0faafb0c37ea8e95ac43532863e74439aea1f73175056df99019369d"
+    },
+    {
+      "sample_id": "yelp/train/305927",
+      "group_id": "8a4e0224ec86dc65927dba7cd2749b8628ba0482b3e69ddd0dfaf011be98e62a",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [
+        0
+      ],
+      "false_positive_labels": [
+        1
+      ],
+      "scores": [
+        -0.5306498408317566,
+        0.8028630018234253
+      ],
+      "input_text_hash": "f87f108a1424583f5e56b7f4188f865070450f5005ddccfa270c47ba1a2b6100"
+    },
+    {
+      "sample_id": "yelp/train/504541",
+      "group_id": "6f273624eba508d08106d289df4e0f6549e1f113ea6a0dae232ff9d6131fe63d",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.6415205001831055,
+        3.38222074508667
+      ],
+      "input_text_hash": "e974986b0e94c6d090c8b448f59f7c8de6524ad0d31d57551c4db8648c769fee"
+    },
+    {
+      "sample_id": "yelp/train/156317",
+      "group_id": "9fef7fec77bc6a17b35bae7600472868ecbdc15398536df76039f4e811340dd3",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        0.17592430114746094,
+        -0.04259967803955078
+      ],
+      "input_text_hash": "aedd0162540da689bfc73583c4428adb0da82877d40365d7d010e1972dfd28db"
+    },
+    {
+      "sample_id": "yelp/train/137788",
+      "group_id": "505ed3db8029b097181903f9c868ad3b5ff8e3543a64b161d2c83dbc1d21d675",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.002203941345215,
+        -1.8668709993362427
+      ],
+      "input_text_hash": "d576445c0285dfcc1430f084b638b26b7af238f08d3384b1ce12776b103bbd7a"
+    },
+    {
+      "sample_id": "yelp/train/508185",
+      "group_id": "42f9bd8fa0656fa9674e5d22b5cba6013682e2d956d1f781532eac99e5f86a6a",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.4493048191070557,
+        3.0225586891174316
+      ],
+      "input_text_hash": "1d4eec099f99985b32b32c2760add9e3309ffb754c1e747e8300af4b8881e082"
+    },
+    {
+      "sample_id": "yelp/train/4657",
+      "group_id": "2b5b86d4a01262530e3b4cc5ad1141c1f995afb2e1269d23c090d843de60d6ea",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.472707748413086,
+        -1.3861204385757446
+      ],
+      "input_text_hash": "e649663bc623615c050d3c952bfc270e4b4ea200714e430aa7d8ecc61d40e3df"
+    },
+    {
+      "sample_id": "yelp/train/478673",
+      "group_id": "7a371e8047801e32498e1fe85d05c969c02ee9a81590e8d8d17c3eae64bcea92",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.2756764888763428,
+        1.5136641263961792
+      ],
+      "input_text_hash": "087a1f4ab6bf8767b16274109892b78179a2e83df6bd8402b485683b84ca273d"
+    },
+    {
+      "sample_id": "yelp/train/244391",
+      "group_id": "2fc16cc2be36f61787bbe4d92b6d563ccbf968cc935f35f0281068b6568440c3",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.4024333953857422,
+        2.0712249279022217
+      ],
+      "input_text_hash": "ba79d05a3e8e4db8fae1818e922a5055b734f4be8b5e2522fb42a6a292e29f68"
+    },
+    {
+      "sample_id": "yelp/train/340786",
+      "group_id": "c7c8235a6cfb0c805096442c6f73a1644a4f45a139ed7d2a829dc2a15d447f9e",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.2192740440368652,
+        -1.1854912042617798
+      ],
+      "input_text_hash": "4c215f7987651d3047eec25654e995af617cf558e19db2693fe843ef88cf5a8d"
+    },
+    {
+      "sample_id": "yelp/train/438237",
+      "group_id": "2b647aca1367ffe408e63cac6198a03be397b2e01c6d55c3772872252f7ad129",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.6482257843017578,
+        2.190629720687866
+      ],
+      "input_text_hash": "2e6be520a3851f9549632b61228eeeccddccc6a5f5f3a0bad88dd6e1df36ef2b"
+    },
+    {
+      "sample_id": "yelp/train/360901",
+      "group_id": "42d69e5242726af6bea487131724e98b0d767c1720f25698f7d8eef952b82ea1",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.430738091468811,
+        -1.3135825395584106
+      ],
+      "input_text_hash": "2c014459b49638e2fb86d04ccbbc9d998a5103bb18a4c5b6ba05c18b19713cb4"
+    },
+    {
+      "sample_id": "yelp/train/384033",
+      "group_id": "d65d44c468967a46ceb493b96a1452cf0787673e12dd263216ec6e0e0fd9422c",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.6400235891342163,
+        1.954424262046814
+      ],
+      "input_text_hash": "96644ccad6b64cf1396171149012aa0b8d066cf6ccd83c4d702eefb4e9bbcb7c"
+    },
+    {
+      "sample_id": "yelp/train/155451",
+      "group_id": "f06609a73d675e353d0bed4eb746724804f1e413a308be38bd90022357087464",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [
+        0
+      ],
+      "false_positive_labels": [
+        1
+      ],
+      "scores": [
+        -1.5298995971679688,
+        1.814060091972351
+      ],
+      "input_text_hash": "4bfe90cb3cca65437e20b13b3cc9827a06873233a3321846539f2bb52625d730"
+    },
+    {
+      "sample_id": "yelp/train/16357",
+      "group_id": "8ee5f976b038ca62c9b9e4c949ef9ad33c3178e14d7bef0eaa83384c34d07a55",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        0.9669747948646545,
+        -0.8677161931991577
+      ],
+      "input_text_hash": "66cfdcdc5c133b5254f3eba45b889ae9523ed5764402a812be309b2d5e66a149"
+    },
+    {
+      "sample_id": "yelp/train/121474",
+      "group_id": "a8982bf5ddaf80d6b48190c1cbc3a5ca5ecb598df26c775b1b0fbbc43595d80e",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.4981255531311035,
+        -2.4022393226623535
+      ],
+      "input_text_hash": "9b742d5298b58612730b07ae068a094c77bde8301ea06f5705fce954787899cf"
+    },
+    {
+      "sample_id": "yelp/train/395876",
+      "group_id": "df87f9f26e18115aee3986147eaf223d004b4fb9ed1dfae222a2b942cdbae21c",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.6747288703918457,
+        -2.620807647705078
+      ],
+      "input_text_hash": "b69545d5c3a3d8494dc45d33f3b54df4a0f3c4ded7682c66f565b9fb905c22b5"
+    },
+    {
+      "sample_id": "yelp/train/525755",
+      "group_id": "de93c3628b4856ef6a4346fdf306db2c9910156b30d2c95226ca1da0b067935a",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.6256486177444458,
+        -1.5096827745437622
+      ],
+      "input_text_hash": "cfc797a23b2a681e47748325bb570dd0f07f701aecb3ab7106e7fd2334566a05"
+    },
+    {
+      "sample_id": "yelp/train/39005",
+      "group_id": "fed669d51034249cb9ea8ec0c5e4d5a2f9800873297fdff70146aab5e71e321a",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.4439480304718018,
+        3.085125684738159
+      ],
+      "input_text_hash": "ed1104ff9027a2fa683129251e5776f2585067fd2cb201f44f6c4532c3dead80"
+    },
+    {
+      "sample_id": "yelp/train/496949",
+      "group_id": "ba57f3304f31bdd5a5a4afc836ff90532671e061826cc7e27b7f8fe74eaa83b8",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.766780138015747,
+        -2.6571967601776123
+      ],
+      "input_text_hash": "416293f6fcfe7cc4d904472b4c741d9d9002c34e50fe0ce36875858d84444c7f"
+    },
+    {
+      "sample_id": "yelp/train/241253",
+      "group_id": "64f20627b9dcfcdb1560d6ae37580f70590ba32f424c8856eb62998f25980002",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.6992008686065674,
+        -1.5178691148757935
+      ],
+      "input_text_hash": "0bd1eb0b96b5175e01007451640f3bdf3dc479bb1a6da78969e3c55006da17a8"
+    },
+    {
+      "sample_id": "yelp/train/270752",
+      "group_id": "14b9012b179a31ed2bfccd6343c4a411edc8382ac2a9e0f986fb9956bb065269",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.1625161170959473,
+        -2.018010139465332
+      ],
+      "input_text_hash": "e6c803a21bf596b5a24509b28b6a964d79987981eb9fcaea7689fd93ac001b9c"
+    },
+    {
+      "sample_id": "yelp/train/124454",
+      "group_id": "b0b3497b0f4f81aeb455139fe112ffdcaf462b80a452d5b7754f6f98d96a3b63",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        0.5895323157310486,
+        -0.606799840927124
+      ],
+      "input_text_hash": "f805d71bd4faf2752d3bb08556d3faef702bedc1a65d5a1c6c5d99e0089e4885"
+    },
+    {
+      "sample_id": "yelp/train/261861",
+      "group_id": "9db014751174735e7c843968a7791cb03a42ab06e65f13137091f3e243a43ab4",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        3.0590944290161133,
+        -2.730884075164795
+      ],
+      "input_text_hash": "c5f353f71565c3a0f9901a660c79e24f89300a72f72e499dcc7fb14c12832d32"
+    },
+    {
+      "sample_id": "yelp/train/480836",
+      "group_id": "4f87f7ceab1192488ef3da9996d519f5d021f877b3f7d12841537593b4564db1",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.5205917358398438,
+        3.196403980255127
+      ],
+      "input_text_hash": "0b9cdbfb650954ffb4e18984b8421fb2f31850338651179e30be7e089eaddc99"
+    },
+    {
+      "sample_id": "yelp/train/293709",
+      "group_id": "c1da7ff1725caf4e20727bede7118254a796895ed5c543f4be992fbfea74d61a",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.8563662767410278,
+        -1.8649373054504395
+      ],
+      "input_text_hash": "52f5b6ee15fb2ef8d478e7b0b6ee55eecbb4e7d5e7fc3e782533ffed111666f4"
+    },
+    {
+      "sample_id": "yelp/train/96124",
+      "group_id": "700c77ec3cfba1ab14a091b8b889e9c2f00d40047daba7792a1a1648dce19fe1",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.2845625877380371,
+        0.48208504915237427
+      ],
+      "input_text_hash": "e0652396da679dc17f5c62cc4dbe9e2d8fa95bd82e20e680b2d6349019e81466"
+    },
+    {
+      "sample_id": "yelp/train/78736",
+      "group_id": "f3349b32e6c6eb4082bc58815814eef208627372bb19a984b17aeb7611abc4d7",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.4242119789123535,
+        -2.3707756996154785
+      ],
+      "input_text_hash": "f2bb2ff87d2fd520a560c99bb367227c2e39870858a31a6696433d8c5b99bbaf"
+    },
+    {
+      "sample_id": "yelp/train/145527",
+      "group_id": "614ab7705f681e14d6eca3e775688a911ccdd06a5f700522f28d8fce5e8f4943",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.489955425262451,
+        -2.2018823623657227
+      ],
+      "input_text_hash": "69a25c2811dd3f5dc5c83f7e144eaaacb90bb46f3c9e69d83e4e0b36c9b63e42"
+    },
+    {
+      "sample_id": "yelp/train/394668",
+      "group_id": "f28e2c399f253d6a2e351505e125bf28db726631c17127153c9b2858dee11407",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.4081153869628906,
+        2.9338953495025635
+      ],
+      "input_text_hash": "9d6ad17fbb9e3e18b0f24cdd2d029cf958f9c56bc09548c2e94f52f583319324"
+    },
+    {
+      "sample_id": "yelp/train/511909",
+      "group_id": "c6842400e873076337aac7cb95ae087a69c268abb7d039f1ff7d02ff312ab131",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -3.0298829078674316,
+        3.5267367362976074
+      ],
+      "input_text_hash": "6060411d14ce8672a63ae062b84564260e8257a9a969fd222d4f216fdb22d01f"
+    },
+    {
+      "sample_id": "yelp/train/515347",
+      "group_id": "9e45dfbffb089f85f16becf18052b8c2b68fcf1cf3413154c9663fa76f496094",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.455648899078369,
+        3.079728603363037
+      ],
+      "input_text_hash": "fdac172d4debe994ad2094d6e148777ee0409f87a2594dc58959dae100b88d56"
+    },
+    {
+      "sample_id": "yelp/train/80226",
+      "group_id": "d93cc374eb95fa979a95241746208790ae2e844624e4dae11af8e37e618a38f5",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.5363950729370117,
+        3.0468592643737793
+      ],
+      "input_text_hash": "899eeded90efa9c5075b403ba740528225f3b6a835c012d43c41bc7b3f34297d"
+    },
+    {
+      "sample_id": "yelp/train/332407",
+      "group_id": "e9d3d04cb96976359a52431a17abe27b087ab9bef8492e93cdad302ddd3256aa",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.383594036102295,
+        -2.2958579063415527
+      ],
+      "input_text_hash": "17da6b505bc41ccb89e270dc0c58b36b291ff9560dfca712dd56c44bb49af50d"
+    },
+    {
+      "sample_id": "yelp/train/103514",
+      "group_id": "746485410fd1dd4f147e19b21b04b88bf0611284c6230ecf29875273bede56ea",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.3334903717041016,
+        -2.2079219818115234
+      ],
+      "input_text_hash": "21f5bdb9560eb5fdde5c121ff9c17c0e9639e1d65580b2016e4e455a39187824"
+    },
+    {
+      "sample_id": "yelp/train/147513",
+      "group_id": "dbc6f46486f960adc861af9b4aa6847aaa310c801dc164d018fbbd9ac4a886ac",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.4804472923278809,
+        -1.394183874130249
+      ],
+      "input_text_hash": "3d5986125cf33e30aa08a54ea6c9ff12dc1bb692272003c6e2986ff4fbe14084"
+    },
+    {
+      "sample_id": "yelp/train/48321",
+      "group_id": "1777e92bd129aa8db7e38a477209a396a3a05296b2f0679ea2f3370c2e1e70a4",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.371190071105957,
+        -1.3821834325790405
+      ],
+      "input_text_hash": "502d38e348a705278bf52ca1317bcc358db285380d9fe0de175a88db9f94cb3a"
+    },
+    {
+      "sample_id": "yelp/train/535967",
+      "group_id": "c1260a51c38ea2bc99d420fc19b3f768da3a35e73c0e03e6d56d7912a14cd610",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [
+        1
+      ],
+      "false_positive_labels": [
+        0
+      ],
+      "scores": [
+        0.17009207606315613,
+        -0.10118375718593597
+      ],
+      "input_text_hash": "a54211a9fd40f9e0de136d159fc63fd5e1fad6170871c50acfbec123a661170f"
+    },
+    {
+      "sample_id": "yelp/train/533779",
+      "group_id": "5df04f08425985207d4ab9525138d68617187452265669340359b150a601523f",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.85121488571167,
+        3.396604537963867
+      ],
+      "input_text_hash": "82a10fea057c76132fe1c2854489ba900bd0a7cbd786575bd3d2cdcea0fc8c53"
+    },
+    {
+      "sample_id": "yelp/train/373270",
+      "group_id": "ee608030981044e522973098bcbd5a315cedd72814ae84f6537d06ac1de13ede",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.010096311569214,
+        -1.8736237287521362
+      ],
+      "input_text_hash": "a7358754df3bb800f984a2f7b52966c9f2a60dba655b3728119eeb60cf67a1fc"
+    },
+    {
+      "sample_id": "yelp/train/334821",
+      "group_id": "b219ae70e45b2b1f0baa17b0ff77a93b9d8445b8f972b8a935302e2df7a9edc4",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.2759251594543457,
+        2.7346389293670654
+      ],
+      "input_text_hash": "43cd9da45843b2e9c2af94addfcc0593fd0f2009278c6d3420d6d36eaeb4199a"
+    },
+    {
+      "sample_id": "yelp/train/19949",
+      "group_id": "71de74093f4d5c7a3e8dca8e200d20e86181a132b324eb7c7b56454cb339b039",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.6443946361541748,
+        0.9952591061592102
+      ],
+      "input_text_hash": "179808cfa53db739d7b10b1e4132438eef6dae3df6a2c785d68794b5edfb8486"
+    },
+    {
+      "sample_id": "yelp/train/131792",
+      "group_id": "dac26b410638325378ffa81cda0166f1699fc1d4d06a533714abe1f4c4ce390a",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.4590952396392822,
+        -2.3516321182250977
+      ],
+      "input_text_hash": "c326b68e9d4257cdf903a396c8d747a86a298afbba9c8b2deb3f613f386a1b51"
+    },
+    {
+      "sample_id": "yelp/train/43661",
+      "group_id": "65c63d4d29156f00a693c76255a84b5e44f48a12c7f1292d56193296d3cb5895",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.43854254484176636,
+        0.4903187155723572
+      ],
+      "input_text_hash": "96ad1396e2f4d68d10690902576b8be97f675e537cd213183a50cf448630f83d"
+    },
+    {
+      "sample_id": "yelp/train/305872",
+      "group_id": "2c4bb1876b872439928a4cd5ed52673ea91c241829f24bab5e7d313a558c8c48",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.5698981285095215,
+        3.106325149536133
+      ],
+      "input_text_hash": "efb6b5c2961557ac4daec6110162a862a4265ff3acce54fd726b1abab7949ae0"
+    },
+    {
+      "sample_id": "yelp/train/268368",
+      "group_id": "14e1f7879d233d09d81b37650871fe7d85197cbbd48b0db0f1d4ebe8672134c1",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.5959177017211914,
+        -1.4895278215408325
+      ],
+      "input_text_hash": "c2a9a9fe87956889d5af063101f3e56ca1ca65ae6a3d5fdf7f9fc8a48a57c9df"
+    },
+    {
+      "sample_id": "yelp/train/452917",
+      "group_id": "1731befd746feabadf89f959cee9bdb0819ab59f00dda090b30dd846f5ae4c89",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.2839410305023193,
+        1.5633739233016968
+      ],
+      "input_text_hash": "7e59554a2a5286ac77bf838eb390200ee845ee2c79152bfd6f272de7d2377de2"
+    },
+    {
+      "sample_id": "yelp/train/269203",
+      "group_id": "a13824bbf36e3e08ff6c979c8a344597fed3ffb4c85558917d35a6dd2eee2e09",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [
+        1
+      ],
+      "false_positive_labels": [
+        0
+      ],
+      "scores": [
+        0.4610399901866913,
+        -0.3651026487350464
+      ],
+      "input_text_hash": "018834e47f86469ef9d471079768a88a95468fa888e785db2c464db8ecc23f90"
+    },
+    {
+      "sample_id": "yelp/train/397119",
+      "group_id": "53f62d9b3f5d8b51775c7a5374d6a8f578b7dbb61cb6d1919f09b8da1ef27f52",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.2189810276031494,
+        1.2850418090820312
+      ],
+      "input_text_hash": "703ed4ca8d47cef6f86926a9b13770731544aa258de264f94aecdbb944a4fa5c"
+    },
+    {
+      "sample_id": "yelp/train/336804",
+      "group_id": "f4bc215427d5710e632a3e1e6245d198590c606246902dca0d57ce6eaf7a9549",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.2459068298339844,
+        -2.2396693229675293
+      ],
+      "input_text_hash": "52883078460a47bf36730c3ece0e97310093b4ea5fdbddf4ed00e86d36e2a7e2"
+    },
+    {
+      "sample_id": "yelp/train/85065",
+      "group_id": "c2161e53423ac09bfa9d5d649f8551ad399d1d17f7f034c57d94109094689c50",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.3841037154197693,
+        0.5627221465110779
+      ],
+      "input_text_hash": "e70bf9f7fec1b5ca60ee335b7e74d3294cb2794e8fff545ad3e45beac7b9a5d3"
+    },
+    {
+      "sample_id": "yelp/train/552880",
+      "group_id": "d1a78d51f92519be0c6282ec88b57305985aeb4844f2562e5cd7a4fec6a02e83",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.6554336547851562,
+        3.405517101287842
+      ],
+      "input_text_hash": "ed116110980771a8f2ea41f29236aafd1a6c559dcdcc51b2b8909d3cbe6ede8f"
+    },
+    {
+      "sample_id": "yelp/train/253979",
+      "group_id": "cacaa8bef3c381f52e895f06e33fc7010457737334dce21a1c95a814664a2036",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.4452157020568848,
+        3.0822346210479736
+      ],
+      "input_text_hash": "322a0bcaf38c6e3b0c5e832b7a3bfa4ff78f47e954a0d9eebf85f20d0e48a9ca"
+    },
+    {
+      "sample_id": "yelp/train/187772",
+      "group_id": "639104a767a713dd10840fa11273d3fb96d52a740b0fd25ce60cb9f4a3d7217c",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        3.239422559738159,
+        -2.9790799617767334
+      ],
+      "input_text_hash": "d666b28f7ec21d1b4793b29448e193d482976b9fd2916e4e204ce90ff7f3fff5"
+    },
+    {
+      "sample_id": "yelp/train/164023",
+      "group_id": "ea1d8f013a89a8a42dbf0e1edd5bf4f6804a922ae052a24b63b0610ae59391d1",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.3201985359191895,
+        -2.219557285308838
+      ],
+      "input_text_hash": "cf1bb09acb28716057f545d1b8381d75e9565060c8c5aeedf0c1ea88d7c10f39"
+    },
+    {
+      "sample_id": "yelp/train/271227",
+      "group_id": "5ca6e5cb67b43c044f2ed7d6cdfca120634881585b179f027de7070f86b95d89",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.615299701690674,
+        3.401715040206909
+      ],
+      "input_text_hash": "33eb28b2986ae84ae65ddc36579554f5412d094efe398e3c0d65c8ae58d8530d"
+    },
+    {
+      "sample_id": "yelp/train/194784",
+      "group_id": "05f4585e909f5c68729543021f0435fe1da6d3b4529a142b7e1e70847f38ac09",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -3.086813449859619,
+        3.8797359466552734
+      ],
+      "input_text_hash": "cce7a856e740f593b3a5a9f73b01e0ab8524560bafa654636ccb618d43b45f30"
+    },
+    {
+      "sample_id": "yelp/train/337032",
+      "group_id": "cbe6463bb9b8e211a833f89b825df80ec025d596ec7278fb9dd5da4c5b2bb9e3",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.02777128666639328,
+        0.2194942682981491
+      ],
+      "input_text_hash": "0ba107e57a08df0a893d34cbbaa15f6139659e8aa58d51851d1f5fb35dfa8c16"
+    },
+    {
+      "sample_id": "yelp/train/393596",
+      "group_id": "23fa06cc71a28fa91536377d54daee080a8f9a131f53c35d206d00347311a5a9",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.4656476974487305,
+        2.9123709201812744
+      ],
+      "input_text_hash": "29d691c3b8be2b0ee21aac133f816d5956753c99cb43a5c21435160a93faf164"
+    },
+    {
+      "sample_id": "yelp/train/509916",
+      "group_id": "d38d28f1552db8aaeb4f1fd09917de2e1c89412dfeed065743153789e68331e6",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [
+        1
+      ],
+      "false_positive_labels": [
+        0
+      ],
+      "scores": [
+        1.7472296953201294,
+        -1.8195840120315552
+      ],
+      "input_text_hash": "08c92afa350a3fece0cb86c0698cd0eebea82cd08a400c28520546629826f4d3"
+    },
+    {
+      "sample_id": "yelp/train/145466",
+      "group_id": "b533504525536680f908e0d7ac3c5b68a8f733ffdfc917491582243f0ca4c722",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.9265899658203125,
+        2.450765609741211
+      ],
+      "input_text_hash": "2f0d63505ed7876ce919e27d82e2f7d5991703534d897513e7192f721b29c2d0"
+    },
+    {
+      "sample_id": "yelp/train/402958",
+      "group_id": "00275a283089e3abc3bd690103e17459b981965c55112b2e1108949cec801885",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.445845365524292,
+        3.0574381351470947
+      ],
+      "input_text_hash": "2eea580b51da22043d8e08d0d01a5eb0047e5603bda88e062144360eca6b3a0f"
+    },
+    {
+      "sample_id": "yelp/train/110999",
+      "group_id": "9fd628e6e974fc79dbc9e62ed8c0b02eb05ce9cc0636961c5121d2fe2823d4fb",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.1596043109893799,
+        1.491760492324829
+      ],
+      "input_text_hash": "7b4616683d2f136c620dcda9052b418c02b19fb7639fb4587aa4c07822040eb1"
+    },
+    {
+      "sample_id": "yelp/train/216936",
+      "group_id": "d9b445027360936cff42187b0e478dfb91d6ebb3f991ce375eecd0b14cb8bfc5",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [
+        0
+      ],
+      "false_positive_labels": [
+        1
+      ],
+      "scores": [
+        -0.34050288796424866,
+        0.537136435508728
+      ],
+      "input_text_hash": "eb564f2f8b389840f21fd9cce3cdb54373ff40b1881b86db01d41bc87f1e9764"
+    },
+    {
+      "sample_id": "yelp/train/184872",
+      "group_id": "cb310e5dc8a160eeae5a718c47f0f4203ca6b0ea1f2a062e66002db7fe01cb4f",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.133150100708008,
+        -2.0550451278686523
+      ],
+      "input_text_hash": "1526435a9a0dd313a7afc73d1b41f47807707c78db63131111e23a889065acd7"
+    },
+    {
+      "sample_id": "yelp/train/69200",
+      "group_id": "6d2b78171474bb6a4eb21989419550b24958099736f95453c6c808ab32d8082b",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.3521769046783447,
+        2.8850183486938477
+      ],
+      "input_text_hash": "a40c0a662cd201500f5bddcfb33a082f3c8d117311c1a641e0f6818a9dda1b7b"
+    },
+    {
+      "sample_id": "yelp/train/143432",
+      "group_id": "c1f4e3d0300f0b69796e918445b4520f418ae5e7bb0f77c72f74027921fc07e2",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.4818719625473022,
+        -1.3681257963180542
+      ],
+      "input_text_hash": "f61ad20f5987c836fdbbeb0d85d3d0b134aec026ce572683ed9a70df3ed9badd"
+    },
+    {
+      "sample_id": "yelp/train/115049",
+      "group_id": "c84f7ba98bac78a1a2ddc17cea11f3b1b4832190cb7dc4ea7280eb72186d2ee8",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.2969323694705963,
+        0.48243361711502075
+      ],
+      "input_text_hash": "a0afb8e1b47edf973c0e311f24b88c4c4c8a7f56cc431f527fb7cec2cf7e2dc6"
+    },
+    {
+      "sample_id": "yelp/train/107310",
+      "group_id": "99ae788b0c1c5684750ca755e49e40e6eb38c99685c8d7d2a9a108f03761553c",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.49850040674209595,
+        0.8163857460021973
+      ],
+      "input_text_hash": "5e35a52a929f64fe21aad6144d3103fe91c9b1ce7fafede7b1daf4af683d96e9"
+    },
+    {
+      "sample_id": "yelp/train/429552",
+      "group_id": "cd2cc700c883033f744ec428add5bc184359a8729e2dc9f0dc3924f2599c610e",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.7386341094970703,
+        3.2366721630096436
+      ],
+      "input_text_hash": "be8c911045c962ec87d497b2a9fd773f1a261d06df44507551b630660f725c34"
+    },
+    {
+      "sample_id": "yelp/train/71364",
+      "group_id": "d62ef3dca19b6f928785c8095d6f8835a09d9f48d1694167c39665db19899fc9",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.261488437652588,
+        -2.2629945278167725
+      ],
+      "input_text_hash": "b4ae2fbde7f21c25cbccc610c9881c96073befb7246d6094e61102733a3e4e06"
+    },
+    {
+      "sample_id": "yelp/train/17463",
+      "group_id": "bdd4d7f7f722153e2f82165291507e795dff3ce2a7f67ef8c2c45f46906f1bda",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.0244001150131226,
+        1.3867089748382568
+      ],
+      "input_text_hash": "54fc05918c8ad5354608fca38b2e6511d888c5079d7ed99ff639badd27515838"
+    },
+    {
+      "sample_id": "yelp/train/216511",
+      "group_id": "61bd44a5e3e958d97cdf911bd4396b24cbf31ae544f9e767d6160b529c66bb6e",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.2417447566986084,
+        -2.274062156677246
+      ],
+      "input_text_hash": "2a1a1696d212d0cb718388da2d7a4a3de7d473b2eeff248c1101f160c8a41529"
+    },
+    {
+      "sample_id": "yelp/train/183964",
+      "group_id": "20f6e3b522ea31108b45650ad8c17345924f0d783f1300eb033254d674c43575",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.7396088242530823,
+        1.0129120349884033
+      ],
+      "input_text_hash": "dea189b09d3044103eafb95a61dc763879856d658f13205050850ebc2867f07a"
+    },
+    {
+      "sample_id": "yelp/train/152598",
+      "group_id": "f92903b2c308e316089c01d9ec86a126a32cbe901a71384454907c2740186b33",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        3.0273072719573975,
+        -2.873204231262207
+      ],
+      "input_text_hash": "5a625cdbb7fe5f06b6a0856f48867eed5426de73f934895ded7c85c083653c09"
+    },
+    {
+      "sample_id": "yelp/train/234797",
+      "group_id": "42124cfd274ea69cf72cdc29d51f6fe87e90ce3ce13c585efe32fbc6987cee6b",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.9848766326904297,
+        2.324538230895996
+      ],
+      "input_text_hash": "3a1a5a430838cb206dad6546f4e72450821fd3865b841892c436fe5020d739ce"
+    },
+    {
+      "sample_id": "yelp/train/324134",
+      "group_id": "0fefcf7284711999ff22a60c2ad2ac0ef3ffdef7c0e1045982bd49af65b1b396",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.600816249847412,
+        3.2813596725463867
+      ],
+      "input_text_hash": "eeea73f55972ead12eee4edc213942a69c17e55f5f4df898b4765d5a8566fc5b"
+    },
+    {
+      "sample_id": "yelp/train/302813",
+      "group_id": "714bb23d3cb6f20af5707434b36f618125dd335dc90f4ed75ef6fbc77b353470",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.4855505228042603,
+        1.7966505289077759
+      ],
+      "input_text_hash": "54486c7c1de50ac8631527f287b84caf2c5e19fe76a3e9249b4365f357139a02"
+    },
+    {
+      "sample_id": "yelp/train/485671",
+      "group_id": "7357dc99a599c4b4b7d92e9f818f2ae1a4cf7e06f42af267afa2c90a02983c69",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.344513416290283,
+        2.9935526847839355
+      ],
+      "input_text_hash": "0151dc9987c43af5a4f2ba2b9a99a2813b14f5495bf2d1d46caf5b24dd914d99"
+    },
+    {
+      "sample_id": "yelp/train/172471",
+      "group_id": "74556d5ef9e4a850a4e7465de98dc0677af7cdcb5f667a628fd4d464b79ead62",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.9301772117614746,
+        -2.815026044845581
+      ],
+      "input_text_hash": "b53a703db7d593bb73fce9f0af108dd7bf1a598c974571ad76694de053881e7f"
+    },
+    {
+      "sample_id": "yelp/train/295915",
+      "group_id": "65a1901967103ce82170083857e7a08cf37430469589f914249deafd9682c99b",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -0.6216854453086853,
+        1.0232956409454346
+      ],
+      "input_text_hash": "add444d22769e8398dc44089151d0306f9d1767a9df26f1468e65b53c373c33a"
+    },
+    {
+      "sample_id": "yelp/train/61263",
+      "group_id": "cd56de164b1191ac09b2baca555b5b77ab03ecc328f211865092dfa0349aa381",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.513888359069824,
+        -2.4780728816986084
+      ],
+      "input_text_hash": "c790f7bf4a218a95a0470ec08a5acc1887391545d7104aa5897460464d23864d"
+    },
+    {
+      "sample_id": "yelp/train/480390",
+      "group_id": "1529fa9b6c81689d0f6979efb186955f83f4adf07e740e7242240e3b3043cfb8",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.093543529510498,
+        -1.0401448011398315
+      ],
+      "input_text_hash": "06135ef402b79847a82c3188c1c08bdb67f3b22ba8327bf85099b02e2185bdaf"
+    },
+    {
+      "sample_id": "yelp/train/279036",
+      "group_id": "650fa09d505595ad44f602bb990ae9edf32cf26432fbdcb4303a3ffa22372e4f",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.7093803882598877,
+        3.4228758811950684
+      ],
+      "input_text_hash": "a959f413a486902b65b1a1759531f86f3b524f4c75331f2e8c0bfff830e923ca"
+    },
+    {
+      "sample_id": "yelp/train/524289",
+      "group_id": "158720e18a4a70e3f69ca65128e14afc6f2b00064842ad54bd9801536bed65b9",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.524006962776184,
+        1.9246742725372314
+      ],
+      "input_text_hash": "71152e19802fb34bca9404de6a66c6ed408710c4a78db2505631b66f6fc85bc7"
+    },
+    {
+      "sample_id": "yelp/train/64757",
+      "group_id": "d5ca1985342078f1cbd009c3f79142ad57a7b5d47b2c5845c6f5d76857f4b5ca",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.247523546218872,
+        -2.176969528198242
+      ],
+      "input_text_hash": "66eee672282dce6d582f7ae97564e551e71b3c417bded9d3b973c28fe95dbeb3"
+    },
+    {
+      "sample_id": "yelp/train/473856",
+      "group_id": "7bde42b342e62acadfa0ac997ae4e18699e31b0d28cf7a80fb1081cf7795d8e1",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.285386323928833,
+        2.7689828872680664
+      ],
+      "input_text_hash": "ca1f190ce94b278e32731f8e207fc74d316002d39064474bc7eaa25826210105"
+    },
+    {
+      "sample_id": "yelp/train/154271",
+      "group_id": "e5dfa50d7c7a8c0e0ab82960b74dbd261df748aa5299e0322875ff6b50984486",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.5590527057647705,
+        -2.415127754211426
+      ],
+      "input_text_hash": "62f7e0ee7c6c9b6fc58e3a3f8d296624222643d812ed3ff8d87718c4043d1104"
+    },
+    {
+      "sample_id": "yelp/train/177671",
+      "group_id": "d956264bf8255cc4b3a7d4305a62518a1ee507c1d1e6f6d95a127517f431d8b4",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.2635016441345215,
+        2.9107840061187744
+      ],
+      "input_text_hash": "21264c1d3a300f734868266cf0bf9bf1e1a8b2836c2871d6d515610aa7238413"
+    },
+    {
+      "sample_id": "yelp/train/394200",
+      "group_id": "20d1df0da9d7786b705f3fe549a17f2ae2398f3f43f2b3b00f0449d2a767a513",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.9115142822265625,
+        3.508800983428955
+      ],
+      "input_text_hash": "590162ab16b3725972968316365a714328cb412d18e09e0e338026b68640ba87"
+    },
+    {
+      "sample_id": "yelp/train/409999",
+      "group_id": "c1b84ac9d785307bfe3478d669ee5f77d688a2f5e5d4f13de035012b0767a53e",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.5672245025634766,
+        3.1434431076049805
+      ],
+      "input_text_hash": "7590d06be50a76994feb6723738cce07a8a21933f36fc59e9c3c6ab45b2b386d"
+    },
+    {
+      "sample_id": "yelp/train/501130",
+      "group_id": "2ea5541edb3de02aecba624c25f9d117f9081235cb371ce823f390f9ed3c54b7",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.265657901763916,
+        -2.2165958881378174
+      ],
+      "input_text_hash": "e38834e514324dc3603bab0336d60f458e09634f4fd5e446a1715753dd6ff011"
+    },
+    {
+      "sample_id": "yelp/train/235309",
+      "group_id": "55fd89b7d0329bc3d14bd1de6ed44a3e733da47eab381014ba08e4234cb4e717",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.557272434234619,
+        -2.423287868499756
+      ],
+      "input_text_hash": "265bb20b963510ea73cc187777c3563d7d8ecb70cee27a923a42f41b1b0519cb"
+    },
+    {
+      "sample_id": "yelp/train/164854",
+      "group_id": "08a6d17a1b1898b9087d4f1e45a686bfd985c4691729f3d3f7c861ad4e983f40",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -3.0526862144470215,
+        3.605905532836914
+      ],
+      "input_text_hash": "02d90941a6cfc41400a22d4d4b455d226fe6ce0eba39d02233973e0928b23bd6"
+    },
+    {
+      "sample_id": "yelp/train/380787",
+      "group_id": "83694372f5b94bcec928f1cc775a62dca0e1234e215a025bb2acb07244926bdc",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.7397027015686035,
+        3.387190818786621
+      ],
+      "input_text_hash": "338211c056b0c3719d759c01836a7910b2b366f245aa5741ca08fdd7be718f8a"
+    },
+    {
+      "sample_id": "yelp/train/99671",
+      "group_id": "2c37986bac6028024a87c8f3d42e15e7f52a93b6bb3352a6be7ef4d00f80cd79",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.799455404281616,
+        -2.695347785949707
+      ],
+      "input_text_hash": "0a7409eaacd0111adc4cc3d04debfc68ee64f77bb2b3b0eee28e82e8b2b78679"
+    },
+    {
+      "sample_id": "yelp/train/274266",
+      "group_id": "c7e0f945adfbe178fd688f8cc294cf90676e93b9f9141da9b0044ccb01d7e130",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        0.7698653936386108,
+        -0.7900898456573486
+      ],
+      "input_text_hash": "60c1a9352abae72505a58e4eba00a96293d4729af68b7925b674168e403fdd29"
+    },
+    {
+      "sample_id": "yelp/train/521036",
+      "group_id": "ce6746404733daddbe7c014697e9ee2363d40d1e15ebfd394f1c8a275b057e1d",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.3655080795288086,
+        -1.3609545230865479
+      ],
+      "input_text_hash": "aaf92f9b1b8660c7882cee1ebb957345aad4e2305a8fb165f476cda96bce8466"
+    },
+    {
+      "sample_id": "yelp/train/411946",
+      "group_id": "0e789f906e4fb098e2ebbc5aef1abb919c0e9959c97ec53a4b906d081428f352",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.707425594329834,
+        -2.479322671890259
+      ],
+      "input_text_hash": "4e792b8f43e0dd96ff07f93658e47ffe196dcf88f4d7db8e74aee7fdaf1c2cd6"
+    },
+    {
+      "sample_id": "yelp/train/84030",
+      "group_id": "e4ca3ca968bf026cc3206bb0621aba08bab96cde347e084bf25d7927391cd788",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.497253179550171,
+        -2.265270471572876
+      ],
+      "input_text_hash": "270cb5dc2b5556798d90724ae41f4bcbdd16eb8a7563c5209d0fb598eda24593"
+    },
+    {
+      "sample_id": "yelp/train/59913",
+      "group_id": "1eb328d1071c58225b63fc1fe0e71d30eb9aae0545c9da9aeb1d42e5ac4d4d89",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.8440101146697998,
+        -1.7020306587219238
+      ],
+      "input_text_hash": "a819cf8910f61d7bf8316dd1faf1e489252da886634c8120d16ff543880d3ff4"
+    },
+    {
+      "sample_id": "yelp/train/419089",
+      "group_id": "a9aa155cf6e901e0669a0010d93d8c84386525f341dd1f6948192aef83a26f94",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [
+        1
+      ],
+      "false_positive_labels": [
+        0
+      ],
+      "scores": [
+        1.6877928972244263,
+        -1.6507421731948853
+      ],
+      "input_text_hash": "b3f6cd3b146b7df3a0cd09a796925feb617b39cfa799372178b0bc7c81ae27d7"
+    },
+    {
+      "sample_id": "yelp/train/336264",
+      "group_id": "f83588472823437e938f542ff66e5a163a10356d23fe359708f5561a267e64fc",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.7396111488342285,
+        2.178051710128784
+      ],
+      "input_text_hash": "7558e9905bd85e3c44a61e767c61a348d684c5c7477e7da31edadca2afbb9b45"
+    },
+    {
+      "sample_id": "yelp/train/17788",
+      "group_id": "19a60282a33c1f3a7f1d23690da27a464f82d905f23a64d82a3b29e0d65948a9",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        0.34958797693252563,
+        -0.2043440192937851
+      ],
+      "input_text_hash": "378c1d38df2d936fd57f58465e03d27ee008104c6e29f3857218ddc9adf9a4b0"
+    },
+    {
+      "sample_id": "yelp/train/311915",
+      "group_id": "6569c4679b2859cca040790c93ed19143f7ba63987fa3eb297fba9eb0077654d",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.993133544921875,
+        2.48240327835083
+      ],
+      "input_text_hash": "749739880ffa036d761908b92511382b3d8a28f07fc098f5898f862a9a1d0957"
+    },
+    {
+      "sample_id": "yelp/train/241519",
+      "group_id": "5d25b26ee274e95c5909fe9e4fb0d36860052f5c490d66754ceda079219dfa10",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -3.0917370319366455,
+        3.742072582244873
+      ],
+      "input_text_hash": "f72a2ac91901a49ca89360612493c01e19705a7a80bf56a9a49fdbf06b5eafba"
+    },
+    {
+      "sample_id": "yelp/train/226175",
+      "group_id": "c8ab8a8b4736bb265536eae79bbe2bf3504412517394261cd9fd2dd6ee58bfb9",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.5537145137786865,
+        -1.6558693647384644
+      ],
+      "input_text_hash": "58e91e79bcc81ee0453bd7889d50f662a3aa2289cc423260f42d20e303bff65f"
+    },
+    {
+      "sample_id": "yelp/train/384369",
+      "group_id": "435b9a4caa262a9228a7d0bfbaf5eb25b45542df1f08c9327b8e4d23e7a9fd3a",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        0.3568378686904907,
+        -0.2924988865852356
+      ],
+      "input_text_hash": "2a2cad20203d77f8595e1aef8d4da45524472c82e50b60449864dcd3f5e03edb"
+    },
+    {
+      "sample_id": "yelp/train/328932",
+      "group_id": "ca48f9200883a5e53fc8b24896e81cf129d55ee172e9f63deba25b9bcd3964cf",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.68639075756073,
+        -1.7160570621490479
+      ],
+      "input_text_hash": "3ea5f25c971944f160679174516b178123f155c3b2bd32c0b0d4441181f33167"
+    },
+    {
+      "sample_id": "yelp/train/180469",
+      "group_id": "16903d73282a673ac78fa9a48c20b3f192f866c4ccf8cac6394a26c6666c7246",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.0872910022735596,
+        -0.9929139614105225
+      ],
+      "input_text_hash": "4447d216d4aaa129c8dd0a2e13b5c9bb574b06582bcd302b40bb3a71f2e3144a"
+    },
+    {
+      "sample_id": "yelp/train/131991",
+      "group_id": "e6a071ecf1c0bbd0f670b3859a3baa3b909671134b7e6704ec8c9a3c2d842266",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.8610875606536865,
+        -2.5461504459381104
+      ],
+      "input_text_hash": "ac1e65148c39ddb23eed177b18cdcd5f0c32c0eb3863fd7ffbb0f5cfffbdaea8"
+    },
+    {
+      "sample_id": "yelp/train/129308",
+      "group_id": "2519442b4c3d635424b809976475d5b1957ca9b1e7ef58c69c95117060f9e4ec",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.056964159011841,
+        -1.9239434003829956
+      ],
+      "input_text_hash": "9da0519043028ae7ccb39148256a32705c463199ff279c2849a69b2fffca7764"
+    },
+    {
+      "sample_id": "yelp/train/115604",
+      "group_id": "45c732a1dc89ae4cfe0bdfa433a539c14ab022505cf35af08625f511e4f2b335",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.0670673847198486,
+        2.55609130859375
+      ],
+      "input_text_hash": "f8fa5fb7a35bae9565584a35237d056387edc95db4a45635c70de09fe8c36fb0"
+    },
+    {
+      "sample_id": "yelp/train/176375",
+      "group_id": "9e295958ff25c06c0273de941f69829b8396ac810930e7ba702ce831445fcf15",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.6431050300598145,
+        2.077298164367676
+      ],
+      "input_text_hash": "4ebc87f66f73d559bdf6cfea70aedbfbef20cbd30fd27f36c7bc714f142b823d"
+    },
+    {
+      "sample_id": "yelp/train/65320",
+      "group_id": "6edde0d975a6b653c5e368497c80eb229140e1c2c301d5bd41b65b2deb9d2a3a",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [
+        1
+      ],
+      "false_positive_labels": [
+        0
+      ],
+      "scores": [
+        1.0753536224365234,
+        -1.0866966247558594
+      ],
+      "input_text_hash": "b1f76ad6195d74ac36a9a7040ec4bbaed6f3a33c7e4da05db0c2d63c5d4bc13e"
+    },
+    {
+      "sample_id": "yelp/train/84235",
+      "group_id": "22b028b1fab12e53858107672757c65342ec2a70baaf64660073c86da598caa1",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [
+        0
+      ],
+      "false_positive_labels": [
+        1
+      ],
+      "scores": [
+        -1.2250289916992188,
+        1.401535987854004
+      ],
+      "input_text_hash": "9bead309b9e0f029ce9d7f932f9ae8ae362d3c2e06090ad597ab986fe7cc0523"
+    },
+    {
+      "sample_id": "yelp/train/462111",
+      "group_id": "607f982254ccaf64b38de68e9fde178925bae98960e6102d556179bd742d554b",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -1.874742865562439,
+        2.139840602874756
+      ],
+      "input_text_hash": "2a0fed0a79d747093c6fc7bcfec02f2b6aa3cbbda3a01d499d4ae18c9008ef6a"
+    },
+    {
+      "sample_id": "yelp/train/475552",
+      "group_id": "ef336c917387a85d6e15b9ad7d435b0839004542f6ab280daf93e708c61d230e",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.4438042640686035,
+        3.0332913398742676
+      ],
+      "input_text_hash": "7d60459fe9fafc88b22b3f0df63ff030539ecdd83f7940e43bd463d77addd762"
+    },
+    {
+      "sample_id": "yelp/train/311843",
+      "group_id": "d271edd640f4ee90c17ba2ee3eb2062f6dea38f557ebda964a4c858edd4d7cd9",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        1.3294298648834229,
+        -1.2050371170043945
+      ],
+      "input_text_hash": "7081913423a2e666fa4e5e5bf26756db72f084c71c69db1ce0a3b3ff1202d244"
+    },
+    {
+      "sample_id": "yelp/train/60338",
+      "group_id": "11bf94eaf2c06379b6eb146db580a28fe112de8a2866cd700c950281a0a828c2",
+      "dataset_labels": [
+        0
+      ],
+      "prediction": [
+        0
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        2.224290132522583,
+        -2.0912997722625732
+      ],
+      "input_text_hash": "ae12b6956c64ae5e8cdf0214e46e8325009c71a5d67b06c56b3b509120f154be"
+    },
+    {
+      "sample_id": "yelp/train/447371",
+      "group_id": "a26c5342dbbc7328a48e9ccbe1202d883256c9958d1066aa32fc70e93da2b881",
+      "dataset_labels": [
+        1
+      ],
+      "prediction": [
+        1
+      ],
+      "false_negative_labels": [],
+      "false_positive_labels": [],
+      "scores": [
+        -2.634316921234131,
+        3.329371690750122
+      ],
+      "input_text_hash": "fa39e9d1950fe80b598b98b4eb59f88b32b9ebad6080bf85e024f7f2b4394ab2"
+    }
+  ],
+  "metrics": {
+    "task": "single_label",
+    "score_kind": "logit",
+    "rows": 253,
+    "macro_f1": 0.9050656660412758,
+    "micro_f1": 0.9051383399209486,
+    "accuracy": 0.9051383399209486,
+    "worst_label_f1": 0.9024390243902439,
+    "confusion_matrix": [
+      [
+        111,
+        14
+      ],
+      [
+        10,
+        118
+      ]
+    ],
+    "per_label": [
+      {
+        "label_id": 0,
+        "precision": 0.9173553719008265,
+        "recall": 0.888,
+        "f1": 0.9024390243902439,
+        "support": 125
+      },
+      {
+        "label_id": 1,
+        "precision": 0.8939393939393939,
+        "recall": 0.921875,
+        "f1": 0.9076923076923077,
+        "support": 128
+      }
+    ]
+  },
+  "seconds": 2.0026103939744644,
+  "human_review_status": "pending"
+}

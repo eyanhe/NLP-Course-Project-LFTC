@@ -1,0 +1,37 @@
+{
+  "summary": {
+    "yelp": {
+      "frame_rows": 253,
+      "reserved_groups_excluded": 147,
+      "checkpoints_scored": 4,
+      "failure_cases": 20,
+      "human_review_status": "pending"
+    },
+    "go_emotions": {
+      "frame_rows": 500,
+      "reserved_groups_excluded": 100,
+      "checkpoints_scored": 3,
+      "failure_cases": 20,
+      "human_review_status": "pending"
+    },
+    "banking77": {
+      "frame_rows": 23,
+      "reserved_groups_excluded": 941,
+      "checkpoints_scored": 4,
+      "failure_cases": 20,
+      "human_review_status": "pending"
+    },
+    "yahoo_answers_topics": {
+      "frame_rows": 500,
+      "reserved_groups_excluded": 525,
+      "checkpoints_scored": 4,
+      "failure_cases": 20,
+      "human_review_status": "pending"
+    }
+  },
+  "total_cases": 80,
+  "all_linear_margins_verified": true,
+  "official_test_predictions_generated": false,
+  "actual_human_reviews_completed": 0,
+  "slurm_job_id": "277883"
+}

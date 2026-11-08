@@ -1,0 +1,270 @@
+{
+  "status": "complete",
+  "run_id": "37a0bd9d05c7a23c6c8158e06f0099a3aec10bebd37d1932791a5a4d423c0e25",
+  "request_hash": "0e566085ce93a40422ec2b1f6b37f1cbed85cf0de56e0850e36c06f79f8885f5",
+  "run": {
+    "run_id": "37a0bd9d05c7a23c6c8158e06f0099a3aec10bebd37d1932791a5a4d423c0e25",
+    "condition_id": "5075cfcab69c95da49f20958ba358027e390f031f534ab192d82cb0ef43e6706",
+    "model_id": "tfidf_svm",
+    "training_seed": null,
+    "hparams": {
+      "max_features": 30000,
+      "min_df": 1,
+      "sublinear_tf": true,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "C": 1,
+      "role_ids_hash": {
+        "train": "2e8cc23280f522ee4319ab47bca50255f2ceaa1129ea6eddae1c05e79aeed5ff",
+        "select": "2cad2aba5c9dcd5751159b1c0078d53d1ccd6783650c4da3f84f65e75a5f81b2",
+        "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "target_task": "single_label",
+      "device": "cuda",
+      "micro_batch": 4,
+      "cpu_threads": 4,
+      "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+      "label_count": 10
+    },
+    "input_hash": "ae127c115dfba4361a40f8f0e386b3a9c19f0c04616e91af5e401c901fe6d8b6",
+    "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+    "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+    "strict_no_val": false
+  },
+  "training_unique_rows": 1000,
+  "training_ids_sha256": "2e8cc23280f522ee4319ab47bca50255f2ceaa1129ea6eddae1c05e79aeed5ff",
+  "holdout_labels_accessed": 9989,
+  "score_kind": "svm_margin",
+  "files": {
+    "bundle.joblib": "3590914a9cbd1f6416f502e199aea9cd4a94f55419996291a356ed4c86c9343d"
+  },
+  "feature_degenerate": false,
+  "feature_seconds": 0.30510561913251877,
+  "fit_seconds": 0.07520012208260596,
+  "total_seconds": 1.1758894589729607,
+  "epochs_completed": 0,
+  "selected_epoch": null,
+  "optimizer_updates": 0,
+  "micro_batch": null,
+  "effective_batch": null,
+  "oom_attempts": [],
+  "reload_verified": true,
+  "actual_model_training_run": true,
+  "official_test_predictions_generated": false,
+  "reload_max_absolute_difference": 0.0,
+  "validation": {
+    "task": "single_label",
+    "score_kind": "svm_margin",
+    "rows": 9989,
+    "macro_f1": 0.5071486871423861,
+    "micro_f1": 0.5148663529882871,
+    "accuracy": 0.5148663529882871,
+    "worst_label_f1": 0.32569360675512665,
+    "confusion_matrix": [
+      [
+        353,
+        41,
+        74,
+        70,
+        23,
+        24,
+        74,
+        59,
+        166,
+        116
+      ],
+      [
+        55,
+        512,
+        117,
+        68,
+        45,
+        14,
+        56,
+        23,
+        32,
+        76
+      ],
+      [
+        43,
+        62,
+        629,
+        23,
+        32,
+        6,
+        58,
+        23,
+        98,
+        21
+      ],
+      [
+        76,
+        199,
+        64,
+        270,
+        54,
+        14,
+        102,
+        48,
+        56,
+        117
+      ],
+      [
+        25,
+        55,
+        18,
+        30,
+        739,
+        14,
+        55,
+        24,
+        31,
+        8
+      ],
+      [
+        47,
+        58,
+        68,
+        38,
+        45,
+        522,
+        61,
+        56,
+        55,
+        50
+      ],
+      [
+        66,
+        81,
+        72,
+        79,
+        80,
+        29,
+        353,
+        45,
+        110,
+        83
+      ],
+      [
+        84,
+        27,
+        52,
+        35,
+        87,
+        57,
+        65,
+        407,
+        145,
+        41
+      ],
+      [
+        51,
+        8,
+        55,
+        16,
+        14,
+        12,
+        45,
+        30,
+        745,
+        23
+      ],
+      [
+        65,
+        42,
+        31,
+        29,
+        15,
+        20,
+        102,
+        19,
+        64,
+        613
+      ]
+    ],
+    "per_label": [
+      {
+        "label_id": 0,
+        "precision": 0.40809248554913297,
+        "recall": 0.353,
+        "f1": 0.37855227882037534,
+        "support": 1000
+      },
+      {
+        "label_id": 1,
+        "precision": 0.471889400921659,
+        "recall": 0.5130260521042084,
+        "f1": 0.49159865578492556,
+        "support": 998
+      },
+      {
+        "label_id": 2,
+        "precision": 0.5330508474576271,
+        "recall": 0.6321608040201006,
+        "f1": 0.5783908045977012,
+        "support": 995
+      },
+      {
+        "label_id": 3,
+        "precision": 0.41033434650455924,
+        "recall": 0.27,
+        "f1": 0.32569360675512665,
+        "support": 1000
+      },
+      {
+        "label_id": 4,
+        "precision": 0.6516754850088183,
+        "recall": 0.7397397397397397,
+        "f1": 0.692920768870136,
+        "support": 999
+      },
+      {
+        "label_id": 5,
+        "precision": 0.7331460674157303,
+        "recall": 0.522,
+        "f1": 0.6098130841121495,
+        "support": 1000
+      },
+      {
+        "label_id": 6,
+        "precision": 0.3635427394438723,
+        "recall": 0.35370741482965934,
+        "f1": 0.3585576434738446,
+        "support": 998
+      },
+      {
+        "label_id": 7,
+        "precision": 0.5544959128065395,
+        "recall": 0.407,
+        "f1": 0.46943483275663206,
+        "support": 1000
+      },
+      {
+        "label_id": 8,
+        "precision": 0.4960053262316911,
+        "recall": 0.7457457457457457,
+        "f1": 0.5957616953218713,
+        "support": 999
+      },
+      {
+        "label_id": 9,
+        "precision": 0.5339721254355401,
+        "recall": 0.613,
+        "f1": 0.5707635009310987,
+        "support": 1000
+      }
+    ]
+  },
+  "resources": {
+    "peak_rss_sampled_bytes": 1972031488,
+    "sample_count": 4,
+    "rss_sample_interval_seconds": 0.5,
+    "elapsed_seconds": 1.327757622115314,
+    "torch_cuda_peak_allocated_bytes": 0,
+    "torch_cuda_peak_reserved_bytes": 0,
+    "gpu_name": null,
+    "note": "sampled RSS maximum; allocated/reserved Torch memory is not total device usage"
+  }
+}

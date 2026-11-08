@@ -1,0 +1,138 @@
+{
+  "created_utc": "2026-11-06T11:27:33.273424+00:00",
+  "config": {
+    "version": "ag-news-imbalance-v1",
+    "conditions": {
+      "balanced": [
+        1500,
+        1500,
+        1500,
+        1500
+      ],
+      "mild": [
+        4200,
+        600,
+        600,
+        600
+      ],
+      "moderate": [
+        5100,
+        300,
+        300,
+        300
+      ],
+      "severe": [
+        5640,
+        120,
+        120,
+        120
+      ]
+    },
+    "majority_class": 0,
+    "minority_classes": [
+      1,
+      2,
+      3
+    ],
+    "sample_seed": 2026,
+    "training_seeds": [
+      42,
+      43,
+      44
+    ],
+    "hyperparameters": "Frozen from balanced AG News validation selection; no new search",
+    "mitigation": "Severe only: balanced class weights for TF-IDF SVM and inverse-frequency CE for DistilBERT",
+    "evaluation": "Existing balanced AG News validation/test, 1000 each; exploratory extension after original test inspection"
+  },
+  "audit": {
+    "config_sha256": "67a4393c610aa6f8be812d3cb01b946ec12246279e1663f82e6e6f56b4baae95",
+    "created_utc": "2026-11-06T11:27:33.097724+00:00",
+    "base_split_sha256": {
+      "train": "45fb4a367454e3c33494813fee0898d7ab4c32754ce72e17c7cfb46377fa5787",
+      "validation": "48008639efaa1a0548090ac06f82fa9a8f2c888216b7be38de1c8bbc071e5aec",
+      "test": "889f17d86f4c27d75ec499bab8e4579a54870b38635c2df522b09e694525a61c"
+    },
+    "sampling": "Fixed total 6000; World majority; nested class orders; balanced reference reused exactly; no duplicate/oversampled text",
+    "split_sha256": {
+      "balanced": "45fb4a367454e3c33494813fee0898d7ab4c32754ce72e17c7cfb46377fa5787",
+      "mild": "bc14193e42365f420cce6f82ac4a8be9a056f280c7c200acc2e6bc0e287708a4",
+      "moderate": "e60a978198c4fc83a79bd258a7f37e03dd6f63a8797aac644528061a630230cc",
+      "severe": "e39f6743cf4df7752f1433c9e81c50808e3fca48af173ab070b0bbfd4c5c9995"
+    },
+    "counts": {
+      "balanced": [
+        1500,
+        1500,
+        1500,
+        1500
+      ],
+      "mild": [
+        4200,
+        600,
+        600,
+        600
+      ],
+      "moderate": [
+        5100,
+        300,
+        300,
+        300
+      ],
+      "severe": [
+        5640,
+        120,
+        120,
+        120
+      ]
+    },
+    "eligible_train_n": 118795
+  },
+  "prior_test_exposure": "Balanced AG News test already inspected; all new ratios and mitigation fixed before new runs.",
+  "base_models": [
+    {
+      "model": "logistic_regression",
+      "seed": null,
+      "metadata_sha256": "dd32821790224a08b28228d363547dcb4c11230c23c8dad17916c95a65055e17"
+    },
+    {
+      "model": "linear_svm",
+      "seed": null,
+      "metadata_sha256": "ed0fe08c0f3fc3e14aea27ca7be7bf05296d1c5eac7d55d87f1abd36a81a0711"
+    },
+    {
+      "model": "word2vec_svm",
+      "seed": null,
+      "metadata_sha256": "bc7cf43c5a753101c18b023c2a8308b29952fee4b18b6740d76b4fb75f907bbc"
+    },
+    {
+      "model": "bilstm",
+      "seed": 42,
+      "metadata_sha256": "8287ef3efcd954b6e461ddbc1174f3e5a545c7b0af86d603f537b67575e0520e"
+    },
+    {
+      "model": "bilstm",
+      "seed": 43,
+      "metadata_sha256": "1f61c0ac050dd48b354f4bd7149ff3efa30a9c58ef200c8f23a95a1d78f30e73"
+    },
+    {
+      "model": "bilstm",
+      "seed": 44,
+      "metadata_sha256": "925f99e5449bbe7d2ca9dc46118d2fb42b94a4db7d9d80cf0a33651ce0eb82a8"
+    },
+    {
+      "model": "distilbert",
+      "seed": 42,
+      "metadata_sha256": "f8848e0c187c008ade0b21eeb8fad185da2f5da43e5d82787621b28aea3ecb5f"
+    },
+    {
+      "model": "distilbert",
+      "seed": 43,
+      "metadata_sha256": "813a8d722258b27f22f94dd87660e690d8e6fe326aeb399398e2ec9acee75e67"
+    },
+    {
+      "model": "distilbert",
+      "seed": 44,
+      "metadata_sha256": "270718d289e8978b6f11a451e703d331336ccc9673bc32991dae1ca4378e5869"
+    }
+  ]
+}

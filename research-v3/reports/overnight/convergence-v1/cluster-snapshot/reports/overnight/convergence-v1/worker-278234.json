@@ -1,0 +1,37 @@
+{
+  "device": "cpu",
+  "completed": [
+    {
+      "run_id": "7fa7be6e311a057e2a6549b2c6a0c0682bfcf2d8910ef558223612e104101ff3",
+      "status": "complete",
+      "stop_reason": "patience"
+    },
+    {
+      "run_id": "4f7ae8ea7b9713e134b2646e9cbf2c1f77b36eb51bd874ca3a5159ae85cf9737",
+      "status": "complete",
+      "stop_reason": "max_epochs"
+    },
+    {
+      "run_id": "ba3bdce0c0299d75eb868b3137650ab38df40a7a584bbd355ea0faf23f6e8113",
+      "status": "complete",
+      "stop_reason": "patience"
+    },
+    {
+      "run_id": "fe6998c51ac7f9c8780e1aa5bf26485d2606f77a1759fe34ae94905365ee743c",
+      "status": "complete",
+      "stop_reason": "max_epochs"
+    },
+    {
+      "run_id": "5a97de1041754a5c45780617c86af5ba4d81b32e986656665185387b39264a00",
+      "status": "complete",
+      "stop_reason": "patience"
+    },
+    {
+      "run_id": "59ab66b32c0a155e53bac6f8b4ced37b6216efe2904b0692ed54cf92abf3423b",
+      "status": "complete",
+      "stop_reason": "patience"
+    }
+  ],
+  "checked_at_utc": "2026-11-07T21:33:43.260377+00:00",
+  "official_test_predictions_allowed": false
+}

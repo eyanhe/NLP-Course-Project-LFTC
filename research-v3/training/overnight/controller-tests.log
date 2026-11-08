@@ -1,0 +1,49 @@
+......................................................................................................................................................................................................................................................................EEEE
+======================================================================
+ERROR: test_project (unittest.loader._FailedTest.test_project)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_project
+Traceback (most recent call last):
+  File "C:\Users\超级罪犯 顶风作案\AppData\Local\Programs\Python\Python311\Lib\unittest\loader.py", line 162, in loadTestsFromName
+    module = __import__(module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'tests.test_project'
+
+
+======================================================================
+ERROR: test_extension (unittest.loader._FailedTest.test_extension)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_extension
+Traceback (most recent call last):
+  File "C:\Users\超级罪犯 顶风作案\AppData\Local\Programs\Python\Python311\Lib\unittest\loader.py", line 162, in loadTestsFromName
+    module = __import__(module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'tests.test_extension'
+
+
+======================================================================
+ERROR: test_hard (unittest.loader._FailedTest.test_hard)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_hard
+Traceback (most recent call last):
+  File "C:\Users\超级罪犯 顶风作案\AppData\Local\Programs\Python\Python311\Lib\unittest\loader.py", line 162, in loadTestsFromName
+    module = __import__(module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'tests.test_hard'
+
+
+======================================================================
+ERROR: test_imbalance (unittest.loader._FailedTest.test_imbalance)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_imbalance
+Traceback (most recent call last):
+  File "C:\Users\超级罪犯 顶风作案\AppData\Local\Programs\Python\Python311\Lib\unittest\loader.py", line 162, in loadTestsFromName
+    module = __import__(module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'tests.test_imbalance'
+
+
+----------------------------------------------------------------------
+Ran 266 tests in 51.183s
+
+FAILED (errors=4)

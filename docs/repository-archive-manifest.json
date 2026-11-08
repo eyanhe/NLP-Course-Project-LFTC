@@ -1,0 +1,116 @@
+{
+    "organized_date_sgt":  "2026-11-08",
+    "operation":  "Move local transfer archives; no deletion",
+    "paths_relative_to":  "archive_path: project parent; original_path: project root",
+    "total_bytes":  31684085248,
+    "files":  [
+                  {
+                      "original_path":  "research-v3/reports/overnight/supplement-1-4/exact-condition-inputs.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/reports/overnight/supplement-1-4/exact-condition-inputs.tar",
+                      "bytes":  61440,
+                      "sha256":  "febcc3fe589ecd9e51535905c59ca274febb863e73a1b7418bd53e98d5798b62"
+                  },
+                  {
+                      "original_path":  "research-v3/reports/overnight/supplement-1-4/supplement-code.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/reports/overnight/supplement-1-4/supplement-code.tar",
+                      "bytes":  242688,
+                      "sha256":  "9b0dc2d4154543ba630e36fe394e11ca47caeeb9ad1cb66e53da99adacd5f492"
+                  },
+                  {
+                      "original_path":  "research-v3/reports/overnight/supplement-1-4/supplement-historical.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/reports/overnight/supplement-1-4/supplement-historical.tar",
+                      "bytes":  1376901120,
+                      "sha256":  "1268770faf53ead762397ff5f44d52ec46e17ef2bc1e204456c7a6019cfce0df"
+                  },
+                  {
+                      "original_path":  "research-v3/reports/overnight/supplement-1-4/supplement-runtime-v2.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/reports/overnight/supplement-1-4/supplement-runtime-v2.tar",
+                      "bytes":  471552,
+                      "sha256":  "fa29294f45118dbbdd43686f12250b66ad25bd68afccfdafa89cb2606e7a9bb6"
+                  },
+                  {
+                      "original_path":  "research-v3/reports/overnight/supplement-1-4/S4-ai-reviewed/ai-reviewed-evaluation.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/reports/overnight/supplement-1-4/S4-ai-reviewed/ai-reviewed-evaluation.tar",
+                      "bytes":  76800,
+                      "sha256":  "bb1d0a381132e3f34d62b8340937d8fffa95b47839dbaaefcb78baac5c66560c"
+                  },
+                  {
+                      "original_path":  "research-v3/training/cluster-migration/cluster-base.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/training/cluster-migration/cluster-base.tar",
+                      "bytes":  27796007936,
+                      "sha256":  "461b481ba52361ebc784cd94347d94b23e08c8404aaed417727f243331c80362"
+                  },
+                  {
+                      "original_path":  "research-v3/training/cluster-migration/cluster-overlay.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/training/cluster-migration/cluster-overlay.tar",
+                      "bytes":  471040,
+                      "sha256":  "5baa5c21a6f2f2d537fcc6d7cd5a43833c30aa721424d39c9b32600c075921eb"
+                  },
+                  {
+                      "original_path":  "research-v3/training/convergence-v1/budget-amendment.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/training/convergence-v1/budget-amendment.tar",
+                      "bytes":  28672,
+                      "sha256":  "d4cfaad990056ca65b5c71a6bc1f046260e9b5f6495fb6f98aacdf4e6fe4863c"
+                  },
+                  {
+                      "original_path":  "research-v3/training/convergence-v1/cluster-code.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/training/convergence-v1/cluster-code.tar",
+                      "bytes":  178176,
+                      "sha256":  "4ae82b7af0d3ea305973fc3563aad6d60871e5f8bcd3ab25a70be2f6966b6ae2"
+                  },
+                  {
+                      "original_path":  "research-v3/training/convergence-v1/evaluation-code.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/training/convergence-v1/evaluation-code.tar",
+                      "bytes":  19968,
+                      "sha256":  "4b75498a0596c8630591769a63ff3eadde8db0056318eeac284c0042de9fe1cf"
+                  },
+                  {
+                      "original_path":  "research-v3/training/convergence-v1/svm-first-workers.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/training/convergence-v1/svm-first-workers.tar",
+                      "bytes":  8704,
+                      "sha256":  "1c8df9d70f468cae69c17d454cb94634780cf7e425a44b86aaa539d662fbd12c"
+                  },
+                  {
+                      "original_path":  "research-v3/training/convergence-v1/timed-inference-code.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/training/convergence-v1/timed-inference-code.tar",
+                      "bytes":  23552,
+                      "sha256":  "b8b762f93d9c6c821593819a380d4939abc23ef9798159f2120a9df611fb8942"
+                  },
+                  {
+                      "original_path":  "research-v3/training/overnight/bank-queue.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/training/overnight/bank-queue.tar",
+                      "bytes":  287846400,
+                      "sha256":  "fc79ced556cbf0a6a7487faabe4fe29cd12a5da025792b376af512aaf3312e48"
+                  },
+                  {
+                      "original_path":  "research-v3/training/overnight/extension-assets.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/training/overnight/extension-assets.tar",
+                      "bytes":  602357760,
+                      "sha256":  "a87b4f5f76697e05db95bbfadae24c2c94a79f5759919e547188934853044944"
+                  },
+                  {
+                      "original_path":  "research-v3/training/overnight/failure-inputs.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/training/overnight/failure-inputs.tar",
+                      "bytes":  36136960,
+                      "sha256":  "5f5ae24a13fe8030a88beaa9450c5e392b687658496e47dcd33867bfc1f26034"
+                  },
+                  {
+                      "original_path":  "research-v3/training/overnight/first-bank.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/training/overnight/first-bank.tar",
+                      "bytes":  9922560,
+                      "sha256":  "15ebf5e13d4c24e9fcb0c3383474fa0260c98ff916384e5cb2ded217fa835bdf"
+                  },
+                  {
+                      "original_path":  "research-v3/training/overnight/other-data.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/training/overnight/other-data.tar",
+                      "bytes":  1573130240,
+                      "sha256":  "a8edf7f7c86bef521a426b706a1518e3312fa7111db5c1b2c9156b632b748e93"
+                  },
+                  {
+                      "original_path":  "research-v3/training/supplement-q-v1/deployment.tar",
+                      "archive_path":  "sentiment-project-archive/2026-11-08/transfer-packages/research-v3/training/supplement-q-v1/deployment.tar",
+                      "bytes":  199680,
+                      "sha256":  "1b31a33ecc42f78f2f1d07240ad8bca9dacec0d5ed6ddad85d0441269eea2459"
+                  }
+              ]
+}

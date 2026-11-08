@@ -1,0 +1,148 @@
+{
+  "dataset_id": "rotten_tomatoes",
+  "task": "single_label",
+  "label_names": [
+    "neg",
+    "pos"
+  ],
+  "manifest_hash": "cbded43068336b57acad3b11003f9ca47273dd50e3cfa49ad3bd6e4cda84dbdb",
+  "partitions": {
+    "train": {
+      "file": "data/rotten_tomatoes/train.parquet",
+      "sha256": "9b2fb9274c7d3cd598c8c047384dc1612b0de6e4e43a1fee5ece9f1d776d416d",
+      "bytes": 792633,
+      "rows": 8530,
+      "label_support": [
+        4265,
+        4265
+      ],
+      "ap_mask": [
+        0,
+        1
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "select": {
+      "file": "data/rotten_tomatoes/select.parquet",
+      "sha256": "75b413db9bd689e2441b40979a766723c35325e5b890c6363ebba49c36e91687",
+      "bytes": 59207,
+      "rows": 600,
+      "label_support": [
+        310,
+        290
+      ],
+      "ap_mask": [
+        0,
+        1
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "discovery": {
+      "file": "data/rotten_tomatoes/discovery.parquet",
+      "sha256": "a3ca28dda8f29db4e997945b2b33b5e02d081db183ab9c04f272e96a90ead285",
+      "bytes": 40936,
+      "rows": 400,
+      "label_support": [
+        190,
+        210
+      ],
+      "ap_mask": [
+        0,
+        1
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "test": {
+      "file": "data/rotten_tomatoes/test.parquet",
+      "sha256": "c30d96ba650e579e272ffd325683fb7a4301f4cd12340e2a6a6ee4f41161de36",
+      "bytes": 102864,
+      "rows": 1066,
+      "label_support": [
+        533,
+        533
+      ],
+      "ap_mask": [
+        0,
+        1
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "quarantine": {
+      "file": "data/rotten_tomatoes/quarantine.parquet",
+      "sha256": "8901434221fa1245bb567379a6d60c08b56be9c9bf762613e29ed1851138abbb",
+      "bytes": 9752,
+      "rows": 66,
+      "label_support": [
+        33,
+        33
+      ],
+      "ap_mask": [
+        0,
+        1
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {
+        "unused_official_validation": 66
+      }
+    }
+  },
+  "official_source_counts": {
+    "test": 1066,
+    "train": 8530,
+    "validation": 1066
+  },
+  "post_isolation_holdout_counts_are_actual": true,
+  "inputs": {
+    "dataset_id": "rotten_tomatoes",
+    "rows": 10596,
+    "input_hash": "24deffcb307bd4567f9acee3819e7720625b71d1130b9c4828c034fe815c64c9",
+    "file": "inputs/rotten_tomatoes.parquet",
+    "file_sha256": "f2e06d731dab147ecce7ccfa882c6446da94cec021b04407f795ac19dcc57b45",
+    "span_basis": "normalized_text_python_character_offsets",
+    "partitions": {
+      "train": {
+        "n": 8530,
+        "truncated_n": 0,
+        "truncated_fraction": 0.0,
+        "median_full_tokens": 25.0,
+        "p95_full_tokens": 45.0,
+        "zero_content_tokens": 0
+      },
+      "select": {
+        "n": 600,
+        "truncated_n": 0,
+        "truncated_fraction": 0.0,
+        "median_full_tokens": 24.0,
+        "p95_full_tokens": 47.0,
+        "zero_content_tokens": 0
+      },
+      "discovery": {
+        "n": 400,
+        "truncated_n": 0,
+        "truncated_fraction": 0.0,
+        "median_full_tokens": 24.0,
+        "p95_full_tokens": 46.0,
+        "zero_content_tokens": 0
+      },
+      "test": {
+        "n": 1066,
+        "truncated_n": 0,
+        "truncated_fraction": 0.0,
+        "median_full_tokens": 25.0,
+        "p95_full_tokens": 46.0,
+        "zero_content_tokens": 0
+      }
+    },
+    "actual_model_training_run": false,
+    "model_predictions_generated": false
+  }
+}

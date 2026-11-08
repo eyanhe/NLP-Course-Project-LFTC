@@ -1,0 +1,41 @@
+.venv/
+__pycache__/
+.cache/
+assets/
+models/
+data/*/*.jsonl
+run.log
+.streamlit/
+*.partial
+
+# Local environments, tools and execution state
+.venv*/
+.tools/
+.superpowers/
+*.py[cod]
+.pytest_cache/
+
+# Inherited large artifacts
+models-v2/
+models-hard/
+models-imbalance/
+data-v2/**/*.jsonl
+data-hard/**/*.jsonl
+data-imbalance/**/*.jsonl
+
+# v3 weights, raw/prepared data and reproducible feature caches
+research-v3/assets/
+research-v3/data/
+research-v3/inputs/
+research-v3/runs/
+research-v3/features/
+
+# Local transfer archives; sample-ID .ids.gz files remain eligible
+*.tar
+*.zip
+*.7z
+*.tmp
+~$*
+run-v2.log
+run-hard.log
+run-imbalance.log

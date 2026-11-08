@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "user_instruction": "?????????",
+  "recorded_at_utc": "2026-11-06T22:17:37.236990+00:00",
+  "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+  "design_lock_hash": "25298e295d2231241d6b360fbf1de3f59ecf8a6c207c6c72fd29ffc7efdce53b",
+  "training_enabled": false,
+  "test_predictions_enabled": false,
+  "allowed_training_phases": [
+    "engineering",
+    "main",
+    "mechanisms",
+    "fixed_baselines",
+    "fixed_main"
+  ],
+  "stage_constraints": {
+    "anchors": "requires all15 real E0 cases and checkpoint reloads",
+    "main_and_mechanisms": "requires real selections and three human D pilots in selection.lock",
+    "official_test_predictions": "requires separate global evaluation.freeze; never enabled by this authorization"
+  },
+  "grid_search_cancelled": true,
+  "fixed_hyperparameter_policy_hash": "93eb30632d8ee6f7f86fa876660dc36b3da27842c4b995fa20879a865df2f33b",
+  "user_approved_training_before_pilots": true,
+  "training_order_user_instruction": "????????????????????",
+  "execution_location": "local_stopped_pending_school_cluster",
+  "user_stop_local_instruction": "停止本机训练，改用学校计算集群。"
+}

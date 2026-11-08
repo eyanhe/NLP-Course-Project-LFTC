@@ -1,0 +1,142 @@
+[18:05:58] AG News prepared: 6000 train, 1000 validation, 1000 test; four balanced classes.
+[18:07:02] imdb/word2vec_svm: selected validation F1=0.8359
+[18:07:12] imdb/bilstm lr=0.001 seed=42 epoch=1: loss=0.6427 val F1=0.7217
+[18:07:15] imdb/bilstm lr=0.001 seed=42 epoch=2: loss=0.4614 val F1=0.8407
+[18:07:19] imdb/bilstm lr=0.001 seed=42 epoch=3: loss=0.3703 val F1=0.8454
+[18:07:22] imdb/bilstm lr=0.001 seed=42 epoch=4: loss=0.2537 val F1=0.7267
+[18:07:26] imdb/bilstm lr=0.001 seed=42 epoch=5: loss=0.2227 val F1=0.7961
+[18:07:31] imdb/bilstm lr=0.003 seed=42 epoch=1: loss=0.5919 val F1=0.7651
+[18:07:34] imdb/bilstm lr=0.003 seed=42 epoch=2: loss=0.3502 val F1=0.7912
+[18:07:38] imdb/bilstm lr=0.003 seed=42 epoch=3: loss=0.1833 val F1=0.7757
+[18:07:42] imdb/bilstm lr=0.003 seed=42 epoch=4: loss=0.1099 val F1=0.8322
+[18:07:45] imdb/bilstm lr=0.003 seed=42 epoch=5: loss=0.0330 val F1=0.8299
+[18:07:51] imdb/bilstm lr=0.001 seed=43 epoch=1: loss=0.6403 val F1=0.7639
+[18:07:55] imdb/bilstm lr=0.001 seed=43 epoch=2: loss=0.4189 val F1=0.8451
+[18:07:59] imdb/bilstm lr=0.001 seed=43 epoch=3: loss=0.3117 val F1=0.8072
+[18:08:02] imdb/bilstm lr=0.001 seed=43 epoch=4: loss=0.2204 val F1=0.8440
+[18:08:06] imdb/bilstm lr=0.001 seed=43 epoch=5: loss=0.1529 val F1=0.8629
+[18:08:11] imdb/bilstm lr=0.001 seed=44 epoch=1: loss=0.6492 val F1=0.7544
+[18:08:15] imdb/bilstm lr=0.001 seed=44 epoch=2: loss=0.4379 val F1=0.8560
+[18:08:19] imdb/bilstm lr=0.001 seed=44 epoch=3: loss=0.3277 val F1=0.8644
+[18:08:23] imdb/bilstm lr=0.001 seed=44 epoch=4: loss=0.2140 val F1=0.8560
+[18:08:26] imdb/bilstm lr=0.001 seed=44 epoch=5: loss=0.1414 val F1=0.8386
+[18:08:32] rotten_tomatoes/word2vec_svm: selected validation F1=0.6468
+[18:08:34] rotten_tomatoes/bilstm lr=0.001 seed=42 epoch=1: loss=0.6692 val F1=0.6043
+[18:08:35] rotten_tomatoes/bilstm lr=0.001 seed=42 epoch=2: loss=0.5204 val F1=0.7258
+[18:08:37] rotten_tomatoes/bilstm lr=0.001 seed=42 epoch=3: loss=0.3267 val F1=0.7438
+[18:08:38] rotten_tomatoes/bilstm lr=0.001 seed=42 epoch=4: loss=0.2013 val F1=0.7391
+[18:08:39] rotten_tomatoes/bilstm lr=0.001 seed=42 epoch=5: loss=0.1411 val F1=0.7490
+[18:08:41] rotten_tomatoes/bilstm lr=0.003 seed=42 epoch=1: loss=0.6482 val F1=0.7155
+[18:08:43] rotten_tomatoes/bilstm lr=0.003 seed=42 epoch=2: loss=0.4003 val F1=0.7420
+[18:08:44] rotten_tomatoes/bilstm lr=0.003 seed=42 epoch=3: loss=0.2013 val F1=0.7501
+[18:08:45] rotten_tomatoes/bilstm lr=0.003 seed=42 epoch=4: loss=0.0873 val F1=0.7463
+[18:08:47] rotten_tomatoes/bilstm lr=0.003 seed=42 epoch=5: loss=0.0399 val F1=0.7253
+[18:08:49] rotten_tomatoes/bilstm lr=0.003 seed=43 epoch=1: loss=0.6370 val F1=0.6819
+[18:08:50] rotten_tomatoes/bilstm lr=0.003 seed=43 epoch=2: loss=0.3854 val F1=0.7368
+[18:08:52] rotten_tomatoes/bilstm lr=0.003 seed=43 epoch=3: loss=0.1977 val F1=0.7490
+[18:08:54] rotten_tomatoes/bilstm lr=0.003 seed=43 epoch=4: loss=0.0943 val F1=0.7369
+[18:08:55] rotten_tomatoes/bilstm lr=0.003 seed=43 epoch=5: loss=0.0314 val F1=0.7287
+[18:08:57] rotten_tomatoes/bilstm lr=0.003 seed=44 epoch=1: loss=0.6406 val F1=0.6847
+[18:08:58] rotten_tomatoes/bilstm lr=0.003 seed=44 epoch=2: loss=0.3752 val F1=0.7435
+[18:08:59] rotten_tomatoes/bilstm lr=0.003 seed=44 epoch=3: loss=0.1776 val F1=0.7451
+[18:09:01] rotten_tomatoes/bilstm lr=0.003 seed=44 epoch=4: loss=0.0664 val F1=0.7327
+[18:09:02] rotten_tomatoes/bilstm lr=0.003 seed=44 epoch=5: loss=0.0259 val F1=0.7379
+[18:09:32] yelp/word2vec_svm: selected validation F1=0.8740
+[18:09:36] yelp/bilstm lr=0.001 seed=42 epoch=1: loss=0.5392 val F1=0.8636
+[18:09:40] yelp/bilstm lr=0.001 seed=42 epoch=2: loss=0.3132 val F1=0.8503
+[18:09:43] yelp/bilstm lr=0.001 seed=42 epoch=3: loss=0.2500 val F1=0.8613
+[18:09:47] yelp/bilstm lr=0.001 seed=42 epoch=4: loss=0.1689 val F1=0.8947
+[18:09:50] yelp/bilstm lr=0.001 seed=42 epoch=5: loss=0.1163 val F1=0.8988
+[18:09:55] yelp/bilstm lr=0.003 seed=42 epoch=1: loss=0.4774 val F1=0.8328
+[18:09:59] yelp/bilstm lr=0.003 seed=42 epoch=2: loss=0.2553 val F1=0.8673
+[18:10:02] yelp/bilstm lr=0.003 seed=42 epoch=3: loss=0.1522 val F1=0.8840
+[18:10:06] yelp/bilstm lr=0.003 seed=42 epoch=4: loss=0.0922 val F1=0.8677
+[18:10:10] yelp/bilstm lr=0.003 seed=42 epoch=5: loss=0.0377 val F1=0.8765
+[18:10:15] yelp/bilstm lr=0.001 seed=43 epoch=1: loss=0.5613 val F1=0.8499
+[18:10:19] yelp/bilstm lr=0.001 seed=43 epoch=2: loss=0.3474 val F1=0.7723
+[18:10:23] yelp/bilstm lr=0.001 seed=43 epoch=3: loss=0.2520 val F1=0.8679
+[18:10:27] yelp/bilstm lr=0.001 seed=43 epoch=4: loss=0.1969 val F1=0.8569
+[18:10:31] yelp/bilstm lr=0.001 seed=43 epoch=5: loss=0.1592 val F1=0.8692
+[18:10:36] yelp/bilstm lr=0.001 seed=44 epoch=1: loss=0.5263 val F1=0.8327
+[18:10:40] yelp/bilstm lr=0.001 seed=44 epoch=2: loss=0.3425 val F1=0.8730
+[18:10:44] yelp/bilstm lr=0.001 seed=44 epoch=3: loss=0.2701 val F1=0.8561
+[18:10:48] yelp/bilstm lr=0.001 seed=44 epoch=4: loss=0.1874 val F1=0.8899
+[18:10:52] yelp/bilstm lr=0.001 seed=44 epoch=5: loss=0.1341 val F1=0.8590
+[18:10:57] ag_news/logistic_regression: selected validation F1=0.8881
+[18:11:01] ag_news/linear_svm: selected validation F1=0.8856
+[18:11:13] ag_news/word2vec_svm: selected validation F1=0.8546
+[18:11:15] ag_news/bilstm lr=0.001 seed=42 epoch=1: loss=0.8123 val F1=0.8280
+[18:11:17] ag_news/bilstm lr=0.001 seed=42 epoch=2: loss=0.4108 val F1=0.8362
+[18:11:19] ag_news/bilstm lr=0.001 seed=42 epoch=3: loss=0.3085 val F1=0.8642
+[18:11:21] ag_news/bilstm lr=0.001 seed=42 epoch=4: loss=0.2261 val F1=0.8736
+[18:11:23] ag_news/bilstm lr=0.001 seed=42 epoch=5: loss=0.1654 val F1=0.8715
+[18:11:25] ag_news/bilstm lr=0.003 seed=42 epoch=1: loss=0.6271 val F1=0.8693
+[18:11:27] ag_news/bilstm lr=0.003 seed=42 epoch=2: loss=0.3159 val F1=0.8426
+[18:11:30] ag_news/bilstm lr=0.003 seed=42 epoch=3: loss=0.1752 val F1=0.8803
+[18:11:32] ag_news/bilstm lr=0.003 seed=42 epoch=4: loss=0.0850 val F1=0.8750
+[18:11:34] ag_news/bilstm lr=0.003 seed=42 epoch=5: loss=0.0369 val F1=0.8585
+[18:11:36] ag_news/bilstm lr=0.003 seed=43 epoch=1: loss=0.6430 val F1=0.8526
+[18:11:38] ag_news/bilstm lr=0.003 seed=43 epoch=2: loss=0.3310 val F1=0.8585
+[18:11:40] ag_news/bilstm lr=0.003 seed=43 epoch=3: loss=0.1945 val F1=0.8782
+[18:11:42] ag_news/bilstm lr=0.003 seed=43 epoch=4: loss=0.1103 val F1=0.8643
+[18:11:44] ag_news/bilstm lr=0.003 seed=43 epoch=5: loss=0.0571 val F1=0.8785
+[18:11:47] ag_news/bilstm lr=0.003 seed=44 epoch=1: loss=0.6374 val F1=0.8429
+[18:11:49] ag_news/bilstm lr=0.003 seed=44 epoch=2: loss=0.3156 val F1=0.8664
+[18:11:51] ag_news/bilstm lr=0.003 seed=44 epoch=3: loss=0.1834 val F1=0.8891
+[18:11:53] ag_news/bilstm lr=0.003 seed=44 epoch=4: loss=0.1046 val F1=0.8576
+[18:11:56] ag_news/bilstm lr=0.003 seed=44 epoch=5: loss=0.0611 val F1=0.8760
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[18:12:20] ag_news/distilbert lr=2e-05 seed=42 epoch=1: loss=0.5640 val F1=0.9299
+[18:12:44] ag_news/distilbert lr=2e-05 seed=42 epoch=2: loss=0.2455 val F1=0.9240
+[18:13:07] ag_news/distilbert lr=2e-05 seed=42 epoch=3: loss=0.1673 val F1=0.9318
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[18:13:31] ag_news/distilbert lr=5e-05 seed=42 epoch=1: loss=0.5074 val F1=0.9168
+[18:13:53] ag_news/distilbert lr=5e-05 seed=42 epoch=2: loss=0.2258 val F1=0.9187
+[18:14:18] ag_news/distilbert lr=5e-05 seed=42 epoch=3: loss=0.1267 val F1=0.9259
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[18:14:47] ag_news/distilbert lr=2e-05 seed=43 epoch=1: loss=0.5627 val F1=0.9168
+[18:15:12] ag_news/distilbert lr=2e-05 seed=43 epoch=2: loss=0.2384 val F1=0.9212
+[18:15:39] ag_news/distilbert lr=2e-05 seed=43 epoch=3: loss=0.1600 val F1=0.9299
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[18:16:03] ag_news/distilbert lr=2e-05 seed=44 epoch=1: loss=0.5647 val F1=0.9099
+[18:16:27] ag_news/distilbert lr=2e-05 seed=44 epoch=2: loss=0.2489 val F1=0.9280
+[18:16:51] ag_news/distilbert lr=2e-05 seed=44 epoch=3: loss=0.1700 val F1=0.9290
+[18:16:55] V2 protocol frozen: 36 final artifacts.
+[18:16:58] V2 TEST imdb/word2vec_svm seed=None: P=0.8610 R=0.8610 F1=0.8610
+[18:16:58] V2 TEST imdb/bilstm seed=42: P=0.8368 R=0.8330 F1=0.8325
+[18:16:59] V2 TEST imdb/bilstm seed=43: P=0.8340 R=0.8340 F1=0.8340
+[18:17:00] V2 TEST imdb/bilstm seed=44: P=0.8467 R=0.8450 F1=0.8448
+[18:17:00] V2 TEST rotten_tomatoes/word2vec_svm seed=None: P=0.6440 R=0.6440 F1=0.6440
+[18:17:00] V2 TEST rotten_tomatoes/bilstm seed=42: P=0.7597 R=0.7540 F1=0.7526
+[18:17:01] V2 TEST rotten_tomatoes/bilstm seed=43: P=0.7601 R=0.7600 F1=0.7600
+[18:17:01] V2 TEST rotten_tomatoes/bilstm seed=44: P=0.7504 R=0.7460 F1=0.7449
+[18:17:02] V2 TEST yelp/word2vec_svm seed=None: P=0.8885 R=0.8880 F1=0.8880
+[18:17:02] V2 TEST yelp/bilstm seed=42: P=0.8992 R=0.8970 F1=0.8969
+[18:17:03] V2 TEST yelp/bilstm seed=43: P=0.8863 R=0.8800 F1=0.8795
+[18:17:03] V2 TEST yelp/bilstm seed=44: P=0.9085 R=0.9080 F1=0.9080
+[18:17:03] V2 TEST ag_news/logistic_regression seed=None: P=0.8800 R=0.8800 F1=0.8800
+[18:17:04] V2 TEST ag_news/linear_svm seed=None: P=0.8775 R=0.8780 F1=0.8776
+[18:17:04] V2 TEST ag_news/word2vec_svm seed=None: P=0.8497 R=0.8500 F1=0.8497
+[18:17:04] V2 TEST ag_news/bilstm seed=42: P=0.8749 R=0.8740 F1=0.8742
+[18:17:05] V2 TEST ag_news/bilstm seed=43: P=0.8608 R=0.8570 F1=0.8565
+[18:17:05] V2 TEST ag_news/bilstm seed=44: P=0.8742 R=0.8730 F1=0.8727
+[18:17:07] V2 TEST ag_news/distilbert seed=42: P=0.9184 R=0.9180 F1=0.9182
+[18:17:09] V2 TEST ag_news/distilbert seed=43: P=0.9175 R=0.9170 F1=0.9172
+[18:17:11] V2 TEST ag_news/distilbert seed=44: P=0.9240 R=0.9230 F1=0.9233
+C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\extension.py:326: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  pd.concat([old_predictions,*records],ignore_index=True).to_csv(OUT/'predictions.csv',index=False)
+[18:17:13] V2 CPU imdb/word2vec_svm: 0.91 ms
+[18:17:33] V2 CPU imdb/bilstm: 14.14 ms
+[18:17:34] V2 CPU rotten_tomatoes/word2vec_svm: 0.84 ms
+[18:17:53] V2 CPU rotten_tomatoes/bilstm: 14.00 ms
+[18:17:54] V2 CPU yelp/word2vec_svm: 0.83 ms
+[18:18:14] V2 CPU yelp/bilstm: 13.65 ms
+[18:18:15] V2 CPU ag_news/logistic_regression: 1.54 ms
+[18:18:17] V2 CPU ag_news/linear_svm: 1.31 ms
+[18:18:18] V2 CPU ag_news/word2vec_svm: 0.79 ms
+[18:18:38] V2 CPU ag_news/bilstm: 13.73 ms
+[18:20:03] V2 CPU ag_news/distilbert: 79.32 ms

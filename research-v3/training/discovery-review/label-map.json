@@ -1,0 +1,378 @@
+{
+  "status": "reference_label_map_only",
+  "prepared_manifest_sha256": "f2c98d4079362aab8164d96fc4cf5011f168f8e5f9096e5f2426e44c9d51fefd",
+  "human_reviews_completed": false,
+  "datasets": {
+    "banking77": {
+      "label_count": 77,
+      "labels": [
+        {
+          "label_id": 0,
+          "source_label_name": "activate_my_card"
+        },
+        {
+          "label_id": 1,
+          "source_label_name": "age_limit"
+        },
+        {
+          "label_id": 2,
+          "source_label_name": "apple_pay_or_google_pay"
+        },
+        {
+          "label_id": 3,
+          "source_label_name": "atm_support"
+        },
+        {
+          "label_id": 4,
+          "source_label_name": "automatic_top_up"
+        },
+        {
+          "label_id": 5,
+          "source_label_name": "balance_not_updated_after_bank_transfer"
+        },
+        {
+          "label_id": 6,
+          "source_label_name": "balance_not_updated_after_cheque_or_cash_deposit"
+        },
+        {
+          "label_id": 7,
+          "source_label_name": "beneficiary_not_allowed"
+        },
+        {
+          "label_id": 8,
+          "source_label_name": "cancel_transfer"
+        },
+        {
+          "label_id": 9,
+          "source_label_name": "card_about_to_expire"
+        },
+        {
+          "label_id": 10,
+          "source_label_name": "card_acceptance"
+        },
+        {
+          "label_id": 11,
+          "source_label_name": "card_arrival"
+        },
+        {
+          "label_id": 12,
+          "source_label_name": "card_delivery_estimate"
+        },
+        {
+          "label_id": 13,
+          "source_label_name": "card_linking"
+        },
+        {
+          "label_id": 14,
+          "source_label_name": "card_not_working"
+        },
+        {
+          "label_id": 15,
+          "source_label_name": "card_payment_fee_charged"
+        },
+        {
+          "label_id": 16,
+          "source_label_name": "card_payment_not_recognised"
+        },
+        {
+          "label_id": 17,
+          "source_label_name": "card_payment_wrong_exchange_rate"
+        },
+        {
+          "label_id": 18,
+          "source_label_name": "card_swallowed"
+        },
+        {
+          "label_id": 19,
+          "source_label_name": "cash_withdrawal_charge"
+        },
+        {
+          "label_id": 20,
+          "source_label_name": "cash_withdrawal_not_recognised"
+        },
+        {
+          "label_id": 21,
+          "source_label_name": "change_pin"
+        },
+        {
+          "label_id": 22,
+          "source_label_name": "compromised_card"
+        },
+        {
+          "label_id": 23,
+          "source_label_name": "contactless_not_working"
+        },
+        {
+          "label_id": 24,
+          "source_label_name": "country_support"
+        },
+        {
+          "label_id": 25,
+          "source_label_name": "declined_card_payment"
+        },
+        {
+          "label_id": 26,
+          "source_label_name": "declined_cash_withdrawal"
+        },
+        {
+          "label_id": 27,
+          "source_label_name": "declined_transfer"
+        },
+        {
+          "label_id": 28,
+          "source_label_name": "direct_debit_payment_not_recognised"
+        },
+        {
+          "label_id": 29,
+          "source_label_name": "disposable_card_limits"
+        },
+        {
+          "label_id": 30,
+          "source_label_name": "edit_personal_details"
+        },
+        {
+          "label_id": 31,
+          "source_label_name": "exchange_charge"
+        },
+        {
+          "label_id": 32,
+          "source_label_name": "exchange_rate"
+        },
+        {
+          "label_id": 33,
+          "source_label_name": "exchange_via_app"
+        },
+        {
+          "label_id": 34,
+          "source_label_name": "extra_charge_on_statement"
+        },
+        {
+          "label_id": 35,
+          "source_label_name": "failed_transfer"
+        },
+        {
+          "label_id": 36,
+          "source_label_name": "fiat_currency_support"
+        },
+        {
+          "label_id": 37,
+          "source_label_name": "get_disposable_virtual_card"
+        },
+        {
+          "label_id": 38,
+          "source_label_name": "get_physical_card"
+        },
+        {
+          "label_id": 39,
+          "source_label_name": "getting_spare_card"
+        },
+        {
+          "label_id": 40,
+          "source_label_name": "getting_virtual_card"
+        },
+        {
+          "label_id": 41,
+          "source_label_name": "lost_or_stolen_card"
+        },
+        {
+          "label_id": 42,
+          "source_label_name": "lost_or_stolen_phone"
+        },
+        {
+          "label_id": 43,
+          "source_label_name": "order_physical_card"
+        },
+        {
+          "label_id": 44,
+          "source_label_name": "passcode_forgotten"
+        },
+        {
+          "label_id": 45,
+          "source_label_name": "pending_card_payment"
+        },
+        {
+          "label_id": 46,
+          "source_label_name": "pending_cash_withdrawal"
+        },
+        {
+          "label_id": 47,
+          "source_label_name": "pending_top_up"
+        },
+        {
+          "label_id": 48,
+          "source_label_name": "pending_transfer"
+        },
+        {
+          "label_id": 49,
+          "source_label_name": "pin_blocked"
+        },
+        {
+          "label_id": 50,
+          "source_label_name": "receiving_money"
+        },
+        {
+          "label_id": 51,
+          "source_label_name": "Refund_not_showing_up"
+        },
+        {
+          "label_id": 52,
+          "source_label_name": "request_refund"
+        },
+        {
+          "label_id": 53,
+          "source_label_name": "reverted_card_payment?"
+        },
+        {
+          "label_id": 54,
+          "source_label_name": "supported_cards_and_currencies"
+        },
+        {
+          "label_id": 55,
+          "source_label_name": "terminate_account"
+        },
+        {
+          "label_id": 56,
+          "source_label_name": "top_up_by_bank_transfer_charge"
+        },
+        {
+          "label_id": 57,
+          "source_label_name": "top_up_by_card_charge"
+        },
+        {
+          "label_id": 58,
+          "source_label_name": "top_up_by_cash_or_cheque"
+        },
+        {
+          "label_id": 59,
+          "source_label_name": "top_up_failed"
+        },
+        {
+          "label_id": 60,
+          "source_label_name": "top_up_limits"
+        },
+        {
+          "label_id": 61,
+          "source_label_name": "top_up_reverted"
+        },
+        {
+          "label_id": 62,
+          "source_label_name": "topping_up_by_card"
+        },
+        {
+          "label_id": 63,
+          "source_label_name": "transaction_charged_twice"
+        },
+        {
+          "label_id": 64,
+          "source_label_name": "transfer_fee_charged"
+        },
+        {
+          "label_id": 65,
+          "source_label_name": "transfer_into_account"
+        },
+        {
+          "label_id": 66,
+          "source_label_name": "transfer_not_received_by_recipient"
+        },
+        {
+          "label_id": 67,
+          "source_label_name": "transfer_timing"
+        },
+        {
+          "label_id": 68,
+          "source_label_name": "unable_to_verify_identity"
+        },
+        {
+          "label_id": 69,
+          "source_label_name": "verify_my_identity"
+        },
+        {
+          "label_id": 70,
+          "source_label_name": "verify_source_of_funds"
+        },
+        {
+          "label_id": 71,
+          "source_label_name": "verify_top_up"
+        },
+        {
+          "label_id": 72,
+          "source_label_name": "virtual_card_not_working"
+        },
+        {
+          "label_id": 73,
+          "source_label_name": "visa_or_mastercard"
+        },
+        {
+          "label_id": 74,
+          "source_label_name": "why_verify_identity"
+        },
+        {
+          "label_id": 75,
+          "source_label_name": "wrong_amount_of_cash_received"
+        },
+        {
+          "label_id": 76,
+          "source_label_name": "wrong_exchange_rate_for_cash_withdrawal"
+        }
+      ]
+    },
+    "yelp": {
+      "label_count": 2,
+      "labels": [
+        {
+          "label_id": 0,
+          "source_label_name": "1"
+        },
+        {
+          "label_id": 1,
+          "source_label_name": "2"
+        }
+      ]
+    },
+    "yahoo_answers_topics": {
+      "label_count": 10,
+      "labels": [
+        {
+          "label_id": 0,
+          "source_label_name": "Society & Culture"
+        },
+        {
+          "label_id": 1,
+          "source_label_name": "Science & Mathematics"
+        },
+        {
+          "label_id": 2,
+          "source_label_name": "Health"
+        },
+        {
+          "label_id": 3,
+          "source_label_name": "Education & Reference"
+        },
+        {
+          "label_id": 4,
+          "source_label_name": "Computers & Internet"
+        },
+        {
+          "label_id": 5,
+          "source_label_name": "Sports"
+        },
+        {
+          "label_id": 6,
+          "source_label_name": "Business & Finance"
+        },
+        {
+          "label_id": 7,
+          "source_label_name": "Entertainment & Music"
+        },
+        {
+          "label_id": 8,
+          "source_label_name": "Family & Relationships"
+        },
+        {
+          "label_id": 9,
+          "source_label_name": "Politics & Government"
+        }
+      ]
+    }
+  }
+}

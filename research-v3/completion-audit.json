@@ -1,0 +1,191 @@
+{
+  "objective": "?????????????????",
+  "complete": true,
+  "requirements": [
+    {
+      "requirement": "Full independent verification matches current design lock",
+      "passed": true,
+      "evidence": "pretraining-verification.json; design.lock.json"
+    },
+    {
+      "requirement": "Exactly three new datasets and seven main datasets",
+      "passed": true,
+      "evidence": "configs/research-v3.json; data/prepared_manifest.json"
+    },
+    {
+      "requirement": "Fixed 31 actual asset bytes checked",
+      "passed": true,
+      "evidence": "pretraining-verification.json checks.assets"
+    },
+    {
+      "requirement": "Python3.11, actual GPU and six forward combinations",
+      "passed": true,
+      "evidence": "environment.json; forward_checks.json"
+    },
+    {
+      "requirement": "All official source rows independently checked",
+      "passed": true,
+      "evidence": "pretraining-verification.json checks.data_and_inputs"
+    },
+    {
+      "requirement": "Global groups and independent exact texts do not cross partitions",
+      "passed": true,
+      "evidence": "pretraining-verification.json checks.data_and_inputs"
+    },
+    {
+      "requirement": "Every legal visible input has verified source and character span",
+      "passed": true,
+      "evidence": "pretraining-verification.json checks.data_and_inputs"
+    },
+    {
+      "requirement": "All 367 conditions are unique T subsets and scale prefixes nest",
+      "passed": true,
+      "evidence": "matrix/conditions; pretraining-verification.json"
+    },
+    {
+      "requirement": "Go alpha0 exactly reuses E1 anchor at seed 2026",
+      "passed": true,
+      "evidence": "matrix/design_manifest.json logical aliases"
+    },
+    {
+      "requirement": "Go alpha0 exactly reuses E1 anchor at seed 2027",
+      "passed": true,
+      "evidence": "matrix/design_manifest.json logical aliases"
+    },
+    {
+      "requirement": "Go alpha0 exactly reuses E1 anchor at seed 2028",
+      "passed": true,
+      "evidence": "matrix/design_manifest.json logical aliases"
+    },
+    {
+      "requirement": "All Go28 select/test AP labels remain supported",
+      "passed": true,
+      "evidence": "data/go_emotions/manifest.json"
+    },
+    {
+      "requirement": "Strict fewshot uses fixed hparams and no anchor binding",
+      "passed": true,
+      "evidence": "matrix/design_manifest.json physical_runs"
+    },
+    {
+      "requirement": "Bank50-shot shortfall is explicit",
+      "passed": true,
+      "evidence": "matrix/design_manifest.json infeasible_conditions"
+    },
+    {
+      "requirement": "All five mechanisms and three unresolved human D pilots configured",
+      "passed": true,
+      "evidence": "matrix/design_manifest.json; audit/"
+    },
+    {
+      "requirement": "All E5 common texts fit ModernBERT without additional truncation",
+      "passed": true,
+      "evidence": "reference-input-audit.json"
+    },
+    {
+      "requirement": "E0 engineering packets bind current design",
+      "passed": true,
+      "evidence": "engineering-smoke-inputs.json"
+    },
+    {
+      "requirement": "E0 go_emotions train exact IDs",
+      "passed": true,
+      "evidence": "engineering-smoke-inputs.json; actual partition Parquet"
+    },
+    {
+      "requirement": "E0 go_emotions select exact IDs",
+      "passed": true,
+      "evidence": "engineering-smoke-inputs.json; actual partition Parquet"
+    },
+    {
+      "requirement": "E0 go_emotions discovery exact IDs",
+      "passed": true,
+      "evidence": "engineering-smoke-inputs.json; actual partition Parquet"
+    },
+    {
+      "requirement": "E0 banking77 train exact IDs",
+      "passed": true,
+      "evidence": "engineering-smoke-inputs.json; actual partition Parquet"
+    },
+    {
+      "requirement": "E0 banking77 select exact IDs",
+      "passed": true,
+      "evidence": "engineering-smoke-inputs.json; actual partition Parquet"
+    },
+    {
+      "requirement": "E0 banking77 discovery exact IDs",
+      "passed": true,
+      "evidence": "engineering-smoke-inputs.json; actual partition Parquet"
+    },
+    {
+      "requirement": "E0 yahoo_answers_topics train exact IDs",
+      "passed": true,
+      "evidence": "engineering-smoke-inputs.json; actual partition Parquet"
+    },
+    {
+      "requirement": "E0 yahoo_answers_topics select exact IDs",
+      "passed": true,
+      "evidence": "engineering-smoke-inputs.json; actual partition Parquet"
+    },
+    {
+      "requirement": "E0 yahoo_answers_topics discovery exact IDs",
+      "passed": true,
+      "evidence": "engineering-smoke-inputs.json; actual partition Parquet"
+    },
+    {
+      "requirement": "Final48 and original22 tests plus pip check pass",
+      "passed": true,
+      "evidence": "test-evidence.json"
+    },
+    {
+      "requirement": "Real training/evaluation commands fail closed and later locks absent",
+      "passed": true,
+      "evidence": "access-gate-checks.json; current filesystem"
+    },
+    {
+      "requirement": "Measured storage budget binds current design",
+      "passed": true,
+      "evidence": "resource-budget.json"
+    },
+    {
+      "requirement": "Superpowers15 skills and80 files present",
+      "passed": true,
+      "evidence": "skill-installation-check.json"
+    },
+    {
+      "requirement": "Physical IDs include protocol and full fixed training policy",
+      "passed": true,
+      "evidence": "matrix/design_manifest.json; epoch-change RED/GREEN regression"
+    },
+    {
+      "requirement": "Human failure audit and completion instructions exist",
+      "passed": true,
+      "evidence": "audit/; PRETRAINING.md"
+    }
+  ],
+  "requirements_passed": 32,
+  "design_hash": "f3b17e32567e75337ee9326cacfae12c0ed5e587543100909421a8a37ae5280d",
+  "lock_hash": "8f62970c64e3b34fa7e1f4b7830a9aab31ded47ed12c18723de0e32504a7c58d",
+  "supplemental_artifacts": {
+    "pretraining-verification.json": "9e9069ecd97a373b3213d9a681aa810b4060e6e7da823787ecff4568342cd7e0",
+    "test-evidence.json": "fa2dc4508da09f1f9bc9654a49e90c95e48c33f2f43a3b8ec80a0beed7fe9b9c",
+    "access-gate-checks.json": "1e3e19704464fd17550cd3410319446b97730101401e6c687a6b34d6f63ca8e1",
+    "reference-input-audit.json": "8c7b4904bd0236831b08159ce00a6a5ce8cfbae0341c94e81bf469c087637b16",
+    "engineering-smoke-inputs.json": "8b103f3f8ddd8fdf334df94497efc58d0c4e81b96338584eac33dae86ecc8735",
+    "resource-budget.json": "bcd29cc8e52b143efbaad77e72e604dde4fe6ca677329adf9f399ae72b0a989e",
+    "skill-installation-check.json": "004a0a5b552ac516bd8b3f3cc0f214d20ff57d63fa5caf6db3e79a0b9dad996c",
+    "PRETRAINING.md": "46087712ea3b5ae01d68614f6e065246349104830b8f94ac7a309a32b83c1d53"
+  },
+  "deferred_minor": "prepare early empty-AP guard task alias; real Go28 mask and final verifier valid",
+  "scope_exclusions": [
+    "E0 engineering fits",
+    "anchor hyperparameter selections",
+    "three genuine D pilots and human review",
+    "selection.lock",
+    "all actual fits and checkpoints",
+    "evaluation.freeze",
+    "Q predictions"
+  ],
+  "actual_research_model_training_run": false,
+  "official_test_predictions_generated": false
+}

@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "stop_reason": "patience",
+  "epochs_completed": 19,
+  "selected_epoch": 14
+}

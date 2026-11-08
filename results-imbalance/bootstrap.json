@@ -1,0 +1,38 @@
+{
+  "rows": [
+    {
+      "model": "logistic_regression",
+      "degradation_macro_f1": 0.7717166914256144,
+      "ci95_low": 0.750190920127469,
+      "ci95_high": 0.7927736157060594
+    },
+    {
+      "model": "linear_svm",
+      "degradation_macro_f1": 0.7776371159530678,
+      "ci95_low": 0.7582863007871796,
+      "ci95_high": 0.7968880453386498
+    },
+    {
+      "model": "word2vec_svm",
+      "degradation_macro_f1": 0.5641255419783964,
+      "ci95_low": 0.5275759003954641,
+      "ci95_high": 0.5981960075315839
+    },
+    {
+      "model": "bilstm",
+      "degradation_macro_f1": 0.3718276646992317,
+      "ci95_low": 0.33672558376786177,
+      "ci95_high": 0.4075648531163307
+    },
+    {
+      "model": "distilbert",
+      "degradation_macro_f1": 0.13351437346155182,
+      "ci95_low": 0.11019042118103418,
+      "ci95_high": 0.15917748634194614
+    }
+  ],
+  "replicates": 2000,
+  "seed": 2026,
+  "contrast": "Balanced minus severe, fixed traditional fit or deep seed42",
+  "scope": "Paired, class-stratified bootstrap on 1000 fixed test examples. Conditional on trained checkpoints, no training/sampling uncertainty or multiple comparison correction."
+}

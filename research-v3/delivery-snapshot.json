@@ -1,0 +1,22 @@
+{
+  "recorded_at_utc": "2026-11-06T21:47:13.136415+00:00",
+  "complete": true,
+  "requirements_passed": 32,
+  "design_lock_hash": "8f62970c64e3b34fa7e1f4b7830a9aab31ded47ed12c18723de0e32504a7c58d",
+  "files": {
+    "docs/superpowers/README.md": "0d5748376395daa11263e9d6d849d62f1d6a8f3f530cdc627c4df3256a9f6284",
+    "docs/superpowers/plans/2026-11-07-text-classification-research-plan.md": "2bae452134e8b32263edcc2ca53c035e61356ec234a2a5cf0a34d552e65cd460",
+    "docs/superpowers/specs/2026-11-07-preparation-clarifications.md": "4f5ed0c89391dd736cf59d42a426d6094389da3412d1ef0a71d3aa59e7626c58",
+    "docs/superpowers/reviews/2026-11-07-pretraining-code-review.md": "155f8da711c41e0f10687a2593e7fc45392ab772f1f3c2ec716eac4b553e3f0b",
+    "docs/superpowers/reviews/2026-11-07-pretraining-completion.md": "f546a34fe6d232247bbce54a7e1e9210e6198e8818dcb4f4c78ec1342f5330d4",
+    "research-v3/PRETRAINING.md": "46087712ea3b5ae01d68614f6e065246349104830b8f94ac7a309a32b83c1d53",
+    "research-v3/completion-audit.json": "21e6567118e86a3cb565a40c8b7e2632c77aacbfc6702aed18c4c84ec851d20b",
+    "research-v3/pretraining-verification.json": "9e9069ecd97a373b3213d9a681aa810b4060e6e7da823787ecff4568342cd7e0",
+    "research-v3/engineering-smoke-inputs.json": "8b103f3f8ddd8fdf334df94497efc58d0c4e81b96338584eac33dae86ecc8735",
+    "research-v3/reference-input-audit.json": "8c7b4904bd0236831b08159ce00a6a5ce8cfbae0341c94e81bf469c087637b16",
+    "research-v3/resource-budget.json": "bcd29cc8e52b143efbaad77e72e604dde4fe6ca677329adf9f399ae72b0a989e",
+    ".superpowers/sdd/2026-11-07-text-classification-research-plan/progress.md": "2882f594f528d4f122189474010216c2d5524bebdafbac0bdfbe9bfe77f68037"
+  },
+  "no_formal_training": true,
+  "no_official_test_predictions": true
+}

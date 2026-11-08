@@ -1,0 +1,214 @@
+{
+  "source": "C:\\Users\\超级罪犯 顶风作案\\Desktop\\6405\\6405 自然语言处理 课程作业\\sentiment-project\\research-v3\\reports\\overnight\\charts-v1\\all-completed-records.csv",
+  "source_sha256": "315989d59b9367932a050fe132b91687de910b756176f0064ed29eeb02ec330c",
+  "source_snapshot": "2026-11-07T22:23:40.658541+08:00",
+  "figure_count": 4,
+  "comparisons": [
+    {
+      "question": 1,
+      "dataset": "yelp",
+      "svm": 0.9033236656999033,
+      "distilbert": 0.9299719887955182,
+      "difference_percentage_points": 2.6648323095614934,
+      "run_ids": [
+        "cf066d53cda8bde6f01f1bfcce3b94327eba36ee969ee5810927feb59c4e401a",
+        "c325023d5ffc03935b7c92239380a7043daf9756d474a98b73a2139cfe443102"
+      ]
+    },
+    {
+      "question": 1,
+      "dataset": "go_emotions",
+      "svm": 0.36505393073208864,
+      "distilbert": 0.32154020165485836,
+      "difference_percentage_points": -4.351372907723028,
+      "run_ids": [
+        "37d4ddbc8597a869eb793becda423106a85d9febc54817352058fc34d6487d79",
+        "c829f41ef93d270289f194bb4eeb5f2db854b5dfc1d6131016c382e208deb698"
+      ]
+    },
+    {
+      "question": 1,
+      "dataset": "banking77",
+      "svm": 0.8364679117012138,
+      "distilbert": 0.8456558724409191,
+      "difference_percentage_points": 0.9187960739705292,
+      "run_ids": [
+        "5aa9bf514fa60c7ef6651214d304dc213b0012a265a8af0e2e2bfa46913a9488",
+        "a9b8318f052466eb376cd08d7879ec3752c122ceb4113cda16303318270298c0"
+      ]
+    },
+    {
+      "question": 1,
+      "dataset": "yahoo_answers_topics",
+      "svm": 0.6066792288337879,
+      "distilbert": 0.7088217198571949,
+      "difference_percentage_points": 10.2142491023407,
+      "run_ids": [
+        "a82cfafc815671ce71b3e3ecb05ef20e329d1a155889ace34f39c0fc43fa042b",
+        "b5b610d1dd1a5acb052f24456c1c072de664b51ce9092a9a5fc8bc6d2f5d9cf1"
+      ]
+    },
+    {
+      "question": 3,
+      "dataset": "yelp",
+      "model": "tfidf_svm",
+      "balanced": 0.9066573323999066,
+      "skewed": 0.6615351020853806,
+      "drop_percentage_points": 24.512223031452606,
+      "run_ids": [
+        "dfcb1b0fcd64128245c33ca7272d481ce7e06969a47c4de8d557b697bbf241fa",
+        "a7ec312757ec8cfbcde97358dfacc1de39b07b8f0eda8d118ff156fd3f0ab245"
+      ]
+    },
+    {
+      "question": 3,
+      "dataset": "yelp",
+      "model": "distilbert",
+      "balanced": 0.9349998194439428,
+      "skewed": 0.855119666662923,
+      "drop_percentage_points": 7.988015278101979,
+      "run_ids": [
+        "41a600915df8f89d8da36e60f3c61491fff20cb7ef745683228faa2af9f727e4",
+        "25b79ebe66386c95c4e6fb163233530188c799666466ce7ca849e6fd03fbc23b"
+      ]
+    },
+    {
+      "question": 3,
+      "dataset": "banking77",
+      "model": "tfidf_svm",
+      "balanced": 0.6476599559773637,
+      "skewed": 0.5839856737441131,
+      "drop_percentage_points": 6.367428223325056,
+      "run_ids": [
+        "bdcfc14f1892bedb0c608ad249a2037082dd2f7cccc06c43335bfaddbba792a0",
+        "b0a09fa6c178e2357d5826e65972f9c62afe8098ce2cefbcf97ab802fe001240"
+      ]
+    },
+    {
+      "question": 3,
+      "dataset": "banking77",
+      "model": "distilbert",
+      "balanced": 0.3443597353582589,
+      "skewed": 0.12210135459560244,
+      "drop_percentage_points": 22.225838076265646,
+      "run_ids": [
+        "d0a4c687b40a883c9f167b0447ba122094569efa595468a0f4e309a2fb14213a",
+        "29a35f2da382b3c795f5dee06baaff776bafe62daa18b5f8d2c1a3066f04a94b"
+      ]
+    },
+    {
+      "question": 3,
+      "dataset": "yahoo_answers_topics",
+      "model": "tfidf_svm",
+      "balanced": 0.6070897923275975,
+      "skewed": 0.5116806380779065,
+      "drop_percentage_points": 9.540915424969098,
+      "run_ids": [
+        "abeaba6f01650b97c381c07ffe16b204ecc5f8a616edd9f5ae18d8bdf1ec952c",
+        "26b556b3063d905fe241557fc005671d61183d69cb9d9dabd1ed132ea2f67351"
+      ]
+    },
+    {
+      "question": 3,
+      "dataset": "yahoo_answers_topics",
+      "model": "distilbert",
+      "balanced": 0.70979343498117,
+      "skewed": 0.6650058754746417,
+      "drop_percentage_points": 4.478755950652824,
+      "run_ids": [
+        "244f8479523ea051bc6ed2a65ea769c66d8904749013bbb34b47e15544c5ac27",
+        "1ca937c47901e5a0aeb17aecb1a6fd791b79474e0bab231786abeddb583234f1"
+      ]
+    }
+  ],
+  "per_figure_run_ids": {
+    "01-同样数据比较两种模型": [
+      "cf066d53cda8bde6f01f1bfcce3b94327eba36ee969ee5810927feb59c4e401a",
+      "c325023d5ffc03935b7c92239380a7043daf9756d474a98b73a2139cfe443102",
+      "37d4ddbc8597a869eb793becda423106a85d9febc54817352058fc34d6487d79",
+      "c829f41ef93d270289f194bb4eeb5f2db854b5dfc1d6131016c382e208deb698",
+      "5aa9bf514fa60c7ef6651214d304dc213b0012a265a8af0e2e2bfa46913a9488",
+      "a9b8318f052466eb376cd08d7879ec3752c122ceb4113cda16303318270298c0",
+      "a82cfafc815671ce71b3e3ecb05ef20e329d1a155889ace34f39c0fc43fa042b",
+      "b5b610d1dd1a5acb052f24456c1c072de664b51ce9092a9a5fc8bc6d2f5d9cf1"
+    ],
+    "02-同一模型增加训练数据": [
+      "8de08be16ebebad34206dc5d960328147cd8b6f08e20fea4627409bcb3c2fcff",
+      "cf066d53cda8bde6f01f1bfcce3b94327eba36ee969ee5810927feb59c4e401a",
+      "a1e93eb9817868ea403730716d4395dc1bec187d45938e6ec9d7e6f0393d9063",
+      "7230290ed62a8d318d7fb63f2f29908d42de551219fd6a2cc647b9498253eba0",
+      "ba9778eb8912f1ddc58fb765a4035cd8ac615aad47b06909fe36bf80e30223a9",
+      "37d4ddbc8597a869eb793becda423106a85d9febc54817352058fc34d6487d79",
+      "cae9c80e477e27c84d56805d886ff7f59e608b34477ab7d7033671635be07090",
+      "23b4968c73af7c4b1894d846fd76df838414692d48755032cbff6a94f4039d34",
+      "5aa9bf514fa60c7ef6651214d304dc213b0012a265a8af0e2e2bfa46913a9488",
+      "cb544e04a2a6bde7d0260403acffafda6e3fe9abcdf8dc26c86c613153071bb2",
+      "a82cfafc815671ce71b3e3ecb05ef20e329d1a155889ace34f39c0fc43fa042b",
+      "de3bc54092bfb7255050f26126533543abd15add64fda5c540676114812a5858",
+      "88e5f09207f8b672911182026eec2e0b0df9c7c0f52862736d5a4e74ed9db697"
+    ],
+    "03-均衡与不均衡的变化": [
+      "dfcb1b0fcd64128245c33ca7272d481ce7e06969a47c4de8d557b697bbf241fa",
+      "a7ec312757ec8cfbcde97358dfacc1de39b07b8f0eda8d118ff156fd3f0ab245",
+      "41a600915df8f89d8da36e60f3c61491fff20cb7ef745683228faa2af9f727e4",
+      "25b79ebe66386c95c4e6fb163233530188c799666466ce7ca849e6fd03fbc23b",
+      "bdcfc14f1892bedb0c608ad249a2037082dd2f7cccc06c43335bfaddbba792a0",
+      "b0a09fa6c178e2357d5826e65972f9c62afe8098ce2cefbcf97ab802fe001240",
+      "d0a4c687b40a883c9f167b0447ba122094569efa595468a0f4e309a2fb14213a",
+      "29a35f2da382b3c795f5dee06baaff776bafe62daa18b5f8d2c1a3066f04a94b",
+      "abeaba6f01650b97c381c07ffe16b204ecc5f8a616edd9f5ae18d8bdf1ec952c",
+      "26b556b3063d905fe241557fc005671d61183d69cb9d9dabd1ed132ea2f67351",
+      "244f8479523ea051bc6ed2a65ea769c66d8904749013bbb34b47e15544c5ac27",
+      "1ca937c47901e5a0aeb17aecb1a6fd791b79474e0bab231786abeddb583234f1"
+    ],
+    "04-预训练与继续训练编码器": [
+      "8010d2183e867715f7b0a22961a16ea70823afd3d4492817be749fc2c869a042",
+      "8069f654b64436debf2fdc74e0be105c1d451f51f2f40f71f657cd57aa9f530a",
+      "f07ed7e3a9dae4157e8096193cf2e41c285310ab8b160f2492dc151deca4d90c",
+      "a49a3bac54bad191d9bd3b9ed01084341bb23682843af3c93ed10bd7a70f5e00",
+      "217882c926359945e039708403a2b836b535118793becf0798c262b9325138e9",
+      "b7be4a392d9bb09863dc0bba3bb72b811518fe336a4983f673787d18b8887300",
+      "b8528ecf51854736630a95549a4bc252001439bcb25bb059dc6441c7761f0816",
+      "2392bb8cea7060edebec2a6145894b1ffbf6596e3a5623fdef38514ab0916d3a",
+      "a7d1016e139ac79611431bd97f9b108caa2e33e6d9b4d5ed1cac0956cc2e223f",
+      "39076c2b494218167760f5ae4b6f0453fb1bfeb2ccaed80acb8f085a7c0b0105",
+      "dd758e464d66d49a6df56d13564ef9680e5bf318ef0e030db4f9893dba18dcc6",
+      "57b9865e17f0a64a66b838aed2b0032b3fcdd4bf300a37ff1e60057148dc85c1",
+      "adfcb835969bd20bd1652e8dd2e9003c368c9c963202a690d3630566424998c6",
+      "9cbd57ed1f077c9e41c618a750c6a058b6ae927b289bd2c82a054d22159a3825",
+      "3d24fbff46c727517d856e1fd3bd1f3d2e3bf99523d9126b33d0384954643506",
+      "566f0b510db610ac2d1983fbf856ed84611d8b72f9c4fd749ede4ec71e542136",
+      "24f899341bb58321b3d83f93e8ca910e6b542fdf1c0d7b203bc61d1a9da2a80d",
+      "03c3b79369bd5452c08c988b3280efff415d6a7391b846d9889a24a76d93a9bf",
+      "9caa2f9060dafe7041ea3a787ffa99a8c88cf15fece9a30ecdc4c4c97be87a47",
+      "08a61eaad0293d68a304e15c9f53d5a6162bb5017ae0d8b0c07dd7d61ae5c461",
+      "a67691e809d0c2fd535d114f7d808ab1054a96db2d7aa7d2d78b20fc341a85d3",
+      "6afddc7f8880ba4870088f949119b44d9bfa61b96f22f1e3d14881beeb10ca7a",
+      "cd2de267bdf5cd46e54c5ff377238004b6d4cc455abbd53fff22b436cf1dda69",
+      "87c899870e470ec49171f87bc92ea191f1e3a363b7e4f3e289bb75ecf3020a31",
+      "4eed91b211c9b90c94d1ba72c167d26f19134e3bdda08e2750ed965ba73ec99b",
+      "4a699c0e4b80392724fc9f6f02f9181b3c40f1911e9550ff1cc12e1d6716ee83",
+      "548c4de35275b6fda981a9439387c9885376e73cfaf7eb131aee5d658daa6745",
+      "f0a01e38072d2b81b08c0d56f3d3efcc6c49787d6529dae5f8ce7573914b35a9",
+      "7a255356e33a3d053be9045138ef0967e776e75e656ba794c61c5afaa3759f43",
+      "82ed27ce75a5f0d1ed3956081edde5651c5ac6df8990152e5c57f937c5ec4ccc",
+      "167ab87cc103d7f7f94d9a277b34ef8b38328d152a370d59c252c7c98751860c",
+      "3f2746b4393755f5c85211b12117df1d001de5705daaf6aeb9fd7cbf6e63e1d0",
+      "7b0f7c055b7915c375fa95ce037f344772e652c0854bc732e94e87999ef67eb7",
+      "8c8cbde132e26a32da2e7c345f7294f55fcbaad21bb287284f9036fd041235f1",
+      "f36290bb7d77cea9eec5361b32ff1b26cd425e600de027efb25b5a2216904e2b",
+      "acefbc87fbaa268efab5577eca7f88002b4cec013396ce3a77685efef3a494d0"
+    ]
+  },
+  "readable_main_figures_are_selected_matched_comparisons": true,
+  "all_completed_records_retained_in_appendix": "../charts-v1/README.md",
+  "training_started": false,
+  "formal_Q_generated": false,
+  "artifacts": {
+    "01-同样数据比较两种模型.png": "e343df449d4e67af743ebf01ae0a106c0a8a3f9df0223b8922a41c19d29cd1f2",
+    "02-同一模型增加训练数据.png": "80c37c0766c659630f87e32f605166db22bf4354079340581e3270da2ef254c0",
+    "03-均衡与不均衡的变化.png": "acd400d9bf2c623226ae25b96de9229ffdefc6c0cf9b665232391c7788998498",
+    "04-预训练与继续训练编码器.png": "02f1e244cc28df0d1c3bfa92d43720960eff6461b9b0adb7c39695f9739bf175",
+    "四个问题看懂当前结果.pdf": "0694e04210be5f223d0fdb155cc299e426c760a7d1baf39ab1992ee9317ccdd0"
+  }
+}

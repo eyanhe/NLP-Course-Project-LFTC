@@ -1,0 +1,143 @@
+{
+  "status": "complete",
+  "run_id": "c0ad1af3b98d4c8d4750bb0041a9c091d1e04d8ae0ec0e45c263fd94568f5857",
+  "request_hash": "60f6cc7ed7ef1abc73bdc19c0bf7283ecea7a585e9fc3f5ed6693db482c8e37b",
+  "run": {
+    "run_id": "c0ad1af3b98d4c8d4750bb0041a9c091d1e04d8ae0ec0e45c263fd94568f5857",
+    "condition_id": "5d6f85801888921f606cda9987e7427711dd9d8061c77630bcdfdbf6d8ababdf",
+    "model_id": "bilstm",
+    "training_seed": 42,
+    "hparams": {
+      "hidden_per_direction": 64,
+      "layers": 1,
+      "max_epochs": 10,
+      "effective_batch": 64,
+      "vocabulary_limit": 30000,
+      "embedding_initialization": {
+        "vector_size": 100,
+        "window": 5,
+        "min_count": 1,
+        "epochs": 10,
+        "workers": 1,
+        "seed": 2026,
+        "sg": 1,
+        "vocabulary_limit": 30000
+      },
+      "lr": 0.003,
+      "dropout": 0.1,
+      "role_ids_hash": {
+        "train": "50de2fee822001a9d54d46023da2e5de789529f02932a25075c84bd6c306f43c",
+        "select": "72c39f0a9aaef0d59ebda6b27b3d3b2327d4582d1575fe9f59059abfa6d52db1",
+        "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "target_task": "single_label",
+      "device": "cuda",
+      "micro_batch": 4,
+      "cpu_threads": 4,
+      "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+      "label_count": 4
+    },
+    "input_hash": "1ed465ea5197ae39c37b58112afa7cf93c1f8d6d9b83fd0a28cb1faeaf8fe286",
+    "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+    "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+    "strict_no_val": false
+  },
+  "training_unique_rows": 6000,
+  "training_ids_sha256": "50de2fee822001a9d54d46023da2e5de789529f02932a25075c84bd6c306f43c",
+  "holdout_labels_accessed": 600,
+  "score_kind": "logit",
+  "files": {
+    "bundle.joblib": "cac321b550243b5c7a8805665db5a664684a63fa13a27c1d08f62e3ea85e86f2",
+    "history.json": "8fa1c5ef7b4304230f754c8659b1b723be0ae05b84fd980b62ecd57f267eae79",
+    "checkpoint/model.safetensors": "87eda22699e6411e0eb798be436cdb0c0b95d40ef8810cc864b93f3a32e0f100"
+  },
+  "feature_degenerate": false,
+  "feature_seconds": 0.04600000008940697,
+  "fit_seconds": 160.5,
+  "total_seconds": 161.6710000000894,
+  "epochs_completed": 10,
+  "selected_epoch": 7,
+  "optimizer_updates": 940,
+  "micro_batch": 4,
+  "effective_batch": 64,
+  "oom_attempts": [],
+  "reload_verified": true,
+  "actual_model_training_run": true,
+  "official_test_predictions_generated": false,
+  "reload_max_absolute_difference": 0.0,
+  "validation": {
+    "task": "single_label",
+    "score_kind": "logit",
+    "rows": 600,
+    "macro_f1": 0.8828968191143582,
+    "micro_f1": 0.8816666666666667,
+    "accuracy": 0.8816666666666667,
+    "worst_label_f1": 0.8280254777070064,
+    "confusion_matrix": [
+      [
+        142,
+        0,
+        11,
+        1
+      ],
+      [
+        4,
+        131,
+        5,
+        5
+      ],
+      [
+        7,
+        1,
+        130,
+        15
+      ],
+      [
+        5,
+        2,
+        15,
+        126
+      ]
+    ],
+    "per_label": [
+      {
+        "label_id": 0,
+        "precision": 0.8987341772151899,
+        "recall": 0.922077922077922,
+        "f1": 0.9102564102564102,
+        "support": 154
+      },
+      {
+        "label_id": 1,
+        "precision": 0.9776119402985075,
+        "recall": 0.903448275862069,
+        "f1": 0.9390681003584229,
+        "support": 145
+      },
+      {
+        "label_id": 2,
+        "precision": 0.8074534161490683,
+        "recall": 0.8496732026143791,
+        "f1": 0.8280254777070064,
+        "support": 153
+      },
+      {
+        "label_id": 3,
+        "precision": 0.8571428571428571,
+        "recall": 0.8513513513513513,
+        "f1": 0.8542372881355932,
+        "support": 148
+      }
+    ]
+  },
+  "resources": {
+    "peak_rss_sampled_bytes": 2347704320,
+    "sample_count": 321,
+    "rss_sample_interval_seconds": 0.5,
+    "elapsed_seconds": 161.73399999993853,
+    "torch_cuda_peak_allocated_bytes": 120830464,
+    "torch_cuda_peak_reserved_bytes": 134217728,
+    "gpu_name": "NVIDIA GeForce RTX 4060",
+    "note": "sampled RSS maximum; allocated/reserved Torch memory is not total device usage"
+  }
+}

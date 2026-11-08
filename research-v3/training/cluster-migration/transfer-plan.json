@@ -1,0 +1,22 @@
+{
+  "status": "base_and_overlay_verified",
+  "extraction_order": [
+    "cluster-base.tar",
+    "cluster-overlay.tar"
+  ],
+  "archives": [
+    {
+      "file": "cluster-base.tar",
+      "sha256": "461b481ba52361ebc784cd94347d94b23e08c8404aaed417727f243331c80362",
+      "bytes": 27796007936
+    },
+    {
+      "file": "cluster-overlay.tar",
+      "sha256": "5baa5c21a6f2f2d537fcc6d7cd5a43833c30aa721424d39c9b32600c075921eb",
+      "bytes": 471040
+    }
+  ],
+  "final_inventory_sha256": "7d7ab750e63d38b168d5b4c90af39a27496404ce7f58eb3f21482426cc4a0a1c",
+  "local_training_enabled": false,
+  "cluster_submitted": false
+}

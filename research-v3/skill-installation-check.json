@@ -1,0 +1,112 @@
+﻿{
+    "all_present":  true,
+    "revision":  "22f0b463e7a5e579904dd6211a520321035526f7",
+    "skills":  [
+                   {
+                       "skill_present":  true,
+                       "matches":  true,
+                       "expected_files":  8,
+                       "name":  "brainstorming",
+                       "files":  8
+                   },
+                   {
+                       "skill_present":  true,
+                       "matches":  true,
+                       "expected_files":  20,
+                       "name":  "diagnosing-superpowers",
+                       "files":  20
+                   },
+                   {
+                       "skill_present":  true,
+                       "matches":  true,
+                       "expected_files":  1,
+                       "name":  "dispatching-parallel-agents",
+                       "files":  1
+                   },
+                   {
+                       "skill_present":  true,
+                       "matches":  true,
+                       "expected_files":  3,
+                       "name":  "executing-plans",
+                       "files":  3
+                   },
+                   {
+                       "skill_present":  true,
+                       "matches":  true,
+                       "expected_files":  1,
+                       "name":  "finishing-a-development-branch",
+                       "files":  1
+                   },
+                   {
+                       "skill_present":  true,
+                       "matches":  true,
+                       "expected_files":  1,
+                       "name":  "receiving-code-review",
+                       "files":  1
+                   },
+                   {
+                       "skill_present":  true,
+                       "matches":  true,
+                       "expected_files":  2,
+                       "name":  "requesting-code-review",
+                       "files":  2
+                   },
+                   {
+                       "skill_present":  true,
+                       "matches":  true,
+                       "expected_files":  15,
+                       "name":  "subagent-driven-development",
+                       "files":  15
+                   },
+                   {
+                       "skill_present":  true,
+                       "matches":  true,
+                       "expected_files":  6,
+                       "name":  "systematic-debugging",
+                       "files":  6
+                   },
+                   {
+                       "skill_present":  true,
+                       "matches":  true,
+                       "expected_files":  2,
+                       "name":  "test-driven-development",
+                       "files":  2
+                   },
+                   {
+                       "skill_present":  true,
+                       "matches":  true,
+                       "expected_files":  1,
+                       "name":  "using-git-worktrees",
+                       "files":  1
+                   },
+                   {
+                       "skill_present":  true,
+                       "matches":  true,
+                       "expected_files":  8,
+                       "name":  "using-superpowers",
+                       "files":  8
+                   },
+                   {
+                       "skill_present":  true,
+                       "matches":  true,
+                       "expected_files":  1,
+                       "name":  "verification-before-completion",
+                       "files":  1
+                   },
+                   {
+                       "skill_present":  true,
+                       "matches":  true,
+                       "expected_files":  1,
+                       "name":  "writing-plans",
+                       "files":  1
+                   },
+                   {
+                       "skill_present":  true,
+                       "matches":  true,
+                       "expected_files":  10,
+                       "name":  "writing-skills",
+                       "files":  10
+                   }
+               ],
+    "repository":  "https://github.com/obra/superpowers"
+}

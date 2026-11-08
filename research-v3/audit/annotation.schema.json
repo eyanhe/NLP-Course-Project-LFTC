@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "v3 human failure audit record, schema version 1",
+  "type": "object",
+  "required": ["schema_version", "sample_id", "dataset_id", "group_id", "partition", "reviewer_id", "review_status", "gold_status", "phenomena", "evidence_spans", "reason_hypotheses", "alternative_explanations", "conclusion_status"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "sample_id": {"type": "string", "minLength": 1},
+    "dataset_id": {"enum": ["yelp", "go_emotions", "banking77", "yahoo_answers_topics"]},
+    "group_id": {"type": "string", "minLength": 1},
+    "partition": {"enum": ["discovery", "audit", "confirmation"]},
+    "reviewer_id": {"type": ["string", "null"]},
+    "review_status": {"enum": ["unreviewed", "single_review", "double_review", "adjudicated"]},
+    "gold_status": {"enum": ["not_checked", "supported", "ambiguous", "insufficient_information", "suspected_error"]},
+    "phenomena": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "evidence_spans": {"type": "array", "items": {"type": "object", "required": ["text_source", "start_char", "end_char", "evidence"], "properties": {"text_source": {"enum": ["original", "visible_input", "edited_input"]}, "start_char": {"type": "integer", "minimum": 0}, "end_char": {"type": "integer", "minimum": 0}, "evidence": {"type": "string"}}}},
+    "reason_hypotheses": {"type": "array", "items": {"type": "string"}},
+    "alternative_explanations": {"type": "array", "items": {"type": "string"}},
+    "control_record_ids": {"type": "array", "items": {"type": "string"}},
+    "checkpoint_id": {"type": ["string", "null"]},
+    "condition_id": {"type": ["string", "null"]},
+    "anonymous_model_id": {"type": ["string", "null"]},
+    "score_kind": {"enum": [null, "probability", "logit", "svm_margin"]},
+    "model_prediction": {"type": ["array", "null"], "items": {"type": "integer"}},
+    "inclusion_probability": {"type": ["number", "null"], "exclusiveMinimum": 0, "maximum": 1},
+    "conclusion_status": {"enum": ["unknown", "hypothesis_only", "observational_support", "intervention_supported", "inconclusive"]}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,11 @@
+{
+  "verified_completed_choices": 36,
+  "required_choices": 39,
+  "candidate_checkpoints_verified": 216,
+  "global_anchor_search_complete": false,
+  "human_discovery_pilots_complete": false,
+  "global_selection_lock_created": false,
+  "official_test_predictions_generated": false,
+  "learner_code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+  "recorded_at_utc": "2026-11-07T06:31:57.691128+00:00"
+}

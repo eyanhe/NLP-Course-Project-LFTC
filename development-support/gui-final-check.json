@@ -1,0 +1,40 @@
+[
+  {
+    "stage": "initial",
+    "errors": [],
+    "tabs": [
+      "Try a prediction",
+      "Evaluation & comparison",
+      "Imbalance robustness",
+      "Methods & limitations"
+    ]
+  },
+  {
+    "stage": "Multiclass news",
+    "errors": []
+  },
+  {
+    "stage": "Natural language inference",
+    "errors": []
+  },
+  {
+    "stage": "Binary sentiment",
+    "errors": []
+  },
+  {
+    "stage": "imbalance-mild",
+    "errors": []
+  },
+  {
+    "stage": "imbalance-moderate",
+    "errors": []
+  },
+  {
+    "stage": "imbalance-severe",
+    "errors": []
+  },
+  {
+    "stage": "minority-recall-chart",
+    "errors": []
+  }
+]

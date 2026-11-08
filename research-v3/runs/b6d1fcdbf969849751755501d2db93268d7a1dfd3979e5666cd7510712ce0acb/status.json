@@ -1,0 +1,8 @@
+{
+  "status": "interrupted",
+  "run_id": "b6d1fcdbf969849751755501d2db93268d7a1dfd3979e5666cd7510712ce0acb",
+  "pid": 42040,
+  "request_hash": "9529563d8cb350c079794288c6dbe2f2720b725896a3400c6cf690a70ae89d41",
+  "interruption_reason": "user_cancelled_remaining_hyperparameter_search",
+  "interrupted_at_utc": "2026-11-07T06:52:43.842680+00:00"
+}

@@ -1,0 +1,132 @@
+{
+  "status": "complete",
+  "run_id": "60eba1f500aa175b995926cdaec5498abc2461c447351d9118b2c48ec756de7d",
+  "request_hash": "c986243b865128898c5e78aa7497e624941f427e12703ecc97556e58579ea5df",
+  "run": {
+    "run_id": "60eba1f500aa175b995926cdaec5498abc2461c447351d9118b2c48ec756de7d",
+    "condition_id": "5d6f85801888921f606cda9987e7427711dd9d8061c77630bcdfdbf6d8ababdf",
+    "model_id": "distilbert",
+    "training_seed": 42,
+    "hparams": {
+      "max_epochs": 5,
+      "effective_batch": 16,
+      "warmup_ratio": 0.1,
+      "lr": 2e-05,
+      "weight_decay": 0,
+      "role_ids_hash": {
+        "train": "50de2fee822001a9d54d46023da2e5de789529f02932a25075c84bd6c306f43c",
+        "select": "72c39f0a9aaef0d59ebda6b27b3d3b2327d4582d1575fe9f59059abfa6d52db1",
+        "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "target_task": "single_label",
+      "device": "cuda",
+      "micro_batch": 4,
+      "cpu_threads": 4,
+      "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+      "label_count": 4
+    },
+    "input_hash": "1ed465ea5197ae39c37b58112afa7cf93c1f8d6d9b83fd0a28cb1faeaf8fe286",
+    "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+    "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+    "strict_no_val": false
+  },
+  "training_unique_rows": 6000,
+  "training_ids_sha256": "50de2fee822001a9d54d46023da2e5de789529f02932a25075c84bd6c306f43c",
+  "holdout_labels_accessed": 600,
+  "score_kind": "logit",
+  "files": {
+    "bundle.joblib": "e02cb66d8b3b7ae71c12147c2f0e75fdac54d17a88e917de8905c0cd650163d9",
+    "history.json": "2b8eb2c5c638055e0e171d16fee0a5beb6d4298d98bccf83f13a0a30a03de833",
+    "checkpoint/config.json": "75ea628c556d013cefff9f969723a3d1c2ab0582ac662b3c7c0affc0dda49624",
+    "checkpoint/model.safetensors": "76ebd984ec7de93ee4ba4ae008fd08592f4c64590ea5e679b17e064676ba21f3"
+  },
+  "feature_degenerate": false,
+  "feature_seconds": 0.01600000006146729,
+  "fit_seconds": 213.15599999995902,
+  "total_seconds": 215.53100000019185,
+  "epochs_completed": 5,
+  "selected_epoch": 5,
+  "optimizer_updates": 1875,
+  "micro_batch": 4,
+  "effective_batch": 16,
+  "oom_attempts": [],
+  "reload_verified": true,
+  "actual_model_training_run": true,
+  "official_test_predictions_generated": false,
+  "reload_max_absolute_difference": 0.0,
+  "validation": {
+    "task": "single_label",
+    "score_kind": "logit",
+    "rows": 600,
+    "macro_f1": 0.9267666739856922,
+    "micro_f1": 0.9266666666666666,
+    "accuracy": 0.9266666666666666,
+    "worst_label_f1": 0.8837209302325582,
+    "confusion_matrix": [
+      [
+        147,
+        2,
+        4,
+        1
+      ],
+      [
+        2,
+        142,
+        1,
+        0
+      ],
+      [
+        4,
+        3,
+        133,
+        13
+      ],
+      [
+        4,
+        0,
+        10,
+        134
+      ]
+    ],
+    "per_label": [
+      {
+        "label_id": 0,
+        "precision": 0.9363057324840764,
+        "recall": 0.9545454545454546,
+        "f1": 0.9453376205787781,
+        "support": 154
+      },
+      {
+        "label_id": 1,
+        "precision": 0.9659863945578231,
+        "recall": 0.9793103448275862,
+        "f1": 0.9726027397260274,
+        "support": 145
+      },
+      {
+        "label_id": 2,
+        "precision": 0.8986486486486487,
+        "recall": 0.869281045751634,
+        "f1": 0.8837209302325582,
+        "support": 153
+      },
+      {
+        "label_id": 3,
+        "precision": 0.9054054054054054,
+        "recall": 0.9054054054054054,
+        "f1": 0.9054054054054054,
+        "support": 148
+      }
+    ]
+  },
+  "resources": {
+    "peak_rss_sampled_bytes": 3142242304,
+    "sample_count": 427,
+    "rss_sample_interval_seconds": 0.5,
+    "elapsed_seconds": 215.56200000015087,
+    "torch_cuda_peak_allocated_bytes": 1477335552,
+    "torch_cuda_peak_reserved_bytes": 1585446912,
+    "gpu_name": "NVIDIA GeForce RTX 4060",
+    "note": "sampled RSS maximum; allocated/reserved Torch memory is not total device usage"
+  }
+}

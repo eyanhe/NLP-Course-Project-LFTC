@@ -1,0 +1,71 @@
+{
+    "checked_at_sgt":  "2026-11-08T06:09:44+08:00",
+    "status":  "scoped_training_and_formal_test_complete",
+    "gpu_allocated":  false,
+    "gpu_probe_at_sgt":  "2026-11-08T03:14:34+08:00",
+    "gpu_probe_total":  159,
+    "gpu_probe_allocated":  159,
+    "training_started_sgt":  "2026-11-08T03:15:57+08:00",
+    "training_jobs":  [
+                          {
+                              "job_id":  278233,
+                              "state":  "COMPLETED",
+                              "node":  "cpu-1"
+                          },
+                          {
+                              "job_id":  278234,
+                              "state":  "COMPLETED",
+                              "node":  "cpu-1"
+                          }
+                      ],
+    "evaluation_job":  {
+                           "job_id":  278242,
+                           "state":  "COMPLETED",
+                           "reason":  "18 authenticated formal test predictions complete and downloaded",
+                           "dependency":  null,
+                           "prior_pending_job_cancelled":  278170,
+                           "selection_policy":  "completed_budget_V_best",
+                           "max_epochs_blocks_testing":  false,
+                           "only_finish_unclaimed_planned_seed_repeats":  true,
+                           "opens_Q_after_V_selection_and_model_freeze":  true,
+                           "prior_finish_job":  278235
+                       },
+    "manifest_hash":  "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45",
+    "convergence_related_checks_passed":  27,
+    "evaluation_related_checks_passed":  20,
+    "independent_review":  "No residual Critical/Important findings",
+    "original_pinned_files_unchanged":  15,
+    "official_test_predictions_generated":  true,
+    "monitor_pid":  35744,
+    "monitor_interval_seconds":  60,
+    "last_new_fit_sgt":  "2026-11-08T09:00:00+08:00",
+    "training_hard_stop_sgt":  "2026-11-08T10:00:00+08:00",
+    "estimated_training_completion_sgt":  "2026-11-08 07:00-09:00; estimate conditional on early stopping and resource load",
+    "official_rules":  [
+                           "https://github.com/NTUEEECluster/docs/blob/main/skill.md",
+                           "https://github.com/NTUEEECluster/docs/blob/main/slurm-guide.md",
+                           "https://github.com/NTUEEECluster/docs/blob/main/storage-guide.md"
+                       ],
+    "budget_amendment_checks_passed":  24,
+    "previous_training_jobs":  [
+                                   278148,
+                                   278149
+                               ],
+    "svm_grid_complete":  true,
+    "svm_priority_checks_passed":  15,
+    "goemotions_requested_repeats_preserved_complete":  true,
+    "timing_record":  {
+                          "workbook":  "outputs/training-inference-timings-20261108/训练与推理耗时记录.xlsx",
+                          "source":  "research-v3/reports/overnight/convergence-v1/training-inference-timings.json",
+                          "records":  30,
+                          "resumed_reconstructed":  2,
+                          "inference_timing_deployed_sgt":  "2026-11-08T05:37:15+08:00",
+                          "prediction_model_loading_separate":  true,
+                          "final_workbook_refresh_on_test_completion":  true
+                      },
+    "training_records_complete":  26,
+    "training_completed_sgt":  "2026-11-08T05:50:25+08:00",
+    "current_test_job_started_sgt":  "2026-11-08T05:54:02+08:00",
+    "formal_test_completed_sgt":  "2026-11-08T05:57:34+08:00",
+    "formal_test_physical_models":  18
+}

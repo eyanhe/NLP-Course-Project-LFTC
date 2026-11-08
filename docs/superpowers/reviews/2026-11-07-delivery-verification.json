@@ -1,0 +1,72 @@
+﻿{
+    "status":  "passed",
+    "scope":  "design_documents_only",
+    "checked_at_utc":  "2026-11-06T18:13:57.3101193Z",
+    "checks":  {
+                   "new_dataset_count_is_3":  true,
+                   "main_model_count_is_5":  true,
+                   "experiment_groups_are_E0_to_E6":  true,
+                   "source_revisions_are_pinned":  true,
+                   "strict_fewshot_has_no_validation_access":  true,
+                   "multilabel_mask_rules_present":  true,
+                   "global_freeze_and_no_rolling_addition":  true,
+                   "plan_has_14_ordered_tasks":  true,
+                   "execution_steps_not_marked_done":  true,
+                   "plan_self_review_marked":  true,
+                   "traceability_has_18_requirements":  true,
+                   "review_has_final_clearance":  true,
+                   "protocol_not_executed":  true,
+                   "all_relative_markdown_links_resolve":  true,
+                   "superpowers_15_skills_present":  true
+               },
+    "failures":  [
+
+                 ],
+    "broken_links":  [
+
+                     ],
+    "plan_tasks":  14,
+    "requirements":  18,
+    "independent_review_rounds":  3,
+    "program_tests_run":  false,
+    "research_experiments_run":  false,
+    "superpowers_installed_skills":  15,
+    "superpowers_copy_hash_verified_files":  80,
+    "files":  [
+                  {
+                      "path":  "docs\\superpowers\\README.md",
+                      "bytes":  1331,
+                      "sha256":  "F2693DBBB77285542DA628AEF98259DABF0C8B9581123F401063B470246B0DA2"
+                  },
+                  {
+                      "path":  "docs\\superpowers\\requirements-traceability.csv",
+                      "bytes":  1861,
+                      "sha256":  "D1B943F025BF1EE1512C702BDD0DDE7F94FCF4CF28EFAEEDB896F9DD08141C5C"
+                  },
+                  {
+                      "path":  "docs\\superpowers\\plans\\2026-11-07-text-classification-research-plan.md",
+                      "bytes":  31651,
+                      "sha256":  "C9236E7950B169942D37DFB8C95EC7116E6B9E18ACB6C5B81875EAC6FDD1A302"
+                  },
+                  {
+                      "path":  "docs\\superpowers\\reviews\\2026-11-07-research-design-review.md",
+                      "bytes":  2936,
+                      "sha256":  "F0F5F593292005EA009E4617B63D3CFC0B3907EC75CF9D384DB757480E93F51F"
+                  },
+                  {
+                      "path":  "docs\\superpowers\\reviews\\2026-11-07-source-verification.json",
+                      "bytes":  2434,
+                      "sha256":  "26BF0F49B3C576E39087F433855558C94BF9EAB0EAB520115BF118EAD3EC11CA"
+                  },
+                  {
+                      "path":  "docs\\superpowers\\specs\\2026-11-07-research-protocol.json",
+                      "bytes":  15346,
+                      "sha256":  "53378B9D374BB03EEA54319E65FD1FF366749EEB911232D8141652D335EA6DB0"
+                  },
+                  {
+                      "path":  "docs\\superpowers\\specs\\2026-11-07-text-classification-research-design.md",
+                      "bytes":  36827,
+                      "sha256":  "020A456A192C93DC8950DCAC4A1515890D31FD785441820F804F6CF68BF3025F"
+                  }
+              ]
+}

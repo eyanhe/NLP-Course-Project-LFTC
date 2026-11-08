@@ -1,0 +1,6 @@
+﻿{
+    "pid":  59108,
+    "purpose":  "read_only_status_sync",
+    "interval_seconds":  60,
+    "auto_submit_enabled":  false
+}

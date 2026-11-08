@@ -1,0 +1,313 @@
+{
+  "v2_config_sha256": "31a435c1b726b19754661483e800d1c1b8f92d12bd759ba7ff463edfacbeb571",
+  "v1_manifests": {
+    "imdb/train": "8b44de0b22e458e7ff2076533968d1b30cd09497347f3bdcc61b08885898d932",
+    "imdb/validation": "5fcfc6634342b1df0e2d784b4c75438b267334b3f76837fdf2033ed9479a8201",
+    "imdb/test": "f3cd57625d7b7100e8f7c94073c3aa236bd9a537f9c99d66dc92b147e4e8ebd2",
+    "rotten_tomatoes/train": "5c250c3780603713ce0c66db55d1b432afc71dc966096971cfbdee0f6a1956aa",
+    "rotten_tomatoes/validation": "838a224e85548328de1f1862ab5b7db103524978e94f4e9606827c17187b5e89",
+    "rotten_tomatoes/test": "02fd74488fe4e7ff6abeab1390d297e8a250de0e4082cf36730204a3b0ffd4ea",
+    "yelp/train": "3c1b6c8b2010e073a6ab696cf8dc88876a2ac0c4d9a4ef9f7b26de272d5daf02",
+    "yelp/validation": "c993724a243c12e8369d1c8460a1ccf449cff4ee712dbe893fbbb1705e2f06dd",
+    "yelp/test": "d2961859e5b68dfcb596bf0d683e1658717e5a3b543df4e8bbcd08a1ee7d11ba"
+  },
+  "news_manifests": {
+    "train": "45fb4a367454e3c33494813fee0898d7ab4c32754ce72e17c7cfb46377fa5787",
+    "validation": "48008639efaa1a0548090ac06f82fa9a8f2c888216b7be38de1c8bbc071e5aec",
+    "test": "889f17d86f4c27d75ec499bab8e4579a54870b38635c2df522b09e694525a61c"
+  },
+  "model_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "created_utc": "2026-11-06T10:16:55.669294+00:00",
+  "artifacts": [
+    {
+      "source": "imdb",
+      "model": "logistic_regression",
+      "seed": null,
+      "path": "models\\imdb\\logistic_regression",
+      "weight_file": "model.joblib",
+      "sha256": "2e1ae395cbbb8c4fbdc2232391824d21174bb6e592d3be4b79757c09b9c180b7"
+    },
+    {
+      "source": "imdb",
+      "model": "linear_svm",
+      "seed": null,
+      "path": "models\\imdb\\linear_svm",
+      "weight_file": "model.joblib",
+      "sha256": "e6430ae1dba8603dc9d0dfc4cdca95d815e7a0b2e737c3be3cac97956a49694c"
+    },
+    {
+      "source": "imdb",
+      "model": "word2vec_svm",
+      "seed": null,
+      "path": "models-v2\\imdb\\word2vec_svm",
+      "weight_file": "model.joblib",
+      "sha256": "c6280f96dec8f8f0f4d437c4982aa8228df96396e3d7b1c80357d18a9917a114"
+    },
+    {
+      "source": "imdb",
+      "model": "bilstm",
+      "seed": 42,
+      "path": "models-v2\\imdb\\bilstm_seed42",
+      "weight_file": "model.pt",
+      "sha256": "913b33c40b38fca3b457fd05f4be33e0b4a70d57d684fe99ac90687cbfeab397"
+    },
+    {
+      "source": "imdb",
+      "model": "bilstm",
+      "seed": 43,
+      "path": "models-v2\\imdb\\bilstm_seed43",
+      "weight_file": "model.pt",
+      "sha256": "cddf023a01ddca76290809d460cacbd0632d09dc3623532f1d965823e21335d9"
+    },
+    {
+      "source": "imdb",
+      "model": "bilstm",
+      "seed": 44,
+      "path": "models-v2\\imdb\\bilstm_seed44",
+      "weight_file": "model.pt",
+      "sha256": "dfecc344257f4946036986b03a4e218bf4bf4e413f4e7186227b2a725e88202f"
+    },
+    {
+      "source": "imdb",
+      "model": "distilbert",
+      "seed": 42,
+      "path": "models\\imdb\\distilbert_seed42",
+      "weight_file": "model.safetensors",
+      "sha256": "df8dc97e8c667e1cc6a4b4d817c7108242d9824f74f71bbdbe2dea00dcfea2e9"
+    },
+    {
+      "source": "imdb",
+      "model": "distilbert",
+      "seed": 43,
+      "path": "models\\imdb\\distilbert_seed43",
+      "weight_file": "model.safetensors",
+      "sha256": "941fc8827544ee96cd581f356088bdb9497aba1d719652a83203167d98a865d0"
+    },
+    {
+      "source": "imdb",
+      "model": "distilbert",
+      "seed": 44,
+      "path": "models\\imdb\\distilbert_seed44",
+      "weight_file": "model.safetensors",
+      "sha256": "95d29d630e60f7bac46b8de12189c640d68fe1d671766ef5cf1ba982ddaf32a7"
+    },
+    {
+      "source": "rotten_tomatoes",
+      "model": "logistic_regression",
+      "seed": null,
+      "path": "models\\rotten_tomatoes\\logistic_regression",
+      "weight_file": "model.joblib",
+      "sha256": "817e7da138fb61e82c9cfa797332dd4ac2daf89c94c3ffeae4238a777e14657f"
+    },
+    {
+      "source": "rotten_tomatoes",
+      "model": "linear_svm",
+      "seed": null,
+      "path": "models\\rotten_tomatoes\\linear_svm",
+      "weight_file": "model.joblib",
+      "sha256": "7674103ffccdd3fc69cffe502e71f6625c14572df22e320f8d4900729fa0966a"
+    },
+    {
+      "source": "rotten_tomatoes",
+      "model": "word2vec_svm",
+      "seed": null,
+      "path": "models-v2\\rotten_tomatoes\\word2vec_svm",
+      "weight_file": "model.joblib",
+      "sha256": "7a2fc7d4657189af9369fdcd6482e5fa324295c4bfaf890cccb3d46f64bfb756"
+    },
+    {
+      "source": "rotten_tomatoes",
+      "model": "bilstm",
+      "seed": 42,
+      "path": "models-v2\\rotten_tomatoes\\bilstm_seed42",
+      "weight_file": "model.pt",
+      "sha256": "f0c609da3503d178d098e234d12f11f97c2b3c957bad67a4eba1373a883414a0"
+    },
+    {
+      "source": "rotten_tomatoes",
+      "model": "bilstm",
+      "seed": 43,
+      "path": "models-v2\\rotten_tomatoes\\bilstm_seed43",
+      "weight_file": "model.pt",
+      "sha256": "eed47298112e5517d931771432ce3889ce42aaade6bbae45dfe172447a5ad478"
+    },
+    {
+      "source": "rotten_tomatoes",
+      "model": "bilstm",
+      "seed": 44,
+      "path": "models-v2\\rotten_tomatoes\\bilstm_seed44",
+      "weight_file": "model.pt",
+      "sha256": "5b4b13ad1a5424e47870d4beff686bbcdb9cdb4c0706079766f4d14df183afb7"
+    },
+    {
+      "source": "rotten_tomatoes",
+      "model": "distilbert",
+      "seed": 42,
+      "path": "models\\rotten_tomatoes\\distilbert_seed42",
+      "weight_file": "model.safetensors",
+      "sha256": "14be800074b713cff29c0be0e16f3ca172d205f9754da66d3d85489e9d42c62d"
+    },
+    {
+      "source": "rotten_tomatoes",
+      "model": "distilbert",
+      "seed": 43,
+      "path": "models\\rotten_tomatoes\\distilbert_seed43",
+      "weight_file": "model.safetensors",
+      "sha256": "fb69fac7d9841b99298ea252b2a3c31650433cb5bb1e62f11ddfbb7ffe4b83c2"
+    },
+    {
+      "source": "rotten_tomatoes",
+      "model": "distilbert",
+      "seed": 44,
+      "path": "models\\rotten_tomatoes\\distilbert_seed44",
+      "weight_file": "model.safetensors",
+      "sha256": "69a49e1e3c82adef6f1a21e1781fa1666ff0380b52822dbc56d2db028dc1b1fc"
+    },
+    {
+      "source": "yelp",
+      "model": "logistic_regression",
+      "seed": null,
+      "path": "models\\yelp\\logistic_regression",
+      "weight_file": "model.joblib",
+      "sha256": "e1ffa748f98529b97355b51a396e497a9d8e4056deba9a57c43848d31f46c14c"
+    },
+    {
+      "source": "yelp",
+      "model": "linear_svm",
+      "seed": null,
+      "path": "models\\yelp\\linear_svm",
+      "weight_file": "model.joblib",
+      "sha256": "e2fd2668170bf5547f84a160d2cb73a036df5c5195df43970617c1e8350fbb01"
+    },
+    {
+      "source": "yelp",
+      "model": "word2vec_svm",
+      "seed": null,
+      "path": "models-v2\\yelp\\word2vec_svm",
+      "weight_file": "model.joblib",
+      "sha256": "9b45291fbe0618d6f4d6fc6145edef146468e158dd6c0358e5f6b36e8dae51b0"
+    },
+    {
+      "source": "yelp",
+      "model": "bilstm",
+      "seed": 42,
+      "path": "models-v2\\yelp\\bilstm_seed42",
+      "weight_file": "model.pt",
+      "sha256": "867a1b2064f12b0a1633dabc387d442755ae38e0e7bab13bf4994dca149ffde5"
+    },
+    {
+      "source": "yelp",
+      "model": "bilstm",
+      "seed": 43,
+      "path": "models-v2\\yelp\\bilstm_seed43",
+      "weight_file": "model.pt",
+      "sha256": "b2e605c936543b6df0caaa2c8a660e20f5ace87c3c495c719058dfe4c579694e"
+    },
+    {
+      "source": "yelp",
+      "model": "bilstm",
+      "seed": 44,
+      "path": "models-v2\\yelp\\bilstm_seed44",
+      "weight_file": "model.pt",
+      "sha256": "e4dbd91c59b438526f7773f307802ca509c05727e30edb18c596a040a81b4e1e"
+    },
+    {
+      "source": "yelp",
+      "model": "distilbert",
+      "seed": 42,
+      "path": "models\\yelp\\distilbert_seed42",
+      "weight_file": "model.safetensors",
+      "sha256": "aa01b55725c97a1ded4498a65726ab486be2515e725ba19a2022f5ce0b69f4eb"
+    },
+    {
+      "source": "yelp",
+      "model": "distilbert",
+      "seed": 43,
+      "path": "models\\yelp\\distilbert_seed43",
+      "weight_file": "model.safetensors",
+      "sha256": "ebebc08508abb92dda281ee9120190d8984200f3c0afbebd989a873937af578c"
+    },
+    {
+      "source": "yelp",
+      "model": "distilbert",
+      "seed": 44,
+      "path": "models\\yelp\\distilbert_seed44",
+      "weight_file": "model.safetensors",
+      "sha256": "bedc44a961324a174ac9d8434f2a837be131117f7c98ab2eabe96c9bc46fec3b"
+    },
+    {
+      "source": "ag_news",
+      "model": "logistic_regression",
+      "seed": null,
+      "path": "models-v2\\ag_news\\logistic_regression",
+      "weight_file": "model.joblib",
+      "sha256": "d43eba6cc59317510e6debba60cbf72e5d8f4844a8d8e6e5e9741d8e85d64f5c"
+    },
+    {
+      "source": "ag_news",
+      "model": "linear_svm",
+      "seed": null,
+      "path": "models-v2\\ag_news\\linear_svm",
+      "weight_file": "model.joblib",
+      "sha256": "9a7cd463a818b0c313d4c5989f6901b3de6e9a76b199011541fa773f77493ae4"
+    },
+    {
+      "source": "ag_news",
+      "model": "word2vec_svm",
+      "seed": null,
+      "path": "models-v2\\ag_news\\word2vec_svm",
+      "weight_file": "model.joblib",
+      "sha256": "ef0f2e18f89a09b13d30f5643980005ca23746ab2ccbb32664730bb7b77e5668"
+    },
+    {
+      "source": "ag_news",
+      "model": "bilstm",
+      "seed": 42,
+      "path": "models-v2\\ag_news\\bilstm_seed42",
+      "weight_file": "model.pt",
+      "sha256": "586225f3c49954f9269c62c6f8ae7385f4dc4cd2b0643c2a542f1150dc7a3afb"
+    },
+    {
+      "source": "ag_news",
+      "model": "bilstm",
+      "seed": 43,
+      "path": "models-v2\\ag_news\\bilstm_seed43",
+      "weight_file": "model.pt",
+      "sha256": "894321601927ae86ef8e77fb386f5a4c1dacb93b1595e13975cc731711ef86c2"
+    },
+    {
+      "source": "ag_news",
+      "model": "bilstm",
+      "seed": 44,
+      "path": "models-v2\\ag_news\\bilstm_seed44",
+      "weight_file": "model.pt",
+      "sha256": "acbd20f7740c55bfa49e14672b6156aa49cd5c111e6006b9d2f472e15ee43472"
+    },
+    {
+      "source": "ag_news",
+      "model": "distilbert",
+      "seed": 42,
+      "path": "models-v2\\ag_news\\distilbert_seed42",
+      "weight_file": "model.safetensors",
+      "sha256": "01cc9f810db015d442b3d4d0ac64cf006b8b9ad972abd81791be4c4f84c4dcfc"
+    },
+    {
+      "source": "ag_news",
+      "model": "distilbert",
+      "seed": 43,
+      "path": "models-v2\\ag_news\\distilbert_seed43",
+      "weight_file": "model.safetensors",
+      "sha256": "bd4a47760086ebf5541cd5ad33808d67de26504868a6fa5f673a49fa502511ff"
+    },
+    {
+      "source": "ag_news",
+      "model": "distilbert",
+      "seed": 44,
+      "path": "models-v2\\ag_news\\distilbert_seed44",
+      "weight_file": "model.safetensors",
+      "sha256": "0374bc016e9437056d096b2b23e013a7b0fd9fce943f74a939e48adfae2adf74"
+    }
+  ],
+  "task_scope": "Sentiment and four-class news evaluated separately; no cross-task transfer.",
+  "prior_test_exposure": "Binary V1 tests inspected before this extension was requested. Added binary methods are exploratory comparisons; AG News test is newly reserved."
+}

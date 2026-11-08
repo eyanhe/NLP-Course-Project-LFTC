@@ -1,0 +1,27 @@
+{
+  "requested_action": "stop_local_training_and_move_to_school_cluster",
+  "recorded_at_utc": "2026-11-07T08:56:05.687280+00:00",
+  "previous_progress": {
+    "phase": "fixed_main",
+    "status": "stopped_by_user_for_cluster_migration",
+    "pid": 7244,
+    "process_created": 1794039800.7448196,
+    "run_id": "d14d095ffa815e327a38c36c32679d3be8a9e045503e0c3164cc5ce194186946",
+    "dataset": "go_emotions",
+    "model_id": "bilstm",
+    "experiment_id": "E1",
+    "training_rows": 1000,
+    "data_seed": 2026,
+    "training_seed": 43,
+    "completed_fits": 94,
+    "total_fits": 2859,
+    "reused_checkpoints": 60,
+    "grid_search_enabled": false,
+    "official_test_predictions_generated": false,
+    "recorded_at_utc": "2026-11-07T08:56:05.687280+00:00",
+    "local_training_enabled": false
+  },
+  "process_terminated": true,
+  "termination_exit_code": 15,
+  "last_run_status": "interrupted"
+}

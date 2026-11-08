@@ -1,0 +1,25 @@
+{
+  "snapshot_at_utc": "2026-11-07T17:42:05.546097+00:00",
+  "snapshot_at_singapore": "2026-11-08T01:42:05.546097+08:00",
+  "counts": {
+    "unique_run_records": 208,
+    "completed_unique_run_records": 207,
+    "supplemental_training_status": {
+      "complete": 23,
+      "running": 1
+    },
+    "S2_prediction_checkpoints": 24,
+    "S4_AI_reviewed_pairs": 37,
+    "discovery_text_records": 1313,
+    "complete_status_conflicts": []
+  },
+  "remote_snapshot_manifest": "download-manifest.json",
+  "model_weights_fully_downloaded": false,
+  "raw_training_and_test_corpora_in_this_bundle": false,
+  "joined_discovery_texts_included": true,
+  "original_local_corpora_location": "research-v3/data and research-v3/inputs",
+  "Q_predictions_generated": false,
+  "review_source": "User-accepted Gemini-assisted review, not two independent humans",
+  "live_results_are_provisional": true,
+  "snapshot_is_immutable_complete_study": false
+}

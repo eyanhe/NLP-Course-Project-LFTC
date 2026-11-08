@@ -1,0 +1,405 @@
+{
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.688771015882492,
+      "validation": {
+        "task": "single_label",
+        "score_kind": "logit",
+        "rows": 600,
+        "macro_f1": 0.5431879206332602,
+        "micro_f1": 0.5633333333333334,
+        "accuracy": 0.5633333333333334,
+        "worst_label_f1": 0.4472573839662447,
+        "confusion_matrix": [
+          [
+            232,
+            78
+          ],
+          [
+            184,
+            106
+          ]
+        ],
+        "per_label": [
+          {
+            "label_id": 0,
+            "precision": 0.5576923076923077,
+            "recall": 0.7483870967741936,
+            "f1": 0.6391184573002755,
+            "support": 310
+          },
+          {
+            "label_id": 1,
+            "precision": 0.5760869565217391,
+            "recall": 0.36551724137931035,
+            "f1": 0.4472573839662447,
+            "support": 290
+          }
+        ]
+      },
+      "optimizer_updates": 94
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6693737743695577,
+      "validation": {
+        "task": "single_label",
+        "score_kind": "logit",
+        "rows": 600,
+        "macro_f1": 0.6071449467973955,
+        "micro_f1": 0.6083333333333333,
+        "accuracy": 0.6083333333333333,
+        "worst_label_f1": 0.5855379188712522,
+        "confusion_matrix": [
+          [
+            166,
+            144
+          ],
+          [
+            91,
+            199
+          ]
+        ],
+        "per_label": [
+          {
+            "label_id": 0,
+            "precision": 0.6459143968871596,
+            "recall": 0.535483870967742,
+            "f1": 0.5855379188712522,
+            "support": 310
+          },
+          {
+            "label_id": 1,
+            "precision": 0.5801749271137027,
+            "recall": 0.6862068965517242,
+            "f1": 0.6287519747235387,
+            "support": 290
+          }
+        ]
+      },
+      "optimizer_updates": 188
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6263614267210166,
+      "validation": {
+        "task": "single_label",
+        "score_kind": "logit",
+        "rows": 600,
+        "macro_f1": 0.6328992220959706,
+        "micro_f1": 0.6383333333333333,
+        "accuracy": 0.6383333333333333,
+        "worst_label_f1": 0.5882352941176471,
+        "confusion_matrix": [
+          [
+            228,
+            82
+          ],
+          [
+            135,
+            155
+          ]
+        ],
+        "per_label": [
+          {
+            "label_id": 0,
+            "precision": 0.628099173553719,
+            "recall": 0.7354838709677419,
+            "f1": 0.6775631500742942,
+            "support": 310
+          },
+          {
+            "label_id": 1,
+            "precision": 0.6540084388185654,
+            "recall": 0.5344827586206896,
+            "f1": 0.5882352941176471,
+            "support": 290
+          }
+        ]
+      },
+      "optimizer_updates": 282
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5590824451843898,
+      "validation": {
+        "task": "single_label",
+        "score_kind": "logit",
+        "rows": 600,
+        "macro_f1": 0.6729934514842464,
+        "micro_f1": 0.675,
+        "accuracy": 0.675,
+        "worst_label_f1": 0.6473779385171791,
+        "confusion_matrix": [
+          [
+            179,
+            131
+          ],
+          [
+            64,
+            226
+          ]
+        ],
+        "per_label": [
+          {
+            "label_id": 0,
+            "precision": 0.7366255144032922,
+            "recall": 0.5774193548387097,
+            "f1": 0.6473779385171791,
+            "support": 310
+          },
+          {
+            "label_id": 1,
+            "precision": 0.6330532212885154,
+            "recall": 0.7793103448275862,
+            "f1": 0.6986089644513137,
+            "support": 290
+          }
+        ]
+      },
+      "optimizer_updates": 376
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.4566489093353351,
+      "validation": {
+        "task": "single_label",
+        "score_kind": "logit",
+        "rows": 600,
+        "macro_f1": 0.6961805555555556,
+        "micro_f1": 0.6966666666666667,
+        "accuracy": 0.6966666666666667,
+        "worst_label_f1": 0.6840277777777778,
+        "confusion_matrix": [
+          [
+            221,
+            89
+          ],
+          [
+            93,
+            197
+          ]
+        ],
+        "per_label": [
+          {
+            "label_id": 0,
+            "precision": 0.7038216560509554,
+            "recall": 0.7129032258064516,
+            "f1": 0.7083333333333334,
+            "support": 310
+          },
+          {
+            "label_id": 1,
+            "precision": 0.6888111888111889,
+            "recall": 0.6793103448275862,
+            "f1": 0.6840277777777778,
+            "support": 290
+          }
+        ]
+      },
+      "optimizer_updates": 470
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.38051458559557794,
+      "validation": {
+        "task": "single_label",
+        "score_kind": "logit",
+        "rows": 600,
+        "macro_f1": 0.7115312466129933,
+        "micro_f1": 0.7116666666666667,
+        "accuracy": 0.7116666666666667,
+        "worst_label_f1": 0.7052810902896082,
+        "confusion_matrix": [
+          [
+            220,
+            90
+          ],
+          [
+            83,
+            207
+          ]
+        ],
+        "per_label": [
+          {
+            "label_id": 0,
+            "precision": 0.7260726072607261,
+            "recall": 0.7096774193548387,
+            "f1": 0.7177814029363785,
+            "support": 310
+          },
+          {
+            "label_id": 1,
+            "precision": 0.696969696969697,
+            "recall": 0.7137931034482758,
+            "f1": 0.7052810902896082,
+            "support": 290
+          }
+        ]
+      },
+      "optimizer_updates": 564
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.3186352074481547,
+      "validation": {
+        "task": "single_label",
+        "score_kind": "logit",
+        "rows": 600,
+        "macro_f1": 0.7192012836512747,
+        "micro_f1": 0.72,
+        "accuracy": 0.72,
+        "worst_label_f1": 0.704225352112676,
+        "confusion_matrix": [
+          [
+            232,
+            78
+          ],
+          [
+            90,
+            200
+          ]
+        ],
+        "per_label": [
+          {
+            "label_id": 0,
+            "precision": 0.7204968944099379,
+            "recall": 0.7483870967741936,
+            "f1": 0.7341772151898734,
+            "support": 310
+          },
+          {
+            "label_id": 1,
+            "precision": 0.7194244604316546,
+            "recall": 0.6896551724137931,
+            "f1": 0.704225352112676,
+            "support": 290
+          }
+        ]
+      },
+      "optimizer_updates": 658
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.2765468271641682,
+      "validation": {
+        "task": "single_label",
+        "score_kind": "logit",
+        "rows": 600,
+        "macro_f1": 0.7130751009241652,
+        "micro_f1": 0.7133333333333334,
+        "accuracy": 0.7133333333333334,
+        "worst_label_f1": 0.7044673539518901,
+        "confusion_matrix": [
+          [
+            223,
+            87
+          ],
+          [
+            85,
+            205
+          ]
+        ],
+        "per_label": [
+          {
+            "label_id": 0,
+            "precision": 0.724025974025974,
+            "recall": 0.7193548387096774,
+            "f1": 0.7216828478964401,
+            "support": 310
+          },
+          {
+            "label_id": 1,
+            "precision": 0.702054794520548,
+            "recall": 0.7068965517241379,
+            "f1": 0.7044673539518901,
+            "support": 290
+          }
+        ]
+      },
+      "optimizer_updates": 752
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.24494944197886312,
+      "validation": {
+        "task": "single_label",
+        "score_kind": "logit",
+        "rows": 600,
+        "macro_f1": 0.7371938139466975,
+        "micro_f1": 0.74,
+        "accuracy": 0.74,
+        "worst_label_f1": 0.7100371747211895,
+        "confusion_matrix": [
+          [
+            253,
+            57
+          ],
+          [
+            99,
+            191
+          ]
+        ],
+        "per_label": [
+          {
+            "label_id": 0,
+            "precision": 0.71875,
+            "recall": 0.8161290322580645,
+            "f1": 0.7643504531722054,
+            "support": 310
+          },
+          {
+            "label_id": 1,
+            "precision": 0.7701612903225806,
+            "recall": 0.6586206896551724,
+            "f1": 0.7100371747211895,
+            "support": 290
+          }
+        ]
+      },
+      "optimizer_updates": 846
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.22272181198808055,
+      "validation": {
+        "task": "single_label",
+        "score_kind": "logit",
+        "rows": 600,
+        "macro_f1": 0.7267965640058663,
+        "micro_f1": 0.7283333333333334,
+        "accuracy": 0.7283333333333334,
+        "worst_label_f1": 0.7063063063063063,
+        "confusion_matrix": [
+          [
+            241,
+            69
+          ],
+          [
+            94,
+            196
+          ]
+        ],
+        "per_label": [
+          {
+            "label_id": 0,
+            "precision": 0.7194029850746269,
+            "recall": 0.7774193548387097,
+            "f1": 0.7472868217054264,
+            "support": 310
+          },
+          {
+            "label_id": 1,
+            "precision": 0.7396226415094339,
+            "recall": 0.6758620689655173,
+            "f1": 0.7063063063063063,
+            "support": 290
+          }
+        ]
+      },
+      "optimizer_updates": 940
+    }
+  ],
+  "attempts": []
+}

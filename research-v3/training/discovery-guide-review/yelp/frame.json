@@ -1,0 +1,3612 @@
+{
+  "dataset_id": "yelp",
+  "purpose": "discovery",
+  "sampling_seed": 7301,
+  "source_partition": "discovery",
+  "source_sha256": "26c5d6bfef357a9b2497ec29956b1e4d818269701f20b41d173d741b1d52afc6",
+  "records": [
+    {
+      "sample_id": "yelp/train/440260",
+      "dataset_id": "yelp",
+      "group_id": "7fb9b586a20f2f808a9c0c42de4bfa1cc47752fa95191a31cb66707921c9c2d5",
+      "purpose": "discovery",
+      "text": "Bankers' hours? Is this a joke? The place is open after everyone is at work and closes before most people get off work (except weekends, unless you work weekends, too). So, who is this for? Senior citizens (who should be watching what they eat) and those on welfare (who should be watching what they buy)? Yes, the crepes are decent, but until they have meaningful business hours, their rating will remain low in my book. After all this is Vegas, where the best fun starts after sunset...",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/440260",
+        "dataset_id": "yelp",
+        "group_id": "7fb9b586a20f2f808a9c0c42de4bfa1cc47752fa95191a31cb66707921c9c2d5",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/359050",
+      "dataset_id": "yelp",
+      "group_id": "406bf086c7c337acc10f0210c85d5f5b2c2ea00a710def0613d602e02b4f79eb",
+      "purpose": "discovery",
+      "text": "Energy Tanning is the best tanning salon I have ever been too! The staff are very friendly and cater to everyone's personal needs.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/359050",
+        "dataset_id": "yelp",
+        "group_id": "406bf086c7c337acc10f0210c85d5f5b2c2ea00a710def0613d602e02b4f79eb",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/106077",
+      "dataset_id": "yelp",
+      "group_id": "cc42bd5e7a13e4945069edce45d91a5d5ee41636afe4568875d0d4076f0c8f95",
+      "purpose": "discovery",
+      "text": "Fitzgeralds is like a funky old person in sandles with their toe nail fungus for the whole world to see. It makes me shutter just to walk thru it, and want to take a shower when I get back to my hotel. 2 stars for the cheap tables and food. Note: It's crowded here...there are people who like it.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/106077",
+        "dataset_id": "yelp",
+        "group_id": "cc42bd5e7a13e4945069edce45d91a5d5ee41636afe4568875d0d4076f0c8f95",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/11589",
+      "dataset_id": "yelp",
+      "group_id": "decc59e4637bda57a547ce913f571901599253e63d05609302cd8bf12a9be104",
+      "purpose": "discovery",
+      "text": "OMG NOOOOOOO!!!!!!!!\\n\\nlike Grand Master Flash said about the white lines \\\"\"Don't Do It\\\"\"\\nRang dang diggedy dang di-dang \\nDiggedy dang di-dang diggedy dang di-dang\\n\\nmy Torta Burro had no flava-dang, i was sad panda mang\\n\\nthis business has been in operation too long and clearly the owners (i doubt the original owners) stopped giving a shit. if they did the average rating wouldn't be 2.5 stars. i remember this place as a kid, i don't remember ever eating here. so i really cannot comment on how great it was. but like Sing High, the downtown nostalgia restaurants are extremely scary. just avoid this...it's not good. my plate looked sad, just a naked burro with a side of hashbrowns that were hardly crispy anywhere. the salsa was tasty, but i would hardly add a star to it. the service was compitant, but i couldn't understand her. i couldn't blame my ADD on it. my friend liked the menudo, but i wouldn't make that a saving grace for this place. cool logo on the building. very retro..but do not be fooled by it.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/11589",
+        "dataset_id": "yelp",
+        "group_id": "decc59e4637bda57a547ce913f571901599253e63d05609302cd8bf12a9be104",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/117759",
+      "dataset_id": "yelp",
+      "group_id": "fcbc9a21baa760995167ba79e14f8e979d2f17b60a50ff30885827789dc13a10",
+      "purpose": "discovery",
+      "text": "Found dark long hair on bath room floor, I am blonde. Stayed here . Part of World Wide Vacations, paid 50 for 2 nights and had to set through a 120 minute sales pitch. Not worth it. I would have rather paid 100 for 2 nights and stayed someplace else.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/117759",
+        "dataset_id": "yelp",
+        "group_id": "fcbc9a21baa760995167ba79e14f8e979d2f17b60a50ff30885827789dc13a10",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/49099",
+      "dataset_id": "yelp",
+      "group_id": "155a5277c5b3b5ed310c54b65b1529a6825081f5589eee81b2ba13cca66182de",
+      "purpose": "discovery",
+      "text": "$2.99 per 1/4 pound. This store's candy is arranged by type and color- just noticed that the last time we were here, on sunday. The left side has chocolates- like dark chocolate bark, M & M's in different colors (customize), and sugar-free candy, as well as the cashier counter. The middle has seasonal/christmas candy- two sided. The front right side has red candy- like boston-baked beans- mmm, and not the boxed kind, 'cause these are bigger. There is an assortment of candy on the right side, middle- like the blue sour coke gummies (one of my favorites). Against the back wall, are the novelties, like metal lunch boxes (hello kitty, candy, etc.), and the gummies too, worms, bears, sharks, coke bottles (just about every kind too)- white chocolate bark is here too.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/49099",
+        "dataset_id": "yelp",
+        "group_id": "155a5277c5b3b5ed310c54b65b1529a6825081f5589eee81b2ba13cca66182de",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/493705",
+      "dataset_id": "yelp",
+      "group_id": "74e1faa7351d0854d5728b5755355c3af2d168616d4d411ddd1a68319b28ef2c",
+      "purpose": "discovery",
+      "text": "The food here gets five stars--I had the street noodles with Thai fried chicken, and it was delicious. I am subtracting one star for slightly slow service, and the fact that the whole establishment is cash-only, which can create some problems among potential patrons.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/493705",
+        "dataset_id": "yelp",
+        "group_id": "74e1faa7351d0854d5728b5755355c3af2d168616d4d411ddd1a68319b28ef2c",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/242027",
+      "dataset_id": "yelp",
+      "group_id": "1f40d237fd35793faf52a7914a104f9ba6b1689ec829e4b41b2b895ed3ba9132",
+      "purpose": "discovery",
+      "text": "This is the worst club in Las Vegas, HANDS DOWN. If i could give it 0 stars, I would. So my friends and I got in line with our VIP passes, and were told by this chick with a clipboard that we would get half off the cover charge. After waiting about 30 minutes, we get to the front of the line, and of course it turns out that bitch was wrong. They charged $20 for girls and $30 for guys and gave shitloads of attitude when we tried to explain what we'd been told. So whatever, we pay the cover...and things just go downhill from there. The music SUCKED. They packed so many people into that place that it was *impossible* to get around because there's no walkway and you're basically shoved against strangers the whole time. No room to dance obviously. Total fire hazard (although if anyone really burned that place down, they'd be doing us all a favor). Really rude staff, especially the guy who was guarding the women's bathroom...even called one of the girls a \\\"\"dumbass\\\"\" to her face. The crowd was mediocre...and the DJ kept announcing that C-listers like \\\"\"Kristin Cavallari\\\"\" and \\\"\"Wilmer Valdarrama\\\"\" were there, as if I gave a shit. I don't know which is worse, LAX the nightclub or LAX the airport. Both suck HARD.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/242027",
+        "dataset_id": "yelp",
+        "group_id": "1f40d237fd35793faf52a7914a104f9ba6b1689ec829e4b41b2b895ed3ba9132",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/501082",
+      "dataset_id": "yelp",
+      "group_id": "f0ec67a3c8a549da6d59eda476265cf36bb9509ff05088b378efbc6d502f0522",
+      "purpose": "discovery",
+      "text": "worst customer service ive ever experienced! I joined directv because I was threw with time warner cable. I explained to directv that I as moving in 4 months and asked if it would be a charge to transfer my dish to my new address. I was assured online that this would not be an issue, well its moving time and my wife has been on the phone for the past hour discussing this with a representative that all they know how to do is apologies and do nothing. I WAS LIED TO! Im not very happy with my service so far. I DO NOT recommend Directv to anyone.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/501082",
+        "dataset_id": "yelp",
+        "group_id": "f0ec67a3c8a549da6d59eda476265cf36bb9509ff05088b378efbc6d502f0522",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/485704",
+      "dataset_id": "yelp",
+      "group_id": "d1d49053612f10b538d083f46087637a89febf8f0e64fc4c5d3ad9c1a384f565",
+      "purpose": "discovery",
+      "text": "My family and I dined on the large AC special pizza. Good and tasty thin pizza. We will be coming back. Decent prices. Nice guy behind the counter.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/485704",
+        "dataset_id": "yelp",
+        "group_id": "d1d49053612f10b538d083f46087637a89febf8f0e64fc4c5d3ad9c1a384f565",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/389471",
+      "dataset_id": "yelp",
+      "group_id": "0a173614d3f58a2dd3b1dc8e4b76ccdb2a3c955fac8e166e2168a66b7274f3ba",
+      "purpose": "discovery",
+      "text": "Kind of a cool retro vibe inside with digital screens for menus. I was excited until the lush experience began....Don't bother asking the cashier questions about the food. She acted like they were slammed....1 party of 4 behind me.\\n\\nWe waited over 30 minutes for our food (fast-casual??). This includes sodas! We were told we were supposed to get the drinks after ordering.......well the cashier was in such a hurry to get rid of us and she never gave us drinks or told us to wait for them.......very weird and confused set up. \\n\\nThey were not busy. My burger was dry and not even close to medium. No one at my table said anything positive. How hard is it to cook burgers?\\n\\nThe fries were greasy and soft....not sure if this is what they're going for? Not for me.\\n\\nBurgers are $8 - $12 dollars. An extra $4 gets you (or is supposed to get you) a drink and greasy fries.....put a salad, shake, or dessert on top of that and you're looking at $20 per person!!! Ridiculously overpriced. Low quality. No flavor. \\n\\n\\nI will NOT be back nor will my fellow diners.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/389471",
+        "dataset_id": "yelp",
+        "group_id": "0a173614d3f58a2dd3b1dc8e4b76ccdb2a3c955fac8e166e2168a66b7274f3ba",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/437324",
+      "dataset_id": "yelp",
+      "group_id": "82d38626a75d1d2ad2a901e5bf8f8eacb86b34c67d191cf2d4b9170b8421c214",
+      "purpose": "discovery",
+      "text": "We had high expectations for this place, since it was rated well. It was a complete disappointment. I had the lasagna, which DID NOT taste fresh. My homemade tastes better. My husband had a chicken and pasta dish. The chicken tasted WEIRD and the pasta was very plain. It gave him stomach pains. Really sad; we were hoping to have found a yummy local Italian spot. It does, however, have a nice atmosphere and lovely staff.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/437324",
+        "dataset_id": "yelp",
+        "group_id": "82d38626a75d1d2ad2a901e5bf8f8eacb86b34c67d191cf2d4b9170b8421c214",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/169368",
+      "dataset_id": "yelp",
+      "group_id": "56d3507caec4d7c81305f68d522ff944fe8effbe44bcd6a5abf81e2d80e02acf",
+      "purpose": "discovery",
+      "text": "Mmmmmm.. Mmmmmm. Mmmm... oh wait, i should say more than that I suppose. Ok, I go to this bakery for one reason and one reason only - RVC. \\n\\nAhhh, what is RVC you ask? haha, you're clearly not a cake conniosseur (neither am I). BUT my dear, I know DAMN good Red Velvet Cake when I taste it. I'm orginally from the region that spawned this decadent moist cake. I know women who make these cakes from scratch that would make you slap 10,00 Mommas. \\n\\nOnce I moved to Phoenix, I started on a quest to find a place where I can get moist decadent RVC. I've been to just about every notable bakery East of Central. it took me a little over a year to discover Tammie Coe Cakes at La Grande Orange. Then I realized the bakery itself was closer to my home and now I go to the shop itself.\\n\\nHands-down, if you are a RVC fanatic like myself, then you will find that this shop has the best, most authentic RVC prepared in a commercial establishment in Phoenix. \\n\\nthis shop is so conveniently located right off of 7th Street, just after the I10 Exit. You can't miss it. You don't want to miss it. Trust me.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/169368",
+        "dataset_id": "yelp",
+        "group_id": "56d3507caec4d7c81305f68d522ff944fe8effbe44bcd6a5abf81e2d80e02acf",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/378145",
+      "dataset_id": "yelp",
+      "group_id": "b09f638508969c982bcd898db1f79fbf1e0cf4e8722f11d712c765adeadc7ffc",
+      "purpose": "discovery",
+      "text": "This is the WORST doctors office EVER. This is my first pregnancy and I couldnt have been more disapointed with the service here. I didnt have a SINGLE appointment where I was seen quicker than an HOUR AFTER my scheduled appointment. The doctor has NO REGARD WHATSOEVER for the patients time and it is BEYOND RUDE and unacceptable. I wouldnt recommend this place to aan enemy. Do NOT waste your time.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/378145",
+        "dataset_id": "yelp",
+        "group_id": "b09f638508969c982bcd898db1f79fbf1e0cf4e8722f11d712c765adeadc7ffc",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/468814",
+      "dataset_id": "yelp",
+      "group_id": "c81a4539add7851bf718490758d943498a05fd9ce20ba3988df7d329bd385e98",
+      "purpose": "discovery",
+      "text": "This place is TERRIBLE. Do NOT go.\\nI went here this afternoon for lunch with my friend, and all I can say is it was the single worst dining experience in my life. The sushi was mediocre, and let me say for the all you can eat menu, being charged for uneaten sushi was disgusting.\\nMy friend is allergic to mayo, and after ordering we informed our waitress. I don't think these girls spoke French or English, after telling her the news she returned to her post, and said nothing to the chef. Well, lo-and-behold, our food came back, with mayo. We didn't eat those rolls, and when the bill came, we asked to speak to the manager. She was completely incompetent, and they both seemed to think that a simple \\\"\"Sorry\\\"\" would suffice for their carelessness. After about ten minutes of back and forth with the manager, our waitress said, \\\"\"Pay or leave.\\\"\" We left. \\nHowever, then the manager thought it would be a good time to do her job. This woman physically held me, and demanded more than what our bill requested. After giving her a proper yelling, they agreed to let us go for half the price.\\nGo get your sushi somewhere else, this place is horrendous.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/468814",
+        "dataset_id": "yelp",
+        "group_id": "c81a4539add7851bf718490758d943498a05fd9ce20ba3988df7d329bd385e98",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/9830",
+      "dataset_id": "yelp",
+      "group_id": "50124d1338a5bdd7724deb8ef9875e6c25c7f7bd582e3957b8bd59fb1d353255",
+      "purpose": "discovery",
+      "text": "Probably one of the most underrated Chinese restaurants on campus. Their dim sum is delicious! It's absolutely everything I wasn't expecting because I never hear good things about this place or no one just erally talks about it. Not only is it delicious, they have dim sum 11am-3pm EVERY day! What! Who does that! It's amazing!\\n\\nI had their snow pea leaves stir fried in garlic today and eggplant in garlic sauce + chicken. both were great. although, i think the snow pea leaves could've been cooked a bit more some of it was tough. The eggplant was delicious and I was looking at all the dishes around me everything looks pretty good. Forget rainbow garden - come here for real Chinese food. (And theyre not eternally grumpy like the owners at Rainbow).",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/9830",
+        "dataset_id": "yelp",
+        "group_id": "50124d1338a5bdd7724deb8ef9875e6c25c7f7bd582e3957b8bd59fb1d353255",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/440620",
+      "dataset_id": "yelp",
+      "group_id": "f41178fa8b9aa2db737edf3d2f0287917e2c94d2781c1423975db35589941173",
+      "purpose": "discovery",
+      "text": "I am severely disappointed with this place. I was looking for something to do with my daughter that didn't cost an arm and a leg. So I found this place on Google and it looked pretty cool. The website listed the hours but said to call to make sure there were no parties booked. Thats exactly what I did. I was told that there was only 2 parties booked and that they would have open play at 1pm. I drove all the way up to desert ridge from avondale only to be told that they were closed all day for private parties. I told them I called not more than an hour ago and was told that they were open to the public. All I got was a shoulder shrug. I'm definately not wasting my time by coming back here ever again.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/440620",
+        "dataset_id": "yelp",
+        "group_id": "f41178fa8b9aa2db737edf3d2f0287917e2c94d2781c1423975db35589941173",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/377474",
+      "dataset_id": "yelp",
+      "group_id": "1a173b8815c6ddcc08351605c1a64f4afee241e2c83873243f9d9e279bc5f479",
+      "purpose": "discovery",
+      "text": "I purchased airline tickets through OneTravel which is DBA Wk Travel Inc. Due to an emergency medical situation, I had to cancel my flight. I kept calling the number listed on my confirmation tickets (5 times in one day at all different hours of the day) and was put on hold for at least 25 minutes each and every time I called. I finally had to just hang up each time. I can't imagine how long I would have actually had to wait before I got to talk to a real person. This is customer service AT ITS WORST and I would never do business with them again. I finally just called the airlines directly and they took care of it right away. Poor customer service certainly doesn't bring back business. I don't know how they are even still open. I'm sure I'm not the only person that has gone through the same thing with this company.\\nThis was just one of the problems I had with this company. They also had to change my flights due to some airlines changes, which is understandable. However, they changed them to give me a 10 minute layover instead of a 90 minute layover. If my original flight was even 5 minutes late in taking off, I would have missed my international connection. I did reach them that time and had them change it to something else to assure I wouldn't miss my connection. It was like pulling teeth trying to get that taken care of.\\n\\nI highly recommend NOT doing business with this company. You will be very disappointed!!",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/377474",
+        "dataset_id": "yelp",
+        "group_id": "1a173b8815c6ddcc08351605c1a64f4afee241e2c83873243f9d9e279bc5f479",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/205256",
+      "dataset_id": "yelp",
+      "group_id": "829a1d0e7f7738d674f86f3854c7a321fde4ad018f886e4db8fe0a3b75ea8e75",
+      "purpose": "discovery",
+      "text": "Place looks amazing! What a difference!! Came here to see my son play and was pleasantly surprised by all the new renovations!! A major improvement to what it used to look like. Congratulations to the new owners . . . We will be looking forward to coming here in the future! Only gave it 4 stars because the food area wasn't up and running yet! Can't wait to come back when that happens!!",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/205256",
+        "dataset_id": "yelp",
+        "group_id": "829a1d0e7f7738d674f86f3854c7a321fde4ad018f886e4db8fe0a3b75ea8e75",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/253364",
+      "dataset_id": "yelp",
+      "group_id": "b1d34948b9d23af1b8571dc96386030d6dcc3a636ac47c57a488d9e76e20e7b5",
+      "purpose": "discovery",
+      "text": "This restaurant is just as good as all of the reviews say it is. My expectations are pretty high when a restaurant manages to keep 5 Yelp stars, and let me tell you - these 5 stars are well-deserved.\\n\\nI went to Joseph Tambellini for a family birthday with a party of 8, and we ended up sitting up on the third floor in the private room. It's a different atmosphere than the rest of the restaurant, but it was quiet and wonderful. It's a bit more casual, a lodge feel, but I am already imagining what other celebrations I'm going to try to reserve that room for!\\n\\nNow, on to the food. It was amazing. I ordered the pork chop special of the night - it was covered with a fig/balsamic/gorgonzola concoction and it was cooked perfectly. Also, it was enourmous. I got to re-live my meal at Tambellini for dinner the next night. I had a pasta course and salad, both of which come with the entree. The pasta was again perfectly cooked and covered in a delicious, rich tomato basil cream sauce. The salad was fresh and tasty, and the bread was warm and had a yummy garlic/olive oil dipping sauce with it. \\n\\nI also managed to snag a taste of everyone else's entrees and am happy to report that all were just as good as mine. The steaks are literally a pound of beef, cooked perfectly and topped with yummy accents (one special this evening had some sort of horseradish topping, which was to die for). Seriously, the food was SO good. You have to try it to understand JUST HOW GOOD IT IS.\\n\\nThe service: it was awesome. I feel bad for those servers who have to walk up the narrow stairs hundreds of times a day, but they were friendly and attentive. And, I guess on the plus side, all those stairs eliminate the need for a gym membership. The owners are very nice, obviusly committed to great service and the highest quality food, and one of them greeted us at the door as we arrived.\\n\\nOverall, this was a wonderful dining experience. I wouldn't hesitate to go back to Joseph Tambellini for a romantic dinner for two or for a larger family function in the awesome third floor party room. Thanks for a wonderful evening!",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/253364",
+        "dataset_id": "yelp",
+        "group_id": "b1d34948b9d23af1b8571dc96386030d6dcc3a636ac47c57a488d9e76e20e7b5",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/75747",
+      "dataset_id": "yelp",
+      "group_id": "57c5617290e21d14b1e401d44d9a6727c9396efcc2527060e2824c990e93aaa4",
+      "purpose": "discovery",
+      "text": "I really enjoyed the food and drinks at Bluephies. I ordered the black bean burger; and I must say, it was the best black bean burger I've ever had in my life. The patty was thick, flavorful and moist. I also fell madly in love with the sweet potato tater tots. They were delicious and pillowy. \\n\\nThe bacon wrapped cheese curds with the chipotle aioli dip was great, as was the fried zucchini chips with homemade French onion dip. \\n\\nThe cute and clever dessert menu was so cool! I'm glad someone is bringing back the Viewmaster from the 80s. We ordered the deep fried chocolate dough, which was a tad too sweet for me, but still unique and good for those who have a sweet tooth. \\n\\nService was great. Food was great. Drinks were great. It was all great!",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/75747",
+        "dataset_id": "yelp",
+        "group_id": "57c5617290e21d14b1e401d44d9a6727c9396efcc2527060e2824c990e93aaa4",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/95803",
+      "dataset_id": "yelp",
+      "group_id": "2859649a710fdc8434e1c94fe3e195a937650799741dd660a63d79168e17c717",
+      "purpose": "discovery",
+      "text": "IT'S VERY NON THREATENING, even a fussy eater will love it. I have been eating here since 1997. It was half the size back then. They did very well and needed more space and took over Rasta-Tangs spot next door and expanded the restaurant to double it's capacity. Since then waiting for a table is rare. \\n\\nThe food is amazing. The Ethiopian HONEY wine is available to buy by the bottle. I buy it and guests at my home are always impressed. After running 10 miles in the morning I like to go here to get my Injeera (pancake bread) carbo stores back up. The meats you can pick from are all great. I always ask for extra Injeera, can't get enough of it :) \\n\\nI have been to the other similar restaurant in Tempe. No comparison. I tried it twice to make sure.. it wasn't even close. Lunch specials come with a drink and are served very quickly for those on a lunch break.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/95803",
+        "dataset_id": "yelp",
+        "group_id": "2859649a710fdc8434e1c94fe3e195a937650799741dd660a63d79168e17c717",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/231099",
+      "dataset_id": "yelp",
+      "group_id": "edd23c45843a9472bf2eb467209756f135bce74afab0f9e115f0f4070c7060ea",
+      "purpose": "discovery",
+      "text": "A cool little spot very close to where we live which is nice because not much else is close to us! It gets pretty busy in the evenings. We were there fairly early in the evening (7ish maybe?) and it was a lot of older people....my husband and I kept remarking how much his parents would love this place. Even though there was a strange age dichotomy it seemed to work. The food was great, the portions very large and everything was reasonably priced. They had several TV's going with various sporting events which was nice. The music was loud and a bit all over the place...rap to oldies to rock. We don't mind that and we will definitely be returning many times.\\n\\nUpdate- Minus 2 stars\\n\\nI wish this was a more positive update, but alas, it is not. If there is one thing in this world that you should not do, it's get between me and the Red Sox.\\n\\nMy husband works from home and sometimes will spend a few days in the house working. I sensed that he needed to get out and said \\\"\"Hey hun, why don't we go to The Office Bar and Grill for some drinks and dinner, just to get you out of the house?\\\"\" We both agreed it was a great idea.\\n\\nThis happened to be the first time we went for happy hour, which also means the first time we went when the Red Sox were on. Given that they have 13 televisions I figured they would probably be showing it. When we walked in the only sporting event that was being televised was the Girls Little League World Series, which I admit, was a tad creepy. (A bunch of 20 something year old guys watching 12 year old girls? Yeah, it's creepy.) I thought, \\\"\"wow, that's strange....maybe they didn't get the Extra Innings package...\\\"\" But sure enough a few moments later the Yankees game appeared on some of the TVs. Recognizing this, we requested the Red Sox game for the TV closest to us, and for about 15-20 minutes we were able to get our fix! I was ecstatic. Drink specials and the Sox? Sa-weet. \\n\\nMy happiness was short-lived because they were shortly taken off the screens. We got to watch about a half inning of the game before they started messing with the channels again. They even took the D-Backs game off! People at the bar were visibly upset. Out of about 13 tvs, 3 or 4 were showing the 11-0 Orioles/Yankees game (at that point who cares? The Yankees aren't going to pull this one out), about 6 were showing the Reds/Cubs (NL Central? For real?) a couple were showing the Detroit/Cleveland game (slightly more tolerable, but honestly, who cares?) and one tv in the back was showing Fox News!!! Who turns off a 1-0 pitcher's dual between two of the hottest young lefties in the game, Jon Lester and Scott Kazmir? Furthermore, how do you turn off a game that was specifically requested by your clientele? Now you're playing favorites. And I'm a bad enemy to make.\\n\\nI really wish that they wouldn't have even let us know they had DirectTV. Honestly, then I wouldn't have ever been teased with being able to watch the Sox game. We asked to speak with the manager about it who admitted to us that the only person who really knows how to work the television system is the chef (even though he's been managing the place for 4 MONTHS!). What? Are you kidding me? Teach the barback how to do it for crying out loud. We would have stayed and had more drinks had we been able to keep watching the game. The manager even told us that one girl \\\"\"over there\\\"\" wanted to watch the Indians and \\\"\"those people\\\"\" wanted to watch the Yankees (yeah? Which people? No Yankees fan I know wants to watch them when they are losing 11-0!) And of course one tv has to be dedicated to Fox News at all times. Can't change off that. We had even asked to put the Sox game on that tv, even though it was the absolute furthest tv from us. \\\"\"Can you even see that tv?\\\"\" Well it's better than nothing!\\n\\nSo I now know where NOT to go to watch sporting events and hang out with 40 year olds. Like I said, nothing comes between me and my Sox.\\n\\nUpdate to my Update: Its too bad they didn't keep the game on because this was one of the most exciting games of the season with the Sox pulling it out in the bottom of the 9th. I would have hung around for many many more drinks. Oh well.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/231099",
+        "dataset_id": "yelp",
+        "group_id": "edd23c45843a9472bf2eb467209756f135bce74afab0f9e115f0f4070c7060ea",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/340424",
+      "dataset_id": "yelp",
+      "group_id": "13cd8d65e42318ef603223552abcb39f0f3634e2d95836a46acad7bf84eaac5a",
+      "purpose": "discovery",
+      "text": "3rd and final time in. Really disappointed in the food. I ordered the \\\"\"PJ's Pie\\\"\" a take on Shepherd's Pie...the grease from the hamburger meat in the dish was a quarter inch deep in the bottom of the dish. Ugh! Not worth eating. My wife and I ordered the homeade chips (O'Chips) and cheese dip off the Munchies Menu for a starter. The chips may have been homeade but when they were made is not known. They were cold and boarderline stale. The dip had to have come from a can...runny cheese dip was thinner than warm pancake syurp. \\n\\nMy wife had corned beef & cabbage and the corned beef was extreamly salty. \\n\\nI hate to be this critical but this place could be so great if someone would take the food seriously and bring in some good Irish Pub items made correctly. \\n\\nHope to read about a turrn-a-round...I would give it another shot then. :(",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/340424",
+        "dataset_id": "yelp",
+        "group_id": "13cd8d65e42318ef603223552abcb39f0f3634e2d95836a46acad7bf84eaac5a",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/3710",
+      "dataset_id": "yelp",
+      "group_id": "b938d3825b1480358b55162265477454b2592d0056077e58cf3a5713a1490872",
+      "purpose": "discovery",
+      "text": "After looking for an occasion to go here for a few months, we finally went for my birthday dinner. It was a Sunday evening and the restaurant was quite busy. The area is kind of small and crowded, there was a large party near us which was making a lot of noise.\\n\\nDespite the crowd, the food was delicious! The starter goat cheese salad was the best salad I have ever had, and may have been better than the pasta..I had the lamb meatballs with cavatelli which was yummy. The lamb was moist and flavorful. I also had a few bites of the penne pasta with marinara sauce and chicken. You could tell the sauce was fresh and made from scratch since it was so sweet. Complimentary bread was good too.\\n\\nWould definitely go again, maybe on a weekday when it may be less crowded and noisy.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/3710",
+        "dataset_id": "yelp",
+        "group_id": "b938d3825b1480358b55162265477454b2592d0056077e58cf3a5713a1490872",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/287564",
+      "dataset_id": "yelp",
+      "group_id": "1be227931cdc39d3bd9c0247426dcb72454f60974b60bde1b6414188b110f224",
+      "purpose": "discovery",
+      "text": "This is all someone needs in life. EVERYTHING HERE IS AMAZING!",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/287564",
+        "dataset_id": "yelp",
+        "group_id": "1be227931cdc39d3bd9c0247426dcb72454f60974b60bde1b6414188b110f224",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/113048",
+      "dataset_id": "yelp",
+      "group_id": "ab0a7868efc05cf3fb31aaeefeb906a751020b67fe1ae6fc5e05bbb941f5c5d5",
+      "purpose": "discovery",
+      "text": "Worst experience ever! For complaining about staff, supposed \\\"\"owner\\\"\" kicked us out of his hotel. Family member told me owner said, \\\"\"NOW IT'S MY TURN TO TALK. Get out! ... If you don't leave now, I'll call security.\\\"\" If you ever stay at this place never complain. We booked this place months in advance and on the day we arrive we immediately get booted. I know it's owners prerogative to refuse service, but this guy is in hospitality business. This is crossing the line! Exercise extreme caution what you say to management!",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/113048",
+        "dataset_id": "yelp",
+        "group_id": "ab0a7868efc05cf3fb31aaeefeb906a751020b67fe1ae6fc5e05bbb941f5c5d5",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/57532",
+      "dataset_id": "yelp",
+      "group_id": "815bd262125fce7b1eb35a4db2f52e5fe7c7d539b72c911c7abf9d25fcd6501f",
+      "purpose": "discovery",
+      "text": "It was good and tasted fresh, tiny place that doesn't care about looks but cares deeply about making some good ass custard. I had some concoction of strawberries and salted pecans and it was damn good with butter pecan custard was very tasty. its a must stop if you are in the area.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/57532",
+        "dataset_id": "yelp",
+        "group_id": "815bd262125fce7b1eb35a4db2f52e5fe7c7d539b72c911c7abf9d25fcd6501f",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/515191",
+      "dataset_id": "yelp",
+      "group_id": "13964c28d2c34aefa67dffa6626ca8cdf9cad343921c003a6a21c36c75e16761",
+      "purpose": "discovery",
+      "text": "My first and my last time eating here the service was bad not to mention the server was hitting on me when I just wanted to have a nice lunch, I needed more soda but the server didn't ask if I needed a refill when my glass was empty, I had to go ind someone to get more and the food was good but could have been made better it taste like a TV dinner to be honest and the manager was super horrible I will not be coming here and I told everyone not to go here cause the service was horrible.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/515191",
+        "dataset_id": "yelp",
+        "group_id": "13964c28d2c34aefa67dffa6626ca8cdf9cad343921c003a6a21c36c75e16761",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/399842",
+      "dataset_id": "yelp",
+      "group_id": "72e467059065f25218b3b0d73400beca028986f439dd7d421bb5341d37a87507",
+      "purpose": "discovery",
+      "text": "I came here on Saturday for breakfast. I knew that since this place is still new that it wouldn't be as busy as most breakfast places in town. I was right.. there was only one other couple in there when we got in which was nice. The decor is tastefully done I just didn't like when they turned on the overhead fans because things were blowing off the table a bit. \\n\\nI was going to just order crepes but my husband suggested I do that as a side order because he wanted some too. We decided on their Sundae Crepes it had banana, and strawberries in them. Those were huge especially if I compare them to IHOP crepes. I'm not one to complain though...the more crepe the better! They were really good too! \\n\\nI had an Omelet that had tomatoes, bacon, cheese, and topped with avocado. It was good but it was missing something so I asked for some sour cream on the side. ..perfect! It also came with a side of potatoes which reminded me of the ones at the Cracked egg. They were just as delicious!\\n\\nMy husband had the Denver Omelet with a side of hash browns. Judging from the empty plate he liked it ! His only complaint was that the coffee tasted funny...I tasted it just to check. It did have a weird after taste to it. \\n\\nI liked this place especially because they offer crepes. I think they are pretty good competition for the other breakfast houses in town!",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/399842",
+        "dataset_id": "yelp",
+        "group_id": "72e467059065f25218b3b0d73400beca028986f439dd7d421bb5341d37a87507",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/57377",
+      "dataset_id": "yelp",
+      "group_id": "d0527767920b18af17475e856b38f45234305396f174e8d2d8c8e4acc99ad35a",
+      "purpose": "discovery",
+      "text": "We only stopped here because we were starving after getting up the tower and had no interest in searching something better. We both had the chicken avocado club wraps which to be fair, were very good. After we finally got them. This was probably around 9 PM on a Wednesday. The place had a few dozen guests at best but the service was very, very slow. Had to wait a long time to get a couple glasses of soda and even longer for our sandwiches. The 50's singing waiters was just annoying to me. But I know that's their thing there so others may really like it. For dessert we split a banana malt which I have to say was super good. Was not terrible overall but I'd probably not go here again.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/57377",
+        "dataset_id": "yelp",
+        "group_id": "d0527767920b18af17475e856b38f45234305396f174e8d2d8c8e4acc99ad35a",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/112015",
+      "dataset_id": "yelp",
+      "group_id": "d92fb31aba7e0e5c98a1889d20499f13071d984883e624fdceb55774d0743079",
+      "purpose": "discovery",
+      "text": "Go to any gun shop in Las Vegas, then call Discount Firearms and ask for price on same gun ... Probably $100 less! I was on Blue Diamond and asked if they would price match, they said no, but bring the gun here after you buy it and use our range. When I asked Discount on the phone if the price was right, he said \\\"\"our name is discount, what do you think\\\"\" ... Easy enough.\\n\\nBy the way, the building use to be a swingers club ... Gotta love Vegas.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/112015",
+        "dataset_id": "yelp",
+        "group_id": "d92fb31aba7e0e5c98a1889d20499f13071d984883e624fdceb55774d0743079",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/132192",
+      "dataset_id": "yelp",
+      "group_id": "6d9e44ab0cb8af35e8406d5130922b6458eadd9a3dce008f39e78425e9ae0872",
+      "purpose": "discovery",
+      "text": "Seriously. Meh. I've experienced better.\\n\\nGood service. Very attentive. We had three people taking care of our group of 10. Pretty cool.\\n\\nWe ordered the sampler appetizer platter and some edamame. Just ok. I sampled one of the huge fried shrimp on the platter and it was overcooked to the point that i thought it maybe was chicken with a shrimp tail on it.\\n\\nOrdered the won ton soup with dinner. The broth was dark rather than the light broth that I normally expect. Again, it was just ok. Sort of tasted like a soy sauce mushroom water. Strips of bbq pork were good, and the won tons were good. Just gross broth.\\n\\nOrdered the asian shrimp and filet skewers. The filet skewer was cooked perfectly, but not hot. I wouldn't even say lukewarm. The filet was plain, even though there was supposed to be some Korean spice rub. I really didn't mind because I don't like a lot of seasoning on a good piece of meat, but whatever. The shrimp skewers were plain as well. They were also ICE COLD. Like they had been cooked an hour or two before and were just sitting out waiting to be plated. The dish came with a salad...again, just ok.\\n\\nGot a free dessert for Mother's day, so we ordered the meltdown chocolate cake. It was supposed to be served with warm caramel and hot fudge. So I expected a gooey melty chocolate cake. Nope. Just an ice cold piece of chocolate cake that may have come from Frys. \\n\\nToo pricey for what we got. Would have given it 1 star but the service was too good to not be acknowledged. Next time, we'll go back to Golden Bhudda.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/132192",
+        "dataset_id": "yelp",
+        "group_id": "6d9e44ab0cb8af35e8406d5130922b6458eadd9a3dce008f39e78425e9ae0872",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/440870",
+      "dataset_id": "yelp",
+      "group_id": "3b4d246fefdb82ef537825eb1b4528c73945bfb7e9cbb67fac47a56e0307462e",
+      "purpose": "discovery",
+      "text": "I was concerned to go into a bed and breakfast, because I had a bad experience once before (Lets just say a lot of victorian dresses and an ankle biter involved), but I was absolutely blown away by the Token Creek Inn. \\n\\nIt lies in some absolutely gorgeous Wisconsin countryside and is only 15- 20 minutes from downtown Madison. We stayed in the Capitol room for 2 wonderful nights, and it was so relaxing. At night there is not even a sound, it is just blissful silence, and in the morning (only if you open the window) you can occasionally hear their chickens and wonderful songbirds. \\n\\n ......I forgot it was bed AND breakfast because the room and the home were so nice (a huge bath with jets in it and the most comfortable robe and bed ever will make it easy to forget things), but the breakfast was phenomenal. Jean and Jason are very accommodating to dietary needs. If you are vegetarian or gluten intolerant, she will whip up the most delicious gluten-free pumpkin french toast you have ever had. They have extremely fresh food (everything from either their garden or from that same county because they have amazing farmer's markets) anyway, the food is simple and filling so that you do not even need a lunch. My favorite was the omelet (I believe Jason made), 2 yr old cheddar, fresh garden asparagus, and eggs from the chickens collected same day....mmmhhhm. And my fiancee, who is just the pickiest coffee nut, said that the coffee (local) was delicious, and looked forward to it the next morning. Which is very rare.\\n\\nJean and Jason know a lot about the area and can easily direct you to good restaurants, kayaking, hiking, or more. They even send you off with a map. They are also considerate of private time and space, if you like to converse with them, they are so friendly and interesting (they have a really cool house/ garden to show off), but they also don't bother you if you spend all day in the room =).\\n\\nAnd to top it off, everything they engage in is environmentally conscious, and they are so nice and like explaining all the great ecofeatures of the house and your food!!\\n\\nI honestly could not say enough about the people behind the Inn or the Inn and food itself. I do not have anything I would change. Perfect.\\n\\n I cannot tell you how much my fiancee and I needed a break, and it was absolutely perfect. We are already planning a return, and mostly for just the Token creek eco inn.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/440870",
+        "dataset_id": "yelp",
+        "group_id": "3b4d246fefdb82ef537825eb1b4528c73945bfb7e9cbb67fac47a56e0307462e",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/554517",
+      "dataset_id": "yelp",
+      "group_id": "a45f55740cdbdc98cf67b835a351cdd645abff2420b92b1fa882dbdeadfa7d89",
+      "purpose": "discovery",
+      "text": "After I had purchased approximately $6000 in various items over a 2 month time period, I mistakenly assumed that I had developed a good relationship with the folks at Conn's. While purchasing a blue-ray player, I asked a salesman if the player was wi -fi ready and he affirmed that it was. When I opened the item, I found it was not. I returned to the store to exchange the item, instead of simply returning the item, the manager referred to his return policy to deny the exchange. The item had exceeded the 30 day return window. When we purchased the item we clearly stated that it was a gift to be given outside the 30 day period, and this was noted by the salesman on the ticket.\\nSimply put, the store was more willing to lose a frequent customer than to exchange an 80 dollar blue-ray player (for a higher priced item that I would have paid for). Upon contacting their corporate office, I have learned that they consider their return policies concrete and of much greater importance than keeping customers. I will recommend no one to this company.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/554517",
+        "dataset_id": "yelp",
+        "group_id": "a45f55740cdbdc98cf67b835a351cdd645abff2420b92b1fa882dbdeadfa7d89",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/216005",
+      "dataset_id": "yelp",
+      "group_id": "d45b509c583ba6145682ab82abe00a23e46f9546923b1fde803322695bd538a3",
+      "purpose": "discovery",
+      "text": "They won't take their own coupons from the back of cash register receipts. \\nNo more food from here.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/216005",
+        "dataset_id": "yelp",
+        "group_id": "d45b509c583ba6145682ab82abe00a23e46f9546923b1fde803322695bd538a3",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/346342",
+      "dataset_id": "yelp",
+      "group_id": "7f7fa9ba1dd7972ba792bd4c52b8f8abeba6f139f3f69c0477df90c76a928bfb",
+      "purpose": "discovery",
+      "text": "If I could give Zero stars I would. The staff is unbelievably rude, has a superiority complex, and think that their shit doesn't stink. Their Acai bowl had the stems and leafs of strawberries in it and the bananas were brown and the acai was extremely watery. If you want quality, go to Thrive!, not this backwater \\\"\"juice\\\"\" joint. Don't waste your time or your money.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/346342",
+        "dataset_id": "yelp",
+        "group_id": "7f7fa9ba1dd7972ba792bd4c52b8f8abeba6f139f3f69c0477df90c76a928bfb",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/7109",
+      "dataset_id": "yelp",
+      "group_id": "64bad0bd2fd86a795fc89548695887c457ebbcac4760e4b1120c1e9ca6c343a3",
+      "purpose": "discovery",
+      "text": "Tired of PetSmart ? Give this place a try. Ok, the prices are just about the same, but they do have a cool selection of items not seen at the big box stores. I think most pet stores seem to price-gouge on their products and I seem to find very much similar products at Walmart for cheaper.\\n\\nThe birds, rabbits, hamsters, and other rodents are more \\\"\"hands on\\\"\" than the other stores, meaning they're not stuck behind plexiglass and are given more of an open air venue. They even have a beautiful parrot who hangs outside of his cage and loves to perform. Fish tanks are clean, clear, and plentiful. We saw no \\\"\"floaters\\\"\".\\n\\nThis store is very well organized and CLEAN!!! Usually pet stores of the \\\"\"mom-n-pop\\\"\" variety are dingy and smelly. Staff are very friendly and accomodating.\\n\\nThis location used to be at the corner of Idlewild and Independence but moved down the street on 74 near the Nissan and Honda dealers, on the left heading east. Blink and you'll miss it.\\n\\nYour pal,\\nWalter",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/7109",
+        "dataset_id": "yelp",
+        "group_id": "64bad0bd2fd86a795fc89548695887c457ebbcac4760e4b1120c1e9ca6c343a3",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/92938",
+      "dataset_id": "yelp",
+      "group_id": "d85d71f4b2cb3201c44bb9a09ff6d53ea9277284c2d945b1257b2c20e8c4ccab",
+      "purpose": "discovery",
+      "text": "Happy Hour...All drinks half-priced. All appetizers too. Hmmmm.... I was ok with the 1/2 off for a $5 regular price Sam Adams draft - but $6 (regular price) for a Stella Artois? Are you kidding? And there is a cryptic note at the bottom of the menu that says there is a $2 Rocks upcharge for mixed drinks and a $4 upcharge for martinis that applies during HH. We had to have the bartender explain that to us. So much for 1/2 off.\\nWe ordered 2 appetizers...the $11 bruschetta and the $11 wings. The bruschetta was a joke...4 thin little toasted rounds of bagette with a dollop of chopped tomato and a bit of mozzarella. I couldn't stop laughing. Even for $5.50 the portion was incredibly small (maybe they meant 1/2-size appetizers?). The hot wings were good (tho could have used a bit more sauce for my taste) and came with carrots, celery and blue cheese. \\nI go by this place on the way to/from home everyday...but have not stopped in more than a year since I was not crazy about the place under the previous owners. It is often busy now... a good location with a great view of the mountains as others have said. ....but I was not impressed by the HH specials or the food.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/92938",
+        "dataset_id": "yelp",
+        "group_id": "d85d71f4b2cb3201c44bb9a09ff6d53ea9277284c2d945b1257b2c20e8c4ccab",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/211961",
+      "dataset_id": "yelp",
+      "group_id": "8be5a3afe15d0922d353576e1830fd592c197f53f829226262c821ebfc45d408",
+      "purpose": "discovery",
+      "text": "This place is SO dirty and I hate to say, gross. It was so trashy that when I went to the dressing room I refused to remove my shoes. The sales associate in the dressing room was upbeat and kind. The sales associate that rang me up was also nice but lacked some personality. What completely turned me OFF is when I was being rang up another salesperson, who I think was coming back from his break, walked in with a cigarette behind his ear! Are you serious?! SO unprofessional. I really, really, really hope someone in the upper echelons of this company take sometime to read these reviews and take action to revamp this herpe of a Forever 21 location. I will be driving to the Scottsdale location from now on. But now that I've said this, they most likely won't do anything to the poor Arrowhead store, at least they will be getting my money from somewhere...",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/211961",
+        "dataset_id": "yelp",
+        "group_id": "8be5a3afe15d0922d353576e1830fd592c197f53f829226262c821ebfc45d408",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/13061",
+      "dataset_id": "yelp",
+      "group_id": "72633c5aeb089bfabaab7641650947bccd1c2c2bfb8f74c7aa9024e4003f8885",
+      "purpose": "discovery",
+      "text": "It is so nice to stumble across a gem like this. A darling restaurant in an cozy old house in Phoenix. Art on the wall to enjoy and purchase if interested. The food is fantastic. My husband ordered the pork tacos. There were four tacos on the plate and the meat was deliciously tender and the tacos came with a small side salad. I ordered the caprese salad and this salad came with the best dressing ever. I would love to have the recipe. The menu said that it was lemon en-fused olive oil, basalmic reduction....best caprese salad ever. For dessert we shared the coconut cream pie. Oh my.....perfect crust and filling. Heavenly meal. Thank You. If you live near by and haven't given the Coronado cafe a try you are missing out.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/13061",
+        "dataset_id": "yelp",
+        "group_id": "72633c5aeb089bfabaab7641650947bccd1c2c2bfb8f74c7aa9024e4003f8885",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/324645",
+      "dataset_id": "yelp",
+      "group_id": "ea06f0676f32047d887ba9f9dc5afa1f4f52fb58aee4e649af5ca8185386f841",
+      "purpose": "discovery",
+      "text": "I've been dying to try this place since they opened and there was FINALLY a way I could try the famous frozen hot chocolate without flying to NY. It took some convincing to get our guy friends to come with us, since they kept thinking it was just a dessert place. They quickly shut up after they got their food. Everyone enjoyed what they ordered.. which also included the deep fried oreo sundae. I had the steak sandwich (which I can't find on the menu online, but it's on the menu at the restaurant) which had huge cuts of steak with sunnyside up eggs on a crunchy roll, kind of difficult to eat b/c of the big bites I had to take, but very delicious. The decor inside was very girly and cute, and while I see some people had a bad experience with the service, our server was actually very very friendly and quick. He gladly provided us with extra dipping sauces and refilled our ice water without even being asked. \\n\\nOverall, pretty good, I'd def come again... even if it's just to get the frozen hot chocolate MMMM",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/324645",
+        "dataset_id": "yelp",
+        "group_id": "ea06f0676f32047d887ba9f9dc5afa1f4f52fb58aee4e649af5ca8185386f841",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/144927",
+      "dataset_id": "yelp",
+      "group_id": "a7cca5d6fe10e730b7e35ee13c9a84a79b8d0867960e877aeea0d7488bb8f7b1",
+      "purpose": "discovery",
+      "text": "I found a great new spot in Vegas right on the strip. The ambiance transports you to Paris and the food and wine were great as well as the service.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/144927",
+        "dataset_id": "yelp",
+        "group_id": "a7cca5d6fe10e730b7e35ee13c9a84a79b8d0867960e877aeea0d7488bb8f7b1",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/521295",
+      "dataset_id": "yelp",
+      "group_id": "246575e4b19958a2318b371e3e7e2029b0e12a9f2d8b38b2463d72e005229d32",
+      "purpose": "discovery",
+      "text": "In the culinary desert that is Goodyear, PT Noodles is a refreshing breeze. Admittingly, I have only tried two things here; however, I would submit that you can tell the care for the food of a place through just one dish. \\n\\nI usually get the 32 it's stir-fried rice noodles with tofu and mixed veggies. I challenge any staunch meat eater to taste this dish and not go \\\"\"mmmm\\\"\". I have also tasted veggie pho, which was as pho-y as pho gets. My old lady has had the chicken and meatball pho, both good. The meatballs are weird and expectations should be tailored away from the american idea of a meatball; having said that, they are similar at all Vietnamese restaurants.\\n\\nI would also be remiss to not let vegans/vegetarians know this place is indeed veg friendly. There aren't many options, but the ones they have are excellent. \\n\\nWe eat here often and it's always a treat!",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/521295",
+        "dataset_id": "yelp",
+        "group_id": "246575e4b19958a2318b371e3e7e2029b0e12a9f2d8b38b2463d72e005229d32",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/520410",
+      "dataset_id": "yelp",
+      "group_id": "ca6795c12064e08e5d7e099710c4546857591374dced0b208e63cf5b54b5829b",
+      "purpose": "discovery",
+      "text": "Don't order online. I made the mistake thinking it would save me time but I showed up when at the pickup time it showed online which was about 25 mins from the time of order and then sat over 15 mins longer in the dinning area because it seemed no one had even started on my order. If I hadn't of paid online I would've walked out. And then when I spoke to the manager on the phone after I left she just told me she would address it with the staff and was not very apologetic at all. I've enjoyed driving through this place many times but I wont be fooled again.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/520410",
+        "dataset_id": "yelp",
+        "group_id": "ca6795c12064e08e5d7e099710c4546857591374dced0b208e63cf5b54b5829b",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/484397",
+      "dataset_id": "yelp",
+      "group_id": "d99858f206cc5b716c044605e60343b887766369add440dea40bf0c78a5f6ccd",
+      "purpose": "discovery",
+      "text": "Checking out Le Reve. The presentation is very nice and enjoyed seeing the mist and music prior to start. \\n\\nOverall the theatre is nice and has a very appealing setup for the show that's being presented. Everything is nicely laid out.\\n\\nAs always they inform the audience that the show should not have any flash photography or recordings. However you have a few who just fail to listen. I've been to several shows and this one was by far the worse when it came to guests snapping pictures and recording. Throughout the show all you could see were flashes from phones, cameras and iPads. It was extremely distracting from what we paid to see. \\n\\nThe show however was great. By far one of the best shows I've seen in Vegas. The cast did an amazing job and stunts were intensely great. We had seats that were in the front row and I was worried that I'd miss taking in the entire performance. Our seats were great, and I even got splashed on a few times from the performers. I recommend you check this show out if you've not seen it and I'd even it put it ahead of some of the Cirque shows.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/484397",
+        "dataset_id": "yelp",
+        "group_id": "d99858f206cc5b716c044605e60343b887766369add440dea40bf0c78a5f6ccd",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/211254",
+      "dataset_id": "yelp",
+      "group_id": "a94ccc8df14cd8b2b0cf58434bf07fd39785444dbba48b2bbb9f62629093c2fa",
+      "purpose": "discovery",
+      "text": "Don't Expect customer service at the deli, or good food!!! The old man at the deli had the worst customer service ever!! I tried ordering a \\\"\"make your own\\\"\" sandwich. I started with \\\"\"i'd like it on a wrap\\\"\" He snapped back at me \\\"\"We don't have those anymore!\\\"\" \\\"\"okay, i'll take bread. And i wanna make it a cheese and veggie with cucumber, tomatoes....\\\"\" He then cuts me off and says \\\"\"uhh, well i'm gonna have to Cut All That....\\\"\" \\\"\"you can't cut veggies back here? isn't that you f' ing job?\\nso i just left.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/211254",
+        "dataset_id": "yelp",
+        "group_id": "a94ccc8df14cd8b2b0cf58434bf07fd39785444dbba48b2bbb9f62629093c2fa",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/74792",
+      "dataset_id": "yelp",
+      "group_id": "e2bca6320612a2d1cfcd267b9ce7f60f62ac0e1821555e608ed66ae4d5b90ef6",
+      "purpose": "discovery",
+      "text": "I had this gosh-awful grilled chicken sandwich with limp greens and a gooey fried egg between focaccia for lunch here--don't remember how it was billed but this is all I can remember: Ack. It also reminded me of what we called an equally awful \\\"\"bad breath sandwich\\\"\" at a \\\"\"gourmet\\\"\" cafeteria next to a museum where I once worked. Anyway, friend had a grilled shrimp curry salad -- being a curry fan she said she couldn't taste any curry! \\n\\nWhile the place is beautiful and I imagine some power lunches with lobbyists and legislators go on here, go elsewhere for lunch. Maybe it's a go here for dinner, based on the other reviews.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/74792",
+        "dataset_id": "yelp",
+        "group_id": "e2bca6320612a2d1cfcd267b9ce7f60f62ac0e1821555e608ed66ae4d5b90ef6",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/345500",
+      "dataset_id": "yelp",
+      "group_id": "ee650f781431bfdbefe17285d5ca49ea26868d03086d9285162603fb1049149f",
+      "purpose": "discovery",
+      "text": "Sushi in Surprise!! I can not tell you how excited I am about this. Since my wife and the people I am around the most do not like sushi it makes it hard to persuade anyone to drive a distance for food they don't want. Now that I have one in my backyard I can make solo trips much more easily.\\n\\nSo first impression of this place was that it was your typical hole in the wall sushi joint.; nothing too fancy. We took a seat at the sushi bar and took a peak at the menu. It was huge! Tons of special rolls and combo platters. They we noticed their lunch specials, one for bento boxes and one for sushi rolls. I went with the 3 sushi rolls for $11.95 and added a bowl of miso soup for $1. The wife went with the teriyaki chicken bento box for $6.95. \\n\\nEverything was damn tasty and out the door we left for $30 after tip. I will definitely be coming back again and again; like I said, the menu is huge!",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/345500",
+        "dataset_id": "yelp",
+        "group_id": "ee650f781431bfdbefe17285d5ca49ea26868d03086d9285162603fb1049149f",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/60240",
+      "dataset_id": "yelp",
+      "group_id": "31b1e76e454f35c6e6a0f0a06a91e84312997cf318bb9b608a2c9ff3457a068a",
+      "purpose": "discovery",
+      "text": "STAY AWAY!!!! My ac was still covered under the 5 year parts warranty. Called Sierra Air who originally installed the ac for my houses builder. paid them 69.00 for a Service call. The technician determined it was a faulty compressor. assured me the labor only charge would only be $250-$500. He also told me that if it wasnt covered by the warranty that the job would be $2000. I call them up to schedule the job and i think everything is great. well guess what on the day of the repair dispatch calls me and informs me that the labor is gonna cost me $1900!!!! I call them back and tell them that is too much and that they are trying to pull one over on me. I cancel the repair. so sad to say we have been without AC for over 2 weeks thanks to Sierra Airs speedy response and reputable Business practices. Did i mention i am active duty airforce and had to leave my family with no AC. i am currntly out of town serving at a temporary duty station. And had to leave my wife my 7 yr old son. Thanks Sierra Air! Happy Memorial day! PLEASE STAY AWAY!!! from this crook of a company. Called up Legacy Air and they are taking care of us. Please dont let this happen to you.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/60240",
+        "dataset_id": "yelp",
+        "group_id": "31b1e76e454f35c6e6a0f0a06a91e84312997cf318bb9b608a2c9ff3457a068a",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/267281",
+      "dataset_id": "yelp",
+      "group_id": "7d60e8c208e1d30792c12dbdf3ff7c371bf0ba97726595e9f9ebf47f3973fd08",
+      "purpose": "discovery",
+      "text": "Brianna at \\\"\"Rouge Skin Hair and Makeup services\\\"\" is awesome! She did my makeup a few times just for fun and going out and she did such a great job. She is very professional and fun. She picked the right colors to go with my skin tone, and I got lots of compliments.\\n\\nI have also seen some of her work done at weddings and it's just amazing. When my day comes, she will def be the one I call.\\n\\nThanks Brianna! You rock!",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/267281",
+        "dataset_id": "yelp",
+        "group_id": "7d60e8c208e1d30792c12dbdf3ff7c371bf0ba97726595e9f9ebf47f3973fd08",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/130863",
+      "dataset_id": "yelp",
+      "group_id": "91ed64fde2eb3bea0363b23c132b31df128ce588b47e898136766450ab0d51ef",
+      "purpose": "discovery",
+      "text": "My family ate here last night as a send off from Phoenix. The service is fabulous. Not only did our server know everything and make great recommendations (as he should), the bartender Gayle was phenomenal. We ordered 9 semi-complicated drinks while asking her menu questions and she responded to everything thoroughly while making all of our drinks to the tee. My dad is a diabetic and felt dizzy while we waited for the table (maybe because he ordered a dirty Grey Goose martini which looked like 5 shots of vodka in a glass) and Gayle made sure to bring him orange juice and a few cheese/sausage chunks to spike his blood sugar. \\n\\nI liked that we were not rushed through our dinner. There was no set time to order anything and I appreciate that. My only complaint was the shrimp on my Cesar salad was cold, although deliciously seasoned. Desserts are homemade and you cannot beat the atmosphere of an old fashioned steak house. \\n\\nDefinitely recommend making reservations and using the valet so you can walk through the kitchen on your way in and out.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/130863",
+        "dataset_id": "yelp",
+        "group_id": "91ed64fde2eb3bea0363b23c132b31df128ce588b47e898136766450ab0d51ef",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/481454",
+      "dataset_id": "yelp",
+      "group_id": "2cf321e99e84e6babb880d33767da2339a64df7c4c4e6a15da752fd55601d55b",
+      "purpose": "discovery",
+      "text": "Went in for a migraine, came out feeling better. I have a history of migraines and when they get bad (nausea, extreme pain, blurred vision, ect), I usually have to go to the ER. But when I go to the ER, its usually a 4 hour ordeal (depending on how busy they are). At alliance I was seen and treated VERY quickly. I was in and out, pain free, in 30 minutes. Will use again for migraines and/or other minor injuries/illnesses",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/481454",
+        "dataset_id": "yelp",
+        "group_id": "2cf321e99e84e6babb880d33767da2339a64df7c4c4e6a15da752fd55601d55b",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/500023",
+      "dataset_id": "yelp",
+      "group_id": "30a73ef43f3d1b5a56cf3a29bb9afe70579445f8b9900e6b413852f043591d4e",
+      "purpose": "discovery",
+      "text": "East Valley, very good Italian food, very friendly and attentive customer service, nice selection of wines.\\nOk, now for the review. I had the manicotti and Susan had the antipasti. Both were very good and we are anxious to try something else on the menu. The bread is made by the chef and very good. They did not get 5 stars because I think the ambiance could be improved on. I have always heard when restaurants start painting advertising on their windows it means their business is slacking off. When we walked up I said uh oh... painting on the windows. Fortunately the pizza advertising didn't take away from our experience.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/500023",
+        "dataset_id": "yelp",
+        "group_id": "30a73ef43f3d1b5a56cf3a29bb9afe70579445f8b9900e6b413852f043591d4e",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/336153",
+      "dataset_id": "yelp",
+      "group_id": "44e70a7137efe7244bfa41b4805b5ef2154651b19b273c74c2b0c515650a392a",
+      "purpose": "discovery",
+      "text": "This place is horrible. I ordered take out and after getting half way through each of my take out boxes realized my food was swimming in oil half the box was food and half was greasy oil.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/336153",
+        "dataset_id": "yelp",
+        "group_id": "44e70a7137efe7244bfa41b4805b5ef2154651b19b273c74c2b0c515650a392a",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/232944",
+      "dataset_id": "yelp",
+      "group_id": "afe4741e218171fd783b9520e466e7dfcdf74f1a2c84e957c8b3eee7cbbe3095",
+      "purpose": "discovery",
+      "text": "I was looking forward to checking out this store, because I frequently think his pieces are cute. His store was so tiny though, especially in comparison to the other stores in Caesar's Forums. But, the items they had for sale were just... not cute. Maybe it's a lackluster season for Marc? Where was the color, the cute shapes? It was a tiny grey room with tiny grey shapeless items for sale. I thought maybe I was in the wrong place.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/232944",
+        "dataset_id": "yelp",
+        "group_id": "afe4741e218171fd783b9520e466e7dfcdf74f1a2c84e957c8b3eee7cbbe3095",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/24518",
+      "dataset_id": "yelp",
+      "group_id": "1c728003b816fb45804122cbf8912912bfb4169391b82e0cabc63b64445c9dd0",
+      "purpose": "discovery",
+      "text": "I accidentally left my keys in the cab and it was the biggest nightmare ever getting my keys back. I called the dispatcher and they refused to give me the drivers cell phone number and they told me they were going to call the driver and that \\\"\"If the driver has the keys he will bring them to me at the airport\\\"\". Finally after calling several people they told me that the driver said he found the keys and was returning them to the lost and found.\\n\\nThis is where the nightmare started. I called several times after that and spoke with several people to see if my keys were ever returned. I kept getting bounced around from person to person each person telling me when I described them that the keys were nowhere to be found. Finally somebody told me that they found my keys and were writing my name \\\"\"David\\\"\" on a sticky and putting them in a safe place. My fears were resolved.\\n\\nI got back to Phoenix and they offered to drive the keys to me but in exchange I would have to pay the cab fare (which I had no problem doing). I agreed to this but first they made me fax all sorts of documents and pictures of my credit cards. This was a huge headache. When it was all done they told me a driver will be at my house within an hour with the keys. The driver finally shows up and it's the wrong keys!!!! \\n\\nI called back Triple A and they refused to talk to me or answer any questions and were now very rude to me on the phone. I told them that I wanted to email them a picture of exactly what my keys looked like and if they could just go through again and match the picture with the keys, it would help me out knowing that they had my keys and I won't have to waste a bunch of money on a cab to drive out there. They refused and told me I would have to come myself.\\n\\nI finally called up a different cab company (because they were rude to me on the phone, I wasn't going to give them any more of my business) and had Vip Taxi drive me out to Triple A Yellow Cab to go on the hunt for my keys.\\n\\nI got to the Triple A Yellow cab and their lost and found was a complete mess. They had sunglasses, phones, keys, credit cards, and drivers licenses all in a big box. It took 15 minutes for one of the higher ups but he found my keys. Now why couldn't I have just emailed them my picture and they could have gone through the keys until they found mine? \\n\\nThis is what my mom calls \\\"\"Penny wise but pound foolish\\\"\". They might have thought I was wasting their time and that I spent enough of their time already thus they ended the call, but now they've lost a customer for life. Was it a good business move to blow me off and risk losing a customer?",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/24518",
+        "dataset_id": "yelp",
+        "group_id": "1c728003b816fb45804122cbf8912912bfb4169391b82e0cabc63b64445c9dd0",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/92747",
+      "dataset_id": "yelp",
+      "group_id": "fd479fa3d1d174883333ad26ced5813b4e33b45510846d09ea0f94d93fba86ce",
+      "purpose": "discovery",
+      "text": "Very disappointed with he billing staff that represent Dr. Beals. My daughter went in for her wisdom teeth to be pulled back in June. The surgery went fine and truly like the Dr. Beals bed side manners, however the billing staff follows unethical billing procedures especially when the Dr. Is a in network contracted with insurance company. \\nI have 2 insurances one through me and one through my husband insurance. I only had 200.00(approximately) on my primary insurance once that's used they don't secondary bill. I paid cash 1,500 out of pocket(paid in full), however after the first 200.00 dollars were billed to my primary, my secondary become primary. Again they still didn't want to bill the secondary (even though it now my primary)so I did all work to submit to my husbands insurance. Interesting thing my \\\"\"secondary\\\"\" submitted payment directly to them even thought they were paid in full by me. They had no problem taking a secondary insurance payment that should have been paid directly to me( funny because remember \\\"\"they don't deal with secondary insurance) Dr. Beals office kept the checks and only made a payment to me 531.36. Far from the 1100 dollars my secondary insurance sent to them.( which again if they don't deal with secondary insurance why would they even cash the check that don't belong to thee first place) they are double dipping between his patients and the insurance company. This is against his contract and insurance fraud. The office believes by them not submitting tok secondary they do not have to follow their obligation of reducing there fees to the agreed discounted contracted amount.\\nI called the office today after I called my insurance company and again confirmed that they are not following the contract Dr. Beals signed with them to be an in network provider. I have one more child who needs wisdom teeth pulled and base on this experience I will never recommend anyone to use Dr. Beals. It's not worth the 6 months worth of hassle to get monies owed to me returned. Stay away from his office if you financially don't want to be ripped off. Called my insurance company were they will take over and appeal how the doctors office is misconducting there billing practices. I believe at this time, I will also be calling 3 on your side and put pressure on them from from their unethical and fraudulent bill practices. Please going to this office if you financially don't want to be screw by the ignorance and fraudulent billing practices. It is beyond frustrating and not worth the hassle. This whole experience has made me sick to my stomach and beyond frustrated. \\nSincerely\\nA patient's parent who is truly being taken advantage of, being screwed and going to fight to fix their wrong doing, \\nJennifer M",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/92747",
+        "dataset_id": "yelp",
+        "group_id": "fd479fa3d1d174883333ad26ced5813b4e33b45510846d09ea0f94d93fba86ce",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/216201",
+      "dataset_id": "yelp",
+      "group_id": "5735e49b8e8d3e221a17df7c6f34d7c6314a4f305f99c6070a9cb50e2b7fc9fa",
+      "purpose": "discovery",
+      "text": "The place is small but it's clean, the service is quick and friendly and the food was yummy! We tried the sisig, the pancit bihon and the lumpiang shanghai. All were well priced and very good. The sisig was not as good as the one I used to have as a little kid in pampanga but it was pretty darn good! Definitely worth coming back again!",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/216201",
+        "dataset_id": "yelp",
+        "group_id": "5735e49b8e8d3e221a17df7c6f34d7c6314a4f305f99c6070a9cb50e2b7fc9fa",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/209218",
+      "dataset_id": "yelp",
+      "group_id": "9e15761823371ed4887751c1a8156b9e8ee2b7056722333cc9f32307a30e3439",
+      "purpose": "discovery",
+      "text": "This Circle K, minus any gas, is not my favorite convenient store. Yes, it's definitely convenient for me, being so close to home, still doesn't mean I have to like it tho. \\nI really wish they would just redo the place. Its a pretty small Circle K and it could easily be a lot cleaner and not seem like it's falling apart. The people behind the counter tho are always friendly and each have their own unique (quirky) personalities.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/209218",
+        "dataset_id": "yelp",
+        "group_id": "9e15761823371ed4887751c1a8156b9e8ee2b7056722333cc9f32307a30e3439",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/214241",
+      "dataset_id": "yelp",
+      "group_id": "04391dbca3dd082f95085ca013f4234a154c0094a2b293ff9b90962e8cfc4a39",
+      "purpose": "discovery",
+      "text": "I was very pleased with the service provided on a Maid of Honor dress for my daughter. We dropped it off on Tuesday and it was ready by Thursday. The work was spot-on. I real seamstress. I love this place and plan on taking in pants, jackets and who knows what eles. But, this is the place for me. I love the 6pm closing time during the week and Saturday hours. It's made for the working professional.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/214241",
+        "dataset_id": "yelp",
+        "group_id": "04391dbca3dd082f95085ca013f4234a154c0094a2b293ff9b90962e8cfc4a39",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/395258",
+      "dataset_id": "yelp",
+      "group_id": "0f34f505afa14bc993e6955661026c1a7599f015bebf27f3b62ce6bf7312e709",
+      "purpose": "discovery",
+      "text": "WTF is up with their new policy of adding a quarter to each order item after 9pm??? I have never heard of a more ridiculous pricing structure!!!\\n\\nWas a decent fan of this place before. Ok sandwiches and iced mochas.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/395258",
+        "dataset_id": "yelp",
+        "group_id": "0f34f505afa14bc993e6955661026c1a7599f015bebf27f3b62ce6bf7312e709",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/166190",
+      "dataset_id": "yelp",
+      "group_id": "58dd2aace9ae8271e6dca7a1466d966e0fd7c36622fb30d91038a982b0552c18",
+      "purpose": "discovery",
+      "text": "I went here with my family and friends after graduation on sunday night. It was great that when we arrived there was no line. THe food was okay. For dinner and $25 there could have been more selection and the food could have been better. The only thing I really liked was the grilled lamb, but the other meat seemed dry, such as the prime rib and the leg of lamb. Also, they have a crepe section, but don't be fooled. They have only a few things you can put on. That day they only had chocolate, blueberry, pear and pickled cherries. They didn't even have bananas or anything like that. Their fruit selection could have been better by a lot, as they only really offered melon. The crab legs were only okay, but not great.\\n\\nI have to say though that the deserts was good, except, i had really wished there was something better than soft serve as a cold dessert. \\n\\nFor the price, there could have been more selection and better food. For that price or cheaper, i would try RIO carnival or Red Rock. If you are willing to pay more, go to Wynn, their crepe section is by far better, and offer lobster and crab.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/166190",
+        "dataset_id": "yelp",
+        "group_id": "58dd2aace9ae8271e6dca7a1466d966e0fd7c36622fb30d91038a982b0552c18",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/402386",
+      "dataset_id": "yelp",
+      "group_id": "3fe45b13663766335c92f8a9fec2615b1456d486e14746603ac18562fa7051b9",
+      "purpose": "discovery",
+      "text": "I go to this Walmart when absolutely necessary to stock up on pantry items, canned food, some deli/bakery items, diapers and certain dairy products.\\n\\nI give it a 2 star, because if it were not for the good prices on canned goods, packaged goods like ketchup or dressings, and their inexpensive half & half, reasonable diapers, then I WOULD NOT go. \\n\\nPart of the bad experience is the terrible produce at even worse prices. $0.68 PER orange, hmmm. There are little fruit flies buzzing around. Not friendly shopping. Now, I can see they are making changes in their quality of produce, it is improving. I am loyal to my favorite local groceries Glaziers, Sprouts & Costco in value, so won't use Walmart for my main produce shopping.\\n\\nI can say the service the last time I went, last week, was MUCH improved and friendlier. I was pleasantly surprised, even shocked, at how nice and helpful the staff were that day. That said, I received my worst customer service experience to date at their bakery.\\n\\nNow, about this customer service experience. During last month's stock up trip- I try to go in the evening on Fridays- before they are picked over but most people are home or out and about on Friday nights, so it's less of a struggle dealing with the unusually high amount of rude shoppers that seem to be present in Walmart. What is up with that, anyway? No manners to be found at Walmart. \\n\\nThis day, the bakery was out of sliced sesame bread. We picked up a loaf and waited at the bakery counter for someone to acknowledge us (we wanted to ask them to slice the bread in their machine.) The lady appeared preoccupied for probably 10 minutes, though we could see that she saw us standing there, just never said four simple words, \\\"\"May I help you?\\\"\"\\n\\nAt this point, my boyfriend and I were kind of giggling, finding it funny how hard she was trying to ignore us, yet a little annoyed that we had to wait for 10 minutes with no line in front,of us. Finally, she said, \\\"\"What do you want?\\\"\" SHOCK. I couldn't believe she addressed us like that. We explained quickly and as politely as possible in the circumstance, that we would like to get our loaf sliced, if possible.l she had a spray bottle in her hand because she'd been cleaning surfaces. She sprayed the bread machine with the bottle of liquid, looked back at us and said. \\\"\"It's wet.\\\"\"\\n\\nUhhh...well, yes it was now wet because after we had asked, she sprayed it. She purposely ensured that she in fact, could NOT help us. Okay, I'll play her game, I thought. In my sweetest calm voice, I said \\\"\"Okay, well, we are really in no rush....we'll just come back around after shopping.\\\"\" Her reply? It takes a long time to dry, it'll still be wet then, too.\\\"\" Hmmm... Quite the clairvoyant one she was. Funny, all this over something that normally takes them less than 2 minutes.\\n\\nIt's easy to,create a wonderful customer experience in two minutes, it's even easier to ruin one in 2 minutes...the difference? A bad customer experience will linger and have a much farther reach...in spades...than a good one. I always make a point to tell people when I've had great service somewhere, and but I've only had offensive experience a couple of times. This was one of them. \\n\\nTo end on a positive, the bakery items are good. I just love their fresh sesame bread, french loaves, and everything bread. The quality of their bakery items assisted in bumping them up to a 2 star, as well, and at $1.28 you just can't beat that! Hope they continue to work on that service.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/402386",
+        "dataset_id": "yelp",
+        "group_id": "3fe45b13663766335c92f8a9fec2615b1456d486e14746603ac18562fa7051b9",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/18048",
+      "dataset_id": "yelp",
+      "group_id": "e1a839861a30a3a72a8d59318e843d4471fd6da95a7f989285367e80f164ad20",
+      "purpose": "discovery",
+      "text": "Did I hear correctly? Are you closing? Lennnnnyyyy! Why! \\n\\nThe rumor is the owner Lenny Rosenberg is not renewing the lease to focus on his other restaurants, Deluxe and Revo Burrito.\\n\\nI will miss this place. I have spent many a night at the beautiful bar and drank more saki than should have been legal in my early twenties. I was also able to extended my dollar when I was a broke college student thanks to the happy hour. \\nKanpai Zen, you had a great fifteen years!",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/18048",
+        "dataset_id": "yelp",
+        "group_id": "e1a839861a30a3a72a8d59318e843d4471fd6da95a7f989285367e80f164ad20",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/148773",
+      "dataset_id": "yelp",
+      "group_id": "8097b8180ccf1131a60edaec37b73f803527d25182f5a707f442b146ee03746e",
+      "purpose": "discovery",
+      "text": "I came here recently on a trip to Vegas with some friends. We made reservations that day when we checked into our room at The Venetian and were seated promptly when we arrived. The waiters were very friendly and everything was done according to etiquette (e.g. serving the ladies first, serving food only from your left side, etc.).They started us off with bread and butter which was very delicious. They also gave us a free appetizer of marinated olives, which was a very light appetizer so it was perfect before our big meal. I ordered the roasted chicken and it was incredibly tender and the meat fell off the bones. The side of celery and candied apples were also delicious. The size was very good for what we paid. We got a bottle of merlot that went very well with the meal and they served us several times in our glasses so we wouldn't even have to touch the bottle. After dinner we each got a different dessert and shared them all and they were all incredible and compliment each other well. The lemon tart was huge and easily the biggest dessert there. Very tangy so only get it if you like the sourness of lemon. The chocolate dessert was incredibly rich as was the meringue over cream. The custard caramel was extremely smooth and the right amount of creamy and sweet. I would definitely going there if you're looking for a nice dinner.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/148773",
+        "dataset_id": "yelp",
+        "group_id": "8097b8180ccf1131a60edaec37b73f803527d25182f5a707f442b146ee03746e",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/60038",
+      "dataset_id": "yelp",
+      "group_id": "07d3e81f9e7d4037f60400a08cf39b6bc6730a26509f6fc52b9370b8a4ed001b",
+      "purpose": "discovery",
+      "text": "EXTREMELY DISAPPOINTED in James, owner of Hondatronics. Just bought a used Acura, and after reading positive reviews here & other sites, decided to take my car there to see if I needed to fix/replace anything. I had no weird noises or anything, just wanted it to get checked out for peace of mind. James checked it out for me & seemed very courteous & helpful, which along with the reviews here instantly put me at ease. He checked out the car, and said everything looked fine, except for my front & right engine mounts which were cracked/broken. He said this was pretty common on my particular year/model Acura, and that although no immediate danger to me, I should think about replacing them. Parts/labor=$560 ($320/$240).\\n\\nWell, I bought genuine Honda parts online for $180, and had got a quote from a GREAT SHOP in Henderson (704 W sunset) for $170 tax included to install both engine mounts. Thought I was a champ for figuring out a way to save $210! Anyways, took it there, and 5 minutes later the mechanic came out & said \\\"\"Who told you to change these mounts?? They're both fine.\\\"\" He took me under my car to show me both mounts in question, and both looked just like the new parts albeit a little dirty. If I hadn't gone through the trouble and just blindly listened to James @ Hondatronics, I woulda gladly just paid the $560 for something I didn't even need! Sadly, he is the owner, so it's not like I got some unscrupulous worker trying to make a quick buck. Maybe he is honest MOST of the time, but please-please-please get a 2nd opinion at the very least if he recommends anything other than an oil change. Such a frustrating experience!!! This bothered me so much that this is my first yelp review...\\n\\np.s. Come to think of it, no wonder I was told that I couldn't go and take a look at my car at Hondatronics--there were no broken/cracked parts to show me!! I've been taken to the work area for a visual diagnosis at Sam's Club, Midas, Jiffy Lube, and many other shops here in Vegas...",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/60038",
+        "dataset_id": "yelp",
+        "group_id": "07d3e81f9e7d4037f60400a08cf39b6bc6730a26509f6fc52b9370b8a4ed001b",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/464000",
+      "dataset_id": "yelp",
+      "group_id": "3e9404791960daadaba907fd4ba564773297276db4d64f95fccaf85779929838",
+      "purpose": "discovery",
+      "text": "Delicious food crafted with love from ingredients grown , milled, and locally sourced by the chef/owner. And we know this because we were told it by the unassuming , Chris Bianco, who walked around the dining room asking diners if their food was ok and then described the ancient grains in our farrow dish, the tomatoes he grows in California, and the Arizona wheat he mills for the flour used in the pasta dough. And our amazing desert was homemade by his mother, who happened to be in the restaurant that night.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/464000",
+        "dataset_id": "yelp",
+        "group_id": "3e9404791960daadaba907fd4ba564773297276db4d64f95fccaf85779929838",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/223629",
+      "dataset_id": "yelp",
+      "group_id": "24f249dd21637c31a487c5c2805533231a8452c5d3cfab0c53ae785bf87cd981",
+      "purpose": "discovery",
+      "text": "Absolutely awful. There are no Sonic's anywhere close to where I live, so when we got the chance to visit one when I went to Las Vegas, I was looking forward to it.\\n\\nHowever, I hate the fact that you can't walk into the place...I get it, it's a drive-in...but absolutely NO option to go inside?! Kind of silly in my opinion.\\n\\nGetting to the food...nothing special. I would have rather have gone to In n Out.\\n\\nOverall, generic experience, \\\"\"eh\\\"\" food, and awful atmosphere. I don't recommend this place...especially if you have a hangover.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/223629",
+        "dataset_id": "yelp",
+        "group_id": "24f249dd21637c31a487c5c2805533231a8452c5d3cfab0c53ae785bf87cd981",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/302315",
+      "dataset_id": "yelp",
+      "group_id": "5739cde8db55d900b6f5bea5e92d610a9e0deb574c1eea761b306a1527d3f6cd",
+      "purpose": "discovery",
+      "text": "What the truck, chuck? \\n\\nel servicio - no bueno\\nla comida - no me gusta\\nla decoracion - una estrella\\nla margarita - una estrella",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/302315",
+        "dataset_id": "yelp",
+        "group_id": "5739cde8db55d900b6f5bea5e92d610a9e0deb574c1eea761b306a1527d3f6cd",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/297977",
+      "dataset_id": "yelp",
+      "group_id": "dc00b4f05b14628f551de7cd7d2fbb2607a99fd254bcfaba94ea0ee08595bc17",
+      "purpose": "discovery",
+      "text": "2nd visit - returned upon request of the gracious owner Terry. Had a carne asada taco and bean burrito. \\n\\nI have to say my vision of carne asada previously was narrow. Down home carne asada from the streets was all I knew. America's Taco Shop has broadened my carne asada horizons for the following reasons:\\n\\n_Carne asada can have quality, proper cut, and flavor. It can taste leaner, less greasy.\\n_Refried beans can be free of lardo and theirs are some of the best I've ever had.\\n_If you use a good tortilla to wrap their tacos and burritos, it's a sign you care.\\n_While the expected accompaniments may not be present, who doesn't love caramelized onions and lettuce on a taco.\\n\\nSO, lets take America's for what it is..a slightly upscale carne asada experience. \\n\\nYes, you will pay up more dough for less during this experience, but its one that needs to be had. I will be back to America's because there will come a time when I want a more quality, lean, cleaner meal, which we all know you can't get on the \\\"\"streets\\\"\".\\n_",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/297977",
+        "dataset_id": "yelp",
+        "group_id": "dc00b4f05b14628f551de7cd7d2fbb2607a99fd254bcfaba94ea0ee08595bc17",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/515563",
+      "dataset_id": "yelp",
+      "group_id": "0cd1d6745863a819654026e6deca13f6e5692872b101ef163c4ebfa89e4ad778",
+      "purpose": "discovery",
+      "text": "this was my first experience with the conveyor belt type sushi. The sushi was not good at all. poor quality and tasteless. prices were very cheap which is probably why it was not tasty...",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/515563",
+        "dataset_id": "yelp",
+        "group_id": "0cd1d6745863a819654026e6deca13f6e5692872b101ef163c4ebfa89e4ad778",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/22054",
+      "dataset_id": "yelp",
+      "group_id": "802fd869f3f6e14f681c74dd64b4b1cc79a26c7f708787fb43046f92315fd502",
+      "purpose": "discovery",
+      "text": "Dangerously dirty!",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/22054",
+        "dataset_id": "yelp",
+        "group_id": "802fd869f3f6e14f681c74dd64b4b1cc79a26c7f708787fb43046f92315fd502",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/48494",
+      "dataset_id": "yelp",
+      "group_id": "cb1da275a6ac79a1e21d9a1e66368b45ad1cec3b24197bcc3977fd42acf099a1",
+      "purpose": "discovery",
+      "text": "This is a review of Coco's in the Sunset:..OMG just stay away. First you have to walk thru a smoke infested casino. This is just a dated casino coffee shop, re-branded under the Coco's names. It's not been updated or cleaned since the casino was opened. Coco's menu nice with lots of selections, nothing complex as far as offerings. Service here it gets really good! Basically a non-inolved staff, just putting in time with an attitude. Clearly our waitress didn't want to be at work. Kept breezing by saying our order is due up any minute....Finally arrives 45 minutes after taking our order. Stated it just came up on the serving table. Order was cold, slab of curled swiss cheese on my omlet, cold toast. We just got up and left. Before we left asked to speak to manager...Ha...explained situtation to another wait staff member...she blantly stated they couldn't do anything thats just the way it is...Don't waste 1 hour of your life..lots of other choices in the area....give Marie Callendars a try, right down the street.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/48494",
+        "dataset_id": "yelp",
+        "group_id": "cb1da275a6ac79a1e21d9a1e66368b45ad1cec3b24197bcc3977fd42acf099a1",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/209374",
+      "dataset_id": "yelp",
+      "group_id": "867ec39745cb8bbf4ac2c4ba979b332e431298fd9c213bc0da0c507ef3f1255e",
+      "purpose": "discovery",
+      "text": "I'd give the food at Osha a 3.5, but the service was so friendly that I rounded them up..it's a nice, family-run neighborhood, authentic Thai restaurant. It has no atmosphere, as is the case with most Thai places, and the place was empty on the night we went, but they put out some very good food. However, I think the food at Thai House, at Frank Lloyd Wright and Hayden, is just as good and about $1 to $2 less per dish, so combined with their closer location to me, I don't see much reason to go back to Osha over Thai House.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/209374",
+        "dataset_id": "yelp",
+        "group_id": "867ec39745cb8bbf4ac2c4ba979b332e431298fd9c213bc0da0c507ef3f1255e",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/125924",
+      "dataset_id": "yelp",
+      "group_id": "1cf27b28826a46354c66055805448750198dff216990b34a3b9f1eb18e740a47",
+      "purpose": "discovery",
+      "text": "Very nice place to go for an authentic Thai experience. They even have a performance on the last Friday of every month. Price is reasonable. Food is authentic. No MSG. Will go again.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/125924",
+        "dataset_id": "yelp",
+        "group_id": "1cf27b28826a46354c66055805448750198dff216990b34a3b9f1eb18e740a47",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/25851",
+      "dataset_id": "yelp",
+      "group_id": "fa44d35f4bd94098d9aa079e6558ed35f24fe16dc58bea6c1bbe0894d014e673",
+      "purpose": "discovery",
+      "text": "I'm giving this place two stars only because I enjoyed the chips and salsa. I ordered a combo of a Tostado,enchilada and A tamale. The tostado shell was overcooked, the enchilada was unremarkable and the Tamale had very little meat in it and tasted just like the enchilada . . I honestly had one bite of everything on my plate and then pushed it aside. My son ordered something else and he did not eat his meal either. My daughter in law had a green chili burrito and she loved it. So if you must go to this place try and order that. I wont be going back.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/25851",
+        "dataset_id": "yelp",
+        "group_id": "fa44d35f4bd94098d9aa079e6558ed35f24fe16dc58bea6c1bbe0894d014e673",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/471292",
+      "dataset_id": "yelp",
+      "group_id": "af92de6137e6006008f12d4753d2c6dea7b54e9f973019b34709ea7d6704779b",
+      "purpose": "discovery",
+      "text": "I will admit, I had low expectations of this place. Monster mini golf owns another location in Bakersfield, that I wasn't impressed with. Yet, this place is AMAZING. \\n\\nMy friend and I, had a 2 for 1 coupon, and had the locals discount. 10.00 for both of us to mini golf. You walk into a flourescent room, and your glowing. Off to the side is a gift shop. Yet, unlike most places in Vegas, the gift shop is pretty neat. \\n\\nTheres a DJ, who takes requests for your favorite KISS song, and a gentleman, who challenges you to get a hole in one for a prize. It's a fun, lively atmosphere. Whether or not, your a kiss fan. You will have an enjoyable experience. \\n\\nThey even make the experience of using the restroom unique, provided in the restroom are sharpies, in which they encourage you to write messages on the wall to KISS. \\n\\nFun, Inexpensive, and DEFINATLY worth going to.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/471292",
+        "dataset_id": "yelp",
+        "group_id": "af92de6137e6006008f12d4753d2c6dea7b54e9f973019b34709ea7d6704779b",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/168354",
+      "dataset_id": "yelp",
+      "group_id": "2cab0fcd98907fd5697ec8522b2ea60afe09f7a6c26e057726e60e4da46b4496",
+      "purpose": "discovery",
+      "text": "When you have prime rib in the name of your restaurant I have certain expectations going into it.\\n\\nI tried the satay appetizer. It was OK at best, dry and lacking flavor.\\n\\nI ordered the medium cut prime rib cajun style. It came out without the cajun seasoning, but that was quickly corrected. The meat was done a little more than ordered, but not to the point it would dramatically affect the experience. The meat was OK, not bad, not great. The best part was the cajun seasoning. It packed a lot of flavor and a nice kick.\\n\\nOur server seemed overwhelmed and impatient. He was short with us when we asked questions.\\n\\nThis is not a bad place, it just sets itself up for disappointment by including prime rib in the name.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/168354",
+        "dataset_id": "yelp",
+        "group_id": "2cab0fcd98907fd5697ec8522b2ea60afe09f7a6c26e057726e60e4da46b4496",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/382043",
+      "dataset_id": "yelp",
+      "group_id": "2a512c3ced5ef115eac627690b13f1934a0cf4314f86bb00935983ef6166857a",
+      "purpose": "discovery",
+      "text": "Until I drove by and saw this location I had never even heard of SmashBurger before. (pauses for surprise) lol. Figured it was worth a try cause what person who eats beef doesn't always keep an eye out for a good burger?? Inside had a pretty clean cut look and it wasn't dirty or anything. Menu seemed fairly simple and straightforward and it was large and easily readable on the wall left of the cashier. Prices seemed reasonable, not cheap but ok. I saw they have shakes, I'm a fan of good shakes(Jack in the Box's real ice creams shakes are killa!) but I had to pass on that, maybe on the next visit. I asked what the difference between the two sizes is. 1/3 and 1/2lb patty. I decided on the Sin City burger Big Size & order of Smash fries(tossed in olive oil, rosemary & garlic). Sin City comes with bacon, their sauce and an egg. Eggs can be an awesome burger/sandwich topping so that clinched it as the first burger to try! Burger was a nice size and delicious. The fries, I really wasn't sure. Being my first time I tried a few fries first to taste them but I really couldn't tell if there was any rosemary and/or garlic. Far as I could tell it either wasn't really well seasoned/tossed or they gave me regular fries cause they sure seemed like regular fries...Service was good so I was sitting around 3.5 stars for this place since the only real disappointment was the fries. \\nStill, would be enough to warrant another try in the future.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/382043",
+        "dataset_id": "yelp",
+        "group_id": "2a512c3ced5ef115eac627690b13f1934a0cf4314f86bb00935983ef6166857a",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/557635",
+      "dataset_id": "yelp",
+      "group_id": "660887b3203397ade6bd97628a47c073fbc600e148a004136f907bde7a69cc6f",
+      "purpose": "discovery",
+      "text": "Geno's has been to our home at least 10 times and is usually good considering the price. Tonight after waiting over an hour and calling back they said they couldn't find out house. Not only that but it wasn't on the GPS they said and our home has been here since 2008. Our # is 7482 and the driver said he only could find 7487? Not to mention there's a light over the house # on the garage and on the porch. Manager was willing to deliver cold pizza but not remake them. We cancelled the order and doubt we call again. YOU SUCK.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/557635",
+        "dataset_id": "yelp",
+        "group_id": "660887b3203397ade6bd97628a47c073fbc600e148a004136f907bde7a69cc6f",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/420129",
+      "dataset_id": "yelp",
+      "group_id": "15ea093325ad8d7f9cbfa37081f92285c8fa7646930a4011a27b589e6f242128",
+      "purpose": "discovery",
+      "text": "Free BYOB is back! Love it. Some friends called to say a big group was getting together. Just show up and BYOB. \\n\\nSome of the best brick oven pizza and great Wood Fired rubbed spicy wings.\\n\\nWas able to have the tastes of several pizza's, white, red and some garlic bread sticks along with a great salad. The bread sticks are crisp and crunchy like a garlic pizza! YUM! The salad has a nice mix of fresh greens, roasted red peppers, red onion, grape tomatoes, and Gorgonzola cheese with crouton and balsamic vinaigrette dressing. Second YUM!\\n\\nGreat time and great food!",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/420129",
+        "dataset_id": "yelp",
+        "group_id": "15ea093325ad8d7f9cbfa37081f92285c8fa7646930a4011a27b589e6f242128",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/205800",
+      "dataset_id": "yelp",
+      "group_id": "fd8aa7c54bbcd0446536213def7e9a952166a38188ce89ab4b8e286a9197703f",
+      "purpose": "discovery",
+      "text": "I used Super Shuttle in the past and have always been happy with the service - from customer reps answering my questions to drivers who were very polite.\\n When I took SS to the Phoenix Airport on Nov. 16th, the driver was on time and the trip van fine.\\n The experience and ride returning to Phoenix was HORRIBLE! I called from Albuquerque to confirm my return van reservation but I kept getting cut off because they (a phone advertisement) kept offering me a promotional trip deal, which I wasn't interested in. I finally talked to a \\\"\"real\\\"\" person who said she had no return reservation for me. It took about 15 minutes to make a new reservation because she was had a sore throat and I could hardly hear her....and believe me, I am truly sorry when someone is ill and has to work.\\n When I arrived in Phoenix, there were no clear directions as to where to wait for the van, so I wandered back and for looking for a sign or person from SS to help me. I finally found the employee (kind of hard to locate) who told me when my van would arrive. (about 30 min. later).\\n It was about 3:45-4 PM. The traffic on the freeway was beginning to slow and the driver took an alternative route down Grand Ave. (I am assuming he was told to do this). Because of construction the trip was stop and go and the real problem for me, was, that every time we stopped at a light, the driver started texting. I was shocked!\\n Toward the end of the trip, one of the other passengers asked me if van service was always this bad because this was the first time she had used this service. I replied, \\\"\"I\\\"\"ve used SS before, but this was the worst!!\\\"\"\\n I called \\\"\"quality assurance\\\"\" a couple days later, and talked to \\\"\"Tim\\\"\". When I told him about my experience and the texting driver, he said something like \\\"\"Well, that's not good,\\\"\" and offered a refund for this return trip.\\n I called my bank a few days later to see if there had been a credit issued from Super Shuttle. There was none.\\n I emailed the Customer Care Center about this whole situation, and was supposed to get a response in 3-5 business days. There was no email response from them. It was only after calling my bank again that I learned there was a credit issued from SS on Dec. 13th\\n I will never use Super Shuttle again. There is no \\\"\"customer care\\\"\" sevice as far as I am concerned so I will look for alternative van service should I need it.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/205800",
+        "dataset_id": "yelp",
+        "group_id": "fd8aa7c54bbcd0446536213def7e9a952166a38188ce89ab4b8e286a9197703f",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/260682",
+      "dataset_id": "yelp",
+      "group_id": "ba591cc05df1379a6f66827c4a543dd006843691a1535e5bc06208245d4234f6",
+      "purpose": "discovery",
+      "text": "sushi, pickup joint :) love it",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/260682",
+        "dataset_id": "yelp",
+        "group_id": "ba591cc05df1379a6f66827c4a543dd006843691a1535e5bc06208245d4234f6",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/65538",
+      "dataset_id": "yelp",
+      "group_id": "0519efed31091ff881be647c4d31466dc1fe876520a7ebe638bafffdecd08761",
+      "purpose": "discovery",
+      "text": "I Am Former New Yorker So I Know My Pizza. My Husband & I were walking on the Southside We decided to go to Gennaro's for dinner. He ordered 3 slices Xcheese & pep. And I order a Seafood Fettachini Dish. Well the pizza was layered w/ burnt sauce and dry cheese the seafood stuff was over cooked noodles watery sauce and old under cooked shrimp. They did give me a refund for the seafood & a homeless guy outside got the other 2 slices. Restaurant was sticky/dirty & out of date. Girl behind counter that took the order looked high on something. Avoid this place the locals say try Sal's.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/65538",
+        "dataset_id": "yelp",
+        "group_id": "0519efed31091ff881be647c4d31466dc1fe876520a7ebe638bafffdecd08761",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/501852",
+      "dataset_id": "yelp",
+      "group_id": "f328e7d62bbecb36b552a8964f9e79117c79ebfcac6c7f49063d34c1c50d61d5",
+      "purpose": "discovery",
+      "text": "I've waited to write my review until I had been to Pink Box several times. I can honestly say the quality of their doughnuts have been consistent from visit to visit.\\n\\nPink Box reminds me of Voodoo Doughnuts in Portland, minus the graphic references and not as much creativity in their flavor combos. It is local to Las Vegas with multiple locations across the valley.\\n\\nDon't look for garden variety doughnuts here, although they do have a devil's food glazed that ROCKS. They have their regular options, like the Fat Elvis (it has a caramelized banana slice on top), but also have a special creation that changes from month to month. It entices you to come in every month...cuz when the flavor is gone, it's gone!\\n\\nDefinitely not your standard doughnut spot. Worth a stop in, especially if you are new to Vegas! Plus, it's always better in a pink box! (Well, maybe a Tiffany blue box might be better!!",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/501852",
+        "dataset_id": "yelp",
+        "group_id": "f328e7d62bbecb36b552a8964f9e79117c79ebfcac6c7f49063d34c1c50d61d5",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/223985",
+      "dataset_id": "yelp",
+      "group_id": "05d6f1066f116fa2708dac671938ebaca6110be7832f8f5aaa4629ef309f6564",
+      "purpose": "discovery",
+      "text": "Great and fresh Mexican food. Stop in here on your way to or back from Hoover and you won't be disappointed. The food is cheap, a great vacation from the high prices of the strip. \\n\\nDon't miss this diamond in the rough.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/223985",
+        "dataset_id": "yelp",
+        "group_id": "05d6f1066f116fa2708dac671938ebaca6110be7832f8f5aaa4629ef309f6564",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/54902",
+      "dataset_id": "yelp",
+      "group_id": "32eb77990b1523157c0e2c7995bc3c8e0e151322b73b0963c781fe025447f812",
+      "purpose": "discovery",
+      "text": "I've been here several times, but years ago when I was in high school. I'm 23 now lol. \\nIt's funny because last night I went here on a whim with my boyfriend, and I kept trying to remember if I liked this place or not. The decor is the same, with it's little Tokyo bar scene. \\n\\nSurprisingly for a Wednesday, there wasn't a wait - we sat down right away at a big table, seemed a little lunch table-ish, but we were cool with it. I got the sashimi ika, and seared tuna and tofu salad. Everything tasted fresh, which was a plus. My boyfriend got beef tongue skewers, and he enjoyed it. I also enjoyed watching my boyfriend trying to use chopsticks. \\n\\nI'd say everything ran smoothly, so I enjoyed it last night. I would come back, but I think I got lucky for the atmosphere being calm at 1 am on a Wednesday night.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/54902",
+        "dataset_id": "yelp",
+        "group_id": "32eb77990b1523157c0e2c7995bc3c8e0e151322b73b0963c781fe025447f812",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/363323",
+      "dataset_id": "yelp",
+      "group_id": "223b6026805916156502f1ea0efeccae5289bf27feaf2734856d20e37c1e3dcd",
+      "purpose": "discovery",
+      "text": "Ain't this some bullshit!! Waited an hour in line for this nasty ass sage chicken and waffles covered in some smelly ass rosemary. Worst food i ever had!!! Roscoe's is way better than this junk! What a dissapointment!!",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/363323",
+        "dataset_id": "yelp",
+        "group_id": "223b6026805916156502f1ea0efeccae5289bf27feaf2734856d20e37c1e3dcd",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/70606",
+      "dataset_id": "yelp",
+      "group_id": "998efa2d409e0f28757e49272a72ce369242af8d6b218efe0d0a814e146aa781",
+      "purpose": "discovery",
+      "text": "This place is a mere shell of what it used to be.\\n\\nWe went on a Tuesday night and when we got inside, we saw that there were only 5 other tables seated. We made the assumption that our waitress was either the manager or the owner, but she did greet us with an over joyous greeting that was laced with saccharine sweetness. She took our order very promptly and brought our beers and waters just as quick. The beer was perfectly chilled, but the water obviously came from the soda fountain, which by the sweet taste, had not been cleaned in quite some time. After she brought us our drinks, she never once returned to our table for the remainder of the evening. \\n\\nWe then proceeded to just sit there at our table and be ignored by what we assume was the entire staff, which we think there were only two. The only other waiter did check on us once, but that was when my beer was half full. He spent the rest of the time making apologies to the other tables for various reasons, but it was clear that there was some major confusion going on between the wait staff and the kitchen staff. I noticed that two tables' orders had to be sent back to the kitchen, of which one table decided to not wait for the correct order to come back and went to the counter to cash out. The other table, which was seated beside us, received their appetizer after the meal and commented that the order was wrong, but they would deal with it. In the same conversation, they asked for the check as well. The table behind us didn't wait for their food at all and got up and left. We followed suit by telling the waiter that if our food wasn't ready at that moment to bring the check for the beer and we were going to leave. He dropped our check, took our money and then disappeared for 10 minutes. He finally brought back my change and I grabbed it all and left.\\n\\nOn our way out, our hostess stopped us to apologize and we told her how disappointed we were and that something obviously was wrong if the entire restaurant was leaving. I was upset that I didn't get to try the new Penguin, but I was relived that the Diamond was open and that they got us in, seated and eating in under 10 minutes. Our waiter also got a 40% tip as well.\\n\\nOur advice to the manager of the Penguin is that if you want to keep this place open, do more at the beginning of a patron's visit than at the end. It's harder to repair a negative visit than it is to prevent one.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/70606",
+        "dataset_id": "yelp",
+        "group_id": "998efa2d409e0f28757e49272a72ce369242af8d6b218efe0d0a814e146aa781",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/229008",
+      "dataset_id": "yelp",
+      "group_id": "3a216ef86da3691ec445bdb006840594bbb7e5b27c5469f61caa6da5516df3e5",
+      "purpose": "discovery",
+      "text": "I write this review based upon what occurred to me, my opinion and what I believe. I am not one to go out and write negative reviews and I pondered whether or not to even write this review, but I think the general public should know what happened to me in order for themselves to make a clear and cogent choice. I will never use this body shop again and would not recommend this body shop to anyone. \\n\\nI am blessed to own a 2012 Mercedes AMG C63. I got my car in Ohio because I was unable to locate the exact version of the car I wanted here in Las Vegas. My car was my second baby, I loved it so much and was so thrilled to own it. On September 12, 2014, I was violently rear-ended by a Jeep Cherokee and I am still suffering injuries from the crash. Upon recommendation from Mercedes in Henderson, I took my car into New Look on September 13, 2014. I was ensured by New Look that my car would get the best service, they would handle the insurance carriers, and the car would be finished within about a month, at the latest, because they needed a certain item to set the car upon.\\n\\nAfter being led on, time and time again, I would view the pictures of my car and unfortunately, New Look, decided to store my car outside with one or more windows missing. I was led on time and time again that my car was \\\"\"next to be up,\\\"\" and it would get fixed. Day after day, month after month, I was told, led on, and misrepresented that my car would be coming up. I also informed New Look that I had incurred a large rental bill because they were taking too long (3k in rental bill) but BJ just said he would talk to the insurance carriers and take care of it. Nothing was ever done in regards to BJ talking to the carriers and that was just another misrepresentation. \\n\\nThen, one day, I needed to get documents from my car and showed up at the location. To my utter disbelief, my car had dust, dirt, and items missing from the car because New Look decided to leave an $80,000.00 Mercedes AMG outside and subject to the elements with the windows missing. Such decision by New Look tarnished the interior of my car, resulted in my items missing from the vehicle, but once again I was ensured that it would be remedied. I still havent found the items missing from my car not has New Look reimbursed me for the missing items. \\n\\nAfter being paid over 18k and my deductible in the maount of $1000.00 from my insurance carrier for their \\\"\"work,\\\"\" New Look informed me over two months and a week later that my car was ready. Unfortunately, when I picked up my car, the interior was a disaster with dirt, dust, and other items not appropriately cleaned. \\n\\nNew Look also pitched and got from me an extra 800 for rim work on my tires. This BJ manager apologized profusely as well as John and promised that Mercedes would detail my car. I told him that i honestly could not trust them anymore and I took the car to my detailer who was shocked at the interior condition and detailed the car. \\n\\nBJ promised weeks ago that they would cover the cost of the detail but even after sending him the invoice, I havent received the check. It is just another long line of disappointments that I had with my service at New Look. \\n\\nSo after a two and a half month wait, NEW LOOK being paid about 20k for the damage to my car from my insurance and my deductible, and then receiving an extra 800 from me for my rims, I got my car back which was filthy, items missing, and the leather damaged. In addition, I got misrepresentation and inaccurate statements from New Look and their staff. It is most unfortunate that a business acts like this. I will never use this company again and my car's interior is damaged because of them. They received their money, over 20k, and they got me this time. There wont be a next time for me.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/229008",
+        "dataset_id": "yelp",
+        "group_id": "3a216ef86da3691ec445bdb006840594bbb7e5b27c5469f61caa6da5516df3e5",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/180080",
+      "dataset_id": "yelp",
+      "group_id": "ec0aca5613a810c688c2a60ecb659cef8eebc315cf47ae7508a30f2219663c59",
+      "purpose": "discovery",
+      "text": "Awful. The decor an obvious ripoff of the now-dated Buddha Bar in Paris. Whenever I go into a place this dark, I wonder how filthy it must be when the lights are turned up. We had 9 pm dinner reservations, and we weren't seated until 11. Plus one star for comping us a free round of drinks, no small feat when there were 16 of us, and a round of appetizers, but only one because the food took an hour to arrive and was lukewarm and when it did, not to mention uber salty. The quality was low - anyone who says it's any good obviously hasn't had any Chinese food that's any better than P.F. Chang's. The only reason to have dinner here is to avoid the line for the club, but when you've got a bachelorette party totaling 16 chicks, there is really no need to wait in line anywhere, or pay any cover charges. I suspect the reason why we wound up here (and many of the other dining patrons) is because this place was featured on the Kardashians. Go figure. :P",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/180080",
+        "dataset_id": "yelp",
+        "group_id": "ec0aca5613a810c688c2a60ecb659cef8eebc315cf47ae7508a30f2219663c59",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/254151",
+      "dataset_id": "yelp",
+      "group_id": "bd4d86b489c598e9fd58672bc11cf5a2f8696e8e9a43e275a60dd9aecf316203",
+      "purpose": "discovery",
+      "text": "I looked them up on Yelp! and ordered a take out order based on their website menu. When I arrived to pick it up both items that I ordered were 2 + dollars more than their own menu.\\n\\nWhen I mentioned it to the cashier she was not at all apologetic and did not offer any concession on the price. No one behind the counter seemed to care that they had just shafted their customer. They cared even less when I told them that I would most likely NOT be back.\\n\\nThe food was good, although I can get good Mediterranean several other places around town. My prediction is that there may be a restaurant available on Mill Ave if this is any indication of how much they care about their customers.",
+      "fields": {},
+      "labels": [
+        0
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/254151",
+        "dataset_id": "yelp",
+        "group_id": "bd4d86b489c598e9fd58672bc11cf5a2f8696e8e9a43e275a60dd9aecf316203",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/312514",
+      "dataset_id": "yelp",
+      "group_id": "1eb5660cbf9675c602d26a10794b19fc1f755c3d9b492470db76792b0feef6b7",
+      "purpose": "discovery",
+      "text": "Sooooo yummy!! I love the red velvet! Both the cake and the frosting. And how cool that they come in mini sizes so I dont have to feel so guilty when I eat them. The owner is fantastic too. She really is a happy, giving person which makes the cakes even taste better. Definitely, visit this Scottsdale or Arcadia location since she owns both.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/312514",
+        "dataset_id": "yelp",
+        "group_id": "1eb5660cbf9675c602d26a10794b19fc1f755c3d9b492470db76792b0feef6b7",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/381967",
+      "dataset_id": "yelp",
+      "group_id": "8a7472a6ca0713393ebeb40782be22d81022750f6d198f404bf6d01217dad2c6",
+      "purpose": "discovery",
+      "text": "Delicious pizza as if you're in a pizzeria setting. Good people.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/381967",
+        "dataset_id": "yelp",
+        "group_id": "8a7472a6ca0713393ebeb40782be22d81022750f6d198f404bf6d01217dad2c6",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/286794",
+      "dataset_id": "yelp",
+      "group_id": "e18c624a9e2350fb63f0c5f93cb55ef8af3cadfeebe45a4b1b9c91d9652df26a",
+      "purpose": "discovery",
+      "text": "While I only went there during lunch, this Japanese restaurant was always consistently very good. The fish is always of excellent quality and the service is great. Well worth the price.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/286794",
+        "dataset_id": "yelp",
+        "group_id": "e18c624a9e2350fb63f0c5f93cb55ef8af3cadfeebe45a4b1b9c91d9652df26a",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/11031",
+      "dataset_id": "yelp",
+      "group_id": "a26f768d78bf0379d43cb88cc6b6f0085c5c7c5fe86174f077a184741552cc21",
+      "purpose": "discovery",
+      "text": "Good Thai food is hard to find.\\n\\nYou've found it here!\\n\\nI went here for lunch today and was blown away. I feel like I've been to so many places around the valley and just haven't found one that I like. I found this place on a whim and decided to try it out. I'm vegan so it's hard for me to find places where I can eat anything. This place had multiple options and everything I tasted was good. I had the Tofu Veggie Pansang. It was delightfully spicy and the tofu was cooked perfectly. My friend had the pad thai and was equally as impressed.\\n\\nThey had good lunch specials and delicious Iced Tea.\\n\\nI will be going back here again.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/11031",
+        "dataset_id": "yelp",
+        "group_id": "a26f768d78bf0379d43cb88cc6b6f0085c5c7c5fe86174f077a184741552cc21",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/431578",
+      "dataset_id": "yelp",
+      "group_id": "f24f3d6319dea465f8dc9ca9b6561e897914b71dd74ca6f4ca092c1695b0e1cc",
+      "purpose": "discovery",
+      "text": "Just had coffee (espresso). I have been there about 6 times now. Friendly, helpful staff. Their expresso is much better that most. I don't order by name as some places do similar drinks differently. I order by description. My drink is 2 shots of expresso in a tall cup not the short one. With one inch of foam. Call it what you want. I call it two shots of expresso in a tall cup with an inch of foam. If the espresso is good you don't need the foam. Theirs is good enough to drink with out the foam. I have found only 4 places that I can drink without the foam. \\n\\nGive them a try if you are downtown. They will treat you right and you will get the drink you ordered. \\n\\nENJOY",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/431578",
+        "dataset_id": "yelp",
+        "group_id": "f24f3d6319dea465f8dc9ca9b6561e897914b71dd74ca6f4ca092c1695b0e1cc",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/101789",
+      "dataset_id": "yelp",
+      "group_id": "b115b2a3a24a5ec8fa497429743c9a907ca49ecb198bc3bc9ccea90d068db29b",
+      "purpose": "discovery",
+      "text": "Annette was very helpful with the carpet picking process. Let me take home samples and take my time. She came over and measured the two rooms perfectly so that I wouldn't pay for any extra carpet. Scheduling was as planned and Alan came over and did a professional job of the installation. A little vague on how my bill was figured, but you will get a better price here than most of those big name outlets. I would use Carpet Corner again in the future. Would like to try them on a tile job.",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/101789",
+        "dataset_id": "yelp",
+        "group_id": "b115b2a3a24a5ec8fa497429743c9a907ca49ecb198bc3bc9ccea90d068db29b",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    },
+    {
+      "sample_id": "yelp/train/513059",
+      "dataset_id": "yelp",
+      "group_id": "c4aecb1694dc4873fe4154afd49e9d5727fde30023d3d59c9f49ba586198fae0",
+      "purpose": "discovery",
+      "text": "i am a full blown fan!! i've used lush products for many years and i've now completely switched to strawberry hedgehog- it's eco-friendly, vegan, and made with obvious care and love. the tea tree rosemary soap is awesome for my oily skin as are the toner and moisturizer. my husband and i are huge fans of the sandalwood/patchouli and ginger/citrus soap- we both started using the peaceful person natural deodorant and it works great! the products last for a good while and the prices are very affordable. my only problem is not buying everything when i shop!!",
+      "fields": {},
+      "labels": [
+        1
+      ],
+      "label_names": [
+        "1",
+        "2"
+      ],
+      "group_population_size": 1,
+      "sampling_frame_groups": 400,
+      "sampled_groups": 100,
+      "inclusion_probability": 0.25,
+      "analysis_weight": 4.0,
+      "annotation_template": {
+        "schema_version": 1,
+        "sample_id": "yelp/train/513059",
+        "dataset_id": "yelp",
+        "group_id": "c4aecb1694dc4873fe4154afd49e9d5727fde30023d3d59c9f49ba586198fae0",
+        "partition": "discovery",
+        "reviewer_id": null,
+        "review_status": "unreviewed",
+        "gold_status": "not_checked",
+        "phenomena": [],
+        "evidence_spans": [],
+        "reason_hypotheses": [],
+        "alternative_explanations": [],
+        "conclusion_status": "unknown",
+        "inclusion_probability": 0.25
+      }
+    }
+  ],
+  "model_outputs_revealed": false,
+  "human_review_status": "unreviewed",
+  "created_at_utc": "2026-11-07T06:29:44.430178+00:00"
+}

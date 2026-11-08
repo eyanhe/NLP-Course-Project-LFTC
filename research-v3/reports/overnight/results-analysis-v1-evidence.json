@@ -1,0 +1,93 @@
+﻿{
+    "recorded_at":  "2026-11-07T22:13:53.1319020+08:00",
+    "results_snapshot_utc":  "2026-11-07T13:43:11.849750+00:00",
+    "evidence_role":  "exploratory_validation_selected_checkpoint_not_independent_test",
+    "selected_requests":  201,
+    "verified_completed_records":  120,
+    "numeric_validation_records":  114,
+    "intentional_strict_no_validation_records":  6,
+    "reused_status_sha256_and_metrics_verified":  67,
+    "new_snapshot_records_verified":  53,
+    "remaining_new_fits":  81,
+    "matched_imbalance_pairs_verified":  9,
+    "all_weights_rehashed_in_this_check":  false,
+    "formal_test_run_in_this_task":  false,
+    "human_review_status":  "pending",
+    "selection_lock_exists":  false,
+    "evaluation_freeze_exists":  false,
+    "dataset_record_counts":  [
+                                  {
+                                      "dataset":  "yelp",
+                                      "completed":  21,
+                                      "numeric_validation":  21
+                                  },
+                                  {
+                                      "dataset":  "go_emotions",
+                                      "completed":  16,
+                                      "numeric_validation":  16
+                                  },
+                                  {
+                                      "dataset":  "banking77",
+                                      "completed":  63,
+                                      "numeric_validation":  57
+                                  },
+                                  {
+                                      "dataset":  "yahoo_answers_topics",
+                                      "completed":  20,
+                                      "numeric_validation":  20
+                                  }
+                              ],
+    "mechanism_arms":  [
+                           {
+                               "arm":  "pretrained_frozen",
+                               "n":  9,
+                               "mean":  0.32942698831301054,
+                               "min":  0.30772504588203675,
+                               "max":  0.34945134480232265
+                           },
+                           {
+                               "arm":  "pretrained_unfrozen",
+                               "n":  9,
+                               "mean":  0.78681631367839089,
+                               "min":  0.76870882439173649,
+                               "max":  0.80732528316085916
+                           },
+                           {
+                               "arm":  "random_frozen",
+                               "n":  9,
+                               "mean":  0.0039988575612575237,
+                               "min":  0.0017783990850505184,
+                               "max":  0.0065517732516735512
+                           },
+                           {
+                               "arm":  "random_unfrozen",
+                               "n":  9,
+                               "mean":  0.28598757172501393,
+                               "min":  0.2327655737139441,
+                               "max":  0.36374666368207942
+                           }
+                       ],
+    "source_sha256":  {
+                          "reports/overnight/current-learning-curves.png":  "642e7f50b116c421e7a92bc529b3eccb96c86c62180e7bef0a6d946ec4698e41",
+                          "reports/overnight/latest-cluster-results.json":  "1d7c316300f2274c15bf9d52b0d9e941b6713aed3e3cd9aafe757fa07550e556",
+                          "training/overnight/run-plan.json":  "0c0deb822ca874dcfc7e1c89b07031fda82262dc2538bb815fe8671b4b00db32",
+                          "reports/overnight/current-validation-results.csv":  "01ef65f69bd8a6303d53a86021f462ee3b7575124baf35aeefc72209a3da9bd4",
+                          "training/overnight/extension-run-plan.json":  "21465579b9739ff16b4cc8388bb96dbc6cf01433b47974ba85163b01abfab862",
+                          "reports/overnight/current-imbalance-comparisons.csv":  "8bf35c984a4904c536d147d01ba2bae4b0f9c8148a4eb66de1fa69d164e781e8"
+                      },
+    "official_cluster_sources":  [
+                                     "https://github.com/NTUEEECluster/docs/blob/main/skill.md",
+                                     "https://github.com/NTUEEECluster/docs/blob/main/slurm-guide.md"
+                                 ],
+    "report_sha256":  "41d63a762960cdeedbd6a6edecfb90c04e80f5738a9bd7aefb7e054031ddc152",
+    "report_tables_verified":  {
+                                   "local_links":  5,
+                                   "mechanism_rows":  4,
+                                   "learning_curve_rows":  12,
+                                   "baseline_rows":  4,
+                                   "imbalance_rows":  9
+                               },
+    "report_verified_at":  "2026-11-07T22:16:12.8299501+08:00",
+    "verified_report_file":  "results-analysis-v1-score-summary-archived.md",
+    "note_after_reorganization":  "This evidence verifies the archived numerical report. The current research-oriented report uses research-status.json."
+}

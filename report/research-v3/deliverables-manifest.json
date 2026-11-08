@@ -1,0 +1,69 @@
+{
+    "date_sgt":  "2026-11-08",
+    "purpose":  "Current readable deliverables; authoritative experiment sources stay at their original paths",
+    "files":  [
+                  {
+                      "path":  "final-report-zh.md",
+                      "source_path":  "research-v3/reports/overnight/results-analysis-v1-zh.md",
+                      "source_sha256":  "e7d289997e18e91ef51b4f8c9a8fe3f924d38988149260ab59f92a0251856170",
+                      "sha256":  "9f89596873a30b5c78785575362950684ffe9a09f420211b2c6158b64ffb779e",
+                      "markdown_links_rebased":  true
+                  },
+                  {
+                      "path":  "final-synthesis-zh.md",
+                      "source_path":  "research-v3/RESEARCH.md",
+                      "source_sha256":  "37f16031fffce7293369f9b511551f042135ddfbd40a693d75145f532af4b362",
+                      "sha256":  "db17066d6e4f045f1b2339ca15d3fd5ece4ac71aac16a901c0f7d1eefb473f7d",
+                      "markdown_links_rebased":  true
+                  },
+                  {
+                      "path":  "figures/完整研究图册.pdf",
+                      "source_path":  "research-v3/reports/overnight/complete-atlas-v1/完整研究图册.pdf",
+                      "source_sha256":  "6c77f613e955db88083f4d1555233e947266c2be62f8b48dd84bbc27ccbdf157",
+                      "sha256":  "6c77f613e955db88083f4d1555233e947266c2be62f8b48dd84bbc27ccbdf157",
+                      "markdown_links_rebased":  false
+                  },
+                  {
+                      "path":  "figures/当前研究问题与实验逻辑链.pdf",
+                      "source_path":  "research-v3/reports/overnight/research-logic-v1/当前研究问题与实验逻辑链.pdf",
+                      "source_sha256":  "d9c5085cca5a1597710a82de342b802cbf9b90b26a8e17da4047da75088c890f",
+                      "sha256":  "d9c5085cca5a1597710a82de342b802cbf9b90b26a8e17da4047da75088c890f",
+                      "markdown_links_rebased":  false
+                  },
+                  {
+                      "path":  "figures/Q测试与机制对照分析.pdf",
+                      "source_path":  "research-v3/reports/overnight/analysis-v2/Q测试与机制对照分析.pdf",
+                      "source_sha256":  "adf8784f1d1593a73fbbf40f6861b6ec6df803e113d4b2fadf13eabaf46af06e",
+                      "sha256":  "adf8784f1d1593a73fbbf40f6861b6ec6df803e113d4b2fadf13eabaf46af06e",
+                      "markdown_links_rebased":  false
+                  },
+                  {
+                      "path":  "final-presentation.pptx",
+                      "source_path":  "outputs/research-ppt-20261108/files/文本分类研究图表-演示版.pptx",
+                      "source_sha256":  "a98aa5364570e0792cf9bde838ef8a6fb6f872d81b3dfb197e9c9e8fcd84829b",
+                      "sha256":  "a98aa5364570e0792cf9bde838ef8a6fb6f872d81b3dfb197e9c9e8fcd84829b",
+                      "markdown_links_rebased":  false
+                  },
+                  {
+                      "path":  "tables/研究问题定量分析.xlsx",
+                      "source_path":  "outputs/research-analysis-20261108/研究问题定量分析.xlsx",
+                      "source_sha256":  "4a345f3c793c870d4de0bd349de76377cc50fdf80359f73ad01bf70ccd02091f",
+                      "sha256":  "4a345f3c793c870d4de0bd349de76377cc50fdf80359f73ad01bf70ccd02091f",
+                      "markdown_links_rebased":  false
+                  },
+                  {
+                      "path":  "tables/累计训练验证推理清单.xlsx",
+                      "source_path":  "outputs/experiment-inventory-20261108/累计训练验证推理清单.xlsx",
+                      "source_sha256":  "575e282e454642a2fb9d63377297aaedd92fdde01ceb088a2a4955e660f35e7a",
+                      "sha256":  "575e282e454642a2fb9d63377297aaedd92fdde01ceb088a2a4955e660f35e7a",
+                      "markdown_links_rebased":  false
+                  },
+                  {
+                      "path":  "tables/训练与推理耗时记录.xlsx",
+                      "source_path":  "outputs/training-inference-timings-20261108/训练与推理耗时记录.xlsx",
+                      "source_sha256":  "8fad5eaae19a8a9354d806537a8f8dcd4e99ed5c05067a744ca8eb06cdbd0def",
+                      "sha256":  "8fad5eaae19a8a9354d806537a8f8dcd4e99ed5c05067a744ca8eb06cdbd0def",
+                      "markdown_links_rebased":  false
+                  }
+              ]
+}

@@ -1,0 +1,26 @@
+{
+  "imdb": {
+    "comparison": "DistilBERT seed42 minus SVM",
+    "delta_macro_f1": 0.01503631808778827,
+    "ci95_low": -0.00603192235810245,
+    "ci95_high": 0.03999589608379292,
+    "replicates": 1000,
+    "interpretation": "Paired stratified percentile bootstrap; conditional on two fixed trained models, not training uncertainty."
+  },
+  "rotten_tomatoes": {
+    "comparison": "DistilBERT seed42 minus SVM",
+    "delta_macro_f1": 0.046978009574581536,
+    "ci95_low": 0.0180071555569232,
+    "ci95_high": 0.07787933576779646,
+    "replicates": 1000,
+    "interpretation": "Paired stratified percentile bootstrap; conditional on two fixed trained models, not training uncertainty."
+  },
+  "yelp": {
+    "comparison": "DistilBERT seed42 minus SVM",
+    "delta_macro_f1": 0.008005040447804701,
+    "ci95_low": -0.010997411965433324,
+    "ci95_high": 0.025069516226922054,
+    "replicates": 1000,
+    "interpretation": "Paired stratified percentile bootstrap; conditional on two fixed trained models, not training uncertainty."
+  }
+}

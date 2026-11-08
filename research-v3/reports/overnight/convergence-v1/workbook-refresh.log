@@ -1,0 +1,3 @@
+{"records":30,"formulaErrors":"{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"}
+Inspect result written to file: C:\Users\超级罪犯 顶风作案\Desktop\6405\6405 自然语言处理 课程作业\sentiment-project\outputs\training-inference-timings-20261108\训练与推理耗时记录.xlsx.inspect.ndjson
+{"saved":"C:\\Users\\超级罪犯 顶风作案\\Desktop\\6405\\6405 自然语言处理 课程作业\\sentiment-project\\outputs\\training-inference-timings-20261108\\训练与推理耗时记录.xlsx","records":30,"measuredInference":18}

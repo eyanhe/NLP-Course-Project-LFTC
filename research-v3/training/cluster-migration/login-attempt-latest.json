@@ -1,0 +1,21 @@
+{
+  "recorded_at_utc": "2026-11-07T10:01:39.724492+00:00",
+  "host": "10.97.216.128",
+  "username": "yiyan002",
+  "network_reachable": true,
+  "host_key_verified_against_official_guide": true,
+  "authenticated": false,
+  "latest_method": "password",
+  "latest_corrected_credential_attempts": 1,
+  "previous_credential_attempts": 2,
+  "cumulative_observed_password_attempts": 3,
+  "credential_reply_extraction_verified": true,
+  "redacted_or_placeholder_input": false,
+  "further_automatic_attempts": false,
+  "required_action": "User manual SSH login confirmation, including possible password-change prompt",
+  "local_training_enabled": false,
+  "cluster_submitted": false,
+  "goal_status_observed": "paused",
+  "secret_in_artifact": false,
+  "transfer_bundle_note": "This live client status is outside the previously sealed base/overlay transfer manifests"
+}

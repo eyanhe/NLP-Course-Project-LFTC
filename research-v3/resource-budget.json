@@ -1,0 +1,66 @@
+{
+  "design_hash": "f3b17e32567e75337ee9326cacfae12c0ed5e587543100909421a8a37ae5280d",
+  "preparation_data_and_input_bytes_observed": 1722255666,
+  "free_disk_bytes_observed": 553520914432,
+  "base_safetensors_bytes_observed": {
+    "distilbert": 267954768,
+    "modernbert": 598635032
+  },
+  "serialization_probe": {
+    "source": "synthetic random score rows only, no model predictions",
+    "by_label_count": {
+      "2": {
+        "synthetic_rows": 256,
+        "measured_jsonl_bytes_per_row": 384.10546875,
+        "float32_score_bytes_per_row": 8
+      },
+      "4": {
+        "synthetic_rows": 256,
+        "measured_jsonl_bytes_per_row": 423.45703125,
+        "float32_score_bytes_per_row": 16
+      },
+      "10": {
+        "synthetic_rows": 256,
+        "measured_jsonl_bytes_per_row": 541.67578125,
+        "float32_score_bytes_per_row": 40
+      },
+      "28": {
+        "synthetic_rows": 256,
+        "measured_jsonl_bytes_per_row": 895.1796875,
+        "float32_score_bytes_per_row": 112
+      },
+      "77": {
+        "synthetic_rows": 256,
+        "measured_jsonl_bytes_per_row": 1856.046875,
+        "float32_score_bytes_per_row": 308
+      }
+    }
+  },
+  "all_planned_test_jsonl_bytes_extrapolated": 39406164471,
+  "all_planned_float32_score_bytes_exact_shape": 2836004448,
+  "inference_checkpoint_parameter_bytes_estimate": 308077431240,
+  "checkpoint_parameter_bytes_by_model": {
+    "tfidf_lr": 536400000,
+    "tfidf_svm": 536400000,
+    "w2v_svm": 5993743200,
+    "bilstm": 10494757632,
+    "distilbert": 185732817552,
+    "modernbert": 35922636192,
+    "m2_distilbert": 67565244096,
+    "fixed_tfidf_svm": 511920000,
+    "frozen_generic_distilbert_head": 783512568
+  },
+  "checkpoint_policy": {
+    "one_selected_inference_checkpoint_per_physical_run": true,
+    "frozen_M3_encoder_referenced_once": true,
+    "epoch_trajectory_is_metrics_not_all_weight_copies": true,
+    "optimizer_resume_states_not_in_estimate": true
+  },
+  "limitations": [
+    "parameter geometry estimate excludes vocabulary strings, sparse feature serialization overhead and temporary optimizer state",
+    "JSONL forecast extrapolates measured synthetic row shape; actual score distribution and chosen serializer affect bytes",
+    "exact post-selection fits, real training memory and actual checkpoint size must be measured after E0/anchor stage"
+  ],
+  "actual_model_training_run": false,
+  "official_test_predictions_generated": false
+}

@@ -1,0 +1,6 @@
+{
+  "pid": 31240,
+  "status": "terminated_identified_legacy_auto_submitter",
+  "checked_at_utc": "2026-11-07T15:46:42.607156+00:00",
+  "reason": "User prioritized supplement1-4; avoid automatic unrelated P2/extension submissions. Existing Slurm jobs unchanged."
+}

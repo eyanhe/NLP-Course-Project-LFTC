@@ -1,0 +1,50 @@
+{
+  "created_utc": "2026-11-06T10:05:58.667338+00:00",
+  "config_sha256": "31a435c1b726b19754661483e800d1c1b8f92d12bd759ba7ff463edfacbeb571",
+  "revision": "eb185aade064a813bc0b7f42de02595523103ca4",
+  "raw_rows": 127600,
+  "eligible_unique_rows": 127393,
+  "conflicting_hashes": 34,
+  "label_names": [
+    "World",
+    "Sports",
+    "Business",
+    "Sci/Tech"
+  ],
+  "split_sha256": {
+    "train": "45fb4a367454e3c33494813fee0898d7ab4c32754ce72e17c7cfb46377fa5787",
+    "validation": "48008639efaa1a0548090ac06f82fa9a8f2c888216b7be38de1c8bbc071e5aec",
+    "test": "889f17d86f4c27d75ec499bab8e4579a54870b38635c2df522b09e694525a61c"
+  },
+  "splits": {
+    "train": {
+      "n": 6000,
+      "class_counts": {
+        "World": 1500,
+        "Sports": 1500,
+        "Business": 1500,
+        "Sci/Tech": 1500
+      }
+    },
+    "validation": {
+      "n": 1000,
+      "class_counts": {
+        "World": 250,
+        "Sports": 250,
+        "Business": 250,
+        "Sci/Tech": 250
+      }
+    },
+    "test": {
+      "n": 1000,
+      "class_counts": {
+        "World": 250,
+        "Sports": 250,
+        "Business": 250,
+        "Sci/Tech": 250
+      }
+    }
+  },
+  "dedup_policy": "Normalized SHA256, official test precedence; conflicting labels removed; sampled train/validation/test globally unique within task.",
+  "cross_task_exact_overlap": 0
+}

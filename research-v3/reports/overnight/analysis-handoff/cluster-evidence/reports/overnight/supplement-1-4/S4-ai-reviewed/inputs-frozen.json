@@ -1,0 +1,1906 @@
+{
+  "scope": "S4_AI_reviewed_exploratory_D_only",
+  "user_instruction": "无所谓的，我相信gemini的结果",
+  "user_approved_AI_review": true,
+  "review_source": "Gemini_two_form_versions_not_independent_humans",
+  "formal_human_pilot": false,
+  "formal_human_pilot_updated": false,
+  "official_test_predictions_allowed": false,
+  "original_candidate_count": 80,
+  "draft_pair_count": 56,
+  "selected_pair_count": 37,
+  "no_safe_draft_count": 24,
+  "selection_rule": "Both existing AI form versions answer all7 criteria yes; fixed candidate order, before edited-text scoring",
+  "power_planning_or_confirmation_authorized": false,
+  "frozen_at_utc": "2026-11-07T16:56:32.873450+00:00",
+  "pairs": [
+    {
+      "case_id": "M1-004",
+      "candidate_order": 3,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/9965",
+        "group_id": "2ffb459a1c67d96be009f033020f95924297d9d023e0cca9b33a4f47df95ba05",
+        "source_partition": "discovery",
+        "original_text": "In which countries can I get a card?",
+        "gold_labels": [
+          24
+        ],
+        "reviews": [],
+        "intervention_text": "In which nations can I get a card?",
+        "control_text": "In which countries can I obtain a card?",
+        "cue_words": [
+          "countries",
+          "in",
+          "which"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-005",
+      "candidate_order": 4,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/1204",
+        "group_id": "6ee54123ed9a307d00e4a0980d14cf8f8a8b2807968adac0999ae196ce43b573",
+        "source_partition": "discovery",
+        "original_text": "Can I auto top up multiple times?",
+        "gold_labels": [
+          4
+        ],
+        "reviews": [],
+        "intervention_text": "Can I automatically top up multiple times?",
+        "control_text": "Can I auto top up several times?",
+        "cue_words": [
+          "auto",
+          "top",
+          "up"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-006",
+      "candidate_order": 5,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/1193",
+        "group_id": "a7c850200ceb70944f5525b66d2d47b78ca79c254973e0bc68bca5962b8d307f",
+        "source_partition": "discovery",
+        "original_text": "I'm trying to activate the auto-top up function. Where is it?",
+        "gold_labels": [
+          4
+        ],
+        "reviews": [],
+        "intervention_text": "I'm trying to activate the auto-top up feature. Where is it?",
+        "control_text": "I'm trying to enable the auto-top up function. Where is it?",
+        "cue_words": [
+          "auto",
+          "function",
+          "top",
+          "up"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-010",
+      "candidate_order": 9,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/7241",
+        "group_id": "6f50f7a786571677313647910415e1dab34b09510a396d806b1393157c2bc671",
+        "source_partition": "discovery",
+        "original_text": "I do not like this, I made a simple transfer but I have an additional charge for doing so.",
+        "gold_labels": [
+          64
+        ],
+        "reviews": [],
+        "intervention_text": "I do not like this, I made a simple transfer but I have an extra charge for doing so.",
+        "control_text": "I do not like this, I made a straightforward transfer but I have an additional charge for doing so.",
+        "cue_words": [
+          "additional",
+          "doing",
+          "transfer"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-011",
+      "candidate_order": 10,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/2855",
+        "group_id": "0a6d7096229394556a9247ef9355a6b8834aae66fb140cb62dee7583e6e1d889",
+        "source_partition": "discovery",
+        "original_text": "I just sent money but the person I sent it to doesn't see it. What happened?",
+        "gold_labels": [
+          66
+        ],
+        "reviews": [],
+        "intervention_text": "I just sent money but the recipient I sent it to doesn't see it. What happened?",
+        "control_text": "I just sent money but the person I sent it to doesn't see it. What occurred?",
+        "cue_words": [
+          "money",
+          "person",
+          "sent"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-012",
+      "candidate_order": 11,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/70",
+        "group_id": "d69b1cf27c820c6b7d3e5b9a71ae77493f6c47a70b46d948997560c4054b521f",
+        "source_partition": "discovery",
+        "original_text": "My card has not been delivered yet and its been a week since I ordered it, please help",
+        "gold_labels": [
+          11
+        ],
+        "reviews": [],
+        "intervention_text": "My card has not been received yet and its been a week since I ordered it, please help",
+        "control_text": "My card has not been delivered yet and its been a week since I ordered it, please assist",
+        "cue_words": [
+          "card",
+          "delivered",
+          "ordered",
+          "week"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-013",
+      "candidate_order": 12,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/2849",
+        "group_id": "776a5e5db36a1c084d063bb89a9c7b2314b05e009e1eab616babb5e45daef93e",
+        "source_partition": "discovery",
+        "original_text": "I just did a money transaction but its not showing they received it",
+        "gold_labels": [
+          66
+        ],
+        "reviews": [],
+        "intervention_text": "I just did a money transfer but its not showing they received it",
+        "control_text": "I just made a money transaction but its not showing they received it",
+        "cue_words": [
+          "money",
+          "received",
+          "they",
+          "transaction"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-016",
+      "candidate_order": 15,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/1797",
+        "group_id": "6805b8b2225c402583e5e5681db653ef112c6d12f1afde67eee18391b3689d16",
+        "source_partition": "discovery",
+        "original_text": "My contactless stopped working today for no good reason. It's not working no matter where I try to use it. Can you please help me fix it?",
+        "gold_labels": [
+          23
+        ],
+        "reviews": [],
+        "intervention_text": "My contactless ceased working today for no good reason. It's not working no matter where I try to use it. Can you please help me fix it?",
+        "control_text": "My contactless stopped working today for no good reason. It's not working no matter where I try to use it. Can you please help me resolve it?",
+        "cue_words": [
+          "contactless",
+          "stopped",
+          "today",
+          "try",
+          "working"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-017",
+      "candidate_order": 16,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/912",
+        "group_id": "8284c94d9506b67712c4e23e8415540efa7d880efcaade0e5c1f29ff9cc55200",
+        "source_partition": "discovery",
+        "original_text": "What types of foreign money can be used with this service.?",
+        "gold_labels": [
+          36
+        ],
+        "reviews": [],
+        "intervention_text": "What kinds of foreign money can be used with this service.?",
+        "control_text": "What types of foreign money can be used with this platform.?",
+        "cue_words": [
+          "types"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-018",
+      "candidate_order": 17,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/1856",
+        "group_id": "553d0516db8d29d3335c3090e6f944e6dd883d1d23456072c411169ba5d427fc",
+        "source_partition": "discovery",
+        "original_text": "If I top-up by using a trasfer are there charges that applied?",
+        "gold_labels": [
+          56
+        ],
+        "reviews": [],
+        "intervention_text": "If I top-up by using a trasfer are there fees that applied?",
+        "control_text": "If I top-up by making a trasfer are there charges that applied?",
+        "cue_words": [
+          "by",
+          "charges"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-019",
+      "candidate_order": 18,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/5742",
+        "group_id": "ed47eb31639dde9bbd1e2a4c9907829518d3c23ae139c83983f77720238e2228",
+        "source_partition": "discovery",
+        "original_text": "No refund showing in my statement.",
+        "gold_labels": [
+          51
+        ],
+        "reviews": [],
+        "intervention_text": "No reimbursement showing in my statement.",
+        "control_text": "No refund appearing in my statement.",
+        "cue_words": [
+          "refund",
+          "statement"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-020",
+      "candidate_order": 19,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/2826",
+        "group_id": "b17622b4ad9c3bd7457a37e7b86db72bb15d505e7f8351bbf4ff82e9b926ee9d",
+        "source_partition": "discovery",
+        "original_text": "I made a transfer to my friend earlier and she hasn't received it yet. What's the hold up?",
+        "gold_labels": [
+          66
+        ],
+        "reviews": [],
+        "intervention_text": "I made a transfer to my mate earlier and she hasn't received it yet. What's the hold up?",
+        "control_text": "I initiated a transfer to my friend earlier and she hasn't received it yet. What's the hold up?",
+        "cue_words": [
+          "friend",
+          "hasn't",
+          "received",
+          "she",
+          "yet"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-021",
+      "candidate_order": 20,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/7948",
+        "group_id": "b662d9c79fe29a44085c41a9a3e2384de259111f8df9e807b367ec155a331e63",
+        "source_partition": "discovery",
+        "original_text": "Can I mail in a check to top up?",
+        "gold_labels": [
+          58
+        ],
+        "reviews": [],
+        "intervention_text": "Can I mail in a cheque to top up?",
+        "control_text": "Can I post in a check to top up?",
+        "cue_words": [
+          "check",
+          "top",
+          "up"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-022",
+      "candidate_order": 21,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/9554",
+        "group_id": "44279db6ab3d72a945703d2f535cd119dbacd31f63af93065a20656ad16a03f6",
+        "source_partition": "discovery",
+        "original_text": "I need a new card before it expires.",
+        "gold_labels": [
+          9
+        ],
+        "reviews": [],
+        "intervention_text": "I need a replacement card before it expires.",
+        "control_text": "I require a new card before it expires.",
+        "cue_words": [
+          "card",
+          "expires",
+          "new"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-023",
+      "candidate_order": 22,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/1364",
+        "group_id": "4fa486a0376e8db2e67098f928c9eee13a4d6ce2841abe89c8a11a21c67ede27",
+        "source_partition": "discovery",
+        "original_text": "Can money be exchanged from one currency to another?",
+        "gold_labels": [
+          33
+        ],
+        "reviews": [],
+        "intervention_text": "Can money be converted from one currency to another?",
+        "control_text": "Can funds be exchanged from one currency to another?",
+        "cue_words": [
+          "currency",
+          "exchanged"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-026",
+      "candidate_order": 25,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/1683",
+        "group_id": "c6ab42a9e59624873aa4c053bd2a90f5bd975361ee94dabd94c61e02da0f86f9",
+        "source_partition": "discovery",
+        "original_text": "I entered a wrong PIN too many times. How can I fix this?",
+        "gold_labels": [
+          49
+        ],
+        "reviews": [],
+        "intervention_text": "I typed a wrong PIN too many times. How can I fix this?",
+        "control_text": "I entered a wrong PIN too many times. How can I resolve this?",
+        "cue_words": [
+          "entered",
+          "many",
+          "pin",
+          "times",
+          "too",
+          "wrong"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-033",
+      "candidate_order": 32,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/6766",
+        "group_id": "c40bed0c9df00babc53f18f3087083c8d59907d8b5ab0a85fccd16ed7825ea8a",
+        "source_partition": "discovery",
+        "original_text": "What reasons would cause my card payment to be cancelled?",
+        "gold_labels": [
+          53
+        ],
+        "reviews": [],
+        "intervention_text": "What reasons would cause my card payment to be reversed?",
+        "control_text": "What factors would cause my card payment to be cancelled?",
+        "cue_words": [
+          "cancelled",
+          "payment"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-034",
+      "candidate_order": 33,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/6254",
+        "group_id": "c80388423744308d338793af6efc694f776794e6c49fccc770b88e371e9c943b",
+        "source_partition": "discovery",
+        "original_text": "I didn't get my card back from the ATM.",
+        "gold_labels": [
+          18
+        ],
+        "reviews": [],
+        "intervention_text": "I didn't get my card back from the cashpoint.",
+        "control_text": "I didn't receive my card back from the ATM.",
+        "cue_words": [
+          "atm",
+          "back",
+          "card"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-036",
+      "candidate_order": 35,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/6206",
+        "group_id": "254dceac38598ae3bd06dce8be644bf207a7ba1e9276ba50d8400c641bbf6283",
+        "source_partition": "discovery",
+        "original_text": "I want to inactivate my account.",
+        "gold_labels": [
+          55
+        ],
+        "reviews": [],
+        "intervention_text": "I wish to inactivate my account.",
+        "control_text": "I want to deactivate my account.",
+        "cue_words": [
+          "account",
+          "want"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-039",
+      "candidate_order": 38,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/3480",
+        "group_id": "077af437dbf1f8bf78de9ed5d7073d85bd23217d9a5522f4c22371f516e0c4a4",
+        "source_partition": "discovery",
+        "original_text": "I deposited a cheque and its been days and I still haven't received the cash!!",
+        "gold_labels": [
+          6
+        ],
+        "reviews": [],
+        "intervention_text": "I submitted a cheque and its been days and I still haven't received the cash!!",
+        "control_text": "I deposited a cheque and its been days and I still haven't got the cash!!",
+        "cue_words": [
+          "cash",
+          "cheque",
+          "days",
+          "deposited",
+          "haven't",
+          "still"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-041",
+      "candidate_order": 40,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/6755",
+        "group_id": "5a771bc3c20b2f14031f0ef976d5ef4b5a3426fad8c3735ccebc00a8dca4aae8",
+        "source_partition": "discovery",
+        "original_text": "The card payment didn't work",
+        "gold_labels": [
+          53
+        ],
+        "reviews": [],
+        "intervention_text": "The card purchase didn't work",
+        "control_text": "The card payment didn't succeed",
+        "cue_words": [
+          "payment"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-043",
+      "candidate_order": 42,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/6964",
+        "group_id": "f85e294bb88cda230476bd0192890e508c6c9d84b3a22c2f82d824aa7790c226",
+        "source_partition": "discovery",
+        "original_text": "I want to create a new pin.",
+        "gold_labels": [
+          21
+        ],
+        "reviews": [],
+        "intervention_text": "I want to create a new passcode.",
+        "control_text": "I want to set a new pin.",
+        "cue_words": [
+          "pin"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-044",
+      "candidate_order": 43,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/336",
+        "group_id": "1b310bee27823d01c44e63bf3110c147fdf5e4835ff13a2cd9db52a49908b2b4",
+        "source_partition": "discovery",
+        "original_text": "Please explain your exchange rate policy.",
+        "gold_labels": [
+          32
+        ],
+        "reviews": [],
+        "intervention_text": "Please explain your conversion rate policy.",
+        "control_text": "Please describe your exchange rate policy.",
+        "cue_words": [
+          "exchange",
+          "rate",
+          "your"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-045",
+      "candidate_order": 44,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/9320",
+        "group_id": "cb336e956a7eb3d1767c532181a49a36363e28ef826cd4f083540fd51c057980",
+        "source_partition": "discovery",
+        "original_text": "The activation process did not work, please help?",
+        "gold_labels": [
+          0
+        ],
+        "reviews": [],
+        "intervention_text": "The activation procedure did not work, please help?",
+        "control_text": "The activation process did not work, please assist?",
+        "cue_words": [
+          "activation",
+          "process"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-050",
+      "candidate_order": 49,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/270",
+        "group_id": "8f58943d9dda2c63377a0af31f7cf5ea1422411998c83e354d03fcf827f9a0f6",
+        "source_partition": "discovery",
+        "original_text": "Can you tell me how to get my card on the app?",
+        "gold_labels": [
+          13
+        ],
+        "reviews": [],
+        "intervention_text": "Can you tell me how to get my bankcard on the app?",
+        "control_text": "Can you tell me how to add my card on the app?",
+        "cue_words": [
+          "app",
+          "card"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-052",
+      "candidate_order": 51,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/4157",
+        "group_id": "9fdd8fb21758887742a1267a3cd87c6b23826e0c7496e72588cbef975ca5264e",
+        "source_partition": "discovery",
+        "original_text": "I'm wanting to get a Visa card today.",
+        "gold_labels": [
+          73
+        ],
+        "reviews": [],
+        "intervention_text": "I'm wanting to obtain a Visa card today.",
+        "control_text": "I'm hoping to get a Visa card today.",
+        "cue_words": [
+          "get",
+          "visa"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-054",
+      "candidate_order": 53,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/3216",
+        "group_id": "172369016e31670e2fa276f387777304507b8cbfc2aa580fb89e67c2bace0fb2",
+        "source_partition": "discovery",
+        "original_text": "What should I do? I topped off but the app reversed it.",
+        "gold_labels": [
+          61
+        ],
+        "reviews": [],
+        "intervention_text": "What should I do? I topped off but the app reverted it.",
+        "control_text": "What should I do? I topped off but the application reversed it.",
+        "cue_words": [
+          "reversed",
+          "topped"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-055",
+      "candidate_order": 54,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/3330",
+        "group_id": "4624d576a5c00ce5c4d0b7d92af17d1bd588133c69137335d70a32e6cbe04bda",
+        "source_partition": "discovery",
+        "original_text": "i need help. I updated my balance with a check yesterday and Im not seeing it. Can you look at my account to see what went wrong?",
+        "gold_labels": [
+          6
+        ],
+        "reviews": [],
+        "intervention_text": "i need help. I updated my balance with a cheque yesterday and Im not seeing it. Can you look at my account to see what went wrong?",
+        "control_text": "i need help. I updated my balance with a check yesterday and Im not seeing it. Can you look at my account to see what went awry?",
+        "cue_words": [
+          "account",
+          "balance",
+          "check",
+          "im",
+          "not",
+          "see",
+          "seeing",
+          "updated",
+          "yesterday"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-056",
+      "candidate_order": 55,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/4713",
+        "group_id": "9ac0085cfd6f745929495b3c80ed867c92971c917ecd3983dab9e1f54b1498ff",
+        "source_partition": "discovery",
+        "original_text": "I don't know where this debit transaction on my statement came from.",
+        "gold_labels": [
+          28
+        ],
+        "reviews": [],
+        "intervention_text": "I don't know where this debit payment on my statement came from.",
+        "control_text": "I don't understand where this debit transaction on my statement came from.",
+        "cue_words": [
+          "came",
+          "debit",
+          "don't",
+          "on",
+          "statement",
+          "transaction"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-058",
+      "candidate_order": 57,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/3666",
+        "group_id": "98f5b43056253bccfae1d169df67ba00a0e786f86d9450380d509970dd81b130",
+        "source_partition": "discovery",
+        "original_text": "How can I change my name because I just got married?",
+        "gold_labels": [
+          30
+        ],
+        "reviews": [],
+        "intervention_text": "How can I update my name because I just got married?",
+        "control_text": "How can I change my name because I recently got married?",
+        "cue_words": [
+          "change",
+          "married",
+          "my",
+          "name"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-063",
+      "candidate_order": 62,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/307",
+        "group_id": "dfa1878ece9148a40cb60e1a1082b75542c6eda9ebdc82d7e39d1ef351052310",
+        "source_partition": "discovery",
+        "original_text": "I need to know what your exchange rates are.",
+        "gold_labels": [
+          32
+        ],
+        "reviews": [],
+        "intervention_text": "I need to know what your conversion rates are.",
+        "control_text": "I need to understand what your exchange rates are.",
+        "cue_words": [
+          "exchange",
+          "rates",
+          "your"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-064",
+      "candidate_order": 63,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/3842",
+        "group_id": "2b2955bdd9052ba8822e893355952b73f754db3761c1704f6fd18e127ed30351",
+        "source_partition": "discovery",
+        "original_text": "Why do you need me to do an identity check?",
+        "gold_labels": [
+          74
+        ],
+        "reviews": [],
+        "intervention_text": "Why do you need me to do an identification check?",
+        "control_text": "Why do you require me to do an identity check?",
+        "cue_words": [
+          "check",
+          "identity"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-072",
+      "candidate_order": 71,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/6462",
+        "group_id": "f823b6dc0a2768f6f28ab2d618729a82d48e4328573862c8f07fd19a0afcabf6",
+        "source_partition": "discovery",
+        "original_text": "I have been double charged for a couple of things this week, and would appreciate a refund for the duplicate charges.",
+        "gold_labels": [
+          63
+        ],
+        "reviews": [],
+        "intervention_text": "I have been double charged for a couple of things this week, and would appreciate a refund for the repeated charges.",
+        "control_text": "I have been double charged for a couple of things this week, and would welcome a refund for the duplicate charges.",
+        "cue_words": [
+          "charged",
+          "charges",
+          "double",
+          "duplicate",
+          "things",
+          "week"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-074",
+      "candidate_order": 73,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/5968",
+        "group_id": "6f36fb07c1c24ee89704d459123b08c469e563c35f3211110d87b900db4a4936",
+        "source_partition": "discovery",
+        "original_text": "I just got my new card and tried using it and it was declined?",
+        "gold_labels": [
+          25
+        ],
+        "reviews": [],
+        "intervention_text": "I just got my new card and tried using it and it was rejected?",
+        "control_text": "I just got my new card and attempted using it and it was declined?",
+        "cue_words": [
+          "card",
+          "declined",
+          "my"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-077",
+      "candidate_order": 76,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/7900",
+        "group_id": "7d33a9e2a9267f03cfcd19a1b95e125870cc542a9aa5f1d57873feda4d13a121",
+        "source_partition": "discovery",
+        "original_text": "How do I order another card?",
+        "gold_labels": [
+          39
+        ],
+        "reviews": [],
+        "intervention_text": "How do I request another card?",
+        "control_text": "How do I order another bankcard?",
+        "cue_words": [
+          "another",
+          "order"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-078",
+      "candidate_order": 77,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/5759",
+        "group_id": "a18fcecf1afd4cc3a009459b92ed75e4c4fceba0f1b4340757e8b24ee1b64f46",
+        "source_partition": "discovery",
+        "original_text": "I requested a refund from Next because the dress I purchased had three arm holes. They said they sent the refund last Wednesday which is nearly a week ago and I still don't have it. Why not?",
+        "gold_labels": [
+          51
+        ],
+        "reviews": [],
+        "intervention_text": "I requested a reimbursement from Next because the dress I purchased had three arm holes. They said they sent the refund last Wednesday which is nearly a week ago and I still don't have it. Why not?",
+        "control_text": "I requested a refund from Next because the dress I bought had three arm holes. They said they sent the refund last Wednesday which is nearly a week ago and I still don't have it. Why not?",
+        "cue_words": [
+          "ago",
+          "refund",
+          "requested",
+          "said",
+          "week"
+        ]
+      }
+    },
+    {
+      "case_id": "M1-080",
+      "candidate_order": 79,
+      "review_source": "Gemini_AI_assisted",
+      "independent_human_reviews": false,
+      "form_decisions": {
+        "A": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ],
+        "B": [
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是",
+          "是"
+        ]
+      },
+      "pair": {
+        "mechanism": "M1",
+        "sample_id": "banking77/train/8201",
+        "group_id": "bfc397d3fca57a1e75d26dfacfd0a010bf79a8fdcd9ea51b3c943ca0cac1e7b4",
+        "source_partition": "discovery",
+        "original_text": "I tried to use my disposable virtual card to pay a subscription to the gym and it got rejected. Any ideas why?",
+        "gold_labels": [
+          72
+        ],
+        "reviews": [],
+        "intervention_text": "I tried to use my disposable virtual card to pay a subscription to the gym and it got declined. Any ideas why?",
+        "control_text": "I tried to use my disposable virtual card to pay a membership to the gym and it got rejected. Any ideas why?",
+        "cue_words": [
+          "card",
+          "disposable",
+          "rejected",
+          "virtual"
+        ]
+      }
+    }
+  ],
+  "rejected_drafted_pairs": [
+    {
+      "case_id": "M1-001",
+      "candidate_order": 0,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-002",
+      "candidate_order": 1,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-003",
+      "candidate_order": 2,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-009",
+      "candidate_order": 8,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-014",
+      "candidate_order": 13,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-015",
+      "candidate_order": 14,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-027",
+      "candidate_order": 26,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-031",
+      "candidate_order": 30,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-035",
+      "candidate_order": 34,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-037",
+      "candidate_order": 36,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-040",
+      "candidate_order": 39,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-046",
+      "candidate_order": 45,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-057",
+      "candidate_order": 56,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-059",
+      "candidate_order": 58,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-065",
+      "candidate_order": 64,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-067",
+      "candidate_order": 66,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-073",
+      "candidate_order": 72,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-075",
+      "candidate_order": 74,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    },
+    {
+      "case_id": "M1-076",
+      "candidate_order": 75,
+      "reason": "not_all_seven_yes_in_both_AI_form_versions"
+    }
+  ],
+  "models": [
+    {
+      "model_id": "tfidf_svm",
+      "run_id": "5aa9bf514fa60c7ef6651214d304dc213b0012a265a8af0e2e2bfa46913a9488",
+      "entry": {
+        "planned_run_id": "055ac2d1ea6a2e35db3ef2d57708fef89f249c190d099410ca229566dd380036",
+        "run_id": "5aa9bf514fa60c7ef6651214d304dc213b0012a265a8af0e2e2bfa46913a9488",
+        "artifact_id": "5aa9bf514fa60c7ef6651214d304dc213b0012a265a8af0e2e2bfa46913a9488",
+        "run": {
+          "run_id": "5aa9bf514fa60c7ef6651214d304dc213b0012a265a8af0e2e2bfa46913a9488",
+          "condition_id": "2131b0b333e145f4dab9b600fba5315e495934b354d53081346f5f7dafbbc14e",
+          "model_id": "tfidf_svm",
+          "training_seed": null,
+          "hparams": {
+            "max_features": 30000,
+            "min_df": 1,
+            "sublinear_tf": true,
+            "ngram_range": [
+              1,
+              2
+            ],
+            "C": 1,
+            "role_ids_hash": {
+              "train": "8f22fe7aefc8638adbb14ba594a07ae2a47510be018ce82fdf3d72329fed5278",
+              "select": "c770a0ede2f483ec4234ed6548d814ff61771a8ba21315bf62abcfde1d8de64c",
+              "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            "target_task": "single_label",
+            "device": "cuda",
+            "micro_batch": 4,
+            "cpu_threads": 4,
+            "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+            "label_count": 77
+          },
+          "input_hash": "6189de258ce049b13ede1cbee10166166125f9aa0eeb6836428e8073a5e672e7",
+          "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+          "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+          "strict_no_val": false
+        },
+        "engine": "core",
+        "expected_model_request_hash": "1b060eb9b9a2f3b2f9e05d0deeab3dc2a5e77d100ec82b64b6094a43dc96c21e",
+        "condition_id": "2131b0b333e145f4dab9b600fba5315e495934b354d53081346f5f7dafbbc14e",
+        "dataset_id": "banking77",
+        "model_id": "tfidf_svm",
+        "data_seed": 2026,
+        "training_seed": null,
+        "semantic_aliases": [
+          {
+            "experiment_id": "E1",
+            "dataset_id": "banking77",
+            "condition_id": "2131b0b333e145f4dab9b600fba5315e495934b354d53081346f5f7dafbbc14e",
+            "run_id": "055ac2d1ea6a2e35db3ef2d57708fef89f249c190d099410ca229566dd380036",
+            "context": {},
+            "model_id": "tfidf_svm"
+          }
+        ],
+        "status": "pending_checkpoint"
+      },
+      "status_sha256": "c89c9e0052a1c676668c12a5fe01061854c71f73af7e7647793c579e33032eb1",
+      "role": "primary"
+    },
+    {
+      "model_id": "distilbert",
+      "run_id": "a9b8318f052466eb376cd08d7879ec3752c122ceb4113cda16303318270298c0",
+      "entry": {
+        "planned_run_id": "f14f2621bbee06bb77c82959ccb85d07dd86c66981d9fca91f529a9e237f328e",
+        "run_id": "a9b8318f052466eb376cd08d7879ec3752c122ceb4113cda16303318270298c0",
+        "artifact_id": "a9b8318f052466eb376cd08d7879ec3752c122ceb4113cda16303318270298c0",
+        "run": {
+          "run_id": "a9b8318f052466eb376cd08d7879ec3752c122ceb4113cda16303318270298c0",
+          "condition_id": "2131b0b333e145f4dab9b600fba5315e495934b354d53081346f5f7dafbbc14e",
+          "model_id": "distilbert",
+          "training_seed": 42,
+          "hparams": {
+            "max_epochs": 5,
+            "effective_batch": 16,
+            "warmup_ratio": 0.1,
+            "lr": 2e-05,
+            "weight_decay": 0.01,
+            "role_ids_hash": {
+              "train": "8f22fe7aefc8638adbb14ba594a07ae2a47510be018ce82fdf3d72329fed5278",
+              "select": "c770a0ede2f483ec4234ed6548d814ff61771a8ba21315bf62abcfde1d8de64c",
+              "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            "target_task": "single_label",
+            "device": "cuda",
+            "micro_batch": 4,
+            "cpu_threads": 4,
+            "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+            "label_count": 77
+          },
+          "input_hash": "6189de258ce049b13ede1cbee10166166125f9aa0eeb6836428e8073a5e672e7",
+          "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+          "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+          "strict_no_val": false
+        },
+        "engine": "core",
+        "expected_model_request_hash": "0a7af93521e365050dc4aa2e5145dbba99e3b63cc5beaaf00438e1568edd3a1c",
+        "condition_id": "2131b0b333e145f4dab9b600fba5315e495934b354d53081346f5f7dafbbc14e",
+        "dataset_id": "banking77",
+        "model_id": "distilbert",
+        "data_seed": 2026,
+        "training_seed": 42,
+        "semantic_aliases": [
+          {
+            "experiment_id": "E1",
+            "dataset_id": "banking77",
+            "condition_id": "2131b0b333e145f4dab9b600fba5315e495934b354d53081346f5f7dafbbc14e",
+            "run_id": "f14f2621bbee06bb77c82959ccb85d07dd86c66981d9fca91f529a9e237f328e",
+            "context": {},
+            "model_id": "distilbert"
+          },
+          {
+            "experiment_id": "E5",
+            "dataset_id": "banking77",
+            "condition_id": "2131b0b333e145f4dab9b600fba5315e495934b354d53081346f5f7dafbbc14e",
+            "run_id": "f14f2621bbee06bb77c82959ccb85d07dd86c66981d9fca91f529a9e237f328e",
+            "context": {},
+            "model_id": "distilbert"
+          }
+        ],
+        "status": "pending_checkpoint"
+      },
+      "status_sha256": "2e867906b3da2dc4937e1dd6d85ca72a5c8b1c933224895b3e7eadc6b2a2e425",
+      "role": "auxiliary_fixed_recipe"
+    }
+  ],
+  "submitted_excel_sha256": {
+    "A": "fa5f05c368265c49484fd7d17f4f7a726ace9fefd3c22c7222485ba12677c2f1",
+    "B": "d29d2c5c131c121880e45e44d7354e4d27bea2df912569c61cc305602c49b06c"
+  },
+  "submitted_snapshot_sha256": "f219af4ec0f03b990d2021fbbbb4fccc8a9b8225ad5e63bab58a7158758e45c3",
+  "candidate_context_binding": {
+    "design_hash": "f3b17e32567e75337ee9326cacfae12c0ed5e587543100909421a8a37ae5280d",
+    "prepared_manifest_sha256": "f2c98d4079362aab8164d96fc4cf5011f168f8e5f9096e5f2426e44c9d51fefd",
+    "candidate_file_sha256": "bba663db815e0e081ded063bb3b53b98b1434849c1e4cc51162dc0e208161121",
+    "packet_manifest_sha256": "8909cc73a90a2bf0b91dd395495887b24cd15b5e7fbf27907cfb4663cdf7f9bc",
+    "source_file_sha256": "0b32c834f8c1ee84ae8bb98c947051b288560c465bfca2d73c4989a5f7cd10e3",
+    "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+    "tokenizer_vocab_sha256": "c8d348619f7eaa65f95065f2b5a3a86f6227fb50a9ac1d1499fbbee75b32e5a3"
+  },
+  "prepared_sha256": "f2c98d4079362aab8164d96fc4cf5011f168f8e5f9096e5f2426e44c9d51fefd",
+  "design_sha256": "4a45a3703e4e9237115fe62fd4c5a99a34e40328239a6464a02eb0c70274359e",
+  "common_inputs_file": "inputs/banking77.parquet",
+  "common_inputs_sha256": "862a17a7a9d4a8bf4378730c7e26e8c18ba41698791a70dd0cee828d1e9a47aa",
+  "discovery_file": "data/banking77/discovery.parquet",
+  "discovery_sha256": "0b32c834f8c1ee84ae8bb98c947051b288560c465bfca2d73c4989a5f7cd10e3",
+  "driver_sha256": "e7f2a3f9ce74fd3dfde8db1fd4537dc15aa1e978cb8ca7c5594e73495bd8378f",
+  "scorer_sha256": "e1f2cce4f8234d267516df5187f0679100ca644ddca85cc1d7cf2cd48a7414bb",
+  "generalization": "37 AI-accepted draftable examples only; not the completeD population or a human-confirmed mechanism",
+  "freeze_hash": "5bd8bb2ac79ca647f6f59877878650582702740a818db2bc1d869c01ebe5e3a9"
+}

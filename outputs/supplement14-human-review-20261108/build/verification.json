@@ -1,0 +1,24 @@
+[
+  {
+    "reviewer": "A",
+    "file": "outputs\\supplement14-human-review-20261108\\M1独立人审-A.xlsx",
+    "cases": 56,
+    "source_sha256": "698515ff3c03917ffd34d139329f4d57816c484d978dcc15e05c5a28b667f611",
+    "xlsx_sha256": "385c878388e5e87bf9bdf4ef1a5828b06da023fe1b97d99e6042c606a1e57a5f",
+    "bytes": 14143,
+    "human_judgements_copied": 0,
+    "source_order_and_text_checked": true,
+    "workflow_input_changes_checked": true
+  },
+  {
+    "reviewer": "B",
+    "file": "outputs\\supplement14-human-review-20261108\\M1独立人审-B.xlsx",
+    "cases": 56,
+    "source_sha256": "865e421a71ebc88843b31391067544fdaba145ce6ca0c9d72ac8093544e69fb9",
+    "xlsx_sha256": "99c472091fe77690942d43196a0f32ca217e85ee8724bb2274d90db0427c4b97",
+    "bytes": 14145,
+    "human_judgements_copied": 0,
+    "source_order_and_text_checked": true,
+    "workflow_input_changes_checked": true
+  }
+]

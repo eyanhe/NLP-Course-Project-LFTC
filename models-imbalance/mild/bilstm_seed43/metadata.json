@@ -1,0 +1,59 @@
+{
+  "imbalance_config_sha256": "67a4393c610aa6f8be812d3cb01b946ec12246279e1663f82e6e6f56b4baae95",
+  "data_sha256": {
+    "balanced": "45fb4a367454e3c33494813fee0898d7ab4c32754ce72e17c7cfb46377fa5787",
+    "mild": "bc14193e42365f420cce6f82ac4a8be9a056f280c7c200acc2e6bc0e287708a4",
+    "moderate": "e60a978198c4fc83a79bd258a7f37e03dd6f63a8797aac644528061a630230cc",
+    "severe": "e39f6743cf4df7752f1433c9e81c50808e3fca48af173ab070b0bbfd4c5c9995"
+  },
+  "balanced_data_sha256": {
+    "train": "45fb4a367454e3c33494813fee0898d7ab4c32754ce72e17c7cfb46377fa5787",
+    "validation": "48008639efaa1a0548090ac06f82fa9a8f2c888216b7be38de1c8bbc071e5aec",
+    "test": "889f17d86f4c27d75ec499bab8e4579a54870b38635c2df522b09e694525a61c"
+  },
+  "base_model_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "created_utc": "2026-11-06T11:28:04.628840+00:00",
+  "source": "mild",
+  "model": "bilstm",
+  "seed": 43,
+  "learning_rate": 0.003,
+  "best_epoch": 5,
+  "best_validation_macro_f1": 0.7936287500190519,
+  "fit_wall_seconds": 8.304175000004761,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5865238356463452,
+      "validation_macro_f1": 0.7786301113250831,
+      "epoch_seconds": 1.5321882999996888
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.29827164375084514,
+      "validation_macro_f1": 0.7677859745737293,
+      "epoch_seconds": 1.596114400002989
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.170180849651707,
+      "validation_macro_f1": 0.7792979499855739,
+      "epoch_seconds": 1.5175070999976015
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.09006431474885408,
+      "validation_macro_f1": 0.7851076706437368,
+      "epoch_seconds": 1.4704777000006288
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.037961780202594844,
+      "validation_macro_f1": 0.7936287500190519,
+      "epoch_seconds": 1.58466110000154
+    }
+  ],
+  "class_weights": null,
+  "model_bytes": 4902147,
+  "cublas_workspace": ":4096:8",
+  "peak_gpu_allocated_bytes": 121410560
+}

@@ -1,0 +1,283 @@
+{
+  "status": "complete",
+  "run_id": "2aa3fa823e88fd083307199aceb4cd5f6c8118d8855bdc0601e64d2b07dd92cc",
+  "request_hash": "a2b2b7d875ee86551f0580f3bcc11968fd06516ee4ba79a616d2da28a7f343d8",
+  "run": {
+    "run_id": "2aa3fa823e88fd083307199aceb4cd5f6c8118d8855bdc0601e64d2b07dd92cc",
+    "condition_id": "d320865d7ce0471fb9119b763c5e53061c28937d7a1e8a79c980fff3a63dda0e",
+    "model_id": "bilstm",
+    "training_seed": 42,
+    "hparams": {
+      "hidden_per_direction": 64,
+      "layers": 1,
+      "max_epochs": 10,
+      "effective_batch": 64,
+      "vocabulary_limit": 30000,
+      "embedding_initialization": {
+        "vector_size": 100,
+        "window": 5,
+        "min_count": 1,
+        "epochs": 10,
+        "workers": 1,
+        "seed": 2026,
+        "sg": 1,
+        "vocabulary_limit": 30000
+      },
+      "lr": 0.001,
+      "dropout": 0.3,
+      "epochs": 10,
+      "min_count": 1,
+      "role_ids_hash": {
+        "train": "20bdb2a1b5553d05bdba3e6b0f1ef30d5aefaca1052841486dde1e18677dc821",
+        "select": "5d09ce0e5dcdb5ef0b5bcfb38687d13b5513a5258d6bacbe4a6818db71a73985",
+        "discovery": "7cc40e15a3569542af675cbe05edcea253c6c001f00b7fa5149308848966e53b"
+      },
+      "device": "cuda",
+      "micro_batch": 4,
+      "cpu_threads": 4,
+      "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+      "label_count": 10,
+      "target_task": "single_label"
+    },
+    "input_hash": "ae127c115dfba4361a40f8f0e386b3a9c19f0c04616e91af5e401c901fe6d8b6",
+    "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+    "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+    "strict_no_val": false
+  },
+  "training_unique_rows": 256,
+  "training_ids_sha256": "20bdb2a1b5553d05bdba3e6b0f1ef30d5aefaca1052841486dde1e18677dc821",
+  "holdout_labels_accessed": 128,
+  "score_kind": "logit",
+  "files": {
+    "bundle.joblib": "7e3c0999d4b91b470b110be56217f4f3d23e056a6b609f56a797d0455690f707",
+    "history.json": "095b0f05be98a80f8218ca153496f3e51dc37194691121ebf0aa4f6b9963519a",
+    "checkpoint/model.safetensors": "ba87607d57c6f82ac1695f05065ae5bd186c3526721ab53986c31a836e975cbe"
+  },
+  "feature_degenerate": false,
+  "feature_seconds": 0.6569999998901039,
+  "fit_seconds": 18.686999999918044,
+  "total_seconds": 20.031999999890104,
+  "epochs_completed": 10,
+  "selected_epoch": 3,
+  "optimizer_updates": 40,
+  "micro_batch": 4,
+  "effective_batch": 64,
+  "oom_attempts": [],
+  "reload_verified": true,
+  "actual_model_training_run": true,
+  "official_test_predictions_generated": false,
+  "reload_max_absolute_difference": 0.0,
+  "validation": {
+    "task": "single_label",
+    "score_kind": "logit",
+    "rows": 128,
+    "macro_f1": 0.02751824817518248,
+    "micro_f1": 0.1015625,
+    "accuracy": 0.1015625,
+    "worst_label_f1": 0.0,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "per_label": [
+      {
+        "label_id": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 20
+      },
+      {
+        "label_id": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 16
+      },
+      {
+        "label_id": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 9
+      },
+      {
+        "label_id": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 10
+      },
+      {
+        "label_id": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 12
+      },
+      {
+        "label_id": 5,
+        "precision": 0.096,
+        "recall": 1.0,
+        "f1": 0.17518248175182483,
+        "support": 12
+      },
+      {
+        "label_id": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11
+      },
+      {
+        "label_id": 7,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 13
+      },
+      {
+        "label_id": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 8
+      },
+      {
+        "label_id": 9,
+        "precision": 0.3333333333333333,
+        "recall": 0.058823529411764705,
+        "f1": 0.1,
+        "support": 17
+      }
+    ]
+  },
+  "resources": {
+    "peak_rss_sampled_bytes": 2465431552,
+    "sample_count": 41,
+    "rss_sample_interval_seconds": 0.5,
+    "elapsed_seconds": 20.04700000002049,
+    "torch_cuda_peak_allocated_bytes": 99518976,
+    "torch_cuda_peak_reserved_bytes": 115343360,
+    "gpu_name": "NVIDIA GeForce RTX 4060",
+    "note": "sampled RSS maximum; allocated/reserved Torch memory is not total device usage"
+  }
+}

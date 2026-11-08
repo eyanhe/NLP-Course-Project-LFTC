@@ -1,0 +1,37 @@
+{
+  "recorded_at_utc": "2026-11-06T18:51:44.863885+00:00",
+  "python_version": "3.11.9",
+  "python_executable": "C:\\Users\\超级罪犯 顶风作案\\Desktop\\6405\\6405 自然语言处理 课程作业\\sentiment-project\\.venv-research\\Scripts\\python.exe",
+  "virtual_environment": "C:\\Users\\超级罪犯 顶风作案\\Desktop\\6405\\6405 自然语言处理 课程作业\\sentiment-project\\.venv-research",
+  "platform": "Windows-10-10.0.22621-SP0",
+  "logical_cpus": 16,
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.1",
+    "pyarrow": "24.0.0",
+    "scikit-learn": "1.6.1",
+    "torch": "2.6.0+cu124",
+    "transformers": "4.57.6",
+    "datasets": "5.0.0",
+    "gensim": "4.3.0",
+    "datasketch": "1.6.5",
+    "psutil": "6.1.1",
+    "safetensors": "0.8.0",
+    "huggingface-hub": "0.36.2"
+  },
+  "import_errors": {},
+  "actual_model_training_run": false,
+  "gpu": {
+    "available": true,
+    "name": "NVIDIA GeForce RTX 4060",
+    "total_memory_bytes": 8585216000,
+    "arithmetic_verified": true,
+    "bf16_supported": true
+  },
+  "g0_full_training_smoke": "not_run_user_requested_pretraining_only",
+  "system_memory_bytes": 34164101120,
+  "process_rss_bytes": 554160128,
+  "torch_cuda_runtime": "12.4",
+  "nvidia_smi": "NVIDIA GeForce RTX 4060, 8188 MiB, 610.88",
+  "runtime_ready": true
+}

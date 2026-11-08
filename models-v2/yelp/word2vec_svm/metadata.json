@@ -1,0 +1,51 @@
+{
+  "v2_config_sha256": "31a435c1b726b19754661483e800d1c1b8f92d12bd759ba7ff463edfacbeb571",
+  "v1_manifests": {
+    "imdb/train": "8b44de0b22e458e7ff2076533968d1b30cd09497347f3bdcc61b08885898d932",
+    "imdb/validation": "5fcfc6634342b1df0e2d784b4c75438b267334b3f76837fdf2033ed9479a8201",
+    "imdb/test": "f3cd57625d7b7100e8f7c94073c3aa236bd9a537f9c99d66dc92b147e4e8ebd2",
+    "rotten_tomatoes/train": "5c250c3780603713ce0c66db55d1b432afc71dc966096971cfbdee0f6a1956aa",
+    "rotten_tomatoes/validation": "838a224e85548328de1f1862ab5b7db103524978e94f4e9606827c17187b5e89",
+    "rotten_tomatoes/test": "02fd74488fe4e7ff6abeab1390d297e8a250de0e4082cf36730204a3b0ffd4ea",
+    "yelp/train": "3c1b6c8b2010e073a6ab696cf8dc88876a2ac0c4d9a4ef9f7b26de272d5daf02",
+    "yelp/validation": "c993724a243c12e8369d1c8460a1ccf449cff4ee712dbe893fbbb1705e2f06dd",
+    "yelp/test": "d2961859e5b68dfcb596bf0d683e1658717e5a3b543df4e8bbcd08a1ee7d11ba"
+  },
+  "news_manifests": {
+    "train": "45fb4a367454e3c33494813fee0898d7ab4c32754ce72e17c7cfb46377fa5787",
+    "validation": "48008639efaa1a0548090ac06f82fa9a8f2c888216b7be38de1c8bbc071e5aec",
+    "test": "889f17d86f4c27d75ec499bab8e4579a54870b38635c2df522b09e694525a61c"
+  },
+  "model_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "created_utc": "2026-11-06T10:09:32.267653+00:00",
+  "source": "yelp",
+  "model": "word2vec_svm",
+  "selected": {
+    "C": 1,
+    "ngram": null,
+    "fit_seconds": 0.10542960000020685,
+    "validation_macro_f1": 0.8739752991586351
+  },
+  "candidates": [
+    {
+      "C": 0.1,
+      "ngram": null,
+      "fit_seconds": 0.10343700000157696,
+      "validation_macro_f1": 0.8729785333721398
+    },
+    {
+      "C": 1,
+      "ngram": null,
+      "fit_seconds": 0.10542960000020685,
+      "validation_macro_f1": 0.8739752991586351
+    },
+    {
+      "C": 10,
+      "ngram": null,
+      "fit_seconds": 0.1023246000004292,
+      "validation_macro_f1": 0.8739752991586351
+    }
+  ],
+  "search_wall_seconds": 29.67340499999773,
+  "model_bytes": 6628243
+}

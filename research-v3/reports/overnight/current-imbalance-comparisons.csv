@@ -1,0 +1,10 @@
+﻿dataset,model,training_n,balanced_macro_f1,skew10_macro_f1,difference_skew_minus_balanced,evidence_role
+yelp,tfidf_svm,6000,0.9066573323999066,0.6615351020853806,-0.24512223031452607,exploratory_V_not_pure_prior_intervention
+yelp,bilstm,6000,0.8866553321998867,0.8069018474185826,-0.07975348478130406,exploratory_V_not_pure_prior_intervention
+yelp,distilbert,6000,0.9349998194439428,0.855119666662923,-0.07988015278101979,exploratory_V_not_pure_prior_intervention
+banking77,tfidf_svm,781,0.6476599559773637,0.5839856737441131,-0.06367428223325056,exploratory_V_not_pure_prior_intervention
+banking77,bilstm,781,0.013215152055125643,0.0033271957788053213,-0.00988795627632032,exploratory_V_not_pure_prior_intervention
+banking77,distilbert,781,0.3443597353582589,0.12210135459560244,-0.22225838076265647,exploratory_V_not_pure_prior_intervention
+yahoo_answers_topics,tfidf_svm,6000,0.6070897923275975,0.5116806380779065,-0.09540915424969099,exploratory_V_not_pure_prior_intervention
+yahoo_answers_topics,bilstm,6000,0.507049698428055,0.3550402234711491,-0.15200947495690592,exploratory_V_not_pure_prior_intervention
+yahoo_answers_topics,distilbert,6000,0.70979343498117,0.6650058754746417,-0.04478755950652824,exploratory_V_not_pure_prior_intervention

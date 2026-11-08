@@ -1,0 +1,17 @@
+# Python 3.11; install CPU torch first as described in HANDOFF.md.
+torch==2.2.1
+transformers==4.57.6
+datasets==5.0.0
+scikit-learn==1.6.1
+numpy==1.26.4
+pandas==2.2.1
+pyarrow==24.0.0
+streamlit==1.40.1
+matplotlib==3.8.3
+huggingface-hub==0.36.2
+safetensors==0.8.0
+joblib==1.2.0
+scipy==1.12.0
+threadpoolctl==3.6.0
+requests==2.34.2
+gensim==4.3.0

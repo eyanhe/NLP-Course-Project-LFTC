@@ -1,0 +1,270 @@
+{
+  "status": "complete",
+  "run_id": "88e5f09207f8b672911182026eec2e0b0df9c7c0f52862736d5a4e74ed9db697",
+  "request_hash": "4e7367aeaee7fa7eed660c506fe82bbc8aedb92508e4e250b1c6c151fc0edea8",
+  "run": {
+    "run_id": "88e5f09207f8b672911182026eec2e0b0df9c7c0f52862736d5a4e74ed9db697",
+    "condition_id": "28024832a237ee95f3615c995cb0970966402acefa8c78e5c185cc02b1299e71",
+    "model_id": "tfidf_svm",
+    "training_seed": null,
+    "hparams": {
+      "max_features": 30000,
+      "min_df": 1,
+      "sublinear_tf": true,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "C": 1,
+      "role_ids_hash": {
+        "train": "c5f62a7e9da6f6c4e549c56f578b6d6824870f7e67ed6c1e11043ce0961b793d",
+        "select": "2cad2aba5c9dcd5751159b1c0078d53d1ccd6783650c4da3f84f65e75a5f81b2",
+        "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "target_task": "single_label",
+      "device": "cuda",
+      "micro_batch": 4,
+      "cpu_threads": 4,
+      "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+      "label_count": 10
+    },
+    "input_hash": "ae127c115dfba4361a40f8f0e386b3a9c19f0c04616e91af5e401c901fe6d8b6",
+    "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+    "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+    "strict_no_val": false
+  },
+  "training_unique_rows": 100000,
+  "training_ids_sha256": "c5f62a7e9da6f6c4e549c56f578b6d6824870f7e67ed6c1e11043ce0961b793d",
+  "holdout_labels_accessed": 9989,
+  "score_kind": "svm_margin",
+  "files": {
+    "bundle.joblib": "4412f8460224489f58e2e051545d1c166ac51d9873dc5c651cbe4adf4fd5e55d"
+  },
+  "feature_degenerate": false,
+  "feature_seconds": 15.649577002041042,
+  "fit_seconds": 40.60514979297295,
+  "total_seconds": 57.450480757979676,
+  "epochs_completed": 0,
+  "selected_epoch": null,
+  "optimizer_updates": 0,
+  "micro_batch": null,
+  "effective_batch": null,
+  "oom_attempts": [],
+  "reload_verified": true,
+  "actual_model_training_run": true,
+  "official_test_predictions_generated": false,
+  "reload_max_absolute_difference": 0.0,
+  "validation": {
+    "task": "single_label",
+    "score_kind": "svm_margin",
+    "rows": 9989,
+    "macro_f1": 0.6580663227170371,
+    "micro_f1": 0.6610271298428271,
+    "accuracy": 0.6610271298428271,
+    "worst_label_f1": 0.47266881028938906,
+    "confusion_matrix": [
+      [
+        500,
+        32,
+        30,
+        81,
+        16,
+        13,
+        66,
+        82,
+        99,
+        81
+      ],
+      [
+        20,
+        666,
+        64,
+        113,
+        19,
+        21,
+        32,
+        18,
+        15,
+        30
+      ],
+      [
+        33,
+        37,
+        738,
+        39,
+        11,
+        8,
+        28,
+        22,
+        71,
+        8
+      ],
+      [
+        71,
+        165,
+        31,
+        464,
+        33,
+        14,
+        85,
+        45,
+        24,
+        68
+      ],
+      [
+        6,
+        21,
+        12,
+        34,
+        819,
+        11,
+        43,
+        35,
+        15,
+        3
+      ],
+      [
+        18,
+        24,
+        17,
+        19,
+        8,
+        831,
+        28,
+        31,
+        10,
+        14
+      ],
+      [
+        59,
+        45,
+        51,
+        101,
+        67,
+        22,
+        441,
+        63,
+        78,
+        71
+      ],
+      [
+        72,
+        7,
+        30,
+        30,
+        45,
+        45,
+        43,
+        650,
+        54,
+        24
+      ],
+      [
+        71,
+        7,
+        42,
+        23,
+        6,
+        10,
+        46,
+        36,
+        743,
+        15
+      ],
+      [
+        52,
+        14,
+        7,
+        50,
+        9,
+        10,
+        56,
+        23,
+        28,
+        751
+      ]
+    ],
+    "per_label": [
+      {
+        "label_id": 0,
+        "precision": 0.5543237250554324,
+        "recall": 0.5,
+        "f1": 0.5257623554153522,
+        "support": 1000
+      },
+      {
+        "label_id": 1,
+        "precision": 0.6542239685658153,
+        "recall": 0.6673346693386774,
+        "f1": 0.6607142857142857,
+        "support": 998
+      },
+      {
+        "label_id": 2,
+        "precision": 0.7221135029354208,
+        "recall": 0.7417085427135678,
+        "f1": 0.7317798710956867,
+        "support": 995
+      },
+      {
+        "label_id": 3,
+        "precision": 0.4863731656184486,
+        "recall": 0.464,
+        "f1": 0.4749232343909928,
+        "support": 1000
+      },
+      {
+        "label_id": 4,
+        "precision": 0.7928363988383349,
+        "recall": 0.8198198198198198,
+        "f1": 0.8061023622047244,
+        "support": 999
+      },
+      {
+        "label_id": 5,
+        "precision": 0.8436548223350254,
+        "recall": 0.831,
+        "f1": 0.83727959697733,
+        "support": 1000
+      },
+      {
+        "label_id": 6,
+        "precision": 0.5080645161290323,
+        "recall": 0.44188376753507014,
+        "f1": 0.47266881028938906,
+        "support": 998
+      },
+      {
+        "label_id": 7,
+        "precision": 0.6467661691542289,
+        "recall": 0.65,
+        "f1": 0.6483790523690773,
+        "support": 1000
+      },
+      {
+        "label_id": 8,
+        "precision": 0.6534740545294635,
+        "recall": 0.7437437437437437,
+        "f1": 0.6956928838951311,
+        "support": 999
+      },
+      {
+        "label_id": 9,
+        "precision": 0.7051643192488263,
+        "recall": 0.751,
+        "f1": 0.7273607748184019,
+        "support": 1000
+      }
+    ]
+  },
+  "resources": {
+    "peak_rss_sampled_bytes": 2959822848,
+    "sample_count": 107,
+    "rss_sample_interval_seconds": 0.5,
+    "elapsed_seconds": 57.650099938036874,
+    "torch_cuda_peak_allocated_bytes": 0,
+    "torch_cuda_peak_reserved_bytes": 0,
+    "gpu_name": null,
+    "note": "sampled RSS maximum; allocated/reserved Torch memory is not total device usage"
+  }
+}

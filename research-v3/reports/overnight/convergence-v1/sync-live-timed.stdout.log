@@ -1,0 +1,412 @@
+{"checked_at_utc": "2026-11-07T21:37:23.206704+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 24, "running": 1, "not_started": 1}, "registered_entries": 26, "active": [{"dataset_id": "go_emotions", "model_id": "bilstm", "lr": 0.003, "run_id": "46166d5ade9d09c0744820156bee0dfc60f013a251bb274ccc3ac59c017ad5ec", "progress": {"status": "running", "epoch": 2, "epochs": 100, "training_rows_seen": 3392, "training_rows": 6000, "optimizer_updates": 147, "lr": 0.003, "best_epoch": 1, "bad_epochs": 0, "pid": 1584199}}], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 28, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:38:25.680531+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 24, "running": 1, "not_started": 1}, "registered_entries": 26, "active": [{"dataset_id": "go_emotions", "model_id": "bilstm", "lr": 0.003, "run_id": "46166d5ade9d09c0744820156bee0dfc60f013a251bb274ccc3ac59c017ad5ec", "progress": {"status": "running", "epoch": 8, "epochs": 100, "training_rows_seen": 3648, "training_rows": 6000, "optimizer_updates": 715, "lr": 0.003, "best_epoch": 7, "bad_epochs": 0, "pid": 1584199}}], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 28, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:39:28.442877+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 24, "running": 1, "not_started": 1}, "registered_entries": 26, "active": [{"dataset_id": "go_emotions", "model_id": "bilstm", "lr": 0.003, "run_id": "46166d5ade9d09c0744820156bee0dfc60f013a251bb274ccc3ac59c017ad5ec", "progress": {"status": "running", "epoch": 15, "epochs": 100, "training_rows_seen": 704, "training_rows": 6000, "optimizer_updates": 1327, "lr": 0.003, "best_epoch": 14, "bad_epochs": 0, "pid": 1584199}}], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 28, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:40:31.400661+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 24, "running": 1, "not_started": 1}, "registered_entries": 26, "active": [{"dataset_id": "go_emotions", "model_id": "bilstm", "lr": 0.003, "run_id": "46166d5ade9d09c0744820156bee0dfc60f013a251bb274ccc3ac59c017ad5ec", "progress": {"status": "running", "epoch": 21, "epochs": 100, "training_rows_seen": 3520, "training_rows": 6000, "optimizer_updates": 1935, "lr": 0.003, "best_epoch": 20, "bad_epochs": 0, "pid": 1584199}}], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 28, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:41:34.477278+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 24, "running": 1, "not_started": 1}, "registered_entries": 26, "active": [{"dataset_id": "go_emotions", "model_id": "bilstm", "lr": 0.003, "run_id": "46166d5ade9d09c0744820156bee0dfc60f013a251bb274ccc3ac59c017ad5ec", "progress": {"status": "running", "epoch": 27, "epochs": 100, "training_rows_seen": 1536, "training_rows": 6000, "optimizer_updates": 2468, "lr": 0.003, "best_epoch": 20, "bad_epochs": 0, "pid": 1584199}}], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 28, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:42:37.207248+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 24, "running": 1, "not_started": 1}, "registered_entries": 26, "active": [{"dataset_id": "go_emotions", "model_id": "bilstm", "lr": 0.003, "run_id": "46166d5ade9d09c0744820156bee0dfc60f013a251bb274ccc3ac59c017ad5ec", "progress": {"status": "running", "epoch": 33, "epochs": 100, "training_rows_seen": 3968, "training_rows": 6000, "optimizer_updates": 3070, "lr": 0.003, "best_epoch": 20, "bad_epochs": 2, "pid": 1584199}}], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 28, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:43:40.476015+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 24, "running": 1, "not_started": 1}, "registered_entries": 26, "active": [{"dataset_id": "go_emotions", "model_id": "bilstm", "lr": 0.003, "run_id": "46166d5ade9d09c0744820156bee0dfc60f013a251bb274ccc3ac59c017ad5ec", "progress": {"status": "running", "epoch": 39, "epochs": 100, "training_rows_seen": 5184, "training_rows": 6000, "optimizer_updates": 3653, "lr": 0.003, "best_epoch": 20, "bad_epochs": 8, "pid": 1584199}}], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 28, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:44:44.387361+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 25, "running": 1}, "registered_entries": 26, "active": [{"dataset_id": "go_emotions", "model_id": "bilstm", "lr": 0.003, "run_id": "95af59fbdcf0a776f425a3665dceb58ab6c520e4569f7c2fdec60eee46583342", "progress": {"status": "running", "epoch": 6, "epochs": 100, "training_rows_seen": 3520, "training_rows": 6000, "optimizer_updates": 525, "lr": 0.003, "best_epoch": 5, "bad_epochs": 0, "pid": 1584199}}], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 29, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:45:47.517606+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 25, "running": 1}, "registered_entries": 26, "active": [{"dataset_id": "go_emotions", "model_id": "bilstm", "lr": 0.003, "run_id": "95af59fbdcf0a776f425a3665dceb58ab6c520e4569f7c2fdec60eee46583342", "progress": {"status": "running", "epoch": 13, "epochs": 100, "training_rows_seen": 384, "training_rows": 6000, "optimizer_updates": 1134, "lr": 0.003, "best_epoch": 11, "bad_epochs": 0, "pid": 1584199}}], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 29, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:46:50.217681+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 25, "running": 1}, "registered_entries": 26, "active": [{"dataset_id": "go_emotions", "model_id": "bilstm", "lr": 0.003, "run_id": "95af59fbdcf0a776f425a3665dceb58ab6c520e4569f7c2fdec60eee46583342", "progress": {"status": "running", "epoch": 20, "epochs": 100, "training_rows_seen": 64, "training_rows": 6000, "optimizer_updates": 1787, "lr": 0.003, "best_epoch": 18, "bad_epochs": 0, "pid": 1584199}}], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 29, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:47:53.677772+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 25, "running": 1}, "registered_entries": 26, "active": [{"dataset_id": "go_emotions", "model_id": "bilstm", "lr": 0.003, "run_id": "95af59fbdcf0a776f425a3665dceb58ab6c520e4569f7c2fdec60eee46583342", "progress": {"status": "running", "epoch": 26, "epochs": 100, "training_rows_seen": 4416, "training_rows": 6000, "optimizer_updates": 2419, "lr": 0.003, "best_epoch": 18, "bad_epochs": 0, "pid": 1584199}}], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 29, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:48:57.188007+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 25, "running": 1}, "registered_entries": 26, "active": [{"dataset_id": "go_emotions", "model_id": "bilstm", "lr": 0.003, "run_id": "95af59fbdcf0a776f425a3665dceb58ab6c520e4569f7c2fdec60eee46583342", "progress": {"status": "running", "epoch": 33, "epochs": 100, "training_rows_seen": 3968, "training_rows": 6000, "optimizer_updates": 3070, "lr": 0.003, "best_epoch": 18, "bad_epochs": 2, "pid": 1584199}}], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 29, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:50:00.627631+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 25, "running": 1}, "registered_entries": 26, "active": [{"dataset_id": "go_emotions", "model_id": "bilstm", "lr": 0.003, "run_id": "95af59fbdcf0a776f425a3665dceb58ab6c520e4569f7c2fdec60eee46583342", "progress": {"status": "running", "epoch": 40, "epochs": 100, "training_rows_seen": 64, "training_rows": 6000, "optimizer_updates": 3667, "lr": 0.003, "best_epoch": 18, "bad_epochs": 9, "pid": 1584199}}], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 29, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:51:04.147977+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:52:07.217978+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:53:10.542210+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:54:13.745871+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:55:16.468355+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:56:19.329436+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:57:22.188659+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": false, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 0}
+{"checked_at_utc": "2026-11-07T21:58:32.688710+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T21:59:39.778665+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:00:42.748843+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:01:45.638787+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:02:48.549107+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:03:51.162572+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:04:54.516268+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:05:57.886278+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:07:00.933499+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:08:04.009407+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:09:07.412649+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:10:10.599697+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:11:13.759888+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:12:16.679887+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:13:19.871064+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:14:22.890157+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:15:25.920146+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:16:28.803376+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:17:32.100096+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:18:35.690434+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:19:38.743165+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:20:42.566061+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:21:45.520500+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:22:48.770757+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:23:51.896426+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:24:55.390857+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:25:58.981003+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:27:02.640813+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:28:06.060962+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:29:09.281409+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:30:12.661412+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:31:15.586545+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:32:18.291491+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:33:21.365160+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:34:24.315217+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:35:26.983803+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:36:30.123232+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:37:33.141837+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:38:36.024105+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:39:38.713516+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:40:41.606039+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:41:44.852433+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:42:47.807658+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:43:50.449972+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:44:53.333148+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:45:56.169638+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:46:59.052719+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:48:01.672643+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:49:04.704823+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:50:07.694174+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:51:10.827086+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:52:13.403147+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:53:16.503984+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:54:19.490767+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:55:22.390480+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:56:25.113667+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:57:27.989200+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:58:30.837281+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T22:59:33.673939+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:00:36.940728+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:01:40.472892+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:02:43.584032+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:03:46.371649+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:04:49.374149+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:05:52.148995+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:06:54.803109+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:07:57.280136+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:09:00.004245+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:10:03.391727+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:11:06.430698+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:12:08.915463+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:13:11.544078+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:14:14.183483+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:15:17.216191+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:16:19.644546+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:17:22.283394+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:18:24.937671+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:19:27.647879+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:20:30.044020+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:21:32.763076+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:22:35.785711+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:23:38.799165+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:24:41.239938+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:25:43.933964+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:26:46.623391+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:27:49.353732+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:28:51.807721+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:29:54.521084+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:30:57.269207+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:32:00.063090+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:33:02.527886+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:34:05.232562+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:35:08.044324+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:36:10.709823+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:37:13.141646+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:38:15.858046+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:39:18.574178+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:40:21.193319+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:41:23.612442+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:42:26.336569+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:43:29.003204+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:44:31.613558+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:45:33.956946+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:46:36.677787+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:47:39.357881+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:48:41.975947+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:49:44.382695+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:50:47.066477+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:51:49.514667+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:52:52.168174+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:53:54.601420+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:54:57.248865+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:55:59.919979+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:57:02.596645+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:58:04.965760+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-07T23:59:07.645419+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:00:11.040634+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:01:13.693497+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:02:16.031170+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:03:18.762549+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:04:21.440907+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:05:24.106552+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:06:26.503714+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:07:29.187855+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:08:31.872820+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:09:34.497585+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:10:36.844273+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:11:39.509189+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:12:42.141205+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:13:44.737426+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:14:47.073362+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:15:49.737885+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:16:52.378521+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:17:54.829281+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:18:57.223463+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:19:59.996119+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:21:02.654173+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:22:05.043288+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:23:07.437677+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:24:10.106946+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:25:12.747540+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:26:15.176350+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:27:17.505031+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:28:20.151076+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:29:22.801793+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:30:25.164938+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:31:27.864396+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:32:30.267490+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:33:32.860017+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:34:35.197807+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:35:37.831653+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:36:40.420344+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:37:43.025824+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:38:45.377273+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:39:48.052133+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:40:50.790048+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:41:53.527030+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:42:55.945238+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:43:58.920054+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:45:01.587703+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:46:04.227778+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:47:06.646892+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:48:09.287311+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:49:11.941280+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:50:14.582656+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:51:17.000277+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:52:19.705189+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:53:22.376201+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:54:25.028743+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:55:27.454266+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:56:30.120221+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:57:32.773192+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:58:35.452693+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T00:59:37.870377+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T01:00:40.553597+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T01:01:43.233631+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T01:02:45.905936+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T01:03:48.310034+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T01:04:50.989177+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T01:05:53.617187+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T01:06:56.259612+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T01:07:58.615624+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T01:09:01.549849+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T01:10:04.195598+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T01:11:06.817086+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}
+{"checked_at_utc": "2026-11-08T01:12:09.229511+00:00", "manifest_hash": "a0ec819252c6a174014c4dd2a64a2f75d27f55b18d14cbf35c86552e778d6c45", "counts": {"complete": 26}, "registered_entries": 26, "active": [], "official_test_result_downloaded": true, "read_only_sync": true}
+{"records": 30, "completed": 30, "resumed_reconstructed": 2, "measured_inferences": 18}

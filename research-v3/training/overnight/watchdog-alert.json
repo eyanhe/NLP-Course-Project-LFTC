@@ -1,0 +1,4 @@
+{
+  "checked_at_utc": "2026-11-08T02:00:07.829555+00:00",
+  "error": "\nTraceback (most recent call last):\n  File \"C:\\Users\\超级罪犯 顶风作案\\Desktop\\6405\\6405 自然语言处理 课程作业\\sentiment-project\\research-v3\\training\\cluster-migration\\ssh_ops.py\", line 132, in <module>\n    main()\n  File \"C:\\Users\\超级罪犯 顶风作案\\Desktop\\6405\\6405 自然语言处理 课程作业\\sentiment-project\\research-v3\\training\\cluster-migration\\ssh_ops.py\", line 56, in main\n    transport = paramiko.Transport(socket.create_connection((HOST, 22), timeout=12))\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\超级罪犯 顶风作案\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\socket.py\", line 851, in create_connection\n    raise exceptions[0]\n  File \"C:\\Users\\超级罪犯 顶风作案\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\socket.py\", line 836, in create_connection\n    sock.connect(sa)\nTimeoutError: timed out\n"
+}

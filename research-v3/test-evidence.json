@@ -1,0 +1,43 @@
+{
+  "suites": [
+    {
+      "name": "research",
+      "command": [
+        "C:\\Users\\超级罪犯 顶风作案\\Desktop\\6405\\6405 自然语言处理 课程作业\\sentiment-project\\.venv-research\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests/research",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests_run": 48,
+      "log": ".superpowers/sdd/2026-11-07-text-classification-research-plan/logs/research-final-verified.log",
+      "log_sha256": "0477b342dad6e90eaddac28319768d023106baaf919f53c8f13a78785927e237"
+    },
+    {
+      "name": "legacy",
+      "command": [
+        "C:\\Users\\超级罪犯 顶风作案\\Desktop\\6405\\6405 自然语言处理 课程作业\\sentiment-project\\.venv-research\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "test_project",
+        "test_extension",
+        "test_hard",
+        "test_imbalance",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests_run": 22,
+      "log": ".superpowers/sdd/2026-11-07-text-classification-research-plan/logs/legacy-final-verified.log",
+      "log_sha256": "f60b70ce300e52a2e23a368b00b630f64b97552fd7d44dc1748b65aefb2f3fd4"
+    }
+  ],
+  "pip_check": {
+    "exit_code": 0,
+    "output": "No broken requirements found."
+  }
+}

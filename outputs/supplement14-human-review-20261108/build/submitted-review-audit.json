@@ -1,0 +1,171 @@
+{
+  "status": "submitted_forms_audited_not_frozen",
+  "xlsx_markdown_decisions_and_notes_match": true,
+  "source_text_and_gold_unchanged": true,
+  "submitted_rows_per_form": 56,
+  "judgments_per_form": 392,
+  "both_all_yes": 37,
+  "both_not_all_yes": 11,
+  "only_one_all_yes": 8,
+  "cell_disagreements": 18,
+  "disagreement_case_count": 12,
+  "additional_all_yes_pairs_needed_for50": 13,
+  "source_human_provenance": "User confirmed: 由gemini补齐的. Preserve A first3 manual annotations; remaining A and all B are Gemini-assisted pre-review.",
+  "user_manual_annotation_cases": [
+    "M1-001",
+    "M1-002",
+    "M1-003"
+  ],
+  "gemini_completed_case_records": 109,
+  "accepted_as_real_independent_reviews": false,
+  "confirmed_two_human_valid_pairs": 0,
+  "earlier_no_draft_candidates_still_require_explicit_human_decisions": 24,
+  "edits_frozen": false,
+  "edited_model_predictions_generated": false,
+  "examples": [
+    {
+      "case_id": "M1-001",
+      "original": "I hate this ATM, it charged me an extra fee, Why did it charge?",
+      "A": "I hate this ATM, it charged me an extra surcharge, Why did it charge?",
+      "B": "I dislike this ATM, it charged me an extra fee, Why did it charge?",
+      "replacements": {
+        "A": [
+          [
+            "fee",
+            "surcharge"
+          ]
+        ],
+        "B": [
+          [
+            "hate",
+            "dislike"
+          ]
+        ]
+      }
+    },
+    {
+      "case_id": "M1-002",
+      "original": "There's a payment with my card that I definitely didn't do myself, never seen that name before.",
+      "A": "There's a payment with my bankcard that I definitely didn't do myself, never seen that name before.",
+      "B": "There's a transaction with my card that I definitely didn't do myself, never seen that name before.",
+      "replacements": {
+        "A": [
+          [
+            "card",
+            "bankcard"
+          ]
+        ],
+        "B": [
+          [
+            "payment",
+            "transaction"
+          ]
+        ]
+      }
+    },
+    {
+      "case_id": "M1-003",
+      "original": "If I want my son to have his own account is that possible?",
+      "A": "If I want my son to have his personal account is that possible?",
+      "B": "If I wish my son to have his own account is that possible?",
+      "replacements": {
+        "A": [
+          [
+            "own",
+            "personal"
+          ]
+        ],
+        "B": [
+          [
+            "want",
+            "wish"
+          ]
+        ]
+      }
+    },
+    {
+      "case_id": "M1-015",
+      "original": "Are there steps to see where my funds come from?",
+      "A": "Are there steps to see where my money come from?",
+      "B": "Are there procedures to see where my funds come from?",
+      "replacements": {
+        "A": [
+          [
+            "funds",
+            "money"
+          ]
+        ],
+        "B": [
+          [
+            "steps",
+            "procedures"
+          ]
+        ]
+      }
+    },
+    {
+      "case_id": "M1-073",
+      "original": "When I purchased a product in another country the currency exchange was incorrect.",
+      "A": "When I purchased a item in another country the currency exchange was incorrect.",
+      "B": "When I purchased a product in another country the currency exchange was wrong.",
+      "replacements": {
+        "A": [
+          [
+            "product",
+            "item"
+          ]
+        ],
+        "B": [
+          [
+            "incorrect",
+            "wrong"
+          ]
+        ]
+      }
+    },
+    {
+      "case_id": "M1-075",
+      "original": "If I get another card, what kind of fees am I looking at?",
+      "A": "If I get another card, what kind of charges am I looking at?",
+      "B": "If I get spare card, what kind of fees am I looking at?",
+      "replacements": {
+        "A": [
+          [
+            "fees",
+            "charges"
+          ]
+        ],
+        "B": [
+          [
+            "another",
+            "spare"
+          ]
+        ]
+      }
+    },
+    {
+      "case_id": "M1-076",
+      "original": "Do you think you're asking for too much information about me?",
+      "A": "Do you believe you're asking for too much information about me?",
+      "B": "Do you think you're asking for too much details about me?",
+      "replacements": {
+        "A": [
+          [
+            "think",
+            "believe"
+          ]
+        ],
+        "B": [
+          [
+            "information",
+            "details"
+          ]
+        ]
+      }
+    }
+  ],
+  "submitted_file_sha256": {
+    "A": "fa5f05c368265c49484fd7d17f4f7a726ace9fefd3c22c7222485ba12677c2f1",
+    "B": "d29d2c5c131c121880e45e44d7354e4d27bea2df912569c61cc305602c49b06c"
+  }
+}

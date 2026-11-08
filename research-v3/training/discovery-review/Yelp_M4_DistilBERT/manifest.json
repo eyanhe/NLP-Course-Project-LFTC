@@ -1,0 +1,19 @@
+{
+  "pilot_id": "Yelp_M4_DistilBERT",
+  "dataset_id": "yelp",
+  "mechanism": "M4",
+  "pilot_n_required": 50,
+  "algorithmically_eligible_groups": 61,
+  "human_eligible_pairs": 0,
+  "human_review_status": "unreviewed",
+  "model_predictions_in_packet": false,
+  "candidate_order_fixed_before_model_reveal": true,
+  "selection_node_reference": "select:yelp:distilbert",
+  "design_hash": "f3b17e32567e75337ee9326cacfae12c0ed5e587543100909421a8a37ae5280d",
+  "prepared_hash": "d60dbbfdade50a9aa4dc9e70834bddaab29cba1a5e2309cee2846c8284b32a89",
+  "candidate_file": "candidates.jsonl",
+  "candidate_file_sha256": "fb593fbebd5ca310564360f0b8871bb269430db3c1145717c4369ccc760ff45d",
+  "source_partition": "discovery",
+  "actual_human_reviews_completed": 0,
+  "reason_conclusions": "unknown"
+}

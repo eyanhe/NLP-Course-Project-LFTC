@@ -1,0 +1,270 @@
+{
+  "status": "complete",
+  "run_id": "26b556b3063d905fe241557fc005671d61183d69cb9d9dabd1ed132ea2f67351",
+  "request_hash": "42a4340876618ed953ea4cc4e1c53512455fa48a9b4b331ae4a5e0ab666351bc",
+  "run": {
+    "run_id": "26b556b3063d905fe241557fc005671d61183d69cb9d9dabd1ed132ea2f67351",
+    "condition_id": "d1a986b38b23361018321d9ae25795be8f70a4fac78fc17df27395d52dff031d",
+    "model_id": "tfidf_svm",
+    "training_seed": null,
+    "hparams": {
+      "max_features": 30000,
+      "min_df": 1,
+      "sublinear_tf": true,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "C": 1,
+      "role_ids_hash": {
+        "train": "a9678c09e5c359af53c2ea1b0dcead64d9bbbae14c34f3f55eda51a80f2582be",
+        "select": "2cad2aba5c9dcd5751159b1c0078d53d1ccd6783650c4da3f84f65e75a5f81b2",
+        "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "target_task": "single_label",
+      "device": "cuda",
+      "micro_batch": 4,
+      "cpu_threads": 4,
+      "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+      "label_count": 10
+    },
+    "input_hash": "ae127c115dfba4361a40f8f0e386b3a9c19f0c04616e91af5e401c901fe6d8b6",
+    "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+    "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+    "strict_no_val": false
+  },
+  "training_unique_rows": 6000,
+  "training_ids_sha256": "a9678c09e5c359af53c2ea1b0dcead64d9bbbae14c34f3f55eda51a80f2582be",
+  "holdout_labels_accessed": 9989,
+  "score_kind": "svm_margin",
+  "files": {
+    "bundle.joblib": "205bba904e796529135c7c811924705c86668bb40e57b085a2f1f1e7f56ec695"
+  },
+  "feature_degenerate": false,
+  "feature_seconds": 1.2050632999744266,
+  "fit_seconds": 0.4204145008698106,
+  "total_seconds": 2.5218465679790825,
+  "epochs_completed": 0,
+  "selected_epoch": null,
+  "optimizer_updates": 0,
+  "micro_batch": null,
+  "effective_batch": null,
+  "oom_attempts": [],
+  "reload_verified": true,
+  "actual_model_training_run": true,
+  "official_test_predictions_generated": false,
+  "reload_max_absolute_difference": 0.0,
+  "validation": {
+    "task": "single_label",
+    "score_kind": "svm_margin",
+    "rows": 9989,
+    "macro_f1": 0.5116806380779065,
+    "micro_f1": 0.5288817699469416,
+    "accuracy": 0.5288817699469416,
+    "worst_label_f1": 0.3034257748776509,
+    "confusion_matrix": [
+      [
+        499,
+        4,
+        132,
+        205,
+        30,
+        19,
+        14,
+        5,
+        41,
+        51
+      ],
+      [
+        54,
+        186,
+        203,
+        457,
+        51,
+        21,
+        9,
+        2,
+        2,
+        13
+      ],
+      [
+        29,
+        0,
+        851,
+        60,
+        24,
+        2,
+        7,
+        1,
+        17,
+        4
+      ],
+      [
+        72,
+        19,
+        86,
+        693,
+        50,
+        9,
+        25,
+        9,
+        7,
+        30
+      ],
+      [
+        9,
+        3,
+        32,
+        68,
+        860,
+        6,
+        13,
+        3,
+        1,
+        4
+      ],
+      [
+        26,
+        1,
+        98,
+        96,
+        41,
+        713,
+        11,
+        1,
+        2,
+        11
+      ],
+      [
+        74,
+        9,
+        161,
+        246,
+        154,
+        32,
+        236,
+        7,
+        27,
+        52
+      ],
+      [
+        156,
+        5,
+        146,
+        196,
+        127,
+        99,
+        15,
+        202,
+        31,
+        23
+      ],
+      [
+        108,
+        0,
+        250,
+        72,
+        19,
+        19,
+        17,
+        5,
+        486,
+        23
+      ],
+      [
+        106,
+        1,
+        68,
+        194,
+        25,
+        16,
+        25,
+        0,
+        8,
+        557
+      ]
+    ],
+    "per_label": [
+      {
+        "label_id": 0,
+        "precision": 0.440423654015887,
+        "recall": 0.499,
+        "f1": 0.46788560712611343,
+        "support": 1000
+      },
+      {
+        "label_id": 1,
+        "precision": 0.8157894736842105,
+        "recall": 0.18637274549098196,
+        "f1": 0.3034257748776509,
+        "support": 998
+      },
+      {
+        "label_id": 2,
+        "precision": 0.4198322644301924,
+        "recall": 0.8552763819095477,
+        "f1": 0.5632031767041694,
+        "support": 995
+      },
+      {
+        "label_id": 3,
+        "precision": 0.3030170529077394,
+        "recall": 0.693,
+        "f1": 0.42166108913903255,
+        "support": 1000
+      },
+      {
+        "label_id": 4,
+        "precision": 0.6227371469949312,
+        "recall": 0.8608608608608609,
+        "f1": 0.7226890756302521,
+        "support": 999
+      },
+      {
+        "label_id": 5,
+        "precision": 0.7617521367521367,
+        "recall": 0.713,
+        "f1": 0.7365702479338843,
+        "support": 1000
+      },
+      {
+        "label_id": 6,
+        "precision": 0.6344086021505376,
+        "recall": 0.23647294589178355,
+        "f1": 0.3445255474452555,
+        "support": 998
+      },
+      {
+        "label_id": 7,
+        "precision": 0.8595744680851064,
+        "recall": 0.202,
+        "f1": 0.3271255060728745,
+        "support": 1000
+      },
+      {
+        "label_id": 8,
+        "precision": 0.7813504823151125,
+        "recall": 0.4864864864864865,
+        "f1": 0.5996298581122764,
+        "support": 999
+      },
+      {
+        "label_id": 9,
+        "precision": 0.7252604166666666,
+        "recall": 0.557,
+        "f1": 0.6300904977375565,
+        "support": 1000
+      }
+    ]
+  },
+  "resources": {
+    "peak_rss_sampled_bytes": 1848885248,
+    "sample_count": 6,
+    "rss_sample_interval_seconds": 0.5,
+    "elapsed_seconds": 2.5732304269913584,
+    "torch_cuda_peak_allocated_bytes": 0,
+    "torch_cuda_peak_reserved_bytes": 0,
+    "gpu_name": null,
+    "note": "sampled RSS maximum; allocated/reserved Torch memory is not total device usage"
+  }
+}

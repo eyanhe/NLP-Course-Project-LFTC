@@ -1,0 +1,18 @@
+{
+  "status": "all_archive_member_bytes_verified",
+  "archive": "cluster-base.tar",
+  "files": 1348,
+  "input_inventory_sha256": "83e86f1f468b4f3772959faefe37585c99724faaa087411c9041d9998b849975",
+  "bytes": 27794522519,
+  "includes_credentials": false,
+  "local_training_enabled": false,
+  "cluster_submitted": false,
+  "recorded_at_utc": "2026-11-07T09:32:58.025491+00:00",
+  "actual_bytes": 27796007936,
+  "sha256": "461b481ba52361ebc784cd94347d94b23e08c8404aaed417727f243331c80362",
+  "members_verified": 1348,
+  "credential_retrieval_permission": "pending_explicit_user_reply",
+  "member_sha256_verified": 1348,
+  "payload_bytes_verified": 27794961331,
+  "verified_at_utc": "2026-11-07T09:34:48.448538+00:00"
+}

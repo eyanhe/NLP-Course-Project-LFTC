@@ -1,0 +1,36 @@
+{
+  "source_partition": "discovery",
+  "sampling_seed": 7301,
+  "datasets": [
+    {
+      "dataset_id": "yelp",
+      "groups": 100,
+      "frame_file": "training/discovery-guide-review/yelp/frame.json",
+      "frame_sha256": "e94cd8e44d3f7f7d8176eb4f6e972937d3c9145c6cf320fae1909e64c458e501",
+      "status": "unreviewed"
+    },
+    {
+      "dataset_id": "go_emotions",
+      "groups": 100,
+      "frame_file": "training/discovery-guide-review/go_emotions/frame.json",
+      "frame_sha256": "a278de53d39b008358916e63bf39b00d90ea445538944d41aa135725eeb8e6e5",
+      "status": "unreviewed"
+    },
+    {
+      "dataset_id": "banking77",
+      "groups": 100,
+      "frame_file": "training/discovery-guide-review/banking77/frame.json",
+      "frame_sha256": "2d3de11afd2dc18daed3343a4a39fc43dd32e107757524268895a12043f5d6b9",
+      "status": "unreviewed"
+    },
+    {
+      "dataset_id": "yahoo_answers_topics",
+      "groups": 100,
+      "frame_file": "training/discovery-guide-review/yahoo_answers_topics/frame.json",
+      "frame_sha256": "9e0608a802e5689d1b18dd4ef4dd2db987ad317f0ca88b487c4d3d4858c6ff5c",
+      "status": "unreviewed"
+    }
+  ],
+  "official_test_data_read": false,
+  "human_reviews_completed": false
+}

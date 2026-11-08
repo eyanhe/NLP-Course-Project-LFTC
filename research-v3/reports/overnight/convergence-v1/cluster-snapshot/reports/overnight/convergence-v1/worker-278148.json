@@ -1,0 +1,27 @@
+{
+  "device": "cpu",
+  "completed": [
+    {
+      "run_id": "053930b319299c3e4c5707f082d7cb5c6a655b7025d936cc06d18e42a3160397",
+      "status": "complete",
+      "stop_reason": "patience"
+    },
+    {
+      "run_id": "4c906bfb8e493aabf56ccbfd188a8f382ea548aeaa56b36e3ebb43ba627c65e8",
+      "status": "complete",
+      "stop_reason": "patience"
+    },
+    {
+      "run_id": "1840d3dfce9e4e1dae48a109a9e21c0a02f8b259aa7fb3dcdd309215e4f0da15",
+      "status": "complete",
+      "stop_reason": "patience"
+    },
+    {
+      "run_id": "260f965025b77c30d56636f5fe2fdca9930d06144fe0eaa68f50188407197ae7",
+      "status": "complete",
+      "stop_reason": "patience"
+    }
+  ],
+  "checked_at_utc": "2026-11-07T20:59:12.738355+00:00",
+  "official_test_predictions_allowed": false
+}

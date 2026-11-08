@@ -1,0 +1,565 @@
+﻿{
+    "schema_version":  "1.0",
+    "protocol_id":  "tc-explain-v3-20261107",
+    "created_date":  "2026-11-07",
+    "timezone":  "Asia/Singapore",
+    "status":  "design_baseline_not_executed",
+    "scope":  {
+                  "new_datasets":  [
+                                       "go_emotions",
+                                       "banking77",
+                                       "yahoo_answers_topics"
+                                   ],
+                  "single_text_datasets":  [
+                                               "imdb",
+                                               "rotten_tomatoes",
+                                               "yelp",
+                                               "ag_news",
+                                               "go_emotions",
+                                               "banking77",
+                                               "yahoo_answers_topics"
+                                           ],
+                  "supplementary":  [
+                                        "mnli"
+                                    ],
+                  "main_models":  [
+                                      "tfidf_lr",
+                                      "tfidf_svm",
+                                      "w2v_svm",
+                                      "bilstm",
+                                      "distilbert"
+                                  ],
+                  "modern_reference":  "answerdotai/ModernBERT-base",
+                  "modern_reference_revision":  "8949b909ec900327062f0ebf497f51aef5e6f0c8",
+                  "modern_reference_license":  "apache-2.0"
+              },
+    "sources":  {
+                    "go_emotions":  {
+                                        "repo":  "google-research-datasets/go_emotions",
+                                        "revision":  "add492243ff905527e67aeb8b80c082af02207c3",
+                                        "config":  "simplified",
+                                        "task":  "multilabel",
+                                        "label_count":  28,
+                                        "official_counts":  {
+                                                                "train":  43410,
+                                                                "validation":  5426,
+                                                                "test":  5427
+                                                            },
+                                        "license_metadata":  "apache-2.0",
+                                        "files":  [
+                                                      "simplified/train-00000-of-00001.parquet",
+                                                      "simplified/validation-00000-of-00001.parquet",
+                                                      "simplified/test-00000-of-00001.parquet"
+                                                  ]
+                                    },
+                    "banking77":  {
+                                      "repo":  "PolyAI/banking77",
+                                      "revision":  "1846984189f2bc0ac51c6fc3a600fa9e1714e0c6",
+                                      "config":  "default",
+                                      "task":  "single_label",
+                                      "label_count":  77,
+                                      "official_counts":  {
+                                                              "train":  10003,
+                                                              "test":  3080
+                                                          },
+                                      "license_metadata":  "cc-by-4.0",
+                                      "files":  [
+                                                    "data/train-00000-of-00001.parquet",
+                                                    "data/test-00000-of-00001.parquet"
+                                                ]
+                                  },
+                    "yahoo_answers_topics":  {
+                                                 "repo":  "community-datasets/yahoo_answers_topics",
+                                                 "revision":  "6652a1e7c94f7260a0bfd0c9092dd48e2d536ea1",
+                                                 "config":  "yahoo_answers_topics",
+                                                 "task":  "single_label",
+                                                 "label_count":  10,
+                                                 "official_counts":  {
+                                                                         "train":  1400000,
+                                                                         "test":  60000
+                                                                     },
+                                                 "license_metadata":  "unknown",
+                                                 "files":  [
+                                                               "yahoo_answers_topics/train-00000-of-00002.parquet",
+                                                               "yahoo_answers_topics/train-00001-of-00002.parquet",
+                                                               "yahoo_answers_topics/test-00000-of-00001.parquet"
+                                                           ]
+                                             }
+                },
+    "seeds":  {
+                  "partition":  2026,
+                  "data":  [
+                               2026,
+                               2027,
+                               2028
+                           ],
+                  "training":  [
+                                   42,
+                                   43,
+                                   44
+                               ],
+                  "head_permutation":  [
+                                           9101,
+                                           9102,
+                                           9103
+                                       ],
+                  "statistics":  7301
+              },
+    "partitions":  {
+                       "official_validation_select_fraction":  0.6,
+                       "banking_select_fraction":  0.1,
+                       "banking_discovery_fraction":  0.1,
+                       "yahoo_select_per_class":  1000,
+                       "yahoo_discovery_per_class":  500,
+                       "legacy_select_fraction":  0.6,
+                       "test_policy":  "preserve_official_test_and_group_duplicates",
+                       "strict_fewshot_target_validation_access":  false,
+                       "near_duplicate_components":  "mandatory_connected_component_partition_isolation; exact_conflicts_quarantine_all_partitions",
+                       "exact_conflict_policy":  "quarantine_entire_same_dataset_exact_conflict_group_in_all_partitions",
+                       "near_duplicate_policy":  "128_minhash_32x4_candidates_word5gram_jaccard_0.9_connected_components; keep_highest_priority_purpose"
+                   },
+    "input":  {
+                  "main_policy":  "shared_prefix_distilbert_254_content_subwords",
+                  "max_length_with_special_tokens":  256,
+                  "visible_text_shared_across_models":  true,
+                  "full_text_retained":  true,
+                  "near_duplicate_jaccard":  0.9,
+                  "near_duplicate_min_words":  10
+              },
+    "experiments":  {
+                        "E0":  {
+                                   "name":  "pipeline_integrity",
+                                   "training_unique_rows":  256,
+                                   "validation_rows":  128,
+                                   "evaluation_rows":  128,
+                                   "no_inferential_claims":  true
+                               },
+                        "E1":  {
+                                   "name":  "scale",
+                                   "datasets":  "all_single_text",
+                                   "requested_sizes":  [
+                                                           1000,
+                                                           6000,
+                                                           20000,
+                                                           100000,
+                                                           "full"
+                                                       ],
+                                   "skip_sizes_exceeding_training_pool":  true,
+                                   "anchor":  6000,
+                                   "hyperparameter_policy":  "anchor_select_freeze",
+                                   "full_pool_data_seed_collapsed":  true,
+                                   "nested_subsets":  true
+                               },
+                        "E2":  {
+                                   "name":  "strict_fewshot",
+                                   "datasets":  [
+                                                    "imdb",
+                                                    "rotten_tomatoes",
+                                                    "yelp",
+                                                    "ag_news",
+                                                    "banking77",
+                                                    "yahoo_answers_topics"
+                                                ],
+                                   "shots_per_class":  [
+                                                           1,
+                                                           5,
+                                                           10,
+                                                           20,
+                                                           50
+                                                       ],
+                                   "hyperparameter_policy":  "fixed_defaults_no_target_validation",
+                                   "epochs_fixed":  {
+                                                        "bilstm":  10,
+                                                        "distilbert":  5
+                                                    },
+                                   "minimum_positive_per_class":  1
+                               },
+                        "E3":  {
+                                   "name":  "single_label_long_tail",
+                                   "datasets":  [
+                                                    "yelp",
+                                                    "banking77",
+                                                    "yahoo_answers_topics"
+                                                ],
+                                   "ratios":  [
+                                                  1,
+                                                  10,
+                                                  50
+                                              ],
+                                   "budget_cap":  6000,
+                                   "allocation":  "one_per_class_then_largest_remainder",
+                                   "weights":  "rho^(-rank/(C-1))",
+                                   "budget_rule":  "largest_N_from_6000_down_to_C_feasible_for_every_ratio_and_head_permutation",
+                                   "balanced_permutation_collapsed":  true,
+                                   "repeats":  "cross_head_permutation_with_data_seed"
+                               },
+                        "E4":  {
+                                   "name":  "multilabel_distribution",
+                                   "dataset":  "go_emotions",
+                                   "rows":  6000,
+                                   "alpha":  [
+                                                 -0.5,
+                                                 0,
+                                                 0.5
+                                             ],
+                                   "sample_weight":  "mean_over_positive_labels((frequency/mean_frequency)^alpha)",
+                                   "coverage":  "greedy_cover_every_label_then_weighted_without_replacement",
+                                   "shared_uniform_random_keys":  true,
+                                   "natural_condition_reuses_E1_anchor":  true,
+                                   "report_realized_marginals_and_cooccurrence":  true
+                               },
+                        "E5":  {
+                                   "name":  "modern_reference",
+                                   "datasets":  [
+                                                    "yelp",
+                                                    "go_emotions",
+                                                    "banking77",
+                                                    "yahoo_answers_topics"
+                                                ],
+                                   "sizes":  [
+                                                 6000,
+                                                 "min_100000_or_full"
+                                             ],
+                                   "role":  "secondary_external_validity_not_architecture_isolation"
+                               },
+                        "E6":  {
+                                   "name":  "failure_and_mechanism_diagnostics",
+                                   "mechanisms":  [
+                                                      "lexical_cues",
+                                                      "pretraining_and_adaptation",
+                                                      "prior_vs_unique_support",
+                                                      "input_visibility",
+                                                      "feature_capacity"
+                                                  ],
+                                   "conditions_selected_before_test":  true,
+                                   "mechanism_rules":  {
+                                                           "M1":  {
+                                                                      "primary_checkpoint":  "E1_6k_data2026_svm",
+                                                                      "eligible_words":  [
+                                                                                             5,
+                                                                                             60
+                                                                                         ],
+                                                                      "cue_top_k":  100,
+                                                                      "cue_min_count":  5,
+                                                                      "edit_words":  [
+                                                                                         1,
+                                                                                         3
+                                                                                     ],
+                                                                      "length_delta_max":  2,
+                                                                      "control":  "same_word_edit_distance_noncue_synonyms"
+                                                                  },
+                                                           "M2":  {
+                                                                      "datasets":  [
+                                                                                       "banking77",
+                                                                                       "go_emotions"
+                                                                                   ],
+                                                                      "sizes":  [
+                                                                                    1000,
+                                                                                    6000
+                                                                                ],
+                                                                      "arms":  [
+                                                                                   "pretrained_frozen",
+                                                                                   "pretrained_unfrozen",
+                                                                                   "random_frozen",
+                                                                                   "random_unfrozen"
+                                                                               ],
+                                                                      "same_cls_head_and_initial_head_state":  true,
+                                                                      "head_lr":  0.001,
+                                                                      "encoder_lr":  0.00002,
+                                                                      "epochs":  10
+                                                                  },
+                                                           "M3":  {
+                                                                      "datasets":  [
+                                                                                       "banking77",
+                                                                                       "yahoo_answers_topics"
+                                                                                   ],
+                                                                      "models":  [
+                                                                                     "fixed_tfidf_svm",
+                                                                                     "frozen_generic_distilbert_head"
+                                                                                 ],
+                                                                      "ratios":  [
+                                                                                     10,
+                                                                                     50
+                                                                                 ],
+                                                                      "factorial":  "full_or_tail_reduced_support_x_uniform_or_skew_target_risk",
+                                                                      "svm_C":  1,
+                                                                      "svm_weight":  "N0*q_c/n_c",
+                                                                      "neural_updates":  "ceil(N0/16)*5",
+                                                                      "neural_weight":  "q_c/p_emp_c",
+                                                                      "neural_lr":  0.001,
+                                                                      "shared_unlabeled_T_features":  true
+                                                                  },
+                                                           "M4":  {
+                                                                      "primary_checkpoint":  "E1_6k_data2026_train42_distilbert",
+                                                                      "eligible_full_tokens":  [
+                                                                                                   320,
+                                                                                                   2048
+                                                                                               ],
+                                                                      "evidence_outside_first":  254,
+                                                                      "window_tokens":  254,
+                                                                      "control_stride":  32,
+                                                                      "control":  "nearest_start_window_excluding_evidence_span; hash_tie_break"
+                                                                  },
+                                                           "M5":  {
+                                                                      "datasets":  [
+                                                                                       "yelp",
+                                                                                       "yahoo_answers_topics"
+                                                                                   ],
+                                                                      "sizes":  [
+                                                                                    100000,
+                                                                                    "full"
+                                                                                ],
+                                                                      "models":  [
+                                                                                     "tfidf_lr",
+                                                                                     "tfidf_svm",
+                                                                                     "w2v_svm",
+                                                                                     "bilstm",
+                                                                                     "distilbert"
+                                                                                 ],
+                                                                      "tfidf_caps":  [
+                                                                                         30000,
+                                                                                         100000
+                                                                                     ],
+                                                                      "w2v_vocab_caps":  [
+                                                                                             30000,
+                                                                                             100000
+                                                                                         ],
+                                                                      "bilstm_factorial":  {
+                                                                                               "vocab":  [
+                                                                                                             30000,
+                                                                                                             100000
+                                                                                                         ],
+                                                                                               "epochs":  [
+                                                                                                              10,
+                                                                                                              20
+                                                                                                          ]
+                                                                                           },
+                                                                      "distilbert_epochs":  [
+                                                                                                5,
+                                                                                                10
+                                                                                            ],
+                                                                      "hyperparameters":  "reuse_anchor_no_new_lr_search",
+                                                                      "paired_initialization":  "align_shared_embedding_rows_encoder_and_head; independent_rng_new_rows"
+                                                                  }
+                                                       }
+                               }
+                    },
+    "training":  {
+                     "tfidf":  {
+                                   "max_features":  30000,
+                                   "min_df":  1,
+                                   "sublinear_tf":  true,
+                                   "candidate_ngrams":  [
+                                                            [
+                                                                1,
+                                                                1
+                                                            ],
+                                                            [
+                                                                1,
+                                                                2
+                                                            ]
+                                                        ],
+                                   "candidate_C":  [
+                                                       0.1,
+                                                       1,
+                                                       10
+                                                   ]
+                               },
+                     "w2v":  {
+                                 "vector_size":  100,
+                                 "window":  5,
+                                 "min_count":  1,
+                                 "epochs":  10,
+                                 "workers":  1,
+                                 "seed":  2026,
+                                 "sg":  1,
+                                 "vocabulary_limit":  30000,
+                                 "svm_candidate_C":  [
+                                                         0.01,
+                                                         0.1,
+                                                         1,
+                                                         10,
+                                                         100,
+                                                         1000
+                                                     ]
+                             },
+                     "bilstm":  {
+                                    "hidden_per_direction":  64,
+                                    "layers":  1,
+                                    "candidate_lr":  [
+                                                         0.0003,
+                                                         0.001,
+                                                         0.003
+                                                     ],
+                                    "candidate_dropout":  [
+                                                              0.1,
+                                                              0.3
+                                                          ],
+                                    "max_epochs":  10,
+                                    "effective_batch":  64
+                                },
+                     "distilbert":  {
+                                        "candidate_lr":  [
+                                                             0.00001,
+                                                             0.00002,
+                                                             0.00005
+                                                         ],
+                                        "candidate_weight_decay":  [
+                                                                       0,
+                                                                       0.01
+                                                                   ],
+                                        "max_epochs":  5,
+                                        "effective_batch":  16,
+                                        "warmup_ratio":  0.1
+                                    },
+                     "selection":  {
+                                       "single_label":  "validation_macro_f1",
+                                       "multilabel":  "validation_macro_average_precision",
+                                       "search_data_seed":  2026,
+                                       "search_training_seed":  42,
+                                       "candidates_per_model":  6,
+                                       "tie_break":  "first_in_declared_grid_then_earliest_epoch"
+                                   },
+                     "strict_defaults":  {
+                                             "tfidf_C":  1,
+                                             "tfidf_ngram":  [
+                                                                 1,
+                                                                 2
+                                                             ],
+                                             "w2v_svm_C":  1,
+                                             "bilstm_lr":  0.001,
+                                             "bilstm_dropout":  0.3,
+                                             "distilbert_lr":  0.00002,
+                                             "distilbert_weight_decay":  0.01
+                                         }
+                 },
+    "multilabel":  {
+                       "loss":  "independent_binary_targets",
+                       "primary_endpoint":  "macro_average_precision",
+                       "secondary_endpoint":  "macro_f1_at_zero_margin_or_half_probability",
+                       "threshold_primary":  {
+                                                 "probability":  0.5,
+                                                 "logit":  0,
+                                                 "svm_margin":  0
+                                             },
+                       "threshold_diagnostic":  "one_global_threshold_chosen_on_select_only",
+                       "select_ap_mask":  "labels_with_both_positive_and_negative_in_V; freeze_after_partition; block_selection_if_empty",
+                       "test_ap_mask":  "labels_with_both_positive_and_negative_in_Q; fixed_across_models",
+                       "operational_macro_f1_labels":  "all_28_zero_division_0"
+                   },
+    "failure_audit":  {
+                          "datasets":  [
+                                           "yelp",
+                                           "go_emotions",
+                                           "banking77",
+                                           "yahoo_answers_topics"
+                                       ],
+                          "discovery_per_dataset":  100,
+                          "confirmation_per_dataset":  200,
+                          "audit_draw":  "sample_n_groups_without_replacement_then_one_uniform_row_per_group",
+                          "reviewers":  2,
+                          "blind_model_identity":  true,
+                          "pilot_pairs":  50,
+                          "pilot_source":  "discovery_only",
+                          "pilot_excluded_from_confirmatory":  true,
+                          "confirmatory_pairs_min":  400,
+                          "confirmatory_pairs_max":  1200,
+                          "effect_target":  0.1,
+                          "power":  0.8,
+                          "alpha_family":  0.05,
+                          "sample_size_rule":  "paired_binary_normal_approximation_with_Wilson_upper_discordance; Bonferroni_plan; actual_Holm_analysis",
+                          "unresolved_allowed":  true,
+                          "confirmation_checkpoint":  "E1_6k_data2026; neural_train42",
+                          "insufficient_eligible_policy":  "use_all_and_mark_underpowered; no_relaxation_no_duplication",
+                          "inclusion_probability":  "(n_groups_drawn/G_dataset_groups)/rows_of_dataset_in_group",
+                          "estimation_weights":  "inverse_inclusion_probability"
+                      },
+    "statistics":  {
+                       "primary_comparator":  "distilbert_minus_tfidf_svm",
+                       "secondary_comparators":  "exploratory_or_separately_corrected",
+                       "test_bootstrap_replicates":  2000,
+                       "confidence":  0.95,
+                       "cluster_unit":  "duplicate_cluster_or_original_counterfactual_family",
+                       "training_and_data_uncertainty":  "separate_summary_and_paired_nested_resampling_sensitivity",
+                       "correction":  "simultaneous_max_absolute_centered_cluster_bootstrap_within_family; Holm_centered_p_as_sensitivity",
+                       "practical_margin_f1":  0.01,
+                       "practical_margin_macro_ap":  0.01,
+                       "no_cross_task_metric_averaging":  true,
+                       "small_number_of_seeds_limitation":  true,
+                       "estimand":  "mean_data_seed(mean_training_seed(metric_distilbert)-metric_fixed_svm); no_probability_ensembling",
+                       "global_cluster_sync":  true,
+                       "advantage_rule":  "simultaneous_band_above_0.01_or_below_minus_0.01_and_consistent_data_seed_sign",
+                       "tail_definition":  {
+                                               "E3_M3":  "bottom_floor_C_over_3_of_current_head_permutation",
+                                               "natural":  "bottom_training_frequency_third_include_boundary_ties; NA_if_all_equal",
+                                               "E4":  "fixed_natural_group_primary; realized_group_secondary"
+                                           },
+                       "families":  {
+                                        "F1":  "all_E1_datasets_differences_and_adjacent_size_interactions",
+                                        "F2":  "all_E2_datasets_differences_and_adjacent_shot_interactions",
+                                        "F3":  "all_E3_datasets_ratios_and_adjacent_interactions",
+                                        "F4":  "Go_E4_alpha_differences_and_adjacent_interactions",
+                                        "F5":  "all_E5_modern_minus_distil_and_size_interactions",
+                                        "F6":  "Bank_M1_SVM_and_Yelp_Yahoo_M4_distil_fixed_checkpoint_binary_contrasts"
+                                    },
+                       "simultaneous_critical":  "quantile_0.95(max_abs_over_family_of_bootstrap_estimate_minus_point_estimate)"
+                   },
+    "delivery":  {
+                     "design":  "docs/superpowers/specs/2026-11-07-text-classification-research-design.md",
+                     "plan":  "docs/superpowers/plans/2026-11-07-text-classification-research-plan.md",
+                     "future_outputs":  "research-v3",
+                     "legacy_results":  "read_only_historical",
+                     "user_review_before_product_implementation":  true
+                 },
+    "freezes":  {
+                    "scope":  "global_all_required_experiments",
+                    "design_before":  "anchor_search_and_discovery_pilots",
+                    "selection_before":  "all_long_batches",
+                    "selection_requires":  [
+                                               "main_anchor_selections",
+                                               "modern_anchor_selections",
+                                               "three_discovery_pilots",
+                                               "resolved_manifest",
+                                               "all_primary_contrasts"
+                                           ],
+                    "evaluation_before":  "first_new_official_test_prediction",
+                    "evaluation_requires":  "all_E1_to_E5_and_M2_M3_M5_checkpoints_complete",
+                    "rolling_addition":  false
+                },
+    "review":  {
+                   "builder_check":  "nothing important left",
+                   "rounds":  3,
+                   "status":  "design_completeness_reviewed_not_executed"
+               },
+    "output_root":  "research-v3",
+    "execution":  {
+                      "stage":  "pretraining",
+                      "training_enabled":  false,
+                      "test_predictions_enabled":  false,
+                      "actual_fitting_permitted":  false
+                  },
+    "runtime":  {
+                    "python_series":  "3.11",
+                    "device":  "cuda",
+                    "gpu_name_observed":  "NVIDIA GeForce RTX 4060",
+                    "gpu_memory_mib_observed":  8188,
+                    "driver_observed":  "610.88",
+                    "micro_batch":  4,
+                    "effective_batch":  16,
+                    "gradient_accumulation_steps":  4,
+                    "cpu_threads":  4,
+                    "precision":  "bf16_if_supported_else_float32",
+                    "torch_index":  "https://download.pytorch.org/whl/cu124"
+                },
+    "preparation":  {
+                        "minhash_workers":  8,
+                        "minhash_batch_rows":  512,
+                        "num_perm":  128,
+                        "lsh_bands":  32,
+                        "lsh_rows":  4,
+                        "disk_backed_signatures":  true,
+                        "band_at_a_time_candidate_sort":  true,
+                        "download_workers":  4,
+                        "tokenizer_batch_rows":  512
+                    }
+}

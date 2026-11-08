@@ -1,0 +1,67 @@
+{
+  "status": "complete",
+  "run_id": "3d03a0b24b3392fe9238b0c5c6697187390b7c1c4864be446995859369c20a5c",
+  "request_hash": "cc26fae5a34d1dbc1a670df50a8898447ccf260f919d7757eda392b57b18e72f",
+  "run": {
+    "run_id": "3d03a0b24b3392fe9238b0c5c6697187390b7c1c4864be446995859369c20a5c",
+    "condition_id": "d9a403d64fa0a714b3d6f615b21c3ec48a65bec624e93ea62a5f7eae1db622c8",
+    "model_id": "distilbert",
+    "training_seed": 42,
+    "hparams": {
+      "lr": 2e-05,
+      "weight_decay": 0.01,
+      "epochs": 5,
+      "effective_batch": 16,
+      "warmup_ratio": 0.1,
+      "role_ids_hash": {
+        "train": "ed279df59ce85913e3c1e1418079c863f2811d6b19c572ec3b426be20f7b6407",
+        "select": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "target_task": "single_label",
+      "device": "cuda",
+      "micro_batch": 4,
+      "cpu_threads": 4,
+      "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+      "label_count": 77
+    },
+    "input_hash": "6189de258ce049b13ede1cbee10166166125f9aa0eeb6836428e8073a5e672e7",
+    "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+    "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+    "strict_no_val": true
+  },
+  "training_unique_rows": 770,
+  "training_ids_sha256": "ed279df59ce85913e3c1e1418079c863f2811d6b19c572ec3b426be20f7b6407",
+  "holdout_labels_accessed": 0,
+  "score_kind": "logit",
+  "files": {
+    "bundle.joblib": "bf3b965c0e8c220a452867105fdbe1302cb49cb2210d81cbf6876219490e969a",
+    "history.json": "056b86fc33f6782eacc4320dabe8ef879fda04f03a4aa27fcc36c69f59a55450",
+    "checkpoint/config.json": "183bf64b364a1488467acfc302245e2822ff6454fb60476b403728496b6fa9be",
+    "checkpoint/model.safetensors": "36cf414a40892d7aacbb6084f087fabd560c3744dc437e6658da1bc5ae961b85"
+  },
+  "feature_degenerate": false,
+  "feature_seconds": 0.0031398008577525616,
+  "fit_seconds": 12.510610735975206,
+  "total_seconds": 13.250068980269134,
+  "epochs_completed": 5,
+  "selected_epoch": 5,
+  "optimizer_updates": 245,
+  "micro_batch": 4,
+  "effective_batch": 16,
+  "oom_attempts": [],
+  "reload_verified": true,
+  "actual_model_training_run": true,
+  "official_test_predictions_generated": false,
+  "reload_max_absolute_difference": 0.0,
+  "resources": {
+    "peak_rss_sampled_bytes": 2067017728,
+    "sample_count": 28,
+    "rss_sample_interval_seconds": 0.5,
+    "elapsed_seconds": 13.301066000945866,
+    "torch_cuda_peak_allocated_bytes": 1366373888,
+    "torch_cuda_peak_reserved_bytes": 1495269376,
+    "gpu_name": "NVIDIA L40S",
+    "note": "sampled RSS maximum; allocated/reserved Torch memory is not total device usage"
+  }
+}

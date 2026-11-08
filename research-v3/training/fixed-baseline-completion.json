@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "training_unique_rows": 6000,
+  "epochs_completed": 5,
+  "selected_epoch": 3,
+  "holdout_labels_accessed": 9989,
+  "reload_verified": true,
+  "reload_max_absolute_difference": 0.0,
+  "fit_seconds": 402.4370000001509,
+  "actual_model_training_run": true,
+  "official_test_predictions_generated": false,
+  "fixed_parameter_configurations": 39,
+  "available_default_checkpoints": 37,
+  "recorded_at_utc": "2026-11-07T07:06:15.945362+00:00",
+  "run_id": "b5b610d1dd1a5acb052f24456c1c072de664b51ce9092a9a5fc8bc6d2f5d9cf1"
+}

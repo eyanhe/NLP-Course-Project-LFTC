@@ -1,0 +1,132 @@
+{
+  "status": "complete",
+  "run_id": "abd282685ab216ed7c48d77188419036ff9023ed02dd9b7c9b1c8a73bc076255",
+  "request_hash": "a55e5b7102b445a89dab290e2acb038e248fa311eff8a3a5f18da9ca5cbd2a8a",
+  "run": {
+    "run_id": "abd282685ab216ed7c48d77188419036ff9023ed02dd9b7c9b1c8a73bc076255",
+    "condition_id": "5d6f85801888921f606cda9987e7427711dd9d8061c77630bcdfdbf6d8ababdf",
+    "model_id": "tfidf_lr",
+    "training_seed": null,
+    "hparams": {
+      "max_features": 30000,
+      "min_df": 1,
+      "sublinear_tf": true,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "C": 0.1,
+      "role_ids_hash": {
+        "train": "50de2fee822001a9d54d46023da2e5de789529f02932a25075c84bd6c306f43c",
+        "select": "72c39f0a9aaef0d59ebda6b27b3d3b2327d4582d1575fe9f59059abfa6d52db1",
+        "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "target_task": "single_label",
+      "device": "cuda",
+      "micro_batch": 4,
+      "cpu_threads": 4,
+      "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+      "label_count": 4
+    },
+    "input_hash": "1ed465ea5197ae39c37b58112afa7cf93c1f8d6d9b83fd0a28cb1faeaf8fe286",
+    "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+    "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+    "strict_no_val": false
+  },
+  "training_unique_rows": 6000,
+  "training_ids_sha256": "50de2fee822001a9d54d46023da2e5de789529f02932a25075c84bd6c306f43c",
+  "holdout_labels_accessed": 600,
+  "score_kind": "probability",
+  "files": {
+    "bundle.joblib": "fd4e209170a9e3574b64b0e10bf1c5c4314befd80bda36ed572cfccbe06f283b"
+  },
+  "feature_degenerate": false,
+  "feature_seconds": 0.7970000000204891,
+  "fit_seconds": 0.4380000000819564,
+  "total_seconds": 1.8910000000614673,
+  "epochs_completed": 0,
+  "selected_epoch": null,
+  "optimizer_updates": 0,
+  "micro_batch": null,
+  "effective_batch": null,
+  "oom_attempts": [],
+  "reload_verified": true,
+  "actual_model_training_run": true,
+  "official_test_predictions_generated": false,
+  "reload_max_absolute_difference": 0.0,
+  "validation": {
+    "task": "single_label",
+    "score_kind": "probability",
+    "rows": 600,
+    "macro_f1": 0.8558225128878606,
+    "micro_f1": 0.855,
+    "accuracy": 0.855,
+    "worst_label_f1": 0.7972027972027972,
+    "confusion_matrix": [
+      [
+        135,
+        1,
+        7,
+        11
+      ],
+      [
+        2,
+        135,
+        0,
+        8
+      ],
+      [
+        8,
+        5,
+        114,
+        26
+      ],
+      [
+        2,
+        5,
+        12,
+        129
+      ]
+    ],
+    "per_label": [
+      {
+        "label_id": 0,
+        "precision": 0.9183673469387755,
+        "recall": 0.8766233766233766,
+        "f1": 0.8970099667774086,
+        "support": 154
+      },
+      {
+        "label_id": 1,
+        "precision": 0.9246575342465754,
+        "recall": 0.9310344827586207,
+        "f1": 0.9278350515463918,
+        "support": 145
+      },
+      {
+        "label_id": 2,
+        "precision": 0.8571428571428571,
+        "recall": 0.7450980392156863,
+        "f1": 0.7972027972027972,
+        "support": 153
+      },
+      {
+        "label_id": 3,
+        "precision": 0.7413793103448276,
+        "recall": 0.8716216216216216,
+        "f1": 0.8012422360248447,
+        "support": 148
+      }
+    ]
+  },
+  "resources": {
+    "peak_rss_sampled_bytes": 2334072832,
+    "sample_count": 5,
+    "rss_sample_interval_seconds": 0.5,
+    "elapsed_seconds": 1.922000000020489,
+    "torch_cuda_peak_allocated_bytes": 67108864,
+    "torch_cuda_peak_reserved_bytes": 67108864,
+    "gpu_name": "NVIDIA GeForce RTX 4060",
+    "note": "sampled RSS maximum; allocated/reserved Torch memory is not total device usage"
+  }
+}

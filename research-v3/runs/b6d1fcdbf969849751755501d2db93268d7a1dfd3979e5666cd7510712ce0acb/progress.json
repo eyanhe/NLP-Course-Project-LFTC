@@ -1,0 +1,12 @@
+{
+  "status": "interrupted",
+  "pid": 42040,
+  "epoch": 7,
+  "epochs": 10,
+  "training_rows_seen": 3904,
+  "training_rows": 6000,
+  "optimizer_updates": 625,
+  "micro_batch": 4,
+  "effective_batch": 64,
+  "reason": "user_fixed_parameters_cancelled_search"
+}

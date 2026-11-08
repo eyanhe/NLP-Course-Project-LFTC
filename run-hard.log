@@ -1,0 +1,70 @@
+[18:57:17] MultiNLI prepared: premise-group separation; 6000 train, 999 validation, 999 matched and 999 mismatched.
+[18:57:25] MultiNLI logistic_regression: validation F1=0.4927
+[18:57:30] MultiNLI linear_svm: validation F1=0.4817
+[18:57:56] MultiNLI word2vec_svm: validation F1=0.4844
+[18:58:00] MNLI bilstm lr=0.001 seed=42 epoch=1 loss=1.0969 val F1=0.2264
+[18:58:02] MNLI bilstm lr=0.001 seed=42 epoch=2 loss=1.0235 val F1=0.4169
+[18:58:04] MNLI bilstm lr=0.001 seed=42 epoch=3 loss=0.8677 val F1=0.4496
+[18:58:07] MNLI bilstm lr=0.001 seed=42 epoch=4 loss=0.6418 val F1=0.4270
+[18:58:09] MNLI bilstm lr=0.001 seed=42 epoch=5 loss=0.4273 val F1=0.4424
+[18:58:11] MNLI bilstm lr=0.003 seed=42 epoch=1 loss=1.0922 val F1=0.4082
+[18:58:14] MNLI bilstm lr=0.003 seed=42 epoch=2 loss=0.9821 val F1=0.4362
+[18:58:16] MNLI bilstm lr=0.003 seed=42 epoch=3 loss=0.6817 val F1=0.4133
+[18:58:18] MNLI bilstm lr=0.003 seed=42 epoch=4 loss=0.3642 val F1=0.4281
+[18:58:20] MNLI bilstm lr=0.003 seed=42 epoch=5 loss=0.1838 val F1=0.4336
+[18:58:23] MNLI bilstm lr=0.001 seed=43 epoch=1 loss=1.0959 val F1=0.3770
+[18:58:25] MNLI bilstm lr=0.001 seed=43 epoch=2 loss=1.0203 val F1=0.4601
+[18:58:27] MNLI bilstm lr=0.001 seed=43 epoch=3 loss=0.8585 val F1=0.4418
+[18:58:30] MNLI bilstm lr=0.001 seed=43 epoch=4 loss=0.6390 val F1=0.4690
+[18:58:32] MNLI bilstm lr=0.001 seed=43 epoch=5 loss=0.4373 val F1=0.4482
+[18:58:35] MNLI bilstm lr=0.001 seed=44 epoch=1 loss=1.0972 val F1=0.2575
+[18:58:37] MNLI bilstm lr=0.001 seed=44 epoch=2 loss=1.0331 val F1=0.4088
+[18:58:40] MNLI bilstm lr=0.001 seed=44 epoch=3 loss=0.8739 val F1=0.4456
+[18:58:42] MNLI bilstm lr=0.001 seed=44 epoch=4 loss=0.6630 val F1=0.4499
+[18:58:45] MNLI bilstm lr=0.001 seed=44 epoch=5 loss=0.4583 val F1=0.4507
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[18:59:06] MNLI distilbert lr=2e-05 seed=42 epoch=1 loss=0.9949 val F1=0.6226
+[18:59:27] MNLI distilbert lr=2e-05 seed=42 epoch=2 loss=0.7390 val F1=0.6497
+[18:59:49] MNLI distilbert lr=2e-05 seed=42 epoch=3 loss=0.5597 val F1=0.6607
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[19:00:10] MNLI distilbert lr=5e-05 seed=42 epoch=1 loss=0.9636 val F1=0.6138
+[19:00:32] MNLI distilbert lr=5e-05 seed=42 epoch=2 loss=0.6525 val F1=0.6604
+[19:00:53] MNLI distilbert lr=5e-05 seed=42 epoch=3 loss=0.3398 val F1=0.6480
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[19:01:16] MNLI distilbert lr=2e-05 seed=43 epoch=1 loss=1.0145 val F1=0.5549
+[19:01:37] MNLI distilbert lr=2e-05 seed=43 epoch=2 loss=0.7641 val F1=0.6341
+[19:01:58] MNLI distilbert lr=2e-05 seed=43 epoch=3 loss=0.5761 val F1=0.6351
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[19:02:21] MNLI distilbert lr=2e-05 seed=44 epoch=1 loss=1.0108 val F1=0.5999
+[19:02:44] MNLI distilbert lr=2e-05 seed=44 epoch=2 loss=0.7506 val F1=0.6492
+[19:03:08] MNLI distilbert lr=2e-05 seed=44 epoch=3 loss=0.5757 val F1=0.6481
+[19:03:09] MultiNLI protocol frozen before final matched/mismatched evaluation.
+[19:03:10] MNLI EVAL matched/logistic_regression seed=None: Accuracy=0.5015 Macro F1=0.5021
+[19:03:10] MNLI EVAL mismatched/logistic_regression seed=None: Accuracy=0.5225 Macro F1=0.5228
+[19:03:10] MNLI EVAL matched/linear_svm seed=None: Accuracy=0.4995 Macro F1=0.4990
+[19:03:10] MNLI EVAL mismatched/linear_svm seed=None: Accuracy=0.5105 Macro F1=0.5111
+[19:03:11] MNLI EVAL matched/word2vec_svm seed=None: Accuracy=0.4795 Macro F1=0.4784
+[19:03:11] MNLI EVAL mismatched/word2vec_svm seed=None: Accuracy=0.4715 Macro F1=0.4705
+[19:03:12] MNLI EVAL matched/bilstm seed=42: Accuracy=0.4935 Macro F1=0.4912
+[19:03:12] MNLI EVAL mismatched/bilstm seed=42: Accuracy=0.5205 Macro F1=0.5186
+[19:03:12] MNLI EVAL matched/bilstm seed=43: Accuracy=0.5045 Macro F1=0.5015
+[19:03:13] MNLI EVAL mismatched/bilstm seed=43: Accuracy=0.5315 Macro F1=0.5296
+[19:03:13] MNLI EVAL matched/bilstm seed=44: Accuracy=0.4675 Macro F1=0.4667
+[19:03:13] MNLI EVAL mismatched/bilstm seed=44: Accuracy=0.5315 Macro F1=0.5314
+[19:03:15] MNLI EVAL matched/distilbert seed=42: Accuracy=0.6687 Macro F1=0.6693
+[19:03:17] MNLI EVAL mismatched/distilbert seed=42: Accuracy=0.6757 Macro F1=0.6750
+[19:03:19] MNLI EVAL matched/distilbert seed=43: Accuracy=0.6547 Macro F1=0.6550
+[19:03:20] MNLI EVAL mismatched/distilbert seed=43: Accuracy=0.6707 Macro F1=0.6701
+[19:03:22] MNLI EVAL matched/distilbert seed=44: Accuracy=0.6496 Macro F1=0.6495
+[19:03:24] MNLI EVAL mismatched/distilbert seed=44: Accuracy=0.6707 Macro F1=0.6713
+[19:03:24] MNLI EVAL matched/hypothesis_only_svm seed=None: Accuracy=0.4404 Macro F1=0.4399
+[19:03:24] MNLI EVAL mismatched/hypothesis_only_svm seed=None: Accuracy=0.4555 Macro F1=0.4563
+[19:03:35] MNLI CPU logistic_regression: median=3.08 ms
+[19:03:38] MNLI CPU linear_svm: median=2.48 ms
+[19:03:39] MNLI CPU word2vec_svm: median=0.82 ms
+[19:03:46] MNLI CPU bilstm: median=6.13 ms
+[19:04:27] MNLI CPU distilbert: median=34.49 ms

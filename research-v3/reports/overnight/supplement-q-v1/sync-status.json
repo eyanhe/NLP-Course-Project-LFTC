@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-11-07T22:58:45.434078+00:00",
+  "stages": {
+    "S3": {
+      "status": "complete",
+      "models": 8,
+      "completed_at_utc": "2026-11-07T22:56:30.305350+00:00",
+      "predictions_downloaded_and_sha_verified": true
+    },
+    "S1": {
+      "status": "complete",
+      "models": 16,
+      "completed_at_utc": "2026-11-07T22:58:37.673626+00:00",
+      "predictions_downloaded_and_sha_verified": true
+    }
+  },
+  "read_only_cluster": true
+}

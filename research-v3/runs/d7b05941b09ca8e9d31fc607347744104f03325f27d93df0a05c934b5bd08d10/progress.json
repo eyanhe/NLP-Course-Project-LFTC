@@ -1,0 +1,11 @@
+{
+  "status": "running",
+  "pid": 7244,
+  "epoch": 5,
+  "epochs": 5,
+  "training_rows_seen": 736,
+  "training_rows": 1000,
+  "optimizer_updates": 298,
+  "micro_batch": 4,
+  "effective_batch": 16
+}

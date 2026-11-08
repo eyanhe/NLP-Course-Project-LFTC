@@ -1,0 +1,9 @@
+{
+  "previous_lock_hash": "8f62970c64e3b34fa7e1f4b7830a9aab31ded47ed12c18723de0e32504a7c58d",
+  "current_lock_hash": "25298e295d2231241d6b360fbf1de3f59ecf8a6c207c6c72fd29ffc7efdce53b",
+  "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+  "learner_code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+  "unchanged_data_resources_checked": 414,
+  "configuration_unchanged": true,
+  "training_not_yet_started_by_this_transition": true
+}

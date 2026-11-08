@@ -1,0 +1,12 @@
+{
+  "status": "interrupted",
+  "pid": 7244,
+  "epoch": 6,
+  "epochs": 10,
+  "training_rows_seen": 448,
+  "training_rows": 1000,
+  "optimizer_updates": 87,
+  "micro_batch": 4,
+  "effective_batch": 64,
+  "reason": "User stopped local training for cluster migration"
+}

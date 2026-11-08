@@ -1,0 +1,77 @@
+{
+  "checked_date": "2026-11-07",
+  "method": "public_Hugging_Face_metadata_API_plus_original_publications",
+  "new_datasets": {
+    "go_emotions": {
+      "repo": "google-research-datasets/go_emotions",
+      "revision": "add492243ff905527e67aeb8b80c082af02207c3",
+      "config": "simplified",
+      "task": "multilabel",
+      "label_count": 28,
+      "official_counts": {
+        "train": 43410,
+        "validation": 5426,
+        "test": 5427
+      },
+      "license_metadata": "apache-2.0",
+      "files": [
+        "simplified/train-00000-of-00001.parquet",
+        "simplified/validation-00000-of-00001.parquet",
+        "simplified/test-00000-of-00001.parquet"
+      ]
+    },
+    "banking77": {
+      "repo": "PolyAI/banking77",
+      "revision": "1846984189f2bc0ac51c6fc3a600fa9e1714e0c6",
+      "config": "default",
+      "task": "single_label",
+      "label_count": 77,
+      "official_counts": {
+        "train": 10003,
+        "test": 3080
+      },
+      "license_metadata": "cc-by-4.0",
+      "files": [
+        "data/train-00000-of-00001.parquet",
+        "data/test-00000-of-00001.parquet"
+      ]
+    },
+    "yahoo_answers_topics": {
+      "repo": "community-datasets/yahoo_answers_topics",
+      "revision": "6652a1e7c94f7260a0bfd0c9092dd48e2d536ea1",
+      "config": "yahoo_answers_topics",
+      "task": "single_label",
+      "label_count": 10,
+      "official_counts": {
+        "train": 1400000,
+        "test": 60000
+      },
+      "license_metadata": "unknown",
+      "files": [
+        "yahoo_answers_topics/train-00000-of-00002.parquet",
+        "yahoo_answers_topics/train-00001-of-00002.parquet",
+        "yahoo_answers_topics/test-00000-of-00001.parquet"
+      ]
+    }
+  },
+  "modern_reference": {
+    "repository": "answerdotai/ModernBERT-base",
+    "revision": "8949b909ec900327062f0ebf497f51aef5e6f0c8",
+    "license_metadata": "apache-2.0",
+    "gated": false
+  },
+  "unavailable_old_source": {
+    "repository": "fancyzhx/yahoo_answers_topics",
+    "observed_http_status": 401,
+    "replacement": "community-datasets/yahoo_answers_topics",
+    "same_benchmark_not_additional_dataset": true
+  },
+  "downloaded_dataset_files": false,
+  "dataset_file_sha256_status": "generate_after_download_not_fabricated",
+  "skill_installation": {
+    "repository": "https://github.com/obra/superpowers",
+    "revision": "22f0b463e7a5e579904dd6211a520321035526f7",
+    "skills": 15,
+    "verified_files": 80
+  }
+}

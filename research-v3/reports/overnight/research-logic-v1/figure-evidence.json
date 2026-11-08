@@ -1,0 +1,94 @@
+{
+  "created_at_sgt": "2026-11-08T13:48:38.073503+08:00",
+  "Q_primary_means": {
+    "banking77": {
+      "tfidf_svm": 0.6577685559836278,
+      "bilstm": 0.5097272978397714,
+      "distilbert": 0.8158590255239279
+    },
+    "go_emotions": {
+      "tfidf_svm": 0.3356589306301917,
+      "bilstm": 0.20062593655565752,
+      "distilbert": 0.3976729899853881
+    }
+  },
+  "S3_uniform_contribution_V": {
+    "781": 0.6417074430475201,
+    "555": 0.4487298578819466
+  },
+  "S3_uniform_contribution_Q": {
+    "781": 0.6541082958634994,
+    "555": 0.4530624477882539
+  },
+  "M2_Banking77_1k_V": {
+    "pretrained_unfrozen": {
+      "n": 9,
+      "mean": 0.7868163136783909
+    },
+    "random_frozen": {
+      "n": 9,
+      "mean": 0.003998857561257524
+    },
+    "random_unfrozen": {
+      "n": 9,
+      "mean": 0.28598757172501393
+    },
+    "pretrained_frozen": {
+      "n": 9,
+      "mean": 0.32942698831301054
+    }
+  },
+  "S4_control_minus_cue_accuracy_percentage_points": {
+    "tfidf_svm": 24.32432432432433,
+    "distilbert": 8.108108108108103
+  },
+  "source_sha256": {
+    "research-v3\\reports\\overnight\\convergence-v1\\experiment-inventory.json": "d024401072c1b8279b921c06c7ceaa4deaacff2b6e385ae0ec6606aff868d8bd",
+    "research-v3\\reports\\overnight\\convergence-v1\\cluster-snapshot\\reports\\overnight\\convergence-v1\\test-results.json": "eed81316f788356192cec8617e0b83eb68927398624e39e662df8784819ba430",
+    "research-v3\\reports\\overnight\\supplement-1-4\\cluster-snapshot\\S2-summary.json": "e6bca878f6e60aee4064a7eb0149b21ea5b98518ee2dc7d41cbedccee65b8b72",
+    "research-v3\\reports\\overnight\\supplement-1-4\\S4-ai-reviewed\\results.json": "59ee43c40ee313bd5f589b58af3f004d1d29a155e598a9ba14172097d2ccbb81",
+    "research-v3\\reports\\overnight\\supplement-1-4\\manifest.json": "da63996e9e89e93cee94ef6f7894ce3f88254863cdf07d0d448fe1d324382cd4",
+    "research-v3\\reports\\overnight\\results-analysis-v1-zh.md": "e7d289997e18e91ef51b4f8c9a8fe3f924d38988149260ab59f92a0251856170",
+    "research-v3\\reports\\overnight\\supplement-1-4\\cluster-snapshot\\runs\\2bf2d45a42acb0ea4d5a5f4a1bdebcb8564550a2156f7494c26745018972fd72\\status.json": "4e9130821de149569022e4b92852603892c87eeb012bbb73b23b6d8f007ea22f",
+    "research-v3\\reports\\overnight\\supplement-1-4\\cluster-snapshot\\runs\\5915ec738e80735db5883b842da3cf3cff9274173b11cb80c24c36b04615dc8d\\status.json": "7a5f4af76982afdfc2517bf40c062a8cdd4661094be74bfdfb998936da8f5694",
+    "research-v3\\reports\\overnight\\analysis-v2\\analysis-data.json": "381125cb5de8d183ced906d51ce1be6748dfc367871fd87646e98a8af571cd6a",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\03c3b79369bd5452c08c988b3280efff415d6a7391b846d9889a24a76d93a9bf\\status.json": "b4d04fca9094afc3cea4964707801bb600c3e388ce7543b8156f2e5531e2af37",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\08a61eaad0293d68a304e15c9f53d5a6162bb5017ae0d8b0c07dd7d61ae5c461\\status.json": "6b5b645f5bf13083b3bf76ef96d38b6a26eabd853d0f93863f059d68371011c3",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\167ab87cc103d7f7f94d9a277b34ef8b38328d152a370d59c252c7c98751860c\\status.json": "ccbfcc59e6b9c01497ace6cb120137ce3612c9723d1200f17be87be83af9d059",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\217882c926359945e039708403a2b836b535118793becf0798c262b9325138e9\\status.json": "dd6efbab411ac136ea921db91e30a3a67bad4d9202c7f538253c62339c1bcd29",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\2392bb8cea7060edebec2a6145894b1ffbf6596e3a5623fdef38514ab0916d3a\\status.json": "1cf1bcf89f67ba66c93fc4acd493818990ade85318422bb33b2ef0fae93f7ab9",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\24f899341bb58321b3d83f93e8ca910e6b542fdf1c0d7b203bc61d1a9da2a80d\\status.json": "617fed79865523a849d83b09cb66ad47d6c89898ee8cd61e10254aeef8bc7f75",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\39076c2b494218167760f5ae4b6f0453fb1bfeb2ccaed80acb8f085a7c0b0105\\status.json": "c74c7ee4956e8cc803977ea152e11a3988488e3e2cc18c3a992dd39823031596",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\3d24fbff46c727517d856e1fd3bd1f3d2e3bf99523d9126b33d0384954643506\\status.json": "0dfa75c3a8bd9a64925c9d113dcea7668fa63bec0cd416966ab191be67cd98c8",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\3f2746b4393755f5c85211b12117df1d001de5705daaf6aeb9fd7cbf6e63e1d0\\status.json": "5f71ac95cbcd79c765be6c2bb79743125e06216de80d1781d62267b485c40300",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\4a699c0e4b80392724fc9f6f02f9181b3c40f1911e9550ff1cc12e1d6716ee83\\status.json": "98ad03189e52e5b7afd8e83b4a01648722c65181711835f5b85088c956c15658",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\4eed91b211c9b90c94d1ba72c167d26f19134e3bdda08e2750ed965ba73ec99b\\status.json": "e4705c77153a7a05e6d72281e8d2e52a3ca44511b76035f43c71188e4a21decf",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\548c4de35275b6fda981a9439387c9885376e73cfaf7eb131aee5d658daa6745\\status.json": "84f50fc79e824a812a262b645a6fea6e2b26c92ba92d31a57517be41f37f46d0",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\566f0b510db610ac2d1983fbf856ed84611d8b72f9c4fd749ede4ec71e542136\\status.json": "d929308e893a8e36085e90b7378a53a49c650878433aefa782f7b00a3cca33ac",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\57b9865e17f0a64a66b838aed2b0032b3fcdd4bf300a37ff1e60057148dc85c1\\status.json": "0663326e0c68bb3dc643c1cb6774b66e44dc039b427964c3961826553dff7d5a",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\6afddc7f8880ba4870088f949119b44d9bfa61b96f22f1e3d14881beeb10ca7a\\status.json": "e5a990d45164983e2baccbd21833054908121a18f91b79ebbf2c861279da6b8b",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\7a255356e33a3d053be9045138ef0967e776e75e656ba794c61c5afaa3759f43\\status.json": "7fee49272be801d0c5bf099026bb6046abae12acb59ea4f54f4c77f4728984f3",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\7b0f7c055b7915c375fa95ce037f344772e652c0854bc732e94e87999ef67eb7\\status.json": "fb62808fd4afaa8a2abb14c4ec44ccd229755076f75b7a8976014aad42daf22b",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\8010d2183e867715f7b0a22961a16ea70823afd3d4492817be749fc2c869a042\\status.json": "741ee2ec5d6ad9c58ea300fb8aa4d817a6c7ddd3d0d17bd3713f2180f72d34ac",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\8069f654b64436debf2fdc74e0be105c1d451f51f2f40f71f657cd57aa9f530a\\status.json": "37ed37e317092ec791330de8147902dba525a164bdbfd0a2d2bf39a0a0295044",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\82ed27ce75a5f0d1ed3956081edde5651c5ac6df8990152e5c57f937c5ec4ccc\\status.json": "d37d051f87764474c08c1ff624fb375c3f15f41f5e8fa5dbde9d7d4ab8f3d740",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\87c899870e470ec49171f87bc92ea191f1e3a363b7e4f3e289bb75ecf3020a31\\status.json": "2d35c98f42c7f734027ab785ac07a8be0658c955fe52f5e7c0f722ca91288292",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\8c8cbde132e26a32da2e7c345f7294f55fcbaad21bb287284f9036fd041235f1\\status.json": "8247039c9ec7f31ab11cfe21e5f28ae4a79e01346d8c8d0f6b135da877a25211",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\9caa2f9060dafe7041ea3a787ffa99a8c88cf15fece9a30ecdc4c4c97be87a47\\status.json": "78e88763707c8a182c025bcffe731202d99b9eab510c939530a6a9c0cfdb970e",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\9cbd57ed1f077c9e41c618a750c6a058b6ae927b289bd2c82a054d22159a3825\\status.json": "94c4797e624775b3c763c2b2e856787152ff9c2d2064e83c0970b803040c7b95",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\a49a3bac54bad191d9bd3b9ed01084341bb23682843af3c93ed10bd7a70f5e00\\status.json": "c2a4ac771932beb6f8e9c663da7b203a7c542e560492892e28a26b29747911bb",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\a67691e809d0c2fd535d114f7d808ab1054a96db2d7aa7d2d78b20fc341a85d3\\status.json": "6f1491d5eaa7c35265bc00c97496dbac0f0adef64928e39bd09e4f2abeb89c24",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\a7d1016e139ac79611431bd97f9b108caa2e33e6d9b4d5ed1cac0956cc2e223f\\status.json": "10036c33802793453e9d5591cd5b2ccdfa644cd45f1f64c5fe5b4658a5b978be",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\acefbc87fbaa268efab5577eca7f88002b4cec013396ce3a77685efef3a494d0\\status.json": "04de88abda6e9cb5104be601d3d46b89cff5f41d4da2af980fe06189c8683520",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\adfcb835969bd20bd1652e8dd2e9003c368c9c963202a690d3630566424998c6\\status.json": "e381b178f2a64efcaf2f614c2b254c40148b968dcc20c130101436ab697dbe64",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\b7be4a392d9bb09863dc0bba3bb72b811518fe336a4983f673787d18b8887300\\status.json": "c2f5d7508b6fe61d51eb26ab3b4370fe6bd6ff88a65928e95f9c7d4d69a879a6",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\b8528ecf51854736630a95549a4bc252001439bcb25bb059dc6441c7761f0816\\status.json": "a36dfe5bb8e38acfdf9605cc361bf454b15d03e70acc6ec584ef17fc1639200b",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\cd2de267bdf5cd46e54c5ff377238004b6d4cc455abbd53fff22b436cf1dda69\\status.json": "90ffce832d5329396a6dc22e5dfb07f797f3e17f71e2c933c100d3874275ec67",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\dd758e464d66d49a6df56d13564ef9680e5bf318ef0e030db4f9893dba18dcc6\\status.json": "7448e7321be096846413cede1c3f3302dd1245800df9046edb207106ca863de3",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\f07ed7e3a9dae4157e8096193cf2e41c285310ab8b160f2492dc151deca4d90c\\status.json": "4d76a1f0b7b3f622484205917ffda0687862ad0e41f007c5f3e3bc0c3f9b0410",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\f0a01e38072d2b81b08c0d56f3d3efcc6c49787d6529dae5f8ce7573914b35a9\\status.json": "e271237c160a451d3626814eb114d6e5b22d9e7e0d35f0edc72e49013af00af7",
+    "research-v3\\reports\\overnight\\analysis-handoff\\cluster-evidence\\runs\\f36290bb7d77cea9eec5361b32ff1b26cd425e600de027efb25b5a2216904e2b\\status.json": "878d508ee936c3bb9ee75680cc80acdb85f721ea9b10f6ca0407534438c5ca4f",
+    "HANDOFF.md": "1b09dc746b7bcacd7d0bd87f6d31bc9934051d786cb440fd8999c70b1a963096",
+    "docs\\RESEARCH-CONTINUITY.md": "2b93ba84df3f5a1354bbcb4b733a2ebcf8f14288524bdb7f5342cf0be8b9bba2"
+  }
+}

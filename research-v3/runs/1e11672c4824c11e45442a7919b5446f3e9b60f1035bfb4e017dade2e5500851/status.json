@@ -1,0 +1,374 @@
+{
+  "status": "complete",
+  "run_id": "1e11672c4824c11e45442a7919b5446f3e9b60f1035bfb4e017dade2e5500851",
+  "request_hash": "9d4f2c7f753a5214ebe6f39f8bee6345cd62bfc8f7b158fb31815e42812ff970",
+  "run": {
+    "run_id": "1e11672c4824c11e45442a7919b5446f3e9b60f1035bfb4e017dade2e5500851",
+    "condition_id": "627aa9daf0f1cd15fa354a3996ebe520ef1d2b0604762de2671ee0c925fe50f8",
+    "model_id": "bilstm",
+    "training_seed": 42,
+    "hparams": {
+      "hidden_per_direction": 64,
+      "layers": 1,
+      "max_epochs": 10,
+      "effective_batch": 64,
+      "vocabulary_limit": 30000,
+      "embedding_initialization": {
+        "vector_size": 100,
+        "window": 5,
+        "min_count": 1,
+        "epochs": 10,
+        "workers": 1,
+        "seed": 2026,
+        "sg": 1,
+        "vocabulary_limit": 30000
+      },
+      "lr": 0.003,
+      "dropout": 0.1,
+      "role_ids_hash": {
+        "train": "32e7891f679cf5ce28f0ef965a4d616829e00ff95159303bc24b8e342eb07441",
+        "select": "af354d52fc40cb0f5e121879b26e07d5e533d4ed054c53b6bb637410b75fac99",
+        "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "target_task": "multilabel",
+      "select_ap_mask": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "device": "cuda",
+      "micro_batch": 4,
+      "cpu_threads": 4,
+      "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+      "label_count": 28
+    },
+    "input_hash": "3d5c0471f7e31e1511976a82080453fca0619fca96f37cbfcbc413cbbdab5658",
+    "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+    "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+    "strict_no_val": false
+  },
+  "training_unique_rows": 6000,
+  "training_ids_sha256": "32e7891f679cf5ce28f0ef965a4d616829e00ff95159303bc24b8e342eb07441",
+  "holdout_labels_accessed": 3237,
+  "score_kind": "logit",
+  "files": {
+    "bundle.joblib": "8ebe0f82b2b6f7a7de1050cd526c8b19646bfbfcf012dff4b98f4dfc1739b0fd",
+    "history.json": "6057852caadeb78c66f0d2eeb373f1b0f7ff00e6529b9e4feeb95897544c843e",
+    "checkpoint/model.safetensors": "c34993904f2cdbf9026987c7525d5b9937f79cea54375189c400786d57cd2b3f"
+  },
+  "feature_degenerate": false,
+  "feature_seconds": 0.03100000019185245,
+  "fit_seconds": 117.29699999978766,
+  "total_seconds": 119.56300000008196,
+  "epochs_completed": 10,
+  "selected_epoch": 8,
+  "optimizer_updates": 940,
+  "micro_batch": 4,
+  "effective_batch": 64,
+  "oom_attempts": [],
+  "reload_verified": true,
+  "actual_model_training_run": true,
+  "official_test_predictions_generated": false,
+  "reload_max_absolute_difference": 0.0,
+  "validation": {
+    "task": "multilabel",
+    "score_kind": "logit",
+    "threshold": 0.0,
+    "rows": 3237,
+    "macro_ap": 0.131908129274367,
+    "ap_mask": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "macro_f1": 0.052726155834414846,
+    "masked_macro_f1": 0.052726155834414846,
+    "micro_f1": 0.22847471969536703,
+    "per_label": [
+      {
+        "label_id": 0,
+        "precision": 0.5882352941176471,
+        "recall": 0.035842293906810034,
+        "f1": 0.06756756756756757,
+        "support": 279,
+        "ap": 0.3190275974106498
+      },
+      {
+        "label_id": 1,
+        "precision": 0.6153846153846154,
+        "recall": 0.043478260869565216,
+        "f1": 0.08121827411167512,
+        "support": 184,
+        "ap": 0.3916825056881847
+      },
+      {
+        "label_id": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 114,
+        "ap": 0.05209987236478036
+      },
+      {
+        "label_id": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 183,
+        "ap": 0.09254390143666341
+      },
+      {
+        "label_id": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 226,
+        "ap": 0.10383160175929129
+      },
+      {
+        "label_id": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 96,
+        "ap": 0.03274108147490256
+      },
+      {
+        "label_id": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 89,
+        "ap": 0.09146785134749624
+      },
+      {
+        "label_id": 7,
+        "precision": 0.4470588235294118,
+        "recall": 0.2235294117647059,
+        "f1": 0.2980392156862745,
+        "support": 170,
+        "ap": 0.3264723690372905
+      },
+      {
+        "label_id": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 44,
+        "ap": 0.040467486852826695
+      },
+      {
+        "label_id": 9,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 91,
+        "ap": 0.03985828535916466
+      },
+      {
+        "label_id": 10,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 190,
+        "ap": 0.1277607623568721
+      },
+      {
+        "label_id": 11,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 59,
+        "ap": 0.02977249743269943
+      },
+      {
+        "label_id": 12,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 25,
+        "ap": 0.014635189344141337
+      },
+      {
+        "label_id": 13,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 55,
+        "ap": 0.05416129915413975
+      },
+      {
+        "label_id": 14,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 45,
+        "ap": 0.02161412178054207
+      },
+      {
+        "label_id": 15,
+        "precision": 0.9333333333333333,
+        "recall": 0.42,
+        "f1": 0.5793103448275863,
+        "support": 200,
+        "ap": 0.7779272921914017
+      },
+      {
+        "label_id": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 8,
+        "ap": 0.0033448403305209786
+      },
+      {
+        "label_id": 17,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 97,
+        "ap": 0.08899572253432507
+      },
+      {
+        "label_id": 18,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 155,
+        "ap": 0.20730996319214498
+      },
+      {
+        "label_id": 19,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11,
+        "ap": 0.006318305153123517
+      },
+      {
+        "label_id": 20,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 125,
+        "ap": 0.08961382268140591
+      },
+      {
+        "label_id": 21,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7,
+        "ap": 0.0071869967411842504
+      },
+      {
+        "label_id": 22,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 76,
+        "ap": 0.03033302137330704
+      },
+      {
+        "label_id": 23,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11,
+        "ap": 0.00574609326203193
+      },
+      {
+        "label_id": 24,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 40,
+        "ap": 0.040877168766033034
+      },
+      {
+        "label_id": 25,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 87,
+        "ap": 0.06688028318089227
+      },
+      {
+        "label_id": 26,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 78,
+        "ap": 0.08512598685708195
+      },
+      {
+        "label_id": 27,
+        "precision": 0.5610098176718092,
+        "recall": 0.37593984962406013,
+        "f1": 0.4501969611705121,
+        "support": 1064,
+        "ap": 0.5456317006191781
+      }
+    ]
+  },
+  "resources": {
+    "peak_rss_sampled_bytes": 2463985664,
+    "sample_count": 238,
+    "rss_sample_interval_seconds": 0.5,
+    "elapsed_seconds": 119.625,
+    "torch_cuda_peak_allocated_bytes": 101761536,
+    "torch_cuda_peak_reserved_bytes": 111149056,
+    "gpu_name": "NVIDIA GeForce RTX 4060",
+    "note": "sampled RSS maximum; allocated/reserved Torch memory is not total device usage"
+  }
+}

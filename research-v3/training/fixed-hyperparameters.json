@@ -1,0 +1,1861 @@
+{
+  "schema_version": 1,
+  "mode": "fixed_defaults",
+  "user_instruction": "??????????????????????",
+  "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+  "design_hash": "f3b17e32567e75337ee9326cacfae12c0ed5e587543100909421a8a37ae5280d",
+  "learner_code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+  "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+  "model_defaults": {
+    "tfidf_lr": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "C": 1
+    },
+    "tfidf_svm": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "C": 1
+    },
+    "w2v_svm": {
+      "C": 1
+    },
+    "bilstm": {
+      "lr": 0.001,
+      "dropout": 0.3
+    },
+    "distilbert": {
+      "lr": 2e-05,
+      "weight_decay": 0.01
+    },
+    "modernbert": {
+      "lr": 2e-05,
+      "weight_decay": 0.01
+    }
+  },
+  "nodes": {
+    "select:ag_news:tfidf_lr": {
+      "node_id": "select:ag_news:tfidf_lr",
+      "dataset_id": "ag_news",
+      "model_id": "tfidf_lr",
+      "hparams": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "C": 1
+      },
+      "run": {
+        "run_id": "76160ba4d749a392ad418616b2cbcb3e2380bfd4203381b188830d9f77f4020f",
+        "condition_id": "5d6f85801888921f606cda9987e7427711dd9d8061c77630bcdfdbf6d8ababdf",
+        "model_id": "tfidf_lr",
+        "training_seed": null,
+        "hparams": {
+          "max_features": 30000,
+          "min_df": 1,
+          "sublinear_tf": true,
+          "ngram_range": [
+            1,
+            2
+          ],
+          "C": 1,
+          "role_ids_hash": {
+            "train": "50de2fee822001a9d54d46023da2e5de789529f02932a25075c84bd6c306f43c",
+            "select": "72c39f0a9aaef0d59ebda6b27b3d3b2327d4582d1575fe9f59059abfa6d52db1",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 4
+        },
+        "input_hash": "1ed465ea5197ae39c37b58112afa7cf93c1f8d6d9b83fd0a28cb1faeaf8fe286",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:ag_news:tfidf_svm": {
+      "node_id": "select:ag_news:tfidf_svm",
+      "dataset_id": "ag_news",
+      "model_id": "tfidf_svm",
+      "hparams": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "C": 1
+      },
+      "run": {
+        "run_id": "0388730eb2b341a4df9692c710361bcf20d7db03ffe4f771017fc206c2eebce8",
+        "condition_id": "5d6f85801888921f606cda9987e7427711dd9d8061c77630bcdfdbf6d8ababdf",
+        "model_id": "tfidf_svm",
+        "training_seed": null,
+        "hparams": {
+          "max_features": 30000,
+          "min_df": 1,
+          "sublinear_tf": true,
+          "ngram_range": [
+            1,
+            2
+          ],
+          "C": 1,
+          "role_ids_hash": {
+            "train": "50de2fee822001a9d54d46023da2e5de789529f02932a25075c84bd6c306f43c",
+            "select": "72c39f0a9aaef0d59ebda6b27b3d3b2327d4582d1575fe9f59059abfa6d52db1",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 4
+        },
+        "input_hash": "1ed465ea5197ae39c37b58112afa7cf93c1f8d6d9b83fd0a28cb1faeaf8fe286",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:ag_news:w2v_svm": {
+      "node_id": "select:ag_news:w2v_svm",
+      "dataset_id": "ag_news",
+      "model_id": "w2v_svm",
+      "hparams": {
+        "C": 1
+      },
+      "run": {
+        "run_id": "ad856c7dbd29049050513ebc855a9007d9b430484ee419e7c7b07a6b305e5eef",
+        "condition_id": "5d6f85801888921f606cda9987e7427711dd9d8061c77630bcdfdbf6d8ababdf",
+        "model_id": "w2v_svm",
+        "training_seed": null,
+        "hparams": {
+          "vector_size": 100,
+          "window": 5,
+          "min_count": 1,
+          "epochs": 10,
+          "workers": 1,
+          "seed": 2026,
+          "sg": 1,
+          "vocabulary_limit": 30000,
+          "C": 1,
+          "role_ids_hash": {
+            "train": "50de2fee822001a9d54d46023da2e5de789529f02932a25075c84bd6c306f43c",
+            "select": "72c39f0a9aaef0d59ebda6b27b3d3b2327d4582d1575fe9f59059abfa6d52db1",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 4
+        },
+        "input_hash": "1ed465ea5197ae39c37b58112afa7cf93c1f8d6d9b83fd0a28cb1faeaf8fe286",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:ag_news:bilstm": {
+      "node_id": "select:ag_news:bilstm",
+      "dataset_id": "ag_news",
+      "model_id": "bilstm",
+      "hparams": {
+        "lr": 0.001,
+        "dropout": 0.3
+      },
+      "run": {
+        "run_id": "9ea72858afd8bda90421df00f2fb60196038ad84477b218ca5e30b62742e3ec9",
+        "condition_id": "5d6f85801888921f606cda9987e7427711dd9d8061c77630bcdfdbf6d8ababdf",
+        "model_id": "bilstm",
+        "training_seed": 42,
+        "hparams": {
+          "hidden_per_direction": 64,
+          "layers": 1,
+          "max_epochs": 10,
+          "effective_batch": 64,
+          "vocabulary_limit": 30000,
+          "embedding_initialization": {
+            "vector_size": 100,
+            "window": 5,
+            "min_count": 1,
+            "epochs": 10,
+            "workers": 1,
+            "seed": 2026,
+            "sg": 1,
+            "vocabulary_limit": 30000
+          },
+          "lr": 0.001,
+          "dropout": 0.3,
+          "role_ids_hash": {
+            "train": "50de2fee822001a9d54d46023da2e5de789529f02932a25075c84bd6c306f43c",
+            "select": "72c39f0a9aaef0d59ebda6b27b3d3b2327d4582d1575fe9f59059abfa6d52db1",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 4
+        },
+        "input_hash": "1ed465ea5197ae39c37b58112afa7cf93c1f8d6d9b83fd0a28cb1faeaf8fe286",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:ag_news:distilbert": {
+      "node_id": "select:ag_news:distilbert",
+      "dataset_id": "ag_news",
+      "model_id": "distilbert",
+      "hparams": {
+        "lr": 2e-05,
+        "weight_decay": 0.01
+      },
+      "run": {
+        "run_id": "928f183850c5a0fe05aec210a36baf84ccc5f2880853803036120aa34b929baf",
+        "condition_id": "5d6f85801888921f606cda9987e7427711dd9d8061c77630bcdfdbf6d8ababdf",
+        "model_id": "distilbert",
+        "training_seed": 42,
+        "hparams": {
+          "max_epochs": 5,
+          "effective_batch": 16,
+          "warmup_ratio": 0.1,
+          "lr": 2e-05,
+          "weight_decay": 0.01,
+          "role_ids_hash": {
+            "train": "50de2fee822001a9d54d46023da2e5de789529f02932a25075c84bd6c306f43c",
+            "select": "72c39f0a9aaef0d59ebda6b27b3d3b2327d4582d1575fe9f59059abfa6d52db1",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 4
+        },
+        "input_hash": "1ed465ea5197ae39c37b58112afa7cf93c1f8d6d9b83fd0a28cb1faeaf8fe286",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:banking77:tfidf_lr": {
+      "node_id": "select:banking77:tfidf_lr",
+      "dataset_id": "banking77",
+      "model_id": "tfidf_lr",
+      "hparams": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "C": 1
+      },
+      "run": {
+        "run_id": "e4d69947f919336e53bfd7752b7d2e41da6522054214545999f159e00d058364",
+        "condition_id": "2131b0b333e145f4dab9b600fba5315e495934b354d53081346f5f7dafbbc14e",
+        "model_id": "tfidf_lr",
+        "training_seed": null,
+        "hparams": {
+          "max_features": 30000,
+          "min_df": 1,
+          "sublinear_tf": true,
+          "ngram_range": [
+            1,
+            2
+          ],
+          "C": 1,
+          "role_ids_hash": {
+            "train": "8f22fe7aefc8638adbb14ba594a07ae2a47510be018ce82fdf3d72329fed5278",
+            "select": "c770a0ede2f483ec4234ed6548d814ff61771a8ba21315bf62abcfde1d8de64c",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 77
+        },
+        "input_hash": "6189de258ce049b13ede1cbee10166166125f9aa0eeb6836428e8073a5e672e7",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:banking77:tfidf_svm": {
+      "node_id": "select:banking77:tfidf_svm",
+      "dataset_id": "banking77",
+      "model_id": "tfidf_svm",
+      "hparams": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "C": 1
+      },
+      "run": {
+        "run_id": "5aa9bf514fa60c7ef6651214d304dc213b0012a265a8af0e2e2bfa46913a9488",
+        "condition_id": "2131b0b333e145f4dab9b600fba5315e495934b354d53081346f5f7dafbbc14e",
+        "model_id": "tfidf_svm",
+        "training_seed": null,
+        "hparams": {
+          "max_features": 30000,
+          "min_df": 1,
+          "sublinear_tf": true,
+          "ngram_range": [
+            1,
+            2
+          ],
+          "C": 1,
+          "role_ids_hash": {
+            "train": "8f22fe7aefc8638adbb14ba594a07ae2a47510be018ce82fdf3d72329fed5278",
+            "select": "c770a0ede2f483ec4234ed6548d814ff61771a8ba21315bf62abcfde1d8de64c",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 77
+        },
+        "input_hash": "6189de258ce049b13ede1cbee10166166125f9aa0eeb6836428e8073a5e672e7",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:banking77:w2v_svm": {
+      "node_id": "select:banking77:w2v_svm",
+      "dataset_id": "banking77",
+      "model_id": "w2v_svm",
+      "hparams": {
+        "C": 1
+      },
+      "run": {
+        "run_id": "c0e84bda77286a23b75343660c850c044091a7f444bfb18b48392f8ba0b5d548",
+        "condition_id": "2131b0b333e145f4dab9b600fba5315e495934b354d53081346f5f7dafbbc14e",
+        "model_id": "w2v_svm",
+        "training_seed": null,
+        "hparams": {
+          "vector_size": 100,
+          "window": 5,
+          "min_count": 1,
+          "epochs": 10,
+          "workers": 1,
+          "seed": 2026,
+          "sg": 1,
+          "vocabulary_limit": 30000,
+          "C": 1,
+          "role_ids_hash": {
+            "train": "8f22fe7aefc8638adbb14ba594a07ae2a47510be018ce82fdf3d72329fed5278",
+            "select": "c770a0ede2f483ec4234ed6548d814ff61771a8ba21315bf62abcfde1d8de64c",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 77
+        },
+        "input_hash": "6189de258ce049b13ede1cbee10166166125f9aa0eeb6836428e8073a5e672e7",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:banking77:bilstm": {
+      "node_id": "select:banking77:bilstm",
+      "dataset_id": "banking77",
+      "model_id": "bilstm",
+      "hparams": {
+        "lr": 0.001,
+        "dropout": 0.3
+      },
+      "run": {
+        "run_id": "81f7d15bdf94ce07e854c912aa6e89247ef9f74a0927995fea6e80ebe7daaf79",
+        "condition_id": "2131b0b333e145f4dab9b600fba5315e495934b354d53081346f5f7dafbbc14e",
+        "model_id": "bilstm",
+        "training_seed": 42,
+        "hparams": {
+          "hidden_per_direction": 64,
+          "layers": 1,
+          "max_epochs": 10,
+          "effective_batch": 64,
+          "vocabulary_limit": 30000,
+          "embedding_initialization": {
+            "vector_size": 100,
+            "window": 5,
+            "min_count": 1,
+            "epochs": 10,
+            "workers": 1,
+            "seed": 2026,
+            "sg": 1,
+            "vocabulary_limit": 30000
+          },
+          "lr": 0.001,
+          "dropout": 0.3,
+          "role_ids_hash": {
+            "train": "8f22fe7aefc8638adbb14ba594a07ae2a47510be018ce82fdf3d72329fed5278",
+            "select": "c770a0ede2f483ec4234ed6548d814ff61771a8ba21315bf62abcfde1d8de64c",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 77
+        },
+        "input_hash": "6189de258ce049b13ede1cbee10166166125f9aa0eeb6836428e8073a5e672e7",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:banking77:distilbert": {
+      "node_id": "select:banking77:distilbert",
+      "dataset_id": "banking77",
+      "model_id": "distilbert",
+      "hparams": {
+        "lr": 2e-05,
+        "weight_decay": 0.01
+      },
+      "run": {
+        "run_id": "a9b8318f052466eb376cd08d7879ec3752c122ceb4113cda16303318270298c0",
+        "condition_id": "2131b0b333e145f4dab9b600fba5315e495934b354d53081346f5f7dafbbc14e",
+        "model_id": "distilbert",
+        "training_seed": 42,
+        "hparams": {
+          "max_epochs": 5,
+          "effective_batch": 16,
+          "warmup_ratio": 0.1,
+          "lr": 2e-05,
+          "weight_decay": 0.01,
+          "role_ids_hash": {
+            "train": "8f22fe7aefc8638adbb14ba594a07ae2a47510be018ce82fdf3d72329fed5278",
+            "select": "c770a0ede2f483ec4234ed6548d814ff61771a8ba21315bf62abcfde1d8de64c",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 77
+        },
+        "input_hash": "6189de258ce049b13ede1cbee10166166125f9aa0eeb6836428e8073a5e672e7",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:banking77:modernbert": {
+      "node_id": "select:banking77:modernbert",
+      "dataset_id": "banking77",
+      "model_id": "modernbert",
+      "hparams": {
+        "lr": 2e-05,
+        "weight_decay": 0.01
+      },
+      "run": {
+        "run_id": "ab23cbcba5bba1c357aa9b171b42d3d17cb17209d30f83571fbfe85c38c6f365",
+        "condition_id": "2131b0b333e145f4dab9b600fba5315e495934b354d53081346f5f7dafbbc14e",
+        "model_id": "modernbert",
+        "training_seed": 42,
+        "hparams": {
+          "max_epochs": 5,
+          "effective_batch": 16,
+          "warmup_ratio": 0.1,
+          "lr": 2e-05,
+          "weight_decay": 0.01,
+          "role_ids_hash": {
+            "train": "8f22fe7aefc8638adbb14ba594a07ae2a47510be018ce82fdf3d72329fed5278",
+            "select": "c770a0ede2f483ec4234ed6548d814ff61771a8ba21315bf62abcfde1d8de64c",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 77
+        },
+        "input_hash": "6189de258ce049b13ede1cbee10166166125f9aa0eeb6836428e8073a5e672e7",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:go_emotions:tfidf_lr": {
+      "node_id": "select:go_emotions:tfidf_lr",
+      "dataset_id": "go_emotions",
+      "model_id": "tfidf_lr",
+      "hparams": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "C": 1
+      },
+      "run": {
+        "run_id": "577ece3bdc537abe4ce409163cc00a91f20059e3e90be5d36f290586bc96b999",
+        "condition_id": "627aa9daf0f1cd15fa354a3996ebe520ef1d2b0604762de2671ee0c925fe50f8",
+        "model_id": "tfidf_lr",
+        "training_seed": null,
+        "hparams": {
+          "max_features": 30000,
+          "min_df": 1,
+          "sublinear_tf": true,
+          "ngram_range": [
+            1,
+            2
+          ],
+          "C": 1,
+          "role_ids_hash": {
+            "train": "32e7891f679cf5ce28f0ef965a4d616829e00ff95159303bc24b8e342eb07441",
+            "select": "af354d52fc40cb0f5e121879b26e07d5e533d4ed054c53b6bb637410b75fac99",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "multilabel",
+          "select_ap_mask": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 28
+        },
+        "input_hash": "3d5c0471f7e31e1511976a82080453fca0619fca96f37cbfcbc413cbbdab5658",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:go_emotions:tfidf_svm": {
+      "node_id": "select:go_emotions:tfidf_svm",
+      "dataset_id": "go_emotions",
+      "model_id": "tfidf_svm",
+      "hparams": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "C": 1
+      },
+      "run": {
+        "run_id": "37d4ddbc8597a869eb793becda423106a85d9febc54817352058fc34d6487d79",
+        "condition_id": "627aa9daf0f1cd15fa354a3996ebe520ef1d2b0604762de2671ee0c925fe50f8",
+        "model_id": "tfidf_svm",
+        "training_seed": null,
+        "hparams": {
+          "max_features": 30000,
+          "min_df": 1,
+          "sublinear_tf": true,
+          "ngram_range": [
+            1,
+            2
+          ],
+          "C": 1,
+          "role_ids_hash": {
+            "train": "32e7891f679cf5ce28f0ef965a4d616829e00ff95159303bc24b8e342eb07441",
+            "select": "af354d52fc40cb0f5e121879b26e07d5e533d4ed054c53b6bb637410b75fac99",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "multilabel",
+          "select_ap_mask": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 28
+        },
+        "input_hash": "3d5c0471f7e31e1511976a82080453fca0619fca96f37cbfcbc413cbbdab5658",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:go_emotions:w2v_svm": {
+      "node_id": "select:go_emotions:w2v_svm",
+      "dataset_id": "go_emotions",
+      "model_id": "w2v_svm",
+      "hparams": {
+        "C": 1
+      },
+      "run": {
+        "run_id": "56c2b66a623435a496ef7dac6b82d106d76ff6980bb5d2dc11244e690cc7aeb7",
+        "condition_id": "627aa9daf0f1cd15fa354a3996ebe520ef1d2b0604762de2671ee0c925fe50f8",
+        "model_id": "w2v_svm",
+        "training_seed": null,
+        "hparams": {
+          "vector_size": 100,
+          "window": 5,
+          "min_count": 1,
+          "epochs": 10,
+          "workers": 1,
+          "seed": 2026,
+          "sg": 1,
+          "vocabulary_limit": 30000,
+          "C": 1,
+          "role_ids_hash": {
+            "train": "32e7891f679cf5ce28f0ef965a4d616829e00ff95159303bc24b8e342eb07441",
+            "select": "af354d52fc40cb0f5e121879b26e07d5e533d4ed054c53b6bb637410b75fac99",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "multilabel",
+          "select_ap_mask": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 28
+        },
+        "input_hash": "3d5c0471f7e31e1511976a82080453fca0619fca96f37cbfcbc413cbbdab5658",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:go_emotions:bilstm": {
+      "node_id": "select:go_emotions:bilstm",
+      "dataset_id": "go_emotions",
+      "model_id": "bilstm",
+      "hparams": {
+        "lr": 0.001,
+        "dropout": 0.3
+      },
+      "run": {
+        "run_id": "2a93eaeaa5c071fcd9ad038eaa9df71c1070d1355e7c7965db136f4fe252687f",
+        "condition_id": "627aa9daf0f1cd15fa354a3996ebe520ef1d2b0604762de2671ee0c925fe50f8",
+        "model_id": "bilstm",
+        "training_seed": 42,
+        "hparams": {
+          "hidden_per_direction": 64,
+          "layers": 1,
+          "max_epochs": 10,
+          "effective_batch": 64,
+          "vocabulary_limit": 30000,
+          "embedding_initialization": {
+            "vector_size": 100,
+            "window": 5,
+            "min_count": 1,
+            "epochs": 10,
+            "workers": 1,
+            "seed": 2026,
+            "sg": 1,
+            "vocabulary_limit": 30000
+          },
+          "lr": 0.001,
+          "dropout": 0.3,
+          "role_ids_hash": {
+            "train": "32e7891f679cf5ce28f0ef965a4d616829e00ff95159303bc24b8e342eb07441",
+            "select": "af354d52fc40cb0f5e121879b26e07d5e533d4ed054c53b6bb637410b75fac99",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "multilabel",
+          "select_ap_mask": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 28
+        },
+        "input_hash": "3d5c0471f7e31e1511976a82080453fca0619fca96f37cbfcbc413cbbdab5658",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:go_emotions:distilbert": {
+      "node_id": "select:go_emotions:distilbert",
+      "dataset_id": "go_emotions",
+      "model_id": "distilbert",
+      "hparams": {
+        "lr": 2e-05,
+        "weight_decay": 0.01
+      },
+      "run": {
+        "run_id": "c829f41ef93d270289f194bb4eeb5f2db854b5dfc1d6131016c382e208deb698",
+        "condition_id": "627aa9daf0f1cd15fa354a3996ebe520ef1d2b0604762de2671ee0c925fe50f8",
+        "model_id": "distilbert",
+        "training_seed": 42,
+        "hparams": {
+          "max_epochs": 5,
+          "effective_batch": 16,
+          "warmup_ratio": 0.1,
+          "lr": 2e-05,
+          "weight_decay": 0.01,
+          "role_ids_hash": {
+            "train": "32e7891f679cf5ce28f0ef965a4d616829e00ff95159303bc24b8e342eb07441",
+            "select": "af354d52fc40cb0f5e121879b26e07d5e533d4ed054c53b6bb637410b75fac99",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "multilabel",
+          "select_ap_mask": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 28
+        },
+        "input_hash": "3d5c0471f7e31e1511976a82080453fca0619fca96f37cbfcbc413cbbdab5658",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:go_emotions:modernbert": {
+      "node_id": "select:go_emotions:modernbert",
+      "dataset_id": "go_emotions",
+      "model_id": "modernbert",
+      "hparams": {
+        "lr": 2e-05,
+        "weight_decay": 0.01
+      },
+      "run": {
+        "run_id": "104aafcfd715d2a9e9e5ebd24a971b2f348e6823d85279d67c6688c4ef66abd2",
+        "condition_id": "627aa9daf0f1cd15fa354a3996ebe520ef1d2b0604762de2671ee0c925fe50f8",
+        "model_id": "modernbert",
+        "training_seed": 42,
+        "hparams": {
+          "max_epochs": 5,
+          "effective_batch": 16,
+          "warmup_ratio": 0.1,
+          "lr": 2e-05,
+          "weight_decay": 0.01,
+          "role_ids_hash": {
+            "train": "32e7891f679cf5ce28f0ef965a4d616829e00ff95159303bc24b8e342eb07441",
+            "select": "af354d52fc40cb0f5e121879b26e07d5e533d4ed054c53b6bb637410b75fac99",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "multilabel",
+          "select_ap_mask": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 28
+        },
+        "input_hash": "3d5c0471f7e31e1511976a82080453fca0619fca96f37cbfcbc413cbbdab5658",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:imdb:tfidf_lr": {
+      "node_id": "select:imdb:tfidf_lr",
+      "dataset_id": "imdb",
+      "model_id": "tfidf_lr",
+      "hparams": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "C": 1
+      },
+      "run": {
+        "run_id": "5ca3e1ffae0e6fdcf12e2761a6817484f5b727c27e1f158d8354ecb7e832a669",
+        "condition_id": "aa683b9a37c20b2df163668a34da8b427aa9b4983925b0d639884beb7496e11a",
+        "model_id": "tfidf_lr",
+        "training_seed": null,
+        "hparams": {
+          "max_features": 30000,
+          "min_df": 1,
+          "sublinear_tf": true,
+          "ngram_range": [
+            1,
+            2
+          ],
+          "C": 1,
+          "role_ids_hash": {
+            "train": "0d46f022620b96cde962d9f0ce2f60ee440eae7ad8b9c1303651362a96149e00",
+            "select": "64f80cf265b7cda0c291ef02fbab2eb29a87649222900e9a33df1f9b159b452f",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "ef6807831141a8170c304cdb612a5942c0050eaf32e0ce5ebf2808cbac6d08ef",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:imdb:tfidf_svm": {
+      "node_id": "select:imdb:tfidf_svm",
+      "dataset_id": "imdb",
+      "model_id": "tfidf_svm",
+      "hparams": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "C": 1
+      },
+      "run": {
+        "run_id": "0d7067f89d293abfa51cdeee54f0aff24d817b0962f5cf2aa6af35c9dca71a77",
+        "condition_id": "aa683b9a37c20b2df163668a34da8b427aa9b4983925b0d639884beb7496e11a",
+        "model_id": "tfidf_svm",
+        "training_seed": null,
+        "hparams": {
+          "max_features": 30000,
+          "min_df": 1,
+          "sublinear_tf": true,
+          "ngram_range": [
+            1,
+            2
+          ],
+          "C": 1,
+          "role_ids_hash": {
+            "train": "0d46f022620b96cde962d9f0ce2f60ee440eae7ad8b9c1303651362a96149e00",
+            "select": "64f80cf265b7cda0c291ef02fbab2eb29a87649222900e9a33df1f9b159b452f",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "ef6807831141a8170c304cdb612a5942c0050eaf32e0ce5ebf2808cbac6d08ef",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:imdb:w2v_svm": {
+      "node_id": "select:imdb:w2v_svm",
+      "dataset_id": "imdb",
+      "model_id": "w2v_svm",
+      "hparams": {
+        "C": 1
+      },
+      "run": {
+        "run_id": "24fca67190182ff98be2c75a36161290c1f086cde716bfb08ccf336007d9c16a",
+        "condition_id": "aa683b9a37c20b2df163668a34da8b427aa9b4983925b0d639884beb7496e11a",
+        "model_id": "w2v_svm",
+        "training_seed": null,
+        "hparams": {
+          "vector_size": 100,
+          "window": 5,
+          "min_count": 1,
+          "epochs": 10,
+          "workers": 1,
+          "seed": 2026,
+          "sg": 1,
+          "vocabulary_limit": 30000,
+          "C": 1,
+          "role_ids_hash": {
+            "train": "0d46f022620b96cde962d9f0ce2f60ee440eae7ad8b9c1303651362a96149e00",
+            "select": "64f80cf265b7cda0c291ef02fbab2eb29a87649222900e9a33df1f9b159b452f",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "ef6807831141a8170c304cdb612a5942c0050eaf32e0ce5ebf2808cbac6d08ef",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:imdb:bilstm": {
+      "node_id": "select:imdb:bilstm",
+      "dataset_id": "imdb",
+      "model_id": "bilstm",
+      "hparams": {
+        "lr": 0.001,
+        "dropout": 0.3
+      },
+      "run": {
+        "run_id": "aaece791e031d45ea10b920c2eeae75342a24a892ec47ef6d294bc6a0d81b49c",
+        "condition_id": "aa683b9a37c20b2df163668a34da8b427aa9b4983925b0d639884beb7496e11a",
+        "model_id": "bilstm",
+        "training_seed": 42,
+        "hparams": {
+          "hidden_per_direction": 64,
+          "layers": 1,
+          "max_epochs": 10,
+          "effective_batch": 64,
+          "vocabulary_limit": 30000,
+          "embedding_initialization": {
+            "vector_size": 100,
+            "window": 5,
+            "min_count": 1,
+            "epochs": 10,
+            "workers": 1,
+            "seed": 2026,
+            "sg": 1,
+            "vocabulary_limit": 30000
+          },
+          "lr": 0.001,
+          "dropout": 0.3,
+          "role_ids_hash": {
+            "train": "0d46f022620b96cde962d9f0ce2f60ee440eae7ad8b9c1303651362a96149e00",
+            "select": "64f80cf265b7cda0c291ef02fbab2eb29a87649222900e9a33df1f9b159b452f",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "ef6807831141a8170c304cdb612a5942c0050eaf32e0ce5ebf2808cbac6d08ef",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:imdb:distilbert": {
+      "node_id": "select:imdb:distilbert",
+      "dataset_id": "imdb",
+      "model_id": "distilbert",
+      "hparams": {
+        "lr": 2e-05,
+        "weight_decay": 0.01
+      },
+      "run": {
+        "run_id": "9febb63e5c2f911106fb45ce0ac4af83553f2acb028265199a0a6cbeebf1b738",
+        "condition_id": "aa683b9a37c20b2df163668a34da8b427aa9b4983925b0d639884beb7496e11a",
+        "model_id": "distilbert",
+        "training_seed": 42,
+        "hparams": {
+          "max_epochs": 5,
+          "effective_batch": 16,
+          "warmup_ratio": 0.1,
+          "lr": 2e-05,
+          "weight_decay": 0.01,
+          "role_ids_hash": {
+            "train": "0d46f022620b96cde962d9f0ce2f60ee440eae7ad8b9c1303651362a96149e00",
+            "select": "64f80cf265b7cda0c291ef02fbab2eb29a87649222900e9a33df1f9b159b452f",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "ef6807831141a8170c304cdb612a5942c0050eaf32e0ce5ebf2808cbac6d08ef",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:rotten_tomatoes:tfidf_lr": {
+      "node_id": "select:rotten_tomatoes:tfidf_lr",
+      "dataset_id": "rotten_tomatoes",
+      "model_id": "tfidf_lr",
+      "hparams": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "C": 1
+      },
+      "run": {
+        "run_id": "ceb3a58dcabbaaf3ebba84efac45adbddcaf6649263468a0069dd547dfb38582",
+        "condition_id": "fb3b3cd08399898c461058e38656b5f1458d013734da89f42de3589b3c2785ca",
+        "model_id": "tfidf_lr",
+        "training_seed": null,
+        "hparams": {
+          "max_features": 30000,
+          "min_df": 1,
+          "sublinear_tf": true,
+          "ngram_range": [
+            1,
+            2
+          ],
+          "C": 1,
+          "role_ids_hash": {
+            "train": "d2d7d3f8e6759172ce2371180d3dd630a1adde494c7652aea251322d091f6966",
+            "select": "7b64ab561d38c2f66c53c244696040b020d73341571804c414b69e2a10ea6ea0",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "24deffcb307bd4567f9acee3819e7720625b71d1130b9c4828c034fe815c64c9",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:rotten_tomatoes:tfidf_svm": {
+      "node_id": "select:rotten_tomatoes:tfidf_svm",
+      "dataset_id": "rotten_tomatoes",
+      "model_id": "tfidf_svm",
+      "hparams": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "C": 1
+      },
+      "run": {
+        "run_id": "f560aa3aaf5c6de607b6fb1a9a05e43563679ccd5f80c2137648063b508afee1",
+        "condition_id": "fb3b3cd08399898c461058e38656b5f1458d013734da89f42de3589b3c2785ca",
+        "model_id": "tfidf_svm",
+        "training_seed": null,
+        "hparams": {
+          "max_features": 30000,
+          "min_df": 1,
+          "sublinear_tf": true,
+          "ngram_range": [
+            1,
+            2
+          ],
+          "C": 1,
+          "role_ids_hash": {
+            "train": "d2d7d3f8e6759172ce2371180d3dd630a1adde494c7652aea251322d091f6966",
+            "select": "7b64ab561d38c2f66c53c244696040b020d73341571804c414b69e2a10ea6ea0",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "24deffcb307bd4567f9acee3819e7720625b71d1130b9c4828c034fe815c64c9",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:rotten_tomatoes:w2v_svm": {
+      "node_id": "select:rotten_tomatoes:w2v_svm",
+      "dataset_id": "rotten_tomatoes",
+      "model_id": "w2v_svm",
+      "hparams": {
+        "C": 1
+      },
+      "run": {
+        "run_id": "ece8ea7131129c085379b137ae78042d9775918d7d461e0a199d160e0563c112",
+        "condition_id": "fb3b3cd08399898c461058e38656b5f1458d013734da89f42de3589b3c2785ca",
+        "model_id": "w2v_svm",
+        "training_seed": null,
+        "hparams": {
+          "vector_size": 100,
+          "window": 5,
+          "min_count": 1,
+          "epochs": 10,
+          "workers": 1,
+          "seed": 2026,
+          "sg": 1,
+          "vocabulary_limit": 30000,
+          "C": 1,
+          "role_ids_hash": {
+            "train": "d2d7d3f8e6759172ce2371180d3dd630a1adde494c7652aea251322d091f6966",
+            "select": "7b64ab561d38c2f66c53c244696040b020d73341571804c414b69e2a10ea6ea0",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "24deffcb307bd4567f9acee3819e7720625b71d1130b9c4828c034fe815c64c9",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:rotten_tomatoes:bilstm": {
+      "node_id": "select:rotten_tomatoes:bilstm",
+      "dataset_id": "rotten_tomatoes",
+      "model_id": "bilstm",
+      "hparams": {
+        "lr": 0.001,
+        "dropout": 0.3
+      },
+      "run": {
+        "run_id": "1d534245211d65c9a2a9f2cd3ce68d434bb04f97e1178160d432f5d722c6375f",
+        "condition_id": "fb3b3cd08399898c461058e38656b5f1458d013734da89f42de3589b3c2785ca",
+        "model_id": "bilstm",
+        "training_seed": 42,
+        "hparams": {
+          "hidden_per_direction": 64,
+          "layers": 1,
+          "max_epochs": 10,
+          "effective_batch": 64,
+          "vocabulary_limit": 30000,
+          "embedding_initialization": {
+            "vector_size": 100,
+            "window": 5,
+            "min_count": 1,
+            "epochs": 10,
+            "workers": 1,
+            "seed": 2026,
+            "sg": 1,
+            "vocabulary_limit": 30000
+          },
+          "lr": 0.001,
+          "dropout": 0.3,
+          "role_ids_hash": {
+            "train": "d2d7d3f8e6759172ce2371180d3dd630a1adde494c7652aea251322d091f6966",
+            "select": "7b64ab561d38c2f66c53c244696040b020d73341571804c414b69e2a10ea6ea0",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "24deffcb307bd4567f9acee3819e7720625b71d1130b9c4828c034fe815c64c9",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:rotten_tomatoes:distilbert": {
+      "node_id": "select:rotten_tomatoes:distilbert",
+      "dataset_id": "rotten_tomatoes",
+      "model_id": "distilbert",
+      "hparams": {
+        "lr": 2e-05,
+        "weight_decay": 0.01
+      },
+      "run": {
+        "run_id": "8c90d8be0ab68ac19c43006265b8ee7325a3968b93cebe254a7b127f9ea6bba3",
+        "condition_id": "fb3b3cd08399898c461058e38656b5f1458d013734da89f42de3589b3c2785ca",
+        "model_id": "distilbert",
+        "training_seed": 42,
+        "hparams": {
+          "max_epochs": 5,
+          "effective_batch": 16,
+          "warmup_ratio": 0.1,
+          "lr": 2e-05,
+          "weight_decay": 0.01,
+          "role_ids_hash": {
+            "train": "d2d7d3f8e6759172ce2371180d3dd630a1adde494c7652aea251322d091f6966",
+            "select": "7b64ab561d38c2f66c53c244696040b020d73341571804c414b69e2a10ea6ea0",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "24deffcb307bd4567f9acee3819e7720625b71d1130b9c4828c034fe815c64c9",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:yahoo_answers_topics:tfidf_lr": {
+      "node_id": "select:yahoo_answers_topics:tfidf_lr",
+      "dataset_id": "yahoo_answers_topics",
+      "model_id": "tfidf_lr",
+      "hparams": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "C": 1
+      },
+      "run": {
+        "run_id": "ecb871f6ba1caddbf05e53d96b2889bc9264cad478f9f3e45f8e99862c64f543",
+        "condition_id": "607e12a2f3d9ca6ad07319c6d0ad9cc94178aa81af8e5c5501e686ad8d1917a1",
+        "model_id": "tfidf_lr",
+        "training_seed": null,
+        "hparams": {
+          "max_features": 30000,
+          "min_df": 1,
+          "sublinear_tf": true,
+          "ngram_range": [
+            1,
+            2
+          ],
+          "C": 1,
+          "role_ids_hash": {
+            "train": "6e5610629b7471b38f49dc72c0e48742775deece78f524680ae4c91f70594e18",
+            "select": "2cad2aba5c9dcd5751159b1c0078d53d1ccd6783650c4da3f84f65e75a5f81b2",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 10
+        },
+        "input_hash": "ae127c115dfba4361a40f8f0e386b3a9c19f0c04616e91af5e401c901fe6d8b6",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:yahoo_answers_topics:tfidf_svm": {
+      "node_id": "select:yahoo_answers_topics:tfidf_svm",
+      "dataset_id": "yahoo_answers_topics",
+      "model_id": "tfidf_svm",
+      "hparams": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "C": 1
+      },
+      "run": {
+        "run_id": "a82cfafc815671ce71b3e3ecb05ef20e329d1a155889ace34f39c0fc43fa042b",
+        "condition_id": "607e12a2f3d9ca6ad07319c6d0ad9cc94178aa81af8e5c5501e686ad8d1917a1",
+        "model_id": "tfidf_svm",
+        "training_seed": null,
+        "hparams": {
+          "max_features": 30000,
+          "min_df": 1,
+          "sublinear_tf": true,
+          "ngram_range": [
+            1,
+            2
+          ],
+          "C": 1,
+          "role_ids_hash": {
+            "train": "6e5610629b7471b38f49dc72c0e48742775deece78f524680ae4c91f70594e18",
+            "select": "2cad2aba5c9dcd5751159b1c0078d53d1ccd6783650c4da3f84f65e75a5f81b2",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 10
+        },
+        "input_hash": "ae127c115dfba4361a40f8f0e386b3a9c19f0c04616e91af5e401c901fe6d8b6",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:yahoo_answers_topics:w2v_svm": {
+      "node_id": "select:yahoo_answers_topics:w2v_svm",
+      "dataset_id": "yahoo_answers_topics",
+      "model_id": "w2v_svm",
+      "hparams": {
+        "C": 1
+      },
+      "run": {
+        "run_id": "a382b24ec7ce9af757c459ce37eb9b8aa7fe20324adfd4e873cef301b609ff7b",
+        "condition_id": "607e12a2f3d9ca6ad07319c6d0ad9cc94178aa81af8e5c5501e686ad8d1917a1",
+        "model_id": "w2v_svm",
+        "training_seed": null,
+        "hparams": {
+          "vector_size": 100,
+          "window": 5,
+          "min_count": 1,
+          "epochs": 10,
+          "workers": 1,
+          "seed": 2026,
+          "sg": 1,
+          "vocabulary_limit": 30000,
+          "C": 1,
+          "role_ids_hash": {
+            "train": "6e5610629b7471b38f49dc72c0e48742775deece78f524680ae4c91f70594e18",
+            "select": "2cad2aba5c9dcd5751159b1c0078d53d1ccd6783650c4da3f84f65e75a5f81b2",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 10
+        },
+        "input_hash": "ae127c115dfba4361a40f8f0e386b3a9c19f0c04616e91af5e401c901fe6d8b6",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:yahoo_answers_topics:bilstm": {
+      "node_id": "select:yahoo_answers_topics:bilstm",
+      "dataset_id": "yahoo_answers_topics",
+      "model_id": "bilstm",
+      "hparams": {
+        "lr": 0.001,
+        "dropout": 0.3
+      },
+      "run": {
+        "run_id": "7391efcbc0aa5e300d46c969d841f6c1204c7afd7e6482f2d257a8211f962bc1",
+        "condition_id": "607e12a2f3d9ca6ad07319c6d0ad9cc94178aa81af8e5c5501e686ad8d1917a1",
+        "model_id": "bilstm",
+        "training_seed": 42,
+        "hparams": {
+          "hidden_per_direction": 64,
+          "layers": 1,
+          "max_epochs": 10,
+          "effective_batch": 64,
+          "vocabulary_limit": 30000,
+          "embedding_initialization": {
+            "vector_size": 100,
+            "window": 5,
+            "min_count": 1,
+            "epochs": 10,
+            "workers": 1,
+            "seed": 2026,
+            "sg": 1,
+            "vocabulary_limit": 30000
+          },
+          "lr": 0.001,
+          "dropout": 0.3,
+          "role_ids_hash": {
+            "train": "6e5610629b7471b38f49dc72c0e48742775deece78f524680ae4c91f70594e18",
+            "select": "2cad2aba5c9dcd5751159b1c0078d53d1ccd6783650c4da3f84f65e75a5f81b2",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 10
+        },
+        "input_hash": "ae127c115dfba4361a40f8f0e386b3a9c19f0c04616e91af5e401c901fe6d8b6",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:yahoo_answers_topics:distilbert": {
+      "node_id": "select:yahoo_answers_topics:distilbert",
+      "dataset_id": "yahoo_answers_topics",
+      "model_id": "distilbert",
+      "hparams": {
+        "lr": 2e-05,
+        "weight_decay": 0.01
+      },
+      "run": {
+        "run_id": "b5b610d1dd1a5acb052f24456c1c072de664b51ce9092a9a5fc8bc6d2f5d9cf1",
+        "condition_id": "607e12a2f3d9ca6ad07319c6d0ad9cc94178aa81af8e5c5501e686ad8d1917a1",
+        "model_id": "distilbert",
+        "training_seed": 42,
+        "hparams": {
+          "max_epochs": 5,
+          "effective_batch": 16,
+          "warmup_ratio": 0.1,
+          "lr": 2e-05,
+          "weight_decay": 0.01,
+          "role_ids_hash": {
+            "train": "6e5610629b7471b38f49dc72c0e48742775deece78f524680ae4c91f70594e18",
+            "select": "2cad2aba5c9dcd5751159b1c0078d53d1ccd6783650c4da3f84f65e75a5f81b2",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 10
+        },
+        "input_hash": "ae127c115dfba4361a40f8f0e386b3a9c19f0c04616e91af5e401c901fe6d8b6",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:yahoo_answers_topics:modernbert": {
+      "node_id": "select:yahoo_answers_topics:modernbert",
+      "dataset_id": "yahoo_answers_topics",
+      "model_id": "modernbert",
+      "hparams": {
+        "lr": 2e-05,
+        "weight_decay": 0.01
+      },
+      "run": {
+        "run_id": "9037dbcf55645693626fed1d13400a16637f1e39f86541d96eb886b94e27dd15",
+        "condition_id": "607e12a2f3d9ca6ad07319c6d0ad9cc94178aa81af8e5c5501e686ad8d1917a1",
+        "model_id": "modernbert",
+        "training_seed": 42,
+        "hparams": {
+          "max_epochs": 5,
+          "effective_batch": 16,
+          "warmup_ratio": 0.1,
+          "lr": 2e-05,
+          "weight_decay": 0.01,
+          "role_ids_hash": {
+            "train": "6e5610629b7471b38f49dc72c0e48742775deece78f524680ae4c91f70594e18",
+            "select": "2cad2aba5c9dcd5751159b1c0078d53d1ccd6783650c4da3f84f65e75a5f81b2",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 10
+        },
+        "input_hash": "ae127c115dfba4361a40f8f0e386b3a9c19f0c04616e91af5e401c901fe6d8b6",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:yelp:tfidf_lr": {
+      "node_id": "select:yelp:tfidf_lr",
+      "dataset_id": "yelp",
+      "model_id": "tfidf_lr",
+      "hparams": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "C": 1
+      },
+      "run": {
+        "run_id": "30aef45617083f0dac9fdd50dbec921add173cbcd2da6ab4ba607358dd5c4407",
+        "condition_id": "a4865c05079f61a5e165df9da675cde254792a377e27ab8f997f6b554ee3c7a6",
+        "model_id": "tfidf_lr",
+        "training_seed": null,
+        "hparams": {
+          "max_features": 30000,
+          "min_df": 1,
+          "sublinear_tf": true,
+          "ngram_range": [
+            1,
+            2
+          ],
+          "C": 1,
+          "role_ids_hash": {
+            "train": "60e9f4ecca2f2a47580710bf36dee4481a3c6f06d12483f2fd8a3e7075acec89",
+            "select": "04c23821fcba39d7d906b4067f407721127933a0d8fd2d12aab04d4ec7e9faa8",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "cd3d46601afa6020651a7d726da96b4a01f6ea5edb56c2700c60c9c16d79dbe0",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:yelp:tfidf_svm": {
+      "node_id": "select:yelp:tfidf_svm",
+      "dataset_id": "yelp",
+      "model_id": "tfidf_svm",
+      "hparams": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "C": 1
+      },
+      "run": {
+        "run_id": "cf066d53cda8bde6f01f1bfcce3b94327eba36ee969ee5810927feb59c4e401a",
+        "condition_id": "a4865c05079f61a5e165df9da675cde254792a377e27ab8f997f6b554ee3c7a6",
+        "model_id": "tfidf_svm",
+        "training_seed": null,
+        "hparams": {
+          "max_features": 30000,
+          "min_df": 1,
+          "sublinear_tf": true,
+          "ngram_range": [
+            1,
+            2
+          ],
+          "C": 1,
+          "role_ids_hash": {
+            "train": "60e9f4ecca2f2a47580710bf36dee4481a3c6f06d12483f2fd8a3e7075acec89",
+            "select": "04c23821fcba39d7d906b4067f407721127933a0d8fd2d12aab04d4ec7e9faa8",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "cd3d46601afa6020651a7d726da96b4a01f6ea5edb56c2700c60c9c16d79dbe0",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:yelp:w2v_svm": {
+      "node_id": "select:yelp:w2v_svm",
+      "dataset_id": "yelp",
+      "model_id": "w2v_svm",
+      "hparams": {
+        "C": 1
+      },
+      "run": {
+        "run_id": "f701d018bd99ab70b2e25c435a2b3ef53c75948cd5f1f617e5e55113f4a454df",
+        "condition_id": "a4865c05079f61a5e165df9da675cde254792a377e27ab8f997f6b554ee3c7a6",
+        "model_id": "w2v_svm",
+        "training_seed": null,
+        "hparams": {
+          "vector_size": 100,
+          "window": 5,
+          "min_count": 1,
+          "epochs": 10,
+          "workers": 1,
+          "seed": 2026,
+          "sg": 1,
+          "vocabulary_limit": 30000,
+          "C": 1,
+          "role_ids_hash": {
+            "train": "60e9f4ecca2f2a47580710bf36dee4481a3c6f06d12483f2fd8a3e7075acec89",
+            "select": "04c23821fcba39d7d906b4067f407721127933a0d8fd2d12aab04d4ec7e9faa8",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "cd3d46601afa6020651a7d726da96b4a01f6ea5edb56c2700c60c9c16d79dbe0",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:yelp:bilstm": {
+      "node_id": "select:yelp:bilstm",
+      "dataset_id": "yelp",
+      "model_id": "bilstm",
+      "hparams": {
+        "lr": 0.001,
+        "dropout": 0.3
+      },
+      "run": {
+        "run_id": "6361a04404599463db552b5b6677706ea19663b9bd1f61117e00490715766cd0",
+        "condition_id": "a4865c05079f61a5e165df9da675cde254792a377e27ab8f997f6b554ee3c7a6",
+        "model_id": "bilstm",
+        "training_seed": 42,
+        "hparams": {
+          "hidden_per_direction": 64,
+          "layers": 1,
+          "max_epochs": 10,
+          "effective_batch": 64,
+          "vocabulary_limit": 30000,
+          "embedding_initialization": {
+            "vector_size": 100,
+            "window": 5,
+            "min_count": 1,
+            "epochs": 10,
+            "workers": 1,
+            "seed": 2026,
+            "sg": 1,
+            "vocabulary_limit": 30000
+          },
+          "lr": 0.001,
+          "dropout": 0.3,
+          "role_ids_hash": {
+            "train": "60e9f4ecca2f2a47580710bf36dee4481a3c6f06d12483f2fd8a3e7075acec89",
+            "select": "04c23821fcba39d7d906b4067f407721127933a0d8fd2d12aab04d4ec7e9faa8",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "cd3d46601afa6020651a7d726da96b4a01f6ea5edb56c2700c60c9c16d79dbe0",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:yelp:distilbert": {
+      "node_id": "select:yelp:distilbert",
+      "dataset_id": "yelp",
+      "model_id": "distilbert",
+      "hparams": {
+        "lr": 2e-05,
+        "weight_decay": 0.01
+      },
+      "run": {
+        "run_id": "c325023d5ffc03935b7c92239380a7043daf9756d474a98b73a2139cfe443102",
+        "condition_id": "a4865c05079f61a5e165df9da675cde254792a377e27ab8f997f6b554ee3c7a6",
+        "model_id": "distilbert",
+        "training_seed": 42,
+        "hparams": {
+          "max_epochs": 5,
+          "effective_batch": 16,
+          "warmup_ratio": 0.1,
+          "lr": 2e-05,
+          "weight_decay": 0.01,
+          "role_ids_hash": {
+            "train": "60e9f4ecca2f2a47580710bf36dee4481a3c6f06d12483f2fd8a3e7075acec89",
+            "select": "04c23821fcba39d7d906b4067f407721127933a0d8fd2d12aab04d4ec7e9faa8",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "cd3d46601afa6020651a7d726da96b4a01f6ea5edb56c2700c60c9c16d79dbe0",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    },
+    "select:yelp:modernbert": {
+      "node_id": "select:yelp:modernbert",
+      "dataset_id": "yelp",
+      "model_id": "modernbert",
+      "hparams": {
+        "lr": 2e-05,
+        "weight_decay": 0.01
+      },
+      "run": {
+        "run_id": "d46406fffadc0063d93dafabe70ae3dcd67f12cedef80bcc27b145701ea24e00",
+        "condition_id": "a4865c05079f61a5e165df9da675cde254792a377e27ab8f997f6b554ee3c7a6",
+        "model_id": "modernbert",
+        "training_seed": 42,
+        "hparams": {
+          "max_epochs": 5,
+          "effective_batch": 16,
+          "warmup_ratio": 0.1,
+          "lr": 2e-05,
+          "weight_decay": 0.01,
+          "role_ids_hash": {
+            "train": "60e9f4ecca2f2a47580710bf36dee4481a3c6f06d12483f2fd8a3e7075acec89",
+            "select": "04c23821fcba39d7d906b4067f407721127933a0d8fd2d12aab04d4ec7e9faa8",
+            "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "target_task": "single_label",
+          "device": "cuda",
+          "micro_batch": 4,
+          "cpu_threads": 4,
+          "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+          "label_count": 2
+        },
+        "input_hash": "cd3d46601afa6020651a7d726da96b4a01f6ea5edb56c2700c60c9c16d79dbe0",
+        "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+        "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+        "strict_no_val": false
+      }
+    }
+  },
+  "grid_search_enabled": false,
+  "validation_selects_hyperparameters": false,
+  "checkpoint_rule": "registered_full_epoch_budget_with_existing_V_checkpoint_rule",
+  "checkpoint_training_required_to_resolve_configuration": false,
+  "only_required_pilot_checkpoints_before_selection_lock": true,
+  "official_test_predictions_generated": false,
+  "policy_hash": "93eb30632d8ee6f7f86fa876660dc36b3da27842c4b995fa20879a865df2f33b"
+}

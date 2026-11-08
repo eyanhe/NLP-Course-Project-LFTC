@@ -1,0 +1,63 @@
+{
+  "v2_config_sha256": "31a435c1b726b19754661483e800d1c1b8f92d12bd759ba7ff463edfacbeb571",
+  "v1_manifests": {
+    "imdb/train": "8b44de0b22e458e7ff2076533968d1b30cd09497347f3bdcc61b08885898d932",
+    "imdb/validation": "5fcfc6634342b1df0e2d784b4c75438b267334b3f76837fdf2033ed9479a8201",
+    "imdb/test": "f3cd57625d7b7100e8f7c94073c3aa236bd9a537f9c99d66dc92b147e4e8ebd2",
+    "rotten_tomatoes/train": "5c250c3780603713ce0c66db55d1b432afc71dc966096971cfbdee0f6a1956aa",
+    "rotten_tomatoes/validation": "838a224e85548328de1f1862ab5b7db103524978e94f4e9606827c17187b5e89",
+    "rotten_tomatoes/test": "02fd74488fe4e7ff6abeab1390d297e8a250de0e4082cf36730204a3b0ffd4ea",
+    "yelp/train": "3c1b6c8b2010e073a6ab696cf8dc88876a2ac0c4d9a4ef9f7b26de272d5daf02",
+    "yelp/validation": "c993724a243c12e8369d1c8460a1ccf449cff4ee712dbe893fbbb1705e2f06dd",
+    "yelp/test": "d2961859e5b68dfcb596bf0d683e1658717e5a3b543df4e8bbcd08a1ee7d11ba"
+  },
+  "news_manifests": {
+    "train": "45fb4a367454e3c33494813fee0898d7ab4c32754ce72e17c7cfb46377fa5787",
+    "validation": "48008639efaa1a0548090ac06f82fa9a8f2c888216b7be38de1c8bbc071e5aec",
+    "test": "889f17d86f4c27d75ec499bab8e4579a54870b38635c2df522b09e694525a61c"
+  },
+  "model_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "created_utc": "2026-11-06T10:11:34.364685+00:00",
+  "source": "ag_news",
+  "model": "bilstm",
+  "seed": 42,
+  "learning_rate": 0.003,
+  "best_epoch": 3,
+  "best_validation_macro_f1": 0.880348592694833,
+  "fit_wall_seconds": 10.966340099999798,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6271252093162942,
+      "validation_macro_f1": 0.869298171673465,
+      "epoch_seconds": 2.014558599999873
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.31593664941635535,
+      "validation_macro_f1": 0.842614530721182,
+      "epoch_seconds": 1.8859800999998697
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.17522300954194778,
+      "validation_macro_f1": 0.880348592694833,
+      "epoch_seconds": 2.3775910999975167
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.08498789629641365,
+      "validation_macro_f1": 0.8750490269410155,
+      "epoch_seconds": 1.960760099998879
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.03691414445935887,
+      "validation_macro_f1": 0.8585205662265034,
+      "epoch_seconds": 2.0417234000015014
+    }
+  ],
+  "model_bytes": 5210841,
+  "cublas_workspace": ":4096:8",
+  "peak_gpu_allocated_bytes": 123225600
+}

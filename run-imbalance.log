@@ -1,0 +1,155 @@
+[19:27:33] Imbalance mild/logistic_regression weighted=False fitted
+[19:27:34] Imbalance mild/linear_svm weighted=False fitted
+[19:27:43] Imbalance mild/word2vec_svm weighted=False fitted
+[19:27:49] mild/bilstm lr=0.003 seed=42 epoch=1: loss=0.5967 val F1=0.7499
+[19:27:51] mild/bilstm lr=0.003 seed=42 epoch=2: loss=0.3045 val F1=0.7982
+[19:27:53] mild/bilstm lr=0.003 seed=42 epoch=3: loss=0.1804 val F1=0.7607
+[19:27:54] mild/bilstm lr=0.003 seed=42 epoch=4: loss=0.0977 val F1=0.7963
+[19:27:56] mild/bilstm lr=0.003 seed=42 epoch=5: loss=0.0453 val F1=0.7815
+[19:27:58] mild/bilstm lr=0.003 seed=43 epoch=1: loss=0.5865 val F1=0.7786
+[19:27:59] mild/bilstm lr=0.003 seed=43 epoch=2: loss=0.2983 val F1=0.7678
+[19:28:01] mild/bilstm lr=0.003 seed=43 epoch=3: loss=0.1702 val F1=0.7793
+[19:28:02] mild/bilstm lr=0.003 seed=43 epoch=4: loss=0.0901 val F1=0.7851
+[19:28:04] mild/bilstm lr=0.003 seed=43 epoch=5: loss=0.0380 val F1=0.7936
+[19:28:06] mild/bilstm lr=0.003 seed=44 epoch=1: loss=0.5835 val F1=0.7842
+[19:28:08] mild/bilstm lr=0.003 seed=44 epoch=2: loss=0.2997 val F1=0.7652
+[19:28:10] mild/bilstm lr=0.003 seed=44 epoch=3: loss=0.1745 val F1=0.8353
+[19:28:11] mild/bilstm lr=0.003 seed=44 epoch=4: loss=0.0850 val F1=0.8060
+[19:28:13] mild/bilstm lr=0.003 seed=44 epoch=5: loss=0.0472 val F1=0.7086
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[19:28:37] mild/distilbert lr=2e-05 seed=42 epoch=1: loss=0.4668 val F1=0.8883
+[19:29:01] mild/distilbert lr=2e-05 seed=42 epoch=2: loss=0.1717 val F1=0.8970
+[19:29:24] mild/distilbert lr=2e-05 seed=42 epoch=3: loss=0.1125 val F1=0.9015
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[19:29:48] mild/distilbert lr=2e-05 seed=43 epoch=1: loss=0.4598 val F1=0.8996
+[19:30:11] mild/distilbert lr=2e-05 seed=43 epoch=2: loss=0.1721 val F1=0.9084
+[19:30:34] mild/distilbert lr=2e-05 seed=43 epoch=3: loss=0.1065 val F1=0.8985
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[19:31:16] mild/distilbert lr=2e-05 seed=44 epoch=1: loss=0.4711 val F1=0.8872
+[19:31:55] mild/distilbert lr=2e-05 seed=44 epoch=2: loss=0.1843 val F1=0.8785
+[19:32:19] mild/distilbert lr=2e-05 seed=44 epoch=3: loss=0.1089 val F1=0.8946
+[19:32:20] Imbalance moderate/logistic_regression weighted=False fitted
+[19:32:21] Imbalance moderate/linear_svm weighted=False fitted
+[19:32:33] Imbalance moderate/word2vec_svm weighted=False fitted
+[19:32:36] moderate/bilstm lr=0.003 seed=42 epoch=1: loss=0.4708 val F1=0.6020
+[19:32:39] moderate/bilstm lr=0.003 seed=42 epoch=2: loss=0.2330 val F1=0.6545
+[19:32:41] moderate/bilstm lr=0.003 seed=42 epoch=3: loss=0.1299 val F1=0.7026
+[19:32:43] moderate/bilstm lr=0.003 seed=42 epoch=4: loss=0.0558 val F1=0.6997
+[19:32:45] moderate/bilstm lr=0.003 seed=42 epoch=5: loss=0.0229 val F1=0.6859
+[19:32:48] moderate/bilstm lr=0.003 seed=43 epoch=1: loss=0.4783 val F1=0.2473
+[19:32:51] moderate/bilstm lr=0.003 seed=43 epoch=2: loss=0.2430 val F1=0.6017
+[19:32:53] moderate/bilstm lr=0.003 seed=43 epoch=3: loss=0.1372 val F1=0.6248
+[19:32:55] moderate/bilstm lr=0.003 seed=43 epoch=4: loss=0.0614 val F1=0.6629
+[19:32:57] moderate/bilstm lr=0.003 seed=43 epoch=5: loss=0.0238 val F1=0.6484
+[19:32:59] moderate/bilstm lr=0.003 seed=44 epoch=1: loss=0.4431 val F1=0.4827
+[19:33:01] moderate/bilstm lr=0.003 seed=44 epoch=2: loss=0.2302 val F1=0.5342
+[19:33:03] moderate/bilstm lr=0.003 seed=44 epoch=3: loss=0.1194 val F1=0.5465
+[19:33:05] moderate/bilstm lr=0.003 seed=44 epoch=4: loss=0.0593 val F1=0.6722
+[19:33:08] moderate/bilstm lr=0.003 seed=44 epoch=5: loss=0.0195 val F1=0.5855
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[19:33:31] moderate/distilbert lr=2e-05 seed=42 epoch=1: loss=0.3736 val F1=0.8503
+[19:33:55] moderate/distilbert lr=2e-05 seed=42 epoch=2: loss=0.1177 val F1=0.8504
+[19:34:20] moderate/distilbert lr=2e-05 seed=42 epoch=3: loss=0.0699 val F1=0.8494
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[19:34:45] moderate/distilbert lr=2e-05 seed=43 epoch=1: loss=0.3655 val F1=0.8557
+[19:35:09] moderate/distilbert lr=2e-05 seed=43 epoch=2: loss=0.1134 val F1=0.8211
+[19:35:33] moderate/distilbert lr=2e-05 seed=43 epoch=3: loss=0.0627 val F1=0.8423
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[19:35:58] moderate/distilbert lr=2e-05 seed=44 epoch=1: loss=0.3788 val F1=0.7572
+[19:36:22] moderate/distilbert lr=2e-05 seed=44 epoch=2: loss=0.1186 val F1=0.8619
+[19:36:47] moderate/distilbert lr=2e-05 seed=44 epoch=3: loss=0.0622 val F1=0.8423
+[19:36:48] Imbalance severe/logistic_regression weighted=False fitted
+[19:36:48] Imbalance severe/linear_svm weighted=False fitted
+[19:37:01] Imbalance severe/word2vec_svm weighted=False fitted
+[19:37:04] severe/bilstm lr=0.003 seed=42 epoch=1: loss=0.3073 val F1=0.1341
+[19:37:06] severe/bilstm lr=0.003 seed=42 epoch=2: loss=0.1606 val F1=0.2406
+[19:37:08] severe/bilstm lr=0.003 seed=42 epoch=3: loss=0.0872 val F1=0.3130
+[19:37:10] severe/bilstm lr=0.003 seed=42 epoch=4: loss=0.0434 val F1=0.5100
+[19:37:12] severe/bilstm lr=0.003 seed=42 epoch=5: loss=0.0144 val F1=0.3221
+[19:37:15] severe/bilstm lr=0.003 seed=43 epoch=1: loss=0.3122 val F1=0.1431
+[19:37:17] severe/bilstm lr=0.003 seed=43 epoch=2: loss=0.1623 val F1=0.2299
+[19:37:19] severe/bilstm lr=0.003 seed=43 epoch=3: loss=0.0911 val F1=0.3004
+[19:37:21] severe/bilstm lr=0.003 seed=43 epoch=4: loss=0.0504 val F1=0.4056
+[19:37:23] severe/bilstm lr=0.003 seed=43 epoch=5: loss=0.0250 val F1=0.4176
+[19:37:26] severe/bilstm lr=0.003 seed=44 epoch=1: loss=0.2814 val F1=0.1066
+[19:37:28] severe/bilstm lr=0.003 seed=44 epoch=2: loss=0.1453 val F1=0.2191
+[19:37:29] severe/bilstm lr=0.003 seed=44 epoch=3: loss=0.0830 val F1=0.3838
+[19:37:31] severe/bilstm lr=0.003 seed=44 epoch=4: loss=0.0427 val F1=0.3186
+[19:37:33] severe/bilstm lr=0.003 seed=44 epoch=5: loss=0.0179 val F1=0.3694
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[19:37:55] severe/distilbert lr=2e-05 seed=42 epoch=1: loss=0.2970 val F1=0.7714
+[19:38:17] severe/distilbert lr=2e-05 seed=42 epoch=2: loss=0.0723 val F1=0.7206
+[19:38:41] severe/distilbert lr=2e-05 seed=42 epoch=3: loss=0.0365 val F1=0.7541
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[19:39:08] severe/distilbert lr=2e-05 seed=43 epoch=1: loss=0.2817 val F1=0.6516
+[19:39:32] severe/distilbert lr=2e-05 seed=43 epoch=2: loss=0.0724 val F1=0.7627
+[19:39:55] severe/distilbert lr=2e-05 seed=43 epoch=3: loss=0.0353 val F1=0.7969
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[19:40:20] severe/distilbert lr=2e-05 seed=44 epoch=1: loss=0.2914 val F1=0.6995
+[19:40:44] severe/distilbert lr=2e-05 seed=44 epoch=2: loss=0.0774 val F1=0.7254
+[19:41:07] severe/distilbert lr=2e-05 seed=44 epoch=3: loss=0.0394 val F1=0.7947
+[19:41:09] Imbalance severe/linear_svm weighted=True fitted
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[19:41:34] severe/distilbert lr=2e-05 seed=42 epoch=1: loss=0.8247 val F1=0.8644
+[19:41:57] severe/distilbert lr=2e-05 seed=42 epoch=2: loss=0.3512 val F1=0.7588
+[19:42:21] severe/distilbert lr=2e-05 seed=42 epoch=3: loss=0.2413 val F1=0.7875
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[19:42:47] severe/distilbert lr=2e-05 seed=43 epoch=1: loss=0.8645 val F1=0.8043
+[19:43:12] severe/distilbert lr=2e-05 seed=43 epoch=2: loss=0.3786 val F1=0.8053
+[19:43:36] severe/distilbert lr=2e-05 seed=43 epoch=3: loss=0.2026 val F1=0.8137
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at C:\Users\LUZIJ\Documents\Codex\2026-11-06\ni\outputs\sentiment-project\assets\distilbert and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[19:44:02] severe/distilbert lr=2e-05 seed=44 epoch=1: loss=0.8435 val F1=0.8222
+[19:44:25] severe/distilbert lr=2e-05 seed=44 epoch=2: loss=0.3634 val F1=0.8303
+[19:44:51] severe/distilbert lr=2e-05 seed=44 epoch=3: loss=0.2239 val F1=0.8256
+[19:44:57] Imbalance balanced/logistic_regression/None weighted=False: test macro F1=0.8800, minority recall=0.8800
+[19:44:57] Imbalance balanced/linear_svm/None weighted=False: test macro F1=0.8776, minority recall=0.8800
+[19:44:57] Imbalance balanced/word2vec_svm/None weighted=False: test macro F1=0.8497, minority recall=0.8453
+[19:44:57] Imbalance balanced/bilstm/42 weighted=False: test macro F1=0.8742, minority recall=0.8827
+[19:44:57] Imbalance balanced/bilstm/43 weighted=False: test macro F1=0.8565, minority recall=0.8573
+[19:44:57] Imbalance balanced/bilstm/44 weighted=False: test macro F1=0.8727, minority recall=0.8853
+[19:44:57] Imbalance balanced/distilbert/42 weighted=False: test macro F1=0.9182, minority recall=0.9187
+[19:44:57] Imbalance balanced/distilbert/43 weighted=False: test macro F1=0.9172, minority recall=0.9200
+[19:44:57] Imbalance balanced/distilbert/44 weighted=False: test macro F1=0.9233, minority recall=0.9333
+[19:44:58] Imbalance mild/logistic_regression/None weighted=False: test macro F1=0.6796, minority recall=0.5667
+[19:44:58] Imbalance mild/linear_svm/None weighted=False: test macro F1=0.6487, minority recall=0.5267
+[19:44:59] Imbalance mild/word2vec_svm/None weighted=False: test macro F1=0.7439, minority recall=0.6693
+[19:44:59] Imbalance mild/bilstm/42 weighted=False: test macro F1=0.7889, minority recall=0.7440
+[19:45:00] Imbalance mild/bilstm/43 weighted=False: test macro F1=0.8002, minority recall=0.7587
+[19:45:00] Imbalance mild/bilstm/44 weighted=False: test macro F1=0.8177, minority recall=0.7813
+[19:45:02] Imbalance mild/distilbert/42 weighted=False: test macro F1=0.8979, minority recall=0.8720
+[19:45:04] Imbalance mild/distilbert/43 weighted=False: test macro F1=0.8993, minority recall=0.8773
+[19:45:07] Imbalance mild/distilbert/44 weighted=False: test macro F1=0.8893, minority recall=0.8600
+[19:45:07] Imbalance moderate/logistic_regression/None weighted=False: test macro F1=0.3754, minority recall=0.2147
+[19:45:07] Imbalance moderate/linear_svm/None weighted=False: test macro F1=0.2803, minority recall=0.1320
+[19:45:08] Imbalance moderate/word2vec_svm/None weighted=False: test macro F1=0.5597, minority recall=0.4267
+[19:45:08] Imbalance moderate/bilstm/42 weighted=False: test macro F1=0.7052, minority recall=0.6387
+[19:45:09] Imbalance moderate/bilstm/43 weighted=False: test macro F1=0.6620, minority recall=0.5613
+[19:45:09] Imbalance moderate/bilstm/44 weighted=False: test macro F1=0.6742, minority recall=0.5827
+[19:45:11] Imbalance moderate/distilbert/42 weighted=False: test macro F1=0.8425, minority recall=0.7893
+[19:45:13] Imbalance moderate/distilbert/43 weighted=False: test macro F1=0.8392, minority recall=0.7893
+[19:45:15] Imbalance moderate/distilbert/44 weighted=False: test macro F1=0.8594, minority recall=0.8173
+[19:45:15] Imbalance severe/logistic_regression/None weighted=False: test macro F1=0.1082, minority recall=0.0053
+[19:45:16] Imbalance severe/linear_svm/None weighted=False: test macro F1=0.1000, minority recall=0.0000
+[19:45:16] Imbalance severe/word2vec_svm/None weighted=False: test macro F1=0.2856, minority recall=0.1373
+[19:45:17] Imbalance severe/bilstm/42 weighted=False: test macro F1=0.5024, minority recall=0.3667
+[19:45:17] Imbalance severe/bilstm/43 weighted=False: test macro F1=0.4212, minority recall=0.2773
+[19:45:18] Imbalance severe/bilstm/44 weighted=False: test macro F1=0.4037, minority recall=0.2533
+[19:45:20] Imbalance severe/distilbert/42 weighted=False: test macro F1=0.7847, minority recall=0.7160
+[19:45:22] Imbalance severe/distilbert/43 weighted=False: test macro F1=0.7997, minority recall=0.7307
+[19:45:24] Imbalance severe/distilbert/44 weighted=False: test macro F1=0.7885, minority recall=0.7133
+[19:45:24] Imbalance severe/linear_svm/None weighted=True: test macro F1=0.4000, minority recall=0.2413
+[19:45:26] Imbalance severe/distilbert/42 weighted=True: test macro F1=0.8329, minority recall=0.8027
+[19:45:28] Imbalance severe/distilbert/43 weighted=True: test macro F1=0.8058, minority recall=0.7413
+[19:45:30] Imbalance severe/distilbert/44 weighted=True: test macro F1=0.8190, minority recall=0.7613

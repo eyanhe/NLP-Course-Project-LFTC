@@ -1,0 +1,94 @@
+{
+  "created_utc": "2026-11-06T10:57:13.222552+00:00",
+  "config_sha256": "f3d9eec9849735135b91a99bb0d00c50b8a5feea0a2b846eee472713b4ca81d4",
+  "dataset_revision": "da70db2af9d09693783c3320c4249840212ee221",
+  "original_counts": {
+    "train": 392702,
+    "validation_matched": 9815,
+    "validation_mismatched": 9832
+  },
+  "eligible_rows": 411763,
+  "conflicting_pair_hashes": 84,
+  "split_sha256": {
+    "train": "926dcb06afc73131fb90e69c7a1306404699b01e31d197a2d1ffaeb86f46cffa",
+    "validation": "8ea3ad22ea09ccb58696ea7a7e847ba371ad9a804f00b5ef7e80dc83aa5cb982",
+    "matched": "892cfc7591321c46c3177be476a6eabef1a89bbc0581183b186bfe7d59c08ae6",
+    "mismatched": "cc232f28319747f00fa609bec6991183e2d561cec2f49481a5ed7b45575abd39"
+  },
+  "splits": {
+    "train": {
+      "n": 6000,
+      "classes": {
+        "Entailment": 2000,
+        "Neutral": 2000,
+        "Contradiction": 2000
+      },
+      "genres": {
+        "telephone": 1317,
+        "government": 1196,
+        "fiction": 1192,
+        "slate": 1164,
+        "travel": 1131
+      },
+      "unique_premises": 5913,
+      "median_pair_tokens": 37.0,
+      "fraction_exceeding_256_subwords": 0.00016666666666666666
+    },
+    "validation": {
+      "n": 999,
+      "classes": {
+        "Entailment": 333,
+        "Neutral": 333,
+        "Contradiction": 333
+      },
+      "genres": {
+        "travel": 212,
+        "slate": 209,
+        "telephone": 207,
+        "fiction": 188,
+        "government": 183
+      },
+      "unique_premises": 996,
+      "median_pair_tokens": 37.0,
+      "fraction_exceeding_256_subwords": 0.0
+    },
+    "matched": {
+      "n": 999,
+      "classes": {
+        "Entailment": 333,
+        "Neutral": 333,
+        "Contradiction": 333
+      },
+      "genres": {
+        "slate": 215,
+        "government": 209,
+        "fiction": 205,
+        "telephone": 186,
+        "travel": 184
+      },
+      "unique_premises": 904,
+      "median_pair_tokens": 35.0,
+      "fraction_exceeding_256_subwords": 0.0
+    },
+    "mismatched": {
+      "n": 999,
+      "classes": {
+        "Entailment": 333,
+        "Neutral": 333,
+        "Contradiction": 333
+      },
+      "genres": {
+        "oup": 210,
+        "nineeleven": 209,
+        "verbatim": 203,
+        "letters": 201,
+        "facetoface": 176
+      },
+      "unique_premises": 906,
+      "median_pair_tokens": 38.0,
+      "fraction_exceeding_256_subwords": 0.0
+    }
+  },
+  "evaluation_caveat": "Official validation pools are reserved evaluation sets for this course experiment; official hidden test results are not available.",
+  "grouping": "Premise hashes, not just exact pairs, never cross train/validation/matched/mismatched boundaries."
+}

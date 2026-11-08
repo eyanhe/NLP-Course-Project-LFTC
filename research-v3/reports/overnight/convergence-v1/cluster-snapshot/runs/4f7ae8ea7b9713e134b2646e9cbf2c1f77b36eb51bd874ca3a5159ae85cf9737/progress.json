@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "stop_reason": "max_epochs",
+  "epochs_completed": 100,
+  "selected_epoch": 99
+}

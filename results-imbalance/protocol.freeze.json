@@ -1,0 +1,338 @@
+{
+  "imbalance_config_sha256": "67a4393c610aa6f8be812d3cb01b946ec12246279e1663f82e6e6f56b4baae95",
+  "data_sha256": {
+    "balanced": "45fb4a367454e3c33494813fee0898d7ab4c32754ce72e17c7cfb46377fa5787",
+    "mild": "bc14193e42365f420cce6f82ac4a8be9a056f280c7c200acc2e6bc0e287708a4",
+    "moderate": "e60a978198c4fc83a79bd258a7f37e03dd6f63a8797aac644528061a630230cc",
+    "severe": "e39f6743cf4df7752f1433c9e81c50808e3fca48af173ab070b0bbfd4c5c9995"
+  },
+  "balanced_data_sha256": {
+    "train": "45fb4a367454e3c33494813fee0898d7ab4c32754ce72e17c7cfb46377fa5787",
+    "validation": "48008639efaa1a0548090ac06f82fa9a8f2c888216b7be38de1c8bbc071e5aec",
+    "test": "889f17d86f4c27d75ec499bab8e4579a54870b38635c2df522b09e694525a61c"
+  },
+  "base_model_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "artifacts": [
+    {
+      "condition": "balanced",
+      "model": "logistic_regression",
+      "seed": null,
+      "weighted": false,
+      "path": "models-v2\\ag_news\\logistic_regression\\model.joblib",
+      "sha256": "d43eba6cc59317510e6debba60cbf72e5d8f4844a8d8e6e5e9741d8e85d64f5c"
+    },
+    {
+      "condition": "balanced",
+      "model": "linear_svm",
+      "seed": null,
+      "weighted": false,
+      "path": "models-v2\\ag_news\\linear_svm\\model.joblib",
+      "sha256": "9a7cd463a818b0c313d4c5989f6901b3de6e9a76b199011541fa773f77493ae4"
+    },
+    {
+      "condition": "balanced",
+      "model": "word2vec_svm",
+      "seed": null,
+      "weighted": false,
+      "path": "models-v2\\ag_news\\word2vec_svm\\model.joblib",
+      "sha256": "ef0f2e18f89a09b13d30f5643980005ca23746ab2ccbb32664730bb7b77e5668"
+    },
+    {
+      "condition": "balanced",
+      "model": "bilstm",
+      "seed": 42,
+      "weighted": false,
+      "path": "models-v2\\ag_news\\bilstm_seed42\\model.pt",
+      "sha256": "586225f3c49954f9269c62c6f8ae7385f4dc4cd2b0643c2a542f1150dc7a3afb"
+    },
+    {
+      "condition": "balanced",
+      "model": "bilstm",
+      "seed": 43,
+      "weighted": false,
+      "path": "models-v2\\ag_news\\bilstm_seed43\\model.pt",
+      "sha256": "894321601927ae86ef8e77fb386f5a4c1dacb93b1595e13975cc731711ef86c2"
+    },
+    {
+      "condition": "balanced",
+      "model": "bilstm",
+      "seed": 44,
+      "weighted": false,
+      "path": "models-v2\\ag_news\\bilstm_seed44\\model.pt",
+      "sha256": "acbd20f7740c55bfa49e14672b6156aa49cd5c111e6006b9d2f472e15ee43472"
+    },
+    {
+      "condition": "balanced",
+      "model": "distilbert",
+      "seed": 42,
+      "weighted": false,
+      "path": "models-v2\\ag_news\\distilbert_seed42\\model.safetensors",
+      "sha256": "01cc9f810db015d442b3d4d0ac64cf006b8b9ad972abd81791be4c4f84c4dcfc"
+    },
+    {
+      "condition": "balanced",
+      "model": "distilbert",
+      "seed": 43,
+      "weighted": false,
+      "path": "models-v2\\ag_news\\distilbert_seed43\\model.safetensors",
+      "sha256": "bd4a47760086ebf5541cd5ad33808d67de26504868a6fa5f673a49fa502511ff"
+    },
+    {
+      "condition": "balanced",
+      "model": "distilbert",
+      "seed": 44,
+      "weighted": false,
+      "path": "models-v2\\ag_news\\distilbert_seed44\\model.safetensors",
+      "sha256": "0374bc016e9437056d096b2b23e013a7b0fd9fce943f74a939e48adfae2adf74"
+    },
+    {
+      "condition": "mild",
+      "model": "logistic_regression",
+      "seed": null,
+      "weighted": false,
+      "path": "models-imbalance\\mild\\logistic_regression\\model.joblib",
+      "sha256": "5e5ecae5771e737961acd3e523bfcddeae6e4eafdd8f8415a2a34c86411664d7"
+    },
+    {
+      "condition": "mild",
+      "model": "linear_svm",
+      "seed": null,
+      "weighted": false,
+      "path": "models-imbalance\\mild\\linear_svm\\model.joblib",
+      "sha256": "dd261d719564d3e3720df87c00a887d75e55a9e97452024eae17fc44ef62f6d2"
+    },
+    {
+      "condition": "mild",
+      "model": "word2vec_svm",
+      "seed": null,
+      "weighted": false,
+      "path": "models-imbalance\\mild\\word2vec_svm\\model.joblib",
+      "sha256": "d142dc1a38bc510c8841425541c326a338f6002267ee20c95a23e60bbe716641"
+    },
+    {
+      "condition": "mild",
+      "model": "bilstm",
+      "seed": 42,
+      "weighted": false,
+      "path": "models-imbalance\\mild\\bilstm_seed42\\model.pt",
+      "sha256": "9d309718d4fd3162de196fdd7d103a4e99b15c6178de58c31ef9ec111d14d252"
+    },
+    {
+      "condition": "mild",
+      "model": "bilstm",
+      "seed": 43,
+      "weighted": false,
+      "path": "models-imbalance\\mild\\bilstm_seed43\\model.pt",
+      "sha256": "1c9acefd9a8534bd5522e9eb3b81e9c6dc09af8da0a90050ee2f484bd5a99112"
+    },
+    {
+      "condition": "mild",
+      "model": "bilstm",
+      "seed": 44,
+      "weighted": false,
+      "path": "models-imbalance\\mild\\bilstm_seed44\\model.pt",
+      "sha256": "038425992c3606d00c459175d6cc0c5b9d958241c801361227e380a7283c9761"
+    },
+    {
+      "condition": "mild",
+      "model": "distilbert",
+      "seed": 42,
+      "weighted": false,
+      "path": "models-imbalance\\mild\\distilbert_seed42\\model.safetensors",
+      "sha256": "3c05e98fffff4977e3bc9821d390f3a4f167ed767d4333ae072809053a7872a2"
+    },
+    {
+      "condition": "mild",
+      "model": "distilbert",
+      "seed": 43,
+      "weighted": false,
+      "path": "models-imbalance\\mild\\distilbert_seed43\\model.safetensors",
+      "sha256": "a3fd3cac2863bc8dcab8088c639088301d79a3bc27bce1e45e39e6312fc38961"
+    },
+    {
+      "condition": "mild",
+      "model": "distilbert",
+      "seed": 44,
+      "weighted": false,
+      "path": "models-imbalance\\mild\\distilbert_seed44\\model.safetensors",
+      "sha256": "99c5b46bc5e0cc1dc90aefa7181355e83296010d0979485cfb9fdda3afade922"
+    },
+    {
+      "condition": "moderate",
+      "model": "logistic_regression",
+      "seed": null,
+      "weighted": false,
+      "path": "models-imbalance\\moderate\\logistic_regression\\model.joblib",
+      "sha256": "9ad919930a478c4f511be9277af12e53c32b335148d3302baa6accc467093423"
+    },
+    {
+      "condition": "moderate",
+      "model": "linear_svm",
+      "seed": null,
+      "weighted": false,
+      "path": "models-imbalance\\moderate\\linear_svm\\model.joblib",
+      "sha256": "b576a44b6096f4ca8db1b1e447efa82a9b0eb6cb1de8d93e7b9f478e8042a008"
+    },
+    {
+      "condition": "moderate",
+      "model": "word2vec_svm",
+      "seed": null,
+      "weighted": false,
+      "path": "models-imbalance\\moderate\\word2vec_svm\\model.joblib",
+      "sha256": "ae9affc0cf2e1536abeaea621d84a29f778f3da88d02ecb255044591bd881979"
+    },
+    {
+      "condition": "moderate",
+      "model": "bilstm",
+      "seed": 42,
+      "weighted": false,
+      "path": "models-imbalance\\moderate\\bilstm_seed42\\model.pt",
+      "sha256": "85ff0ae31447418b013084ee6b422368025d65e7e513f62438110835c663ecf1"
+    },
+    {
+      "condition": "moderate",
+      "model": "bilstm",
+      "seed": 43,
+      "weighted": false,
+      "path": "models-imbalance\\moderate\\bilstm_seed43\\model.pt",
+      "sha256": "aa105c2d0951c2639e17d2e3079b4f12c600ab0681e2cb3735d8368ae3d711fc"
+    },
+    {
+      "condition": "moderate",
+      "model": "bilstm",
+      "seed": 44,
+      "weighted": false,
+      "path": "models-imbalance\\moderate\\bilstm_seed44\\model.pt",
+      "sha256": "93d6ea262b565e34c866159d341c4c1d6704765c07a045bb591f745c1969572c"
+    },
+    {
+      "condition": "moderate",
+      "model": "distilbert",
+      "seed": 42,
+      "weighted": false,
+      "path": "models-imbalance\\moderate\\distilbert_seed42\\model.safetensors",
+      "sha256": "cda30ffb6e523e1ab373074bcd80e261576e2592ebe1b39216c46d8a6d0a6549"
+    },
+    {
+      "condition": "moderate",
+      "model": "distilbert",
+      "seed": 43,
+      "weighted": false,
+      "path": "models-imbalance\\moderate\\distilbert_seed43\\model.safetensors",
+      "sha256": "f7ed63666c468653a0c6992f98ba21ba508a5e7b53d98399258da9f8a3534457"
+    },
+    {
+      "condition": "moderate",
+      "model": "distilbert",
+      "seed": 44,
+      "weighted": false,
+      "path": "models-imbalance\\moderate\\distilbert_seed44\\model.safetensors",
+      "sha256": "b11e156ac57a1d7666def1623531e7b860d8ec59b236f198395b38e66d3b5683"
+    },
+    {
+      "condition": "severe",
+      "model": "logistic_regression",
+      "seed": null,
+      "weighted": false,
+      "path": "models-imbalance\\severe\\logistic_regression\\model.joblib",
+      "sha256": "a6c301d015e4ff3f7c65bd65f7b1b7c8d24b32a4234f401210026cdc6a7a180a"
+    },
+    {
+      "condition": "severe",
+      "model": "linear_svm",
+      "seed": null,
+      "weighted": false,
+      "path": "models-imbalance\\severe\\linear_svm\\model.joblib",
+      "sha256": "6c4db0f76d3efd139b1f9b56a20265451fce07efcef65c33773c8127deb45971"
+    },
+    {
+      "condition": "severe",
+      "model": "word2vec_svm",
+      "seed": null,
+      "weighted": false,
+      "path": "models-imbalance\\severe\\word2vec_svm\\model.joblib",
+      "sha256": "4f01b860aa0e32af2d60a8c4ee1babf0d3f14f3df311f753c9daa7a424d57939"
+    },
+    {
+      "condition": "severe",
+      "model": "bilstm",
+      "seed": 42,
+      "weighted": false,
+      "path": "models-imbalance\\severe\\bilstm_seed42\\model.pt",
+      "sha256": "dadfe15695879dc5dfb87ada3cbf91a3c684d07a20a02316e85b7ffdd9ba6649"
+    },
+    {
+      "condition": "severe",
+      "model": "bilstm",
+      "seed": 43,
+      "weighted": false,
+      "path": "models-imbalance\\severe\\bilstm_seed43\\model.pt",
+      "sha256": "055fa1a3181dd5fc70989adcaa001efba9d821c25af3e6c06b8735bccb6f8109"
+    },
+    {
+      "condition": "severe",
+      "model": "bilstm",
+      "seed": 44,
+      "weighted": false,
+      "path": "models-imbalance\\severe\\bilstm_seed44\\model.pt",
+      "sha256": "9ba8e3d17e99ed16328303eb18abc3cf325f86ec4f48ccacf5239b6a769128c3"
+    },
+    {
+      "condition": "severe",
+      "model": "distilbert",
+      "seed": 42,
+      "weighted": false,
+      "path": "models-imbalance\\severe\\distilbert_seed42\\model.safetensors",
+      "sha256": "749d32fa6302edf86b04338b7c10dd88d5b7dd1e8aea3f50f4bb3bd7c558b08d"
+    },
+    {
+      "condition": "severe",
+      "model": "distilbert",
+      "seed": 43,
+      "weighted": false,
+      "path": "models-imbalance\\severe\\distilbert_seed43\\model.safetensors",
+      "sha256": "e0a795c40fb047973d48ca8cf6002229dbc50418f6556a907958d0800d15dd94"
+    },
+    {
+      "condition": "severe",
+      "model": "distilbert",
+      "seed": 44,
+      "weighted": false,
+      "path": "models-imbalance\\severe\\distilbert_seed44\\model.safetensors",
+      "sha256": "a34c9fc0ce6b5cefb072f0c81fc70413b961e2f136bca260b71c4c119f779d79"
+    },
+    {
+      "condition": "severe",
+      "model": "linear_svm",
+      "seed": null,
+      "weighted": true,
+      "path": "models-imbalance\\severe\\linear_svm_weighted\\model.joblib",
+      "sha256": "3bc2f9195c30cd5a92a640b93fd56f766fe8f970cc77834998632874eab42c62"
+    },
+    {
+      "condition": "severe",
+      "model": "distilbert",
+      "seed": 42,
+      "weighted": true,
+      "path": "models-imbalance\\severe\\distilbert_seed42_weighted\\model.safetensors",
+      "sha256": "f8d3863ac5d6250a6286bb7ffd004fa2a72b986eb3e5be6298981a974d6ceda1"
+    },
+    {
+      "condition": "severe",
+      "model": "distilbert",
+      "seed": 43,
+      "weighted": true,
+      "path": "models-imbalance\\severe\\distilbert_seed43_weighted\\model.safetensors",
+      "sha256": "3ffb7159194c29484677e0e7d7bf56b497f21d8a28c993ce89edde2c5ee38632"
+    },
+    {
+      "condition": "severe",
+      "model": "distilbert",
+      "seed": 44,
+      "weighted": true,
+      "path": "models-imbalance\\severe\\distilbert_seed44_weighted\\model.safetensors",
+      "sha256": "61d5f4ec6338b406ccd36f3effef83e4bbdb49acef29ebc2f0b5dad9ff82255a"
+    }
+  ],
+  "created_utc": "2026-11-06T11:44:57.125457+00:00"
+}

@@ -1,0 +1,171 @@
+{
+  "dataset_id": "ag_news",
+  "task": "single_label",
+  "label_names": [
+    "World",
+    "Sports",
+    "Business",
+    "Sci/Tech"
+  ],
+  "manifest_hash": "cd1ca600667e3b9af1773e9d17dd7002eb5c45ae3aadb807ad9730d0df7118ae",
+  "partitions": {
+    "train": {
+      "file": "data/ag_news/train.parquet",
+      "sha256": "90f0b0cfc87f3843a40b964aecb3379831f7cb5ee3c3ed37c1b9c07dcd674dbf",
+      "bytes": 16961254,
+      "rows": 118784,
+      "label_support": [
+        29721,
+        29722,
+        29685,
+        29656
+      ],
+      "ap_mask": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "select": {
+      "file": "data/ag_news/select.parquet",
+      "sha256": "6dce4abaed6896ecb20d9d148c41ab90dba1489cef43abb24dd7fa93d8ed4680",
+      "bytes": 95729,
+      "rows": 600,
+      "label_support": [
+        154,
+        145,
+        153,
+        148
+      ],
+      "ap_mask": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "discovery": {
+      "file": "data/ag_news/discovery.parquet",
+      "sha256": "286a3f9cefc63f4a82d205a0350b8506e948feee2a755e82acad8747da14fdf0",
+      "bytes": 68124,
+      "rows": 400,
+      "label_support": [
+        96,
+        105,
+        97,
+        102
+      ],
+      "ap_mask": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "test": {
+      "file": "data/ag_news/test.parquet",
+      "sha256": "adf72b66aa6f1a5d604e5d63fabb4244b31aff762219f3165ba5a60d5b5b638a",
+      "bytes": 1146325,
+      "rows": 7600,
+      "label_support": [
+        1900,
+        1900,
+        1900,
+        1900
+      ],
+      "ap_mask": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "quarantine": {
+      "file": "data/ag_news/quarantine.parquet",
+      "sha256": "399763afded09c89dd2d77e8a9caf427885e2c6095f20224f022057b160e0ea8",
+      "bytes": 34692,
+      "rows": 216,
+      "label_support": [
+        29,
+        28,
+        65,
+        94
+      ],
+      "ap_mask": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {
+        "redundant_exact_text": 128,
+        "duplicate_lower_priority_partition": 44,
+        "exact_label_conflict": 44
+      }
+    }
+  },
+  "official_source_counts": {
+    "test": 7600,
+    "train": 120000
+  },
+  "post_isolation_holdout_counts_are_actual": true,
+  "inputs": {
+    "dataset_id": "ag_news",
+    "rows": 127384,
+    "input_hash": "1ed465ea5197ae39c37b58112afa7cf93c1f8d6d9b83fd0a28cb1faeaf8fe286",
+    "file": "inputs/ag_news.parquet",
+    "file_sha256": "02cd9091d4aea3b2efced469c56db332ac83fe3e10a831e058ad005f2f3ae8f2",
+    "span_basis": "normalized_text_python_character_offsets",
+    "partitions": {
+      "train": {
+        "n": 118784,
+        "truncated_n": 35,
+        "truncated_fraction": 0.00029465247844827585,
+        "median_full_tokens": 49.0,
+        "p95_full_tokens": 78.0,
+        "zero_content_tokens": 0
+      },
+      "select": {
+        "n": 600,
+        "truncated_n": 0,
+        "truncated_fraction": 0.0,
+        "median_full_tokens": 49.0,
+        "p95_full_tokens": 81.09999999999991,
+        "zero_content_tokens": 0
+      },
+      "discovery": {
+        "n": 400,
+        "truncated_n": 0,
+        "truncated_fraction": 0.0,
+        "median_full_tokens": 50.0,
+        "p95_full_tokens": 82.04999999999995,
+        "zero_content_tokens": 0
+      },
+      "test": {
+        "n": 7600,
+        "truncated_n": 0,
+        "truncated_fraction": 0.0,
+        "median_full_tokens": 48.0,
+        "p95_full_tokens": 75.0,
+        "zero_content_tokens": 0
+      }
+    },
+    "actual_model_training_run": false,
+    "model_predictions_generated": false
+  }
+}

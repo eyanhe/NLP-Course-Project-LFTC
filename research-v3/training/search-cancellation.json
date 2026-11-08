@@ -1,0 +1,34 @@
+{
+  "reason": "user_requested_fixed_hyperparameters_without_remaining_search",
+  "user_instruction": "??????????????????????",
+  "previous_progress": {
+    "phase": "anchors",
+    "pid": 42040,
+    "process_created": 1794003798.89189,
+    "recorded_at_utc": "2026-11-07T06:40:58.838511+00:00",
+    "status": "fitting",
+    "dataset": "yahoo_answers_topics",
+    "model_id": "bilstm",
+    "candidate_index": 1,
+    "completed_candidates": 217,
+    "total_candidates": 234,
+    "completed": 36,
+    "total": 39,
+    "run_id": "b6d1fcdbf969849751755501d2db93268d7a1dfd3979e5666cd7510712ce0acb"
+  },
+  "pid": 42040,
+  "process_created": 1794003798.89189,
+  "command": [
+    "C:\\Users\\超级罪犯 顶风作案\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "-m",
+    "research_v3",
+    "train",
+    "--phase",
+    "anchors",
+    "--authorization",
+    "research-v3/training/authorization.json"
+  ],
+  "stopped_at_unix": 1794034016.083937,
+  "completed_checkpoints_preserved": true,
+  "process_stopped": true
+}

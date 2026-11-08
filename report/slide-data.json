@@ -1,0 +1,294 @@
+{
+  "datasets": [
+    {
+      "name": "IMDb",
+      "train": 6000,
+      "validation": 1000,
+      "test": 1000
+    },
+    {
+      "name": "Rotten Tomatoes",
+      "train": 6000,
+      "validation": 1000,
+      "test": 1000
+    },
+    {
+      "name": "Yelp",
+      "train": 6000,
+      "validation": 1000,
+      "test": 1000
+    }
+  ],
+  "within": [
+    {
+      "source": "imdb",
+      "model": "distilbert",
+      "mean_f1": 0.8933286263739012,
+      "sd_f1": 0.003055942106694148,
+      "accuracy": 0.8933333333333334,
+      "runs": 3
+    },
+    {
+      "source": "imdb",
+      "model": "linear_svm",
+      "mean_f1": 0.8809570254862005,
+      "sd_f1": 0.0,
+      "accuracy": 0.881,
+      "runs": 1
+    },
+    {
+      "source": "imdb",
+      "model": "logistic_regression",
+      "mean_f1": 0.8879637002388774,
+      "sd_f1": 0.0,
+      "accuracy": 0.888,
+      "runs": 1
+    },
+    {
+      "source": "rotten_tomatoes",
+      "model": "distilbert",
+      "mean_f1": 0.8378654097031695,
+      "sd_f1": 0.004626002954990827,
+      "accuracy": 0.838,
+      "runs": 3
+    },
+    {
+      "source": "rotten_tomatoes",
+      "model": "linear_svm",
+      "mean_f1": 0.7869980829827468,
+      "sd_f1": 0.0,
+      "accuracy": 0.787,
+      "runs": 1
+    },
+    {
+      "source": "rotten_tomatoes",
+      "model": "logistic_regression",
+      "mean_f1": 0.787999151996608,
+      "sd_f1": 0.0,
+      "accuracy": 0.788,
+      "runs": 1
+    },
+    {
+      "source": "yelp",
+      "model": "distilbert",
+      "mean_f1": 0.9429968406066171,
+      "sd_f1": 0.003604380236827941,
+      "accuracy": 0.943,
+      "runs": 3
+    },
+    {
+      "source": "yelp",
+      "model": "linear_svm",
+      "mean_f1": 0.9309944105472544,
+      "sd_f1": 0.0,
+      "accuracy": 0.931,
+      "runs": 1
+    },
+    {
+      "source": "yelp",
+      "model": "logistic_regression",
+      "mean_f1": 0.933993399339934,
+      "sd_f1": 0.0,
+      "accuracy": 0.934,
+      "runs": 1
+    }
+  ],
+  "transfer": {
+    "logistic_regression": [
+      [
+        0.8879637002388774,
+        0.7244185433898951,
+        0.8466317628626332
+      ],
+      [
+        0.7249871643248749,
+        0.787999151996608,
+        0.6925450144950663
+      ],
+      [
+        0.7935013665350744,
+        0.645249347619563,
+        0.933993399339934
+      ]
+    ],
+    "linear_svm": [
+      [
+        0.8809570254862005,
+        0.6954642823108252,
+        0.8586606442067404
+      ],
+      [
+        0.7226521985307892,
+        0.7869980829827468,
+        0.6898732502447673
+      ],
+      [
+        0.7896363540743798,
+        0.6329379665163413,
+        0.9309944105472544
+      ]
+    ],
+    "distilbert": [
+      [
+        0.8933286263739012,
+        0.8066313926295372,
+        0.9156558779212437
+      ],
+      [
+        0.8346699413125723,
+        0.8378654097031695,
+        0.8646851145621482
+      ],
+      [
+        0.847003884506346,
+        0.7681171176288698,
+        0.9429968406066171
+      ]
+    ]
+  },
+  "costs": [
+    {
+      "source": "imdb",
+      "model": "logistic_regression",
+      "fit_seconds": 2.6561877999993158,
+      "search_seconds": 11.689967999998771,
+      "model_mib": 1.2188606262207031,
+      "peak_gpu_allocated_mib": null,
+      "median_ms": 1.6489499994349899,
+      "p95_ms": 3.5741749996304852
+    },
+    {
+      "source": "imdb",
+      "model": "linear_svm",
+      "fit_seconds": 2.4745927000003576,
+      "search_seconds": 11.076469499999803,
+      "model_mib": 1.2187652587890625,
+      "peak_gpu_allocated_mib": null,
+      "median_ms": 1.5861999982007546,
+      "p95_ms": 2.732179998020001
+    },
+    {
+      "source": "imdb",
+      "model": "distilbert",
+      "fit_seconds": 111.9692114999998,
+      "search_seconds": 205.33779689999938,
+      "model_mib": 256.3263816833496,
+      "peak_gpu_allocated_mib": 2204.9658203125,
+      "median_ms": 60.47959999887098,
+      "p95_ms": 130.36691000015708
+    },
+    {
+      "source": "rotten_tomatoes",
+      "model": "logistic_regression",
+      "fit_seconds": 0.24170299999968847,
+      "search_seconds": 1.3396477999995113,
+      "model_mib": 0.7174110412597656,
+      "peak_gpu_allocated_mib": null,
+      "median_ms": 1.2358499989204574,
+      "p95_ms": 2.1475500006999932
+    },
+    {
+      "source": "rotten_tomatoes",
+      "model": "linear_svm",
+      "fit_seconds": 0.24732650000078138,
+      "search_seconds": 1.4435812000010628,
+      "model_mib": 0.717315673828125,
+      "peak_gpu_allocated_mib": null,
+      "median_ms": 1.2193000002298504,
+      "p95_ms": 2.061150002737122
+    },
+    {
+      "source": "rotten_tomatoes",
+      "model": "distilbert",
+      "fit_seconds": 56.88650570000027,
+      "search_seconds": 120.59329929999876,
+      "model_mib": 256.3263816833496,
+      "peak_gpu_allocated_mib": 1321.990234375,
+      "median_ms": 51.6589999988355,
+      "p95_ms": 111.50263499930587
+    },
+    {
+      "source": "yelp",
+      "model": "logistic_regression",
+      "fit_seconds": 1.3971438999979,
+      "search_seconds": 6.290118600001733,
+      "model_mib": 1.2227821350097656,
+      "peak_gpu_allocated_mib": null,
+      "median_ms": 1.2193999991723103,
+      "p95_ms": 2.136024998071661
+    },
+    {
+      "source": "yelp",
+      "model": "linear_svm",
+      "fit_seconds": 1.3795852999974159,
+      "search_seconds": 6.6018729000024905,
+      "model_mib": 1.222686767578125,
+      "peak_gpu_allocated_mib": null,
+      "median_ms": 1.236149999385816,
+      "p95_ms": 2.2547999971720856
+    },
+    {
+      "source": "yelp",
+      "model": "distilbert",
+      "fit_seconds": 120.47908720000123,
+      "search_seconds": 241.81251920000068,
+      "model_mib": 256.3263816833496,
+      "peak_gpu_allocated_mib": 2206.4658203125,
+      "median_ms": 56.859099999201135,
+      "p95_ms": 118.74804500021126
+    }
+  ],
+  "bootstrap": {
+    "imdb": {
+      "comparison": "DistilBERT seed42 minus SVM",
+      "delta_macro_f1": 0.01503631808778827,
+      "ci95_low": -0.00603192235810245,
+      "ci95_high": 0.03999589608379292,
+      "replicates": 1000,
+      "interpretation": "Paired stratified percentile bootstrap; conditional on two fixed trained models, not training uncertainty."
+    },
+    "rotten_tomatoes": {
+      "comparison": "DistilBERT seed42 minus SVM",
+      "delta_macro_f1": 0.046978009574581536,
+      "ci95_low": 0.0180071555569232,
+      "ci95_high": 0.07787933576779646,
+      "replicates": 1000,
+      "interpretation": "Paired stratified percentile bootstrap; conditional on two fixed trained models, not training uncertainty."
+    },
+    "yelp": {
+      "comparison": "DistilBERT seed42 minus SVM",
+      "delta_macro_f1": 0.008005040447804701,
+      "ci95_low": -0.010997411965433324,
+      "ci95_high": 0.025069516226922054,
+      "replicates": 1000,
+      "interpretation": "Paired stratified percentile bootstrap; conditional on two fixed trained models, not training uncertainty."
+    }
+  },
+  "macro_average": {
+    "logistic_regression": 0.8699854171918066,
+    "linear_svm": 0.8663165063387339,
+    "distilbert": 0.8913969588945626
+  },
+  "hardware": {
+    "platform": "Windows-10-10.0.22631-SP0",
+    "processor": "",
+    "logical_cpus": 20,
+    "cpu_threads": 4,
+    "torch": "2.2.1+cu118",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 4090 Laptop GPU",
+    "gpu_total_bytes": 17170956288
+  },
+  "data_audit": {
+    "raw_rows": 658662,
+    "eligible_rows": 658166,
+    "selected_rows": 24000
+  },
+  "truncation_percent": [
+    39.800000000000004,
+    0.0,
+    21.6
+  ],
+  "human_reviewed": 0,
+  "error_queue_size": 60
+}

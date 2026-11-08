@@ -1,0 +1,18 @@
+{
+  "recorded_at_utc": "2026-11-07T09:51:31.683979+00:00",
+  "host": "10.97.216.128",
+  "username": "yiyan002",
+  "host_key_verified_against_official_guide": true,
+  "network_reachable": true,
+  "authenticated": false,
+  "attempted_methods": [
+    "keyboard-interactive",
+    "password"
+  ],
+  "supplied_password_attempts": 2,
+  "further_automatic_attempts": false,
+  "required_action": "User must confirm current cluster credential or manual-login password-change prompt",
+  "local_training_enabled": false,
+  "cluster_submitted": false,
+  "secrets_written": false
+}

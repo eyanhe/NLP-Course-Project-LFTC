@@ -1,0 +1,47 @@
+{
+  "imbalance_config_sha256": "67a4393c610aa6f8be812d3cb01b946ec12246279e1663f82e6e6f56b4baae95",
+  "data_sha256": {
+    "balanced": "45fb4a367454e3c33494813fee0898d7ab4c32754ce72e17c7cfb46377fa5787",
+    "mild": "bc14193e42365f420cce6f82ac4a8be9a056f280c7c200acc2e6bc0e287708a4",
+    "moderate": "e60a978198c4fc83a79bd258a7f37e03dd6f63a8797aac644528061a630230cc",
+    "severe": "e39f6743cf4df7752f1433c9e81c50808e3fca48af173ab070b0bbfd4c5c9995"
+  },
+  "balanced_data_sha256": {
+    "train": "45fb4a367454e3c33494813fee0898d7ab4c32754ce72e17c7cfb46377fa5787",
+    "validation": "48008639efaa1a0548090ac06f82fa9a8f2c888216b7be38de1c8bbc071e5aec",
+    "test": "889f17d86f4c27d75ec499bab8e4579a54870b38635c2df522b09e694525a61c"
+  },
+  "base_model_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "created_utc": "2026-11-06T11:30:34.709257+00:00",
+  "source": "mild",
+  "model": "distilbert",
+  "seed": 43,
+  "learning_rate": 2e-05,
+  "best_epoch": 2,
+  "best_validation_macro_f1": 0.9083548789997435,
+  "fit_wall_seconds": 69.5590075,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4597576923370361,
+      "validation_macro_f1": 0.8996404253569134,
+      "epoch_seconds": 22.222301300003892
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.17205547666549684,
+      "validation_macro_f1": 0.9083548789997435,
+      "epoch_seconds": 22.89566190000187
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.10647474233309429,
+      "validation_macro_f1": 0.8985413849447825,
+      "epoch_seconds": 22.563998500001617
+    }
+  ],
+  "class_weights": null,
+  "model_bytes": 268783926,
+  "cublas_workspace": ":4096:8",
+  "peak_gpu_allocated_bytes": 2360398848
+}

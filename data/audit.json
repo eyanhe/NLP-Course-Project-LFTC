@@ -1,0 +1,124 @@
+{
+  "created_utc": "2026-11-06T09:15:15.766318+00:00",
+  "config_sha256": "2f32bb7e768cb3cec36a8749986ec7e9399a5f91f5f843be5c7667d0d3daa238",
+  "official_counts": {
+    "imdb/train": 25000,
+    "imdb/test": 25000,
+    "rotten_tomatoes/train": 8530,
+    "rotten_tomatoes/validation": 1066,
+    "rotten_tomatoes/test": 1066,
+    "yelp/train": 560000,
+    "yelp/test": 38000
+  },
+  "original_rows": 658662,
+  "eligible_rows": 658166,
+  "conflicting_unique_hashes": 2,
+  "dedup_policy": "Normalized casefold SHA256; test before official validation before train; dataset order imdb,rotten_tomatoes,yelp; conflicting labels removed globally.",
+  "datasets": {
+    "imdb": {
+      "train": {
+        "n": 6000,
+        "negative": 3000,
+        "positive": 3000,
+        "mean_words": 229.362,
+        "median_tokens": 219.0,
+        "p95_tokens": 759.2000000000007,
+        "truncated_fraction": 0.4041666666666667
+      },
+      "validation": {
+        "n": 1000,
+        "negative": 500,
+        "positive": 500,
+        "mean_words": 230.818,
+        "median_tokens": 223.0,
+        "p95_tokens": 775.3499999999997,
+        "truncated_fraction": 0.418
+      },
+      "test": {
+        "n": 1000,
+        "negative": 500,
+        "positive": 500,
+        "mean_words": 231.286,
+        "median_tokens": 217.0,
+        "p95_tokens": 772.1999999999998,
+        "truncated_fraction": 0.398
+      }
+    },
+    "rotten_tomatoes": {
+      "train": {
+        "n": 6000,
+        "negative": 3000,
+        "positive": 3000,
+        "mean_words": 20.948,
+        "median_tokens": 26.0,
+        "p95_tokens": 47.0,
+        "truncated_fraction": 0.0
+      },
+      "validation": {
+        "n": 1000,
+        "negative": 500,
+        "positive": 500,
+        "mean_words": 20.992,
+        "median_tokens": 26.0,
+        "p95_tokens": 49.0,
+        "truncated_fraction": 0.0
+      },
+      "test": {
+        "n": 1000,
+        "negative": 500,
+        "positive": 500,
+        "mean_words": 21.289,
+        "median_tokens": 27.0,
+        "p95_tokens": 48.0,
+        "truncated_fraction": 0.0
+      }
+    },
+    "yelp": {
+      "train": {
+        "n": 6000,
+        "negative": 3000,
+        "positive": 3000,
+        "mean_words": 132.86583333333334,
+        "median_tokens": 131.0,
+        "p95_tokens": 498.0500000000002,
+        "truncated_fraction": 0.2195
+      },
+      "validation": {
+        "n": 1000,
+        "negative": 500,
+        "positive": 500,
+        "mean_words": 135.789,
+        "median_tokens": 127.5,
+        "p95_tokens": 526.05,
+        "truncated_fraction": 0.225
+      },
+      "test": {
+        "n": 1000,
+        "negative": 500,
+        "positive": 500,
+        "mean_words": 134.102,
+        "median_tokens": 132.0,
+        "p95_tokens": 497.0999999999999,
+        "truncated_fraction": 0.216
+      }
+    }
+  },
+  "manifest_sha256": {
+    "imdb/train": "8b44de0b22e458e7ff2076533968d1b30cd09497347f3bdcc61b08885898d932",
+    "imdb/validation": "5fcfc6634342b1df0e2d784b4c75438b267334b3f76837fdf2033ed9479a8201",
+    "imdb/test": "f3cd57625d7b7100e8f7c94073c3aa236bd9a537f9c99d66dc92b147e4e8ebd2",
+    "rotten_tomatoes/train": "5c250c3780603713ce0c66db55d1b432afc71dc966096971cfbdee0f6a1956aa",
+    "rotten_tomatoes/validation": "838a224e85548328de1f1862ab5b7db103524978e94f4e9606827c17187b5e89",
+    "rotten_tomatoes/test": "02fd74488fe4e7ff6abeab1390d297e8a250de0e4082cf36730204a3b0ffd4ea",
+    "yelp/train": "3c1b6c8b2010e073a6ab696cf8dc88876a2ac0c4d9a4ef9f7b26de272d5daf02",
+    "yelp/validation": "c993724a243c12e8369d1c8460a1ccf449cff4ee712dbe893fbbb1705e2f06dd",
+    "yelp/test": "d2961859e5b68dfcb596bf0d683e1658717e5a3b543df4e8bbcd08a1ee7d11ba"
+  },
+  "containment_probe": {
+    "probe_count": 100,
+    "matching_count": 0,
+    "sample_ids": [],
+    "limitation": "Only 100 sampled short snippets >=50 characters; no semantic near-duplicate or movie/author grouping guarantee."
+  },
+  "all_selected_hashes_unique": true
+}

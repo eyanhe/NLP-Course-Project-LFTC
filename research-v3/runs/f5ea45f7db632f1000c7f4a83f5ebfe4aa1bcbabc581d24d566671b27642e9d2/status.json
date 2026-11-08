@@ -1,0 +1,363 @@
+{
+  "status": "complete",
+  "run_id": "f5ea45f7db632f1000c7f4a83f5ebfe4aa1bcbabc581d24d566671b27642e9d2",
+  "request_hash": "1fb7aeb8c96a7a3a548f81d57023ca5c25871f5c4a3f6ae1f3480477b3cada2c",
+  "run": {
+    "run_id": "f5ea45f7db632f1000c7f4a83f5ebfe4aa1bcbabc581d24d566671b27642e9d2",
+    "condition_id": "627aa9daf0f1cd15fa354a3996ebe520ef1d2b0604762de2671ee0c925fe50f8",
+    "model_id": "tfidf_svm",
+    "training_seed": null,
+    "hparams": {
+      "max_features": 30000,
+      "min_df": 1,
+      "sublinear_tf": true,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "C": 0.1,
+      "role_ids_hash": {
+        "train": "32e7891f679cf5ce28f0ef965a4d616829e00ff95159303bc24b8e342eb07441",
+        "select": "af354d52fc40cb0f5e121879b26e07d5e533d4ed054c53b6bb637410b75fac99",
+        "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "target_task": "multilabel",
+      "select_ap_mask": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "device": "cuda",
+      "micro_batch": 4,
+      "cpu_threads": 4,
+      "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+      "label_count": 28
+    },
+    "input_hash": "3d5c0471f7e31e1511976a82080453fca0619fca96f37cbfcbc413cbbdab5658",
+    "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+    "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+    "strict_no_val": false
+  },
+  "training_unique_rows": 6000,
+  "training_ids_sha256": "32e7891f679cf5ce28f0ef965a4d616829e00ff95159303bc24b8e342eb07441",
+  "holdout_labels_accessed": 3237,
+  "score_kind": "svm_margin",
+  "files": {
+    "bundle.joblib": "d19cc009e8e520f44e8051b4bbfef01bb1f72398d243e65bbbc35c4511debe89"
+  },
+  "feature_degenerate": false,
+  "feature_seconds": 0.0470000000204891,
+  "fit_seconds": 0.2029999999795109,
+  "total_seconds": 0.5470000000204891,
+  "epochs_completed": 0,
+  "selected_epoch": null,
+  "optimizer_updates": 0,
+  "micro_batch": null,
+  "effective_batch": null,
+  "oom_attempts": [],
+  "reload_verified": true,
+  "actual_model_training_run": true,
+  "official_test_predictions_generated": false,
+  "reload_max_absolute_difference": 0.0,
+  "validation": {
+    "task": "multilabel",
+    "score_kind": "svm_margin",
+    "threshold": 0.0,
+    "rows": 3237,
+    "macro_ap": 0.37820421301004403,
+    "ap_mask": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "macro_f1": 0.10991311555387535,
+    "masked_macro_f1": 0.10991311555387535,
+    "micro_f1": 0.24862243773418558,
+    "per_label": [
+      {
+        "label_id": 0,
+        "precision": 0.9387755102040817,
+        "recall": 0.16487455197132617,
+        "f1": 0.2804878048780488,
+        "support": 279,
+        "ap": 0.6492696089233466
+      },
+      {
+        "label_id": 1,
+        "precision": 0.7755102040816326,
+        "recall": 0.20652173913043478,
+        "f1": 0.3261802575107296,
+        "support": 184,
+        "ap": 0.6992068599042331
+      },
+      {
+        "label_id": 2,
+        "precision": 0.6666666666666666,
+        "recall": 0.03508771929824561,
+        "f1": 0.06666666666666667,
+        "support": 114,
+        "ap": 0.3342894351163134
+      },
+      {
+        "label_id": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 183,
+        "ap": 0.15376961021204874
+      },
+      {
+        "label_id": 4,
+        "precision": 0.6,
+        "recall": 0.01327433628318584,
+        "f1": 0.025974025974025976,
+        "support": 226,
+        "ap": 0.2148307244983455
+      },
+      {
+        "label_id": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 96,
+        "ap": 0.24982800112089382
+      },
+      {
+        "label_id": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 89,
+        "ap": 0.18332018800035207
+      },
+      {
+        "label_id": 7,
+        "precision": 1.0,
+        "recall": 0.0058823529411764705,
+        "f1": 0.011695906432748537,
+        "support": 170,
+        "ap": 0.2587459577066316
+      },
+      {
+        "label_id": 8,
+        "precision": 1.0,
+        "recall": 0.045454545454545456,
+        "f1": 0.08695652173913043,
+        "support": 44,
+        "ap": 0.43742467169941346
+      },
+      {
+        "label_id": 9,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 91,
+        "ap": 0.09373242167580877
+      },
+      {
+        "label_id": 10,
+        "precision": 1.0,
+        "recall": 0.005263157894736842,
+        "f1": 0.010471204188481676,
+        "support": 190,
+        "ap": 0.20153733845627356
+      },
+      {
+        "label_id": 11,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 59,
+        "ap": 0.3863419037676991
+      },
+      {
+        "label_id": 12,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 25,
+        "ap": 0.540639615125359
+      },
+      {
+        "label_id": 13,
+        "precision": 1.0,
+        "recall": 0.03636363636363636,
+        "f1": 0.07017543859649122,
+        "support": 55,
+        "ap": 0.16636874563472065
+      },
+      {
+        "label_id": 14,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 45,
+        "ap": 0.4633913239007592
+      },
+      {
+        "label_id": 15,
+        "precision": 1.0,
+        "recall": 0.685,
+        "f1": 0.8130563798219584,
+        "support": 200,
+        "ap": 0.9394371246750878
+      },
+      {
+        "label_id": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 8,
+        "ap": 0.26543074118472365
+      },
+      {
+        "label_id": 17,
+        "precision": 0.7142857142857143,
+        "recall": 0.05154639175257732,
+        "f1": 0.09615384615384616,
+        "support": 97,
+        "ap": 0.4235833171651258
+      },
+      {
+        "label_id": 18,
+        "precision": 0.825,
+        "recall": 0.4258064516129032,
+        "f1": 0.5617021276595745,
+        "support": 155,
+        "ap": 0.7457693607226472
+      },
+      {
+        "label_id": 19,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11,
+        "ap": 0.1142357993825721
+      },
+      {
+        "label_id": 20,
+        "precision": 0.8333333333333334,
+        "recall": 0.12,
+        "f1": 0.2097902097902098,
+        "support": 125,
+        "ap": 0.5177953057034604
+      },
+      {
+        "label_id": 21,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7,
+        "ap": 0.46221007774027617
+      },
+      {
+        "label_id": 22,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 76,
+        "ap": 0.09116234115146803
+      },
+      {
+        "label_id": 23,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11,
+        "ap": 0.1182096115826708
+      },
+      {
+        "label_id": 24,
+        "precision": 0.6666666666666666,
+        "recall": 0.05,
+        "f1": 0.09302325581395349,
+        "support": 40,
+        "ap": 0.6439496598109933
+      },
+      {
+        "label_id": 25,
+        "precision": 1.0,
+        "recall": 0.034482758620689655,
+        "f1": 0.06666666666666667,
+        "support": 87,
+        "ap": 0.40002363984835204
+      },
+      {
+        "label_id": 26,
+        "precision": 0.5,
+        "recall": 0.01282051282051282,
+        "f1": 0.025,
+        "support": 78,
+        "ap": 0.27093886333060974
+      },
+      {
+        "label_id": 27,
+        "precision": 0.6556473829201102,
+        "recall": 0.2236842105263158,
+        "f1": 0.33356692361597756,
+        "support": 1064,
+        "ap": 0.5642757162410491
+      }
+    ]
+  },
+  "resources": {
+    "peak_rss_sampled_bytes": 2913517568,
+    "sample_count": 3,
+    "rss_sample_interval_seconds": 0.5,
+    "elapsed_seconds": 0.6099999998696148,
+    "torch_cuda_peak_allocated_bytes": 67108864,
+    "torch_cuda_peak_reserved_bytes": 67108864,
+    "gpu_name": "NVIDIA GeForce RTX 4060",
+    "note": "sampled RSS maximum; allocated/reserved Torch memory is not total device usage"
+  }
+}

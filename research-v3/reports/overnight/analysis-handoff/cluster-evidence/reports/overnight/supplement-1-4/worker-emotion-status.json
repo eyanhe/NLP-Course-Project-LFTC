@@ -1,0 +1,18 @@
+{
+  "status": "fitting",
+  "supplement_id": "S1",
+  "dataset_id": "go_emotions",
+  "model_id": "distilbert",
+  "run_id": "eebda5bf1ed2e6be5dcfd9192fb3a58ee5bc73c49f19a44b5fa590a4f6cb4af5",
+  "completed": [
+    "8b9066d7847561024b86cd25f5b93b4535bf45df3394fcca5456974ad63f51e8",
+    "74618ecb40f5b8d8df9ce95abe3906385540f5213a8e15332674b1c6fdbbf45b",
+    "2c4539a8d164cd83f7b66dd3c9bb37e6cd13beb44891530d94334c711ca6c3c9",
+    "0d18ab3e08915c8741cdcf11c14928f55a183bdf1179d9c1ae794456b894d2b3",
+    "b622c3fac7a4703e16ddc80b7c878aebb4ee12e23d20f7d9cad00cb51895b31d",
+    "db4ddf727a4b98d952c88e3a516932c2fce86928fb1bebe9fd4c5a8c46dbf515",
+    "ed289172c02b0597356bc4f2dd53e9fe01c5b447fb21feff5892f8d2ad320a7c"
+  ],
+  "job_id": "278032",
+  "updated_at_utc": "2026-11-07T17:34:53.578857+00:00"
+}

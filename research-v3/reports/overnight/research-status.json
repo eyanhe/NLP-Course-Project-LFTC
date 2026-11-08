@@ -1,0 +1,578 @@
+{
+  "recorded_at_singapore": "2026-11-07T22:54:52.711811+08:00",
+  "last_verified_cluster_snapshot_utc": "2026-11-07T14:54:21.322212+00:00",
+  "live_connection_status": "SSH restored; remote files downloaded with SHA256 verification",
+  "remote_evidence_verified_at_utc": "2026-11-07T14:52:06.590564+00:00",
+  "watchdog_status_at_read": "monitor",
+  "watchdog_last_check_utc": "2026-11-07T14:54:18.140002+00:00",
+  "original_physical_requests": 2859,
+  "historical_verified_checkpoints": 131,
+  "completed_in_union_of_available_evidence": 184,
+  "overnight_selected": 201,
+  "overnight_completed": 120,
+  "overnight_reused": 67,
+  "overnight_new_completed": 53,
+  "overnight_not_completed_in_snapshot": 81,
+  "outside_overnight_scope": 2658,
+  "historical_completed_outside_overnight_scope": 64,
+  "completed_numeric_validation_records": 114,
+  "completed_strict_no_validation_records": 6,
+  "core_scale_pairs": [
+    {
+      "dataset": "yelp",
+      "model": "tfidf_svm",
+      "run_ids": [
+        "8de08be16ebebad34206dc5d960328147cd8b6f08e20fea4627409bcb3c2fcff",
+        "cf066d53cda8bde6f01f1bfcce3b94327eba36ee969ee5810927feb59c4e401a"
+      ],
+      "complete": true
+    },
+    {
+      "dataset": "yelp",
+      "model": "bilstm",
+      "run_ids": [
+        "738652e7d0692f9d4cd17f84b265e38bcf77bd108a19b553bce0cd0863c9cfa2",
+        "6361a04404599463db552b5b6677706ea19663b9bd1f61117e00490715766cd0"
+      ],
+      "complete": true
+    },
+    {
+      "dataset": "yelp",
+      "model": "distilbert",
+      "run_ids": [
+        "bb2bfcc271a3cd1d5787d773f769246a04964cea7ae4ed9b1e54d6b1266f4174",
+        "c325023d5ffc03935b7c92239380a7043daf9756d474a98b73a2139cfe443102"
+      ],
+      "complete": true
+    },
+    {
+      "dataset": "go_emotions",
+      "model": "tfidf_svm",
+      "run_ids": [
+        "ba9778eb8912f1ddc58fb765a4035cd8ac615aad47b06909fe36bf80e30223a9",
+        "37d4ddbc8597a869eb793becda423106a85d9febc54817352058fc34d6487d79"
+      ],
+      "complete": true
+    },
+    {
+      "dataset": "go_emotions",
+      "model": "bilstm",
+      "run_ids": [
+        "43244e5b6bd866f3c44f82e771f5b8be2ee0aba7ecb9a107449f7ee68d8327b6",
+        "2a93eaeaa5c071fcd9ad038eaa9df71c1070d1355e7c7965db136f4fe252687f"
+      ],
+      "complete": true
+    },
+    {
+      "dataset": "go_emotions",
+      "model": "distilbert",
+      "run_ids": [
+        "07797eab441bc6ddac2b4a1855e35916c1f3fd4748c0366f4a2cc33b2a2837c6",
+        "c829f41ef93d270289f194bb4eeb5f2db854b5dfc1d6131016c382e208deb698"
+      ],
+      "complete": true
+    },
+    {
+      "dataset": "banking77",
+      "model": "tfidf_svm",
+      "run_ids": [
+        "23b4968c73af7c4b1894d846fd76df838414692d48755032cbff6a94f4039d34",
+        "5aa9bf514fa60c7ef6651214d304dc213b0012a265a8af0e2e2bfa46913a9488"
+      ],
+      "complete": true
+    },
+    {
+      "dataset": "banking77",
+      "model": "bilstm",
+      "run_ids": [
+        "5359c766e4071bb1c544af31fb50206755a304a1496da52caa8c6461341e2db5",
+        "81f7d15bdf94ce07e854c912aa6e89247ef9f74a0927995fea6e80ebe7daaf79"
+      ],
+      "complete": true
+    },
+    {
+      "dataset": "banking77",
+      "model": "distilbert",
+      "run_ids": [
+        "14f7c250db8812439e0558e30ef83e040dec4864be6c9a0322626cecce2ac904",
+        "a9b8318f052466eb376cd08d7879ec3752c122ceb4113cda16303318270298c0"
+      ],
+      "complete": true
+    },
+    {
+      "dataset": "yahoo_answers_topics",
+      "model": "tfidf_svm",
+      "run_ids": [
+        "cb544e04a2a6bde7d0260403acffafda6e3fe9abcdf8dc26c86c613153071bb2",
+        "a82cfafc815671ce71b3e3ecb05ef20e329d1a155889ace34f39c0fc43fa042b"
+      ],
+      "complete": true
+    },
+    {
+      "dataset": "yahoo_answers_topics",
+      "model": "bilstm",
+      "run_ids": [
+        "2b725f1e40dc25cf6c3caeb8d2aa01da59996c8caa03b9129176bee6180ac19a",
+        "7391efcbc0aa5e300d46c969d841f6c1204c7afd7e6482f2d257a8211f962bc1"
+      ],
+      "complete": true
+    },
+    {
+      "dataset": "yahoo_answers_topics",
+      "model": "distilbert",
+      "run_ids": [
+        "898ac9282bab98c6c80a9e0e09054c63e5d69fd4763c1e40cfec81d2cf1641b7",
+        "b5b610d1dd1a5acb052f24456c1c072de664b51ce9092a9a5fc8bc6d2f5d9cf1"
+      ],
+      "complete": true
+    }
+  ],
+  "boundary_point_estimates": [
+    {
+      "dataset": "yelp",
+      "n": 1000,
+      "svm": 0.864726070292342,
+      "distilbert": 0.8999899989999001,
+      "delta_distilbert_minus_svm": 0.03526392870755801,
+      "run_ids": [
+        "8de08be16ebebad34206dc5d960328147cd8b6f08e20fea4627409bcb3c2fcff",
+        "bb2bfcc271a3cd1d5787d773f769246a04964cea7ae4ed9b1e54d6b1266f4174"
+      ]
+    },
+    {
+      "dataset": "yelp",
+      "n": 6000,
+      "svm": 0.9033236656999033,
+      "distilbert": 0.9299719887955182,
+      "delta_distilbert_minus_svm": 0.026648323095614934,
+      "run_ids": [
+        "cf066d53cda8bde6f01f1bfcce3b94327eba36ee969ee5810927feb59c4e401a",
+        "c325023d5ffc03935b7c92239380a7043daf9756d474a98b73a2139cfe443102"
+      ]
+    },
+    {
+      "dataset": "go_emotions",
+      "n": 1000,
+      "svm": 0.2584163846917337,
+      "distilbert": 0.0540690218409308,
+      "delta_distilbert_minus_svm": -0.20434736285080293,
+      "run_ids": [
+        "ba9778eb8912f1ddc58fb765a4035cd8ac615aad47b06909fe36bf80e30223a9",
+        "07797eab441bc6ddac2b4a1855e35916c1f3fd4748c0366f4a2cc33b2a2837c6"
+      ]
+    },
+    {
+      "dataset": "go_emotions",
+      "n": 6000,
+      "svm": 0.36505393073208864,
+      "distilbert": 0.32154020165485836,
+      "delta_distilbert_minus_svm": -0.04351372907723028,
+      "run_ids": [
+        "37d4ddbc8597a869eb793becda423106a85d9febc54817352058fc34d6487d79",
+        "c829f41ef93d270289f194bb4eeb5f2db854b5dfc1d6131016c382e208deb698"
+      ]
+    },
+    {
+      "dataset": "banking77",
+      "n": 1000,
+      "svm": 0.641656965197491,
+      "distilbert": 0.17971332700296688,
+      "delta_distilbert_minus_svm": -0.46194363819452416,
+      "run_ids": [
+        "23b4968c73af7c4b1894d846fd76df838414692d48755032cbff6a94f4039d34",
+        "14f7c250db8812439e0558e30ef83e040dec4864be6c9a0322626cecce2ac904"
+      ]
+    },
+    {
+      "dataset": "banking77",
+      "n": 6000,
+      "svm": 0.8364679117012138,
+      "distilbert": 0.8456558724409191,
+      "delta_distilbert_minus_svm": 0.009187960739705292,
+      "run_ids": [
+        "5aa9bf514fa60c7ef6651214d304dc213b0012a265a8af0e2e2bfa46913a9488",
+        "a9b8318f052466eb376cd08d7879ec3752c122ceb4113cda16303318270298c0"
+      ]
+    },
+    {
+      "dataset": "yahoo_answers_topics",
+      "n": 1000,
+      "svm": 0.44703518223961314,
+      "distilbert": 0.6223600842071795,
+      "delta_distilbert_minus_svm": 0.17532490196756634,
+      "run_ids": [
+        "cb544e04a2a6bde7d0260403acffafda6e3fe9abcdf8dc26c86c613153071bb2",
+        "898ac9282bab98c6c80a9e0e09054c63e5d69fd4763c1e40cfec81d2cf1641b7"
+      ]
+    },
+    {
+      "dataset": "yahoo_answers_topics",
+      "n": 6000,
+      "svm": 0.6066792288337879,
+      "distilbert": 0.7088217198571949,
+      "delta_distilbert_minus_svm": 0.102142491023407,
+      "run_ids": [
+        "a82cfafc815671ce71b3e3ecb05ef20e329d1a155889ace34f39c0fc43fa042b",
+        "b5b610d1dd1a5acb052f24456c1c072de664b51ce9092a9a5fc8bc6d2f5d9cf1"
+      ]
+    }
+  ],
+  "core_imbalance_pairs": [
+    {
+      "dataset": "yelp",
+      "model": "tfidf_svm",
+      "n": 6000,
+      "run_ids": [
+        "dfcb1b0fcd64128245c33ca7272d481ce7e06969a47c4de8d557b697bbf241fa",
+        "a7ec312757ec8cfbcde97358dfacc1de39b07b8f0eda8d118ff156fd3f0ab245"
+      ],
+      "complete": true,
+      "balanced": 0.9066573323999066,
+      "skewed": 0.6615351020853806,
+      "drop_percentage_points": 24.512223031452606
+    },
+    {
+      "dataset": "yelp",
+      "model": "bilstm",
+      "n": 6000,
+      "run_ids": [
+        "546438c462b06bc15a214286bcdaafe1413182a15a11ce7325891a548444e458",
+        "630fd9614e28bfc207abd2edafc0a2c222f1b0cfbe8c45edec588d9a35cee4ae"
+      ],
+      "complete": true,
+      "balanced": 0.8866553321998867,
+      "skewed": 0.8069018474185826,
+      "drop_percentage_points": 7.975348478130407
+    },
+    {
+      "dataset": "yelp",
+      "model": "distilbert",
+      "n": 6000,
+      "run_ids": [
+        "41a600915df8f89d8da36e60f3c61491fff20cb7ef745683228faa2af9f727e4",
+        "25b79ebe66386c95c4e6fb163233530188c799666466ce7ca849e6fd03fbc23b"
+      ],
+      "complete": true,
+      "balanced": 0.9349998194439428,
+      "skewed": 0.855119666662923,
+      "drop_percentage_points": 7.988015278101979
+    },
+    {
+      "dataset": "banking77",
+      "model": "tfidf_svm",
+      "n": 781,
+      "run_ids": [
+        "bdcfc14f1892bedb0c608ad249a2037082dd2f7cccc06c43335bfaddbba792a0",
+        "b0a09fa6c178e2357d5826e65972f9c62afe8098ce2cefbcf97ab802fe001240"
+      ],
+      "complete": true,
+      "balanced": 0.6476599559773637,
+      "skewed": 0.5839856737441131,
+      "drop_percentage_points": 6.367428223325056
+    },
+    {
+      "dataset": "banking77",
+      "model": "bilstm",
+      "n": 781,
+      "run_ids": [
+        "29b8943bd6bef519be0eb30bf0aa8775dccdab38ae634a18e0dc79ff1e75cfab",
+        "5e96ea3c1af807fdc0ae13af0ef9861993c8de974abf407d370b44ca9ee750fb"
+      ],
+      "complete": true,
+      "balanced": 0.013215152055125643,
+      "skewed": 0.0033271957788053213,
+      "drop_percentage_points": 0.9887956276320321
+    },
+    {
+      "dataset": "banking77",
+      "model": "distilbert",
+      "n": 781,
+      "run_ids": [
+        "d0a4c687b40a883c9f167b0447ba122094569efa595468a0f4e309a2fb14213a",
+        "29a35f2da382b3c795f5dee06baaff776bafe62daa18b5f8d2c1a3066f04a94b"
+      ],
+      "complete": true,
+      "balanced": 0.3443597353582589,
+      "skewed": 0.12210135459560244,
+      "drop_percentage_points": 22.225838076265646
+    },
+    {
+      "dataset": "yahoo_answers_topics",
+      "model": "tfidf_svm",
+      "n": 6000,
+      "run_ids": [
+        "abeaba6f01650b97c381c07ffe16b204ecc5f8a616edd9f5ae18d8bdf1ec952c",
+        "26b556b3063d905fe241557fc005671d61183d69cb9d9dabd1ed132ea2f67351"
+      ],
+      "complete": true,
+      "balanced": 0.6070897923275975,
+      "skewed": 0.5116806380779065,
+      "drop_percentage_points": 9.540915424969098
+    },
+    {
+      "dataset": "yahoo_answers_topics",
+      "model": "bilstm",
+      "n": 6000,
+      "run_ids": [
+        "77f0b1a0200223b6cf93e2d13e4143c29d8e7e964b452b90b581b9aeb007cfdf",
+        "e54bea88f846e9c981ae189cdf08016b9ff6be7cd93e09d6961d75bcb1827772"
+      ],
+      "complete": true,
+      "balanced": 0.507049698428055,
+      "skewed": 0.3550402234711491,
+      "drop_percentage_points": 15.200947495690592
+    },
+    {
+      "dataset": "yahoo_answers_topics",
+      "model": "distilbert",
+      "n": 6000,
+      "run_ids": [
+        "244f8479523ea051bc6ed2a65ea769c66d8904749013bbb34b47e15544c5ac27",
+        "1ca937c47901e5a0aeb17aecb1a6fd791b79474e0bab231786abeddb583234f1"
+      ],
+      "complete": true,
+      "balanced": 0.70979343498117,
+      "skewed": 0.6650058754746417,
+      "drop_percentage_points": 4.478755950652824
+    }
+  ],
+  "semantic_module_counts": {
+    "E1": {
+      "selected_physical_requests": 95,
+      "completed": 55,
+      "warning": "shared references across modules; do not sum module counts"
+    },
+    "E5": {
+      "selected_physical_requests": 26,
+      "completed": 7,
+      "warning": "shared references across modules; do not sum module counts"
+    },
+    "E4": {
+      "selected_physical_requests": 19,
+      "completed": 9,
+      "warning": "shared references across modules; do not sum module counts"
+    },
+    "E3": {
+      "selected_physical_requests": 26,
+      "completed": 18,
+      "warning": "shared references across modules; do not sum module counts"
+    },
+    "E2": {
+      "selected_physical_requests": 14,
+      "completed": 6,
+      "warning": "shared references across modules; do not sum module counts"
+    },
+    "M2": {
+      "selected_physical_requests": 48,
+      "completed": 36,
+      "warning": "shared references across modules; do not sum module counts"
+    },
+    "M5": {
+      "selected_physical_requests": 6,
+      "completed": 2,
+      "warning": "shared references across modules; do not sum module counts"
+    },
+    "M3": {
+      "selected_physical_requests": 8,
+      "completed": 0,
+      "warning": "shared references across modules; do not sum module counts"
+    }
+  },
+  "go_emotions_three_rare_label_gap_contribution": 0.04308385703185614,
+  "human_review_status": "pending",
+  "local_discovery_cases_manifest_exists": true,
+  "discovery_case_manifest": {
+    "summary": {
+      "yelp": {
+        "frame_rows": 253,
+        "reserved_groups_excluded": 147,
+        "checkpoints_scored": 4,
+        "failure_cases": 20,
+        "human_review_status": "pending"
+      },
+      "go_emotions": {
+        "frame_rows": 500,
+        "reserved_groups_excluded": 100,
+        "checkpoints_scored": 3,
+        "failure_cases": 20,
+        "human_review_status": "pending"
+      },
+      "banking77": {
+        "frame_rows": 23,
+        "reserved_groups_excluded": 941,
+        "checkpoints_scored": 4,
+        "failure_cases": 20,
+        "human_review_status": "pending"
+      },
+      "yahoo_answers_topics": {
+        "frame_rows": 500,
+        "reserved_groups_excluded": 525,
+        "checkpoints_scored": 4,
+        "failure_cases": 20,
+        "human_review_status": "pending"
+      }
+    },
+    "total_cases": 80,
+    "all_linear_margins_verified": true,
+    "official_test_predictions_generated": false,
+    "actual_human_reviews_completed": 0,
+    "slurm_job_id": "277883"
+  },
+  "discovery_prediction_rows": 4604,
+  "discovery_unique_samples": 1276,
+  "case_trajectories_and_linear_decompositions_verified": 80,
+  "discovery_transitions": [
+    {
+      "dataset": "yelp",
+      "model": "tfidf_svm",
+      "before": "N1000",
+      "after": "N6000",
+      "paired_D_rows": 253,
+      "correct_both": 215,
+      "corrected": 15,
+      "new_error": 7,
+      "wrong_both": 16,
+      "correctness_definition": "single_label_match",
+      "scope": "conditional_D_frame_after_reserved_group_exclusion_not_population_estimate",
+      "human_review_status": "pending"
+    },
+    {
+      "dataset": "yelp",
+      "model": "tfidf_svm",
+      "before": "N6000",
+      "after": "N20000",
+      "paired_D_rows": 253,
+      "correct_both": 222,
+      "corrected": 11,
+      "new_error": 8,
+      "wrong_both": 12,
+      "correctness_definition": "single_label_match",
+      "scope": "conditional_D_frame_after_reserved_group_exclusion_not_population_estimate",
+      "human_review_status": "pending"
+    },
+    {
+      "dataset": "yelp",
+      "model": "tfidf_svm",
+      "before": "N20000",
+      "after": "N100000",
+      "paired_D_rows": 253,
+      "correct_both": 227,
+      "corrected": 6,
+      "new_error": 6,
+      "wrong_both": 14,
+      "correctness_definition": "single_label_match",
+      "scope": "conditional_D_frame_after_reserved_group_exclusion_not_population_estimate",
+      "human_review_status": "pending"
+    },
+    {
+      "dataset": "go_emotions",
+      "model": "tfidf_svm",
+      "before": "N1000",
+      "after": "N6000",
+      "paired_D_rows": 500,
+      "correct_both": 45,
+      "corrected": 78,
+      "new_error": 16,
+      "wrong_both": 361,
+      "correctness_definition": "exact_label_set_match",
+      "scope": "conditional_D_frame_after_reserved_group_exclusion_not_population_estimate",
+      "human_review_status": "pending"
+    },
+    {
+      "dataset": "go_emotions",
+      "model": "tfidf_svm",
+      "before": "N6000",
+      "after": "N20000",
+      "paired_D_rows": 500,
+      "correct_both": 102,
+      "corrected": 52,
+      "new_error": 21,
+      "wrong_both": 325,
+      "correctness_definition": "exact_label_set_match",
+      "scope": "conditional_D_frame_after_reserved_group_exclusion_not_population_estimate",
+      "human_review_status": "pending"
+    },
+    {
+      "dataset": "banking77",
+      "model": "tfidf_svm",
+      "before": "N1000",
+      "after": "N6000",
+      "paired_D_rows": 23,
+      "correct_both": 12,
+      "corrected": 3,
+      "new_error": 1,
+      "wrong_both": 7,
+      "correctness_definition": "single_label_match",
+      "scope": "conditional_D_frame_after_reserved_group_exclusion_not_population_estimate",
+      "human_review_status": "pending"
+    },
+    {
+      "dataset": "banking77",
+      "model": "tfidf_svm",
+      "before": "K1",
+      "after": "K10",
+      "paired_D_rows": 23,
+      "correct_both": 3,
+      "corrected": 10,
+      "new_error": 0,
+      "wrong_both": 10,
+      "correctness_definition": "single_label_match",
+      "scope": "conditional_D_frame_after_reserved_group_exclusion_not_population_estimate",
+      "human_review_status": "pending"
+    },
+    {
+      "dataset": "yahoo_answers_topics",
+      "model": "tfidf_svm",
+      "before": "N1000",
+      "after": "N6000",
+      "paired_D_rows": 500,
+      "correct_both": 211,
+      "corrected": 94,
+      "new_error": 28,
+      "wrong_both": 167,
+      "correctness_definition": "single_label_match",
+      "scope": "conditional_D_frame_after_reserved_group_exclusion_not_population_estimate",
+      "human_review_status": "pending"
+    },
+    {
+      "dataset": "yahoo_answers_topics",
+      "model": "tfidf_svm",
+      "before": "N6000",
+      "after": "N20000",
+      "paired_D_rows": 500,
+      "correct_both": 284,
+      "corrected": 42,
+      "new_error": 21,
+      "wrong_both": 153,
+      "correctness_definition": "single_label_match",
+      "scope": "conditional_D_frame_after_reserved_group_exclusion_not_population_estimate",
+      "human_review_status": "pending"
+    },
+    {
+      "dataset": "yahoo_answers_topics",
+      "model": "tfidf_svm",
+      "before": "N20000",
+      "after": "N100000",
+      "paired_D_rows": 500,
+      "correct_both": 301,
+      "corrected": 40,
+      "new_error": 25,
+      "wrong_both": 134,
+      "correctness_definition": "single_label_match",
+      "scope": "conditional_D_frame_after_reserved_group_exclusion_not_population_estimate",
+      "human_review_status": "pending"
+    }
+  ],
+  "remote_discovery_case_outputs": "downloaded and verified; SVM only; human semantic causes remain unknown",
+  "selection_lock_exists": false,
+  "evaluation_freeze_exists": false,
+  "source_sha256": {
+    "training\\overnight\\run-plan.json": "0c0deb822ca874dcfc7e1c89b07031fda82262dc2538bb815fe8671b4b00db32",
+    "training\\overnight\\extension-run-plan.json": "21465579b9739ff16b4cc8388bb96dbc6cf01433b47974ba85163b01abfab862",
+    "training\\cluster-migration\\verified-checkpoints.json": "cab2bb729097cf3f4a6bbad1e77ff65ea9373f87aae00805c594f32177abe1ac",
+    "training\\fixed-main-run-manifest.json": "f30acc37813e973e32faa95e7e02c1df5167ab1df304189e0d1f790df21accfd"
+  },
+  "experiment_register_sha256": "5cfe03c3d089d145ad44815fffacdf5eb080ace22189d493cf8fc28e31d10736",
+  "new_training_submitted": false,
+  "cluster_jobs_changed": false
+}

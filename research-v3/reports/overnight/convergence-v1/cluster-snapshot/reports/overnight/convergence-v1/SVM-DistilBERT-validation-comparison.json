@@ -1,0 +1,44 @@
+{
+  "scope": "V_only_SVM_vs_completed_DistilBERT_candidates",
+  "official_test_predictions_generated": false,
+  "rows": [
+    {
+      "dataset_id": "banking77",
+      "partition": "V",
+      "metric": "macro_f1",
+      "tfidf_svm": {
+        "value": 0.6500426607223931,
+        "run_id": "e8ebbc666e71553305dbaf6fd1c229730e7b1a5c468e17d6a286b3191a8ee695",
+        "C": 10,
+        "lr": null,
+        "completed_candidates_considered": 3
+      },
+      "distilbert": {
+        "value": 0.8131220962820327,
+        "run_id": "44ea803bfda18f5ba88f643d1b0253034e44e37b182c0858f2435a6e312abb03",
+        "C": null,
+        "lr": 0.0001,
+        "completed_candidates_considered": 3
+      }
+    },
+    {
+      "dataset_id": "go_emotions",
+      "partition": "V",
+      "metric": "macro_ap",
+      "tfidf_svm": {
+        "value": 0.3745481090842374,
+        "run_id": "4c4000425c82521dea520c48da43dc043b0c1dde31ca445623b096ed6a078c4f",
+        "C": 0.1,
+        "lr": null,
+        "completed_candidates_considered": 3
+      },
+      "distilbert": {
+        "value": 0.4330867306265059,
+        "run_id": "053930b319299c3e4c5707f082d7cb5c6a655b7025d936cc06d18e42a3160397",
+        "C": null,
+        "lr": 5e-05,
+        "completed_candidates_considered": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "ag-news-imbalance-v1",
+  "conditions": {"balanced": [1500,1500,1500,1500], "mild": [4200,600,600,600], "moderate": [5100,300,300,300], "severe": [5640,120,120,120]},
+  "majority_class": 0,
+  "minority_classes": [1,2,3],
+  "sample_seed": 2026,
+  "training_seeds": [42,43,44],
+  "hyperparameters": "Frozen from balanced AG News validation selection; no new search",
+  "mitigation": "Severe only: balanced class weights for TF-IDF SVM and inverse-frequency CE for DistilBERT",
+  "evaluation": "Existing balanced AG News validation/test, 1000 each; exploratory extension after original test inspection"
+}

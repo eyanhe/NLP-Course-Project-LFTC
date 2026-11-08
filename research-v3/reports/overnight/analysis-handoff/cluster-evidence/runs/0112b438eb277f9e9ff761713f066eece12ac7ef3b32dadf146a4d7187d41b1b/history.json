@@ -1,0 +1,65 @@
+{
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 4.352737877585671,
+      "validation": null,
+      "optimizer_updates": 13
+    },
+    {
+      "epoch": 2,
+      "train_loss": 4.343514437489695,
+      "validation": null,
+      "optimizer_updates": 26
+    },
+    {
+      "epoch": 3,
+      "train_loss": 4.342011550804237,
+      "validation": null,
+      "optimizer_updates": 39
+    },
+    {
+      "epoch": 4,
+      "train_loss": 4.33845026462109,
+      "validation": null,
+      "optimizer_updates": 52
+    },
+    {
+      "epoch": 5,
+      "train_loss": 4.335665216074362,
+      "validation": null,
+      "optimizer_updates": 65
+    },
+    {
+      "epoch": 6,
+      "train_loss": 4.331534744857193,
+      "validation": null,
+      "optimizer_updates": 78
+    },
+    {
+      "epoch": 7,
+      "train_loss": 4.329663064882353,
+      "validation": null,
+      "optimizer_updates": 91
+    },
+    {
+      "epoch": 8,
+      "train_loss": 4.3273463187279635,
+      "validation": null,
+      "optimizer_updates": 104
+    },
+    {
+      "epoch": 9,
+      "train_loss": 4.3236700999272335,
+      "validation": null,
+      "optimizer_updates": 117
+    },
+    {
+      "epoch": 10,
+      "train_loss": 4.3227722911091595,
+      "validation": null,
+      "optimizer_updates": 130
+    }
+  ],
+  "attempts": []
+}

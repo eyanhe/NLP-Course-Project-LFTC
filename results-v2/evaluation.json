@@ -1,0 +1,3905 @@
+{
+  "v2_config_sha256": "31a435c1b726b19754661483e800d1c1b8f92d12bd759ba7ff463edfacbeb571",
+  "v1_manifests": {
+    "imdb/train": "8b44de0b22e458e7ff2076533968d1b30cd09497347f3bdcc61b08885898d932",
+    "imdb/validation": "5fcfc6634342b1df0e2d784b4c75438b267334b3f76837fdf2033ed9479a8201",
+    "imdb/test": "f3cd57625d7b7100e8f7c94073c3aa236bd9a537f9c99d66dc92b147e4e8ebd2",
+    "rotten_tomatoes/train": "5c250c3780603713ce0c66db55d1b432afc71dc966096971cfbdee0f6a1956aa",
+    "rotten_tomatoes/validation": "838a224e85548328de1f1862ab5b7db103524978e94f4e9606827c17187b5e89",
+    "rotten_tomatoes/test": "02fd74488fe4e7ff6abeab1390d297e8a250de0e4082cf36730204a3b0ffd4ea",
+    "yelp/train": "3c1b6c8b2010e073a6ab696cf8dc88876a2ac0c4d9a4ef9f7b26de272d5daf02",
+    "yelp/validation": "c993724a243c12e8369d1c8460a1ccf449cff4ee712dbe893fbbb1705e2f06dd",
+    "yelp/test": "d2961859e5b68dfcb596bf0d683e1658717e5a3b543df4e8bbcd08a1ee7d11ba"
+  },
+  "news_manifests": {
+    "train": "45fb4a367454e3c33494813fee0898d7ab4c32754ce72e17c7cfb46377fa5787",
+    "validation": "48008639efaa1a0548090ac06f82fa9a8f2c888216b7be38de1c8bbc071e5aec",
+    "test": "889f17d86f4c27d75ec499bab8e4579a54870b38635c2df522b09e694525a61c"
+  },
+  "model_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "created_utc": "2026-11-06T10:17:11.601311+00:00",
+  "rows": [
+    {
+      "source": "imdb",
+      "target": "imdb",
+      "model": "logistic_regression",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.888,
+      "mcc": 0.776503337296725,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.9024896265560166,
+          "recall": 0.87,
+          "f1-score": 0.8859470468431772,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8745173745173745,
+          "recall": 0.906,
+          "f1-score": 0.8899803536345776,
+          "support": 500.0
+        },
+        "accuracy": 0.888,
+        "macro avg": {
+          "precision": 0.8885035005366956,
+          "recall": 0.888,
+          "f1-score": 0.8879637002388774,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8885035005366956,
+          "recall": 0.888,
+          "f1-score": 0.8879637002388774,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          435,
+          65
+        ],
+        [
+          47,
+          453
+        ]
+      ],
+      "macro_precision": 0.8885035005366956,
+      "macro_recall": 0.888,
+      "macro_f1": 0.8879637002388774,
+      "micro_precision": 0.888,
+      "micro_recall": 0.888,
+      "micro_f1": 0.888,
+      "weighted_precision": 0.8885035005366956,
+      "weighted_recall": 0.888,
+      "weighted_f1": 0.8879637002388774
+    },
+    {
+      "source": "imdb",
+      "target": "rotten_tomatoes",
+      "model": "logistic_regression",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.728,
+      "mcc": 0.46833542492912084,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.7953367875647669,
+          "recall": 0.614,
+          "f1-score": 0.6930022573363431,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.6856677524429967,
+          "recall": 0.842,
+          "f1-score": 0.755834829443447,
+          "support": 500.0
+        },
+        "accuracy": 0.728,
+        "macro avg": {
+          "precision": 0.7405022700038818,
+          "recall": 0.728,
+          "f1-score": 0.7244185433898951,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.7405022700038818,
+          "recall": 0.728,
+          "f1-score": 0.7244185433898952,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          307,
+          193
+        ],
+        [
+          79,
+          421
+        ]
+      ],
+      "macro_precision": 0.7405022700038818,
+      "macro_recall": 0.728,
+      "macro_f1": 0.7244185433898951,
+      "micro_precision": 0.728,
+      "micro_recall": 0.728,
+      "micro_f1": 0.728,
+      "weighted_precision": 0.7405022700038818,
+      "weighted_recall": 0.728,
+      "weighted_f1": 0.7244185433898952
+    },
+    {
+      "source": "imdb",
+      "target": "yelp",
+      "model": "logistic_regression",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.847,
+      "mcc": 0.6973567863769647,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.88470066518847,
+          "recall": 0.798,
+          "f1-score": 0.8391167192429022,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8160291438979964,
+          "recall": 0.896,
+          "f1-score": 0.8541468064823642,
+          "support": 500.0
+        },
+        "accuracy": 0.847,
+        "macro avg": {
+          "precision": 0.8503649045432332,
+          "recall": 0.847,
+          "f1-score": 0.8466317628626332,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8503649045432332,
+          "recall": 0.847,
+          "f1-score": 0.8466317628626332,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          399,
+          101
+        ],
+        [
+          52,
+          448
+        ]
+      ],
+      "macro_precision": 0.8503649045432332,
+      "macro_recall": 0.847,
+      "macro_f1": 0.8466317628626332,
+      "micro_precision": 0.847,
+      "micro_recall": 0.847,
+      "micro_f1": 0.847,
+      "weighted_precision": 0.8503649045432332,
+      "weighted_recall": 0.847,
+      "weighted_f1": 0.8466317628626332
+    },
+    {
+      "source": "imdb",
+      "target": "imdb",
+      "model": "linear_svm",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.881,
+      "mcc": 0.7625507605454983,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.896049896049896,
+          "recall": 0.862,
+          "f1-score": 0.8786952089704383,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8670520231213873,
+          "recall": 0.9,
+          "f1-score": 0.8832188420019627,
+          "support": 500.0
+        },
+        "accuracy": 0.881,
+        "macro avg": {
+          "precision": 0.8815509595856417,
+          "recall": 0.881,
+          "f1-score": 0.8809570254862005,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8815509595856417,
+          "recall": 0.881,
+          "f1-score": 0.8809570254862006,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          431,
+          69
+        ],
+        [
+          50,
+          450
+        ]
+      ],
+      "macro_precision": 0.8815509595856417,
+      "macro_recall": 0.881,
+      "macro_f1": 0.8809570254862005,
+      "micro_precision": 0.881,
+      "micro_recall": 0.881,
+      "micro_f1": 0.881,
+      "weighted_precision": 0.8815509595856417,
+      "weighted_recall": 0.881,
+      "weighted_f1": 0.8809570254862006
+    },
+    {
+      "source": "imdb",
+      "target": "rotten_tomatoes",
+      "model": "linear_svm",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.706,
+      "mcc": 0.4438542048064032,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8280254777070064,
+          "recall": 0.52,
+          "f1-score": 0.6388206388206388,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.6501457725947521,
+          "recall": 0.892,
+          "f1-score": 0.7521079258010118,
+          "support": 500.0
+        },
+        "accuracy": 0.706,
+        "macro avg": {
+          "precision": 0.7390856251508793,
+          "recall": 0.706,
+          "f1-score": 0.6954642823108252,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.7390856251508793,
+          "recall": 0.706,
+          "f1-score": 0.6954642823108252,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          260,
+          240
+        ],
+        [
+          54,
+          446
+        ]
+      ],
+      "macro_precision": 0.7390856251508793,
+      "macro_recall": 0.706,
+      "macro_f1": 0.6954642823108252,
+      "micro_precision": 0.706,
+      "micro_recall": 0.706,
+      "micro_f1": 0.706,
+      "weighted_precision": 0.7390856251508793,
+      "weighted_recall": 0.706,
+      "weighted_f1": 0.6954642823108252
+    },
+    {
+      "source": "imdb",
+      "target": "yelp",
+      "model": "linear_svm",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.859,
+      "mcc": 0.7214728712084448,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8980044345898004,
+          "recall": 0.81,
+          "f1-score": 0.8517350157728707,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8269581056466302,
+          "recall": 0.908,
+          "f1-score": 0.86558627264061,
+          "support": 500.0
+        },
+        "accuracy": 0.859,
+        "macro avg": {
+          "precision": 0.8624812701182153,
+          "recall": 0.859,
+          "f1-score": 0.8586606442067404,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8624812701182153,
+          "recall": 0.859,
+          "f1-score": 0.8586606442067405,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          405,
+          95
+        ],
+        [
+          46,
+          454
+        ]
+      ],
+      "macro_precision": 0.8624812701182153,
+      "macro_recall": 0.859,
+      "macro_f1": 0.8586606442067404,
+      "micro_precision": 0.859,
+      "micro_recall": 0.859,
+      "micro_f1": 0.859,
+      "weighted_precision": 0.8624812701182153,
+      "weighted_recall": 0.859,
+      "weighted_f1": 0.8586606442067405
+    },
+    {
+      "source": "imdb",
+      "target": "imdb",
+      "model": "distilbert",
+      "seed": 42,
+      "test_n": 1000,
+      "accuracy": 0.896,
+      "mcc": 0.7921013954683453,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.889763779527559,
+          "recall": 0.904,
+          "f1-score": 0.8968253968253969,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9024390243902439,
+          "recall": 0.888,
+          "f1-score": 0.8951612903225806,
+          "support": 500.0
+        },
+        "accuracy": 0.896,
+        "macro avg": {
+          "precision": 0.8961014019589015,
+          "recall": 0.896,
+          "f1-score": 0.8959933435739887,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8961014019589015,
+          "recall": 0.896,
+          "f1-score": 0.8959933435739887,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          452,
+          48
+        ],
+        [
+          56,
+          444
+        ]
+      ],
+      "macro_precision": 0.8961014019589015,
+      "macro_recall": 0.896,
+      "macro_f1": 0.8959933435739887,
+      "micro_precision": 0.896,
+      "micro_recall": 0.896,
+      "micro_f1": 0.896,
+      "weighted_precision": 0.8961014019589015,
+      "weighted_recall": 0.896,
+      "weighted_f1": 0.8959933435739887
+    },
+    {
+      "source": "imdb",
+      "target": "rotten_tomatoes",
+      "model": "distilbert",
+      "seed": 42,
+      "test_n": 1000,
+      "accuracy": 0.802,
+      "mcc": 0.6070428404165641,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8355555555555556,
+          "recall": 0.752,
+          "f1-score": 0.791578947368421,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.7745454545454545,
+          "recall": 0.852,
+          "f1-score": 0.8114285714285714,
+          "support": 500.0
+        },
+        "accuracy": 0.802,
+        "macro avg": {
+          "precision": 0.805050505050505,
+          "recall": 0.802,
+          "f1-score": 0.8015037593984962,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8050505050505051,
+          "recall": 0.802,
+          "f1-score": 0.8015037593984962,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          376,
+          124
+        ],
+        [
+          74,
+          426
+        ]
+      ],
+      "macro_precision": 0.805050505050505,
+      "macro_recall": 0.802,
+      "macro_f1": 0.8015037593984962,
+      "micro_precision": 0.802,
+      "micro_recall": 0.802,
+      "micro_f1": 0.802,
+      "weighted_precision": 0.8050505050505051,
+      "weighted_recall": 0.802,
+      "weighted_f1": 0.8015037593984962
+    },
+    {
+      "source": "imdb",
+      "target": "yelp",
+      "model": "distilbert",
+      "seed": 42,
+      "test_n": 1000,
+      "accuracy": 0.915,
+      "mcc": 0.8300813519589333,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.920892494929006,
+          "recall": 0.908,
+          "f1-score": 0.9144008056394763,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9092702169625246,
+          "recall": 0.922,
+          "f1-score": 0.9155908639523337,
+          "support": 500.0
+        },
+        "accuracy": 0.915,
+        "macro avg": {
+          "precision": 0.9150813559457653,
+          "recall": 0.915,
+          "f1-score": 0.9149958347959051,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.9150813559457653,
+          "recall": 0.915,
+          "f1-score": 0.914995834795905,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          454,
+          46
+        ],
+        [
+          39,
+          461
+        ]
+      ],
+      "macro_precision": 0.9150813559457653,
+      "macro_recall": 0.915,
+      "macro_f1": 0.9149958347959051,
+      "micro_precision": 0.915,
+      "micro_recall": 0.915,
+      "micro_f1": 0.915,
+      "weighted_precision": 0.9150813559457653,
+      "weighted_recall": 0.915,
+      "weighted_f1": 0.914995834795905
+    },
+    {
+      "source": "imdb",
+      "target": "imdb",
+      "model": "distilbert",
+      "seed": 43,
+      "test_n": 1000,
+      "accuracy": 0.894,
+      "mcc": 0.788006304075649,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8955823293172691,
+          "recall": 0.892,
+          "f1-score": 0.8937875751503006,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8924302788844621,
+          "recall": 0.896,
+          "f1-score": 0.8942115768463074,
+          "support": 500.0
+        },
+        "accuracy": 0.894,
+        "macro avg": {
+          "precision": 0.8940063041008657,
+          "recall": 0.894,
+          "f1-score": 0.8939995759983039,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8940063041008657,
+          "recall": 0.894,
+          "f1-score": 0.8939995759983039,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          446,
+          54
+        ],
+        [
+          52,
+          448
+        ]
+      ],
+      "macro_precision": 0.8940063041008657,
+      "macro_recall": 0.894,
+      "macro_f1": 0.8939995759983039,
+      "micro_precision": 0.894,
+      "micro_recall": 0.894,
+      "micro_f1": 0.894,
+      "weighted_precision": 0.8940063041008657,
+      "weighted_recall": 0.894,
+      "weighted_f1": 0.8939995759983039
+    },
+    {
+      "source": "imdb",
+      "target": "rotten_tomatoes",
+      "model": "distilbert",
+      "seed": 43,
+      "test_n": 1000,
+      "accuracy": 0.814,
+      "mcc": 0.6284073399772465,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8257261410788381,
+          "recall": 0.796,
+          "f1-score": 0.8105906313645621,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.803088803088803,
+          "recall": 0.832,
+          "f1-score": 0.8172888015717092,
+          "support": 500.0
+        },
+        "accuracy": 0.814,
+        "macro avg": {
+          "precision": 0.8144074720838206,
+          "recall": 0.8140000000000001,
+          "f1-score": 0.8139397164681357,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8144074720838206,
+          "recall": 0.814,
+          "f1-score": 0.8139397164681357,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          398,
+          102
+        ],
+        [
+          84,
+          416
+        ]
+      ],
+      "macro_precision": 0.8144074720838206,
+      "macro_recall": 0.8140000000000001,
+      "macro_f1": 0.8139397164681357,
+      "micro_precision": 0.814,
+      "micro_recall": 0.814,
+      "micro_f1": 0.814,
+      "weighted_precision": 0.8144074720838206,
+      "weighted_recall": 0.814,
+      "weighted_f1": 0.8139397164681357
+    },
+    {
+      "source": "imdb",
+      "target": "yelp",
+      "model": "distilbert",
+      "seed": 43,
+      "test_n": 1000,
+      "accuracy": 0.914,
+      "mcc": 0.8285370660846499,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.9294605809128631,
+          "recall": 0.896,
+          "f1-score": 0.9124236252545825,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8996138996138996,
+          "recall": 0.932,
+          "f1-score": 0.9155206286836935,
+          "support": 500.0
+        },
+        "accuracy": 0.914,
+        "macro avg": {
+          "precision": 0.9145372402633813,
+          "recall": 0.914,
+          "f1-score": 0.9139721269691381,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.9145372402633813,
+          "recall": 0.914,
+          "f1-score": 0.9139721269691381,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          448,
+          52
+        ],
+        [
+          34,
+          466
+        ]
+      ],
+      "macro_precision": 0.9145372402633813,
+      "macro_recall": 0.914,
+      "macro_f1": 0.9139721269691381,
+      "micro_precision": 0.914,
+      "micro_recall": 0.914,
+      "micro_f1": 0.914,
+      "weighted_precision": 0.9145372402633813,
+      "weighted_recall": 0.914,
+      "weighted_f1": 0.9139721269691381
+    },
+    {
+      "source": "imdb",
+      "target": "imdb",
+      "model": "distilbert",
+      "seed": 44,
+      "test_n": 1000,
+      "accuracy": 0.89,
+      "mcc": 0.7800998591733703,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8963414634146342,
+          "recall": 0.882,
+          "f1-score": 0.8891129032258065,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8838582677165354,
+          "recall": 0.898,
+          "f1-score": 0.8908730158730159,
+          "support": 500.0
+        },
+        "accuracy": 0.89,
+        "macro avg": {
+          "precision": 0.8900998655655847,
+          "recall": 0.89,
+          "f1-score": 0.8899929595494112,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8900998655655848,
+          "recall": 0.89,
+          "f1-score": 0.8899929595494112,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          441,
+          59
+        ],
+        [
+          51,
+          449
+        ]
+      ],
+      "macro_precision": 0.8900998655655847,
+      "macro_recall": 0.89,
+      "macro_f1": 0.8899929595494112,
+      "micro_precision": 0.89,
+      "micro_recall": 0.89,
+      "micro_f1": 0.89,
+      "weighted_precision": 0.8900998655655848,
+      "weighted_recall": 0.89,
+      "weighted_f1": 0.8899929595494112
+    },
+    {
+      "source": "imdb",
+      "target": "rotten_tomatoes",
+      "model": "distilbert",
+      "seed": 44,
+      "test_n": 1000,
+      "accuracy": 0.805,
+      "mcc": 0.613456132251318,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8411633109619687,
+          "recall": 0.752,
+          "f1-score": 0.7940865892291447,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.7757685352622061,
+          "recall": 0.858,
+          "f1-score": 0.8148148148148148,
+          "support": 500.0
+        },
+        "accuracy": 0.805,
+        "macro avg": {
+          "precision": 0.8084659231120874,
+          "recall": 0.8049999999999999,
+          "f1-score": 0.8044507020219798,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8084659231120874,
+          "recall": 0.805,
+          "f1-score": 0.8044507020219798,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          376,
+          124
+        ],
+        [
+          71,
+          429
+        ]
+      ],
+      "macro_precision": 0.8084659231120874,
+      "macro_recall": 0.8049999999999999,
+      "macro_f1": 0.8044507020219798,
+      "micro_precision": 0.805,
+      "micro_recall": 0.805,
+      "micro_f1": 0.805,
+      "weighted_precision": 0.8084659231120874,
+      "weighted_recall": 0.805,
+      "weighted_f1": 0.8044507020219798
+    },
+    {
+      "source": "imdb",
+      "target": "yelp",
+      "model": "distilbert",
+      "seed": 44,
+      "test_n": 1000,
+      "accuracy": 0.918,
+      "mcc": 0.836006688080257,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.9163346613545816,
+          "recall": 0.92,
+          "f1-score": 0.9181636726546906,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9196787148594378,
+          "recall": 0.916,
+          "f1-score": 0.9178356713426854,
+          "support": 500.0
+        },
+        "accuracy": 0.918,
+        "macro avg": {
+          "precision": 0.9180066881070097,
+          "recall": 0.918,
+          "f1-score": 0.917999671998688,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.9180066881070097,
+          "recall": 0.918,
+          "f1-score": 0.9179996719986879,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          460,
+          40
+        ],
+        [
+          42,
+          458
+        ]
+      ],
+      "macro_precision": 0.9180066881070097,
+      "macro_recall": 0.918,
+      "macro_f1": 0.917999671998688,
+      "micro_precision": 0.918,
+      "micro_recall": 0.918,
+      "micro_f1": 0.918,
+      "weighted_precision": 0.9180066881070097,
+      "weighted_recall": 0.918,
+      "weighted_f1": 0.9179996719986879
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "imdb",
+      "model": "logistic_regression",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.737,
+      "mcc": 0.5217695541519425,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.6671368124118476,
+          "recall": 0.946,
+          "f1-score": 0.782464846980976,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9072164948453608,
+          "recall": 0.528,
+          "f1-score": 0.6675094816687737,
+          "support": 500.0
+        },
+        "accuracy": 0.737,
+        "macro avg": {
+          "precision": 0.7871766536286042,
+          "recall": 0.737,
+          "f1-score": 0.7249871643248749,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.7871766536286042,
+          "recall": 0.737,
+          "f1-score": 0.7249871643248749,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          473,
+          27
+        ],
+        [
+          236,
+          264
+        ]
+      ],
+      "macro_precision": 0.7871766536286042,
+      "macro_recall": 0.737,
+      "macro_f1": 0.7249871643248749,
+      "micro_precision": 0.737,
+      "micro_recall": 0.737,
+      "micro_f1": 0.737,
+      "weighted_precision": 0.7871766536286042,
+      "weighted_recall": 0.737,
+      "weighted_f1": 0.7249871643248749
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "rotten_tomatoes",
+      "model": "logistic_regression",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.788,
+      "mcc": 0.5760046080552967,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.7868525896414342,
+          "recall": 0.79,
+          "f1-score": 0.7884231536926147,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.7891566265060241,
+          "recall": 0.786,
+          "f1-score": 0.7875751503006012,
+          "support": 500.0
+        },
+        "accuracy": 0.788,
+        "macro avg": {
+          "precision": 0.7880046080737292,
+          "recall": 0.788,
+          "f1-score": 0.787999151996608,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.7880046080737292,
+          "recall": 0.788,
+          "f1-score": 0.7879991519966079,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          395,
+          105
+        ],
+        [
+          107,
+          393
+        ]
+      ],
+      "macro_precision": 0.7880046080737292,
+      "macro_recall": 0.788,
+      "macro_f1": 0.787999151996608,
+      "micro_precision": 0.788,
+      "micro_recall": 0.788,
+      "micro_f1": 0.788,
+      "weighted_precision": 0.7880046080737292,
+      "weighted_recall": 0.788,
+      "weighted_f1": 0.7879991519966079
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "yelp",
+      "model": "logistic_regression",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.711,
+      "mcc": 0.4840990481361942,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.6416107382550336,
+          "recall": 0.956,
+          "f1-score": 0.7678714859437751,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9137254901960784,
+          "recall": 0.466,
+          "f1-score": 0.6172185430463576,
+          "support": 500.0
+        },
+        "accuracy": 0.711,
+        "macro avg": {
+          "precision": 0.7776681142255559,
+          "recall": 0.711,
+          "f1-score": 0.6925450144950663,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.777668114225556,
+          "recall": 0.711,
+          "f1-score": 0.6925450144950663,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          478,
+          22
+        ],
+        [
+          267,
+          233
+        ]
+      ],
+      "macro_precision": 0.7776681142255559,
+      "macro_recall": 0.711,
+      "macro_f1": 0.6925450144950663,
+      "micro_precision": 0.711,
+      "micro_recall": 0.711,
+      "micro_f1": 0.711,
+      "weighted_precision": 0.777668114225556,
+      "weighted_recall": 0.711,
+      "weighted_f1": 0.6925450144950663
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "imdb",
+      "model": "linear_svm",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.735,
+      "mcc": 0.5184228563090503,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.6652601969057665,
+          "recall": 0.946,
+          "f1-score": 0.7811725846407928,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9065743944636678,
+          "recall": 0.524,
+          "f1-score": 0.6641318124207858,
+          "support": 500.0
+        },
+        "accuracy": 0.735,
+        "macro avg": {
+          "precision": 0.7859172956847171,
+          "recall": 0.735,
+          "f1-score": 0.7226521985307892,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.7859172956847171,
+          "recall": 0.735,
+          "f1-score": 0.7226521985307893,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          473,
+          27
+        ],
+        [
+          238,
+          262
+        ]
+      ],
+      "macro_precision": 0.7859172956847171,
+      "macro_recall": 0.735,
+      "macro_f1": 0.7226521985307892,
+      "micro_precision": 0.735,
+      "micro_recall": 0.735,
+      "micro_f1": 0.735,
+      "weighted_precision": 0.7859172956847171,
+      "weighted_recall": 0.735,
+      "weighted_f1": 0.7226521985307893
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "rotten_tomatoes",
+      "model": "linear_svm",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.787,
+      "mcc": 0.5740103322789724,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.7887323943661971,
+          "recall": 0.784,
+          "f1-score": 0.7863590772316951,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.7852882703777336,
+          "recall": 0.79,
+          "f1-score": 0.7876370887337986,
+          "support": 500.0
+        },
+        "accuracy": 0.787,
+        "macro avg": {
+          "precision": 0.7870103323719654,
+          "recall": 0.787,
+          "f1-score": 0.7869980829827468,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.7870103323719654,
+          "recall": 0.787,
+          "f1-score": 0.7869980829827469,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          392,
+          108
+        ],
+        [
+          105,
+          395
+        ]
+      ],
+      "macro_precision": 0.7870103323719654,
+      "macro_recall": 0.787,
+      "macro_f1": 0.7869980829827468,
+      "micro_precision": 0.787,
+      "micro_recall": 0.787,
+      "micro_f1": 0.787,
+      "weighted_precision": 0.7870103323719654,
+      "weighted_recall": 0.787,
+      "weighted_f1": 0.7869980829827469
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "yelp",
+      "model": "linear_svm",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.707,
+      "mcc": 0.46903336641044524,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.6408163265306123,
+          "recall": 0.942,
+          "f1-score": 0.762753036437247,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8905660377358491,
+          "recall": 0.472,
+          "f1-score": 0.6169934640522876,
+          "support": 500.0
+        },
+        "accuracy": 0.707,
+        "macro avg": {
+          "precision": 0.7656911821332306,
+          "recall": 0.707,
+          "f1-score": 0.6898732502447673,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.7656911821332307,
+          "recall": 0.707,
+          "f1-score": 0.6898732502447674,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          471,
+          29
+        ],
+        [
+          264,
+          236
+        ]
+      ],
+      "macro_precision": 0.7656911821332306,
+      "macro_recall": 0.707,
+      "macro_f1": 0.6898732502447673,
+      "micro_precision": 0.707,
+      "micro_recall": 0.707,
+      "micro_f1": 0.707,
+      "weighted_precision": 0.7656911821332307,
+      "weighted_recall": 0.707,
+      "weighted_f1": 0.6898732502447674
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "imdb",
+      "model": "distilbert",
+      "seed": 42,
+      "test_n": 1000,
+      "accuracy": 0.854,
+      "mcc": 0.7158837695993647,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8083623693379791,
+          "recall": 0.928,
+          "f1-score": 0.8640595903165735,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9154929577464789,
+          "recall": 0.78,
+          "f1-score": 0.8423326133909287,
+          "support": 500.0
+        },
+        "accuracy": 0.854,
+        "macro avg": {
+          "precision": 0.861927663542229,
+          "recall": 0.8540000000000001,
+          "f1-score": 0.853196101853751,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8619276635422289,
+          "recall": 0.854,
+          "f1-score": 0.853196101853751,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          464,
+          36
+        ],
+        [
+          110,
+          390
+        ]
+      ],
+      "macro_precision": 0.861927663542229,
+      "macro_recall": 0.8540000000000001,
+      "macro_f1": 0.853196101853751,
+      "micro_precision": 0.854,
+      "micro_recall": 0.854,
+      "micro_f1": 0.854,
+      "weighted_precision": 0.8619276635422289,
+      "weighted_recall": 0.854,
+      "weighted_f1": 0.853196101853751
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "rotten_tomatoes",
+      "model": "distilbert",
+      "seed": 42,
+      "test_n": 1000,
+      "accuracy": 0.834,
+      "mcc": 0.6681924671498009,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8422131147540983,
+          "recall": 0.822,
+          "f1-score": 0.8319838056680162,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.826171875,
+          "recall": 0.846,
+          "f1-score": 0.8359683794466403,
+          "support": 500.0
+        },
+        "accuracy": 0.834,
+        "macro avg": {
+          "precision": 0.8341924948770492,
+          "recall": 0.834,
+          "f1-score": 0.8339760925573283,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8341924948770492,
+          "recall": 0.834,
+          "f1-score": 0.8339760925573282,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          411,
+          89
+        ],
+        [
+          77,
+          423
+        ]
+      ],
+      "macro_precision": 0.8341924948770492,
+      "macro_recall": 0.834,
+      "macro_f1": 0.8339760925573283,
+      "micro_precision": 0.834,
+      "micro_recall": 0.834,
+      "micro_f1": 0.834,
+      "weighted_precision": 0.8341924948770492,
+      "weighted_recall": 0.834,
+      "weighted_f1": 0.8339760925573282
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "yelp",
+      "model": "distilbert",
+      "seed": 42,
+      "test_n": 1000,
+      "accuracy": 0.87,
+      "mcc": 0.7506692658426323,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8167808219178082,
+          "recall": 0.954,
+          "f1-score": 0.8800738007380073,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9447115384615384,
+          "recall": 0.786,
+          "f1-score": 0.8580786026200873,
+          "support": 500.0
+        },
+        "accuracy": 0.87,
+        "macro avg": {
+          "precision": 0.8807461801896733,
+          "recall": 0.87,
+          "f1-score": 0.8690762016790473,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8807461801896734,
+          "recall": 0.87,
+          "f1-score": 0.8690762016790472,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          477,
+          23
+        ],
+        [
+          107,
+          393
+        ]
+      ],
+      "macro_precision": 0.8807461801896733,
+      "macro_recall": 0.87,
+      "macro_f1": 0.8690762016790473,
+      "micro_precision": 0.87,
+      "micro_recall": 0.87,
+      "micro_f1": 0.87,
+      "weighted_precision": 0.8807461801896734,
+      "weighted_recall": 0.87,
+      "weighted_f1": 0.8690762016790472
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "imdb",
+      "model": "distilbert",
+      "seed": 43,
+      "test_n": 1000,
+      "accuracy": 0.794,
+      "mcc": 0.63025730039872,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.7161764705882353,
+          "recall": 0.974,
+          "f1-score": 0.8254237288135593,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.959375,
+          "recall": 0.614,
+          "f1-score": 0.748780487804878,
+          "support": 500.0
+        },
+        "accuracy": 0.794,
+        "macro avg": {
+          "precision": 0.8377757352941176,
+          "recall": 0.794,
+          "f1-score": 0.7871021083092187,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8377757352941175,
+          "recall": 0.794,
+          "f1-score": 0.7871021083092187,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          487,
+          13
+        ],
+        [
+          193,
+          307
+        ]
+      ],
+      "macro_precision": 0.8377757352941176,
+      "macro_recall": 0.794,
+      "macro_f1": 0.7871021083092187,
+      "micro_precision": 0.794,
+      "micro_recall": 0.794,
+      "micro_f1": 0.794,
+      "weighted_precision": 0.8377757352941175,
+      "weighted_recall": 0.794,
+      "weighted_f1": 0.7871021083092187
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "rotten_tomatoes",
+      "model": "distilbert",
+      "seed": 43,
+      "test_n": 1000,
+      "accuracy": 0.837,
+      "mcc": 0.67699761186621,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8080438756855576,
+          "recall": 0.884,
+          "f1-score": 0.8443170964660937,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8719646799116998,
+          "recall": 0.79,
+          "f1-score": 0.8289611752360966,
+          "support": 500.0
+        },
+        "accuracy": 0.837,
+        "macro avg": {
+          "precision": 0.8400042777986287,
+          "recall": 0.837,
+          "f1-score": 0.8366391358510952,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8400042777986286,
+          "recall": 0.837,
+          "f1-score": 0.8366391358510951,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          442,
+          58
+        ],
+        [
+          105,
+          395
+        ]
+      ],
+      "macro_precision": 0.8400042777986287,
+      "macro_recall": 0.837,
+      "macro_f1": 0.8366391358510952,
+      "micro_precision": 0.837,
+      "micro_recall": 0.837,
+      "micro_f1": 0.837,
+      "weighted_precision": 0.8400042777986286,
+      "weighted_recall": 0.837,
+      "weighted_f1": 0.8366391358510951
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "yelp",
+      "model": "distilbert",
+      "seed": 43,
+      "test_n": 1000,
+      "accuracy": 0.842,
+      "mcc": 0.7099715310547368,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.7697160883280757,
+          "recall": 0.976,
+          "f1-score": 0.8606701940035273,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9672131147540983,
+          "recall": 0.708,
+          "f1-score": 0.8175519630484989,
+          "support": 500.0
+        },
+        "accuracy": 0.842,
+        "macro avg": {
+          "precision": 0.8684646015410871,
+          "recall": 0.842,
+          "f1-score": 0.8391110785260131,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.868464601541087,
+          "recall": 0.842,
+          "f1-score": 0.8391110785260131,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          488,
+          12
+        ],
+        [
+          146,
+          354
+        ]
+      ],
+      "macro_precision": 0.8684646015410871,
+      "macro_recall": 0.842,
+      "macro_f1": 0.8391110785260131,
+      "micro_precision": 0.842,
+      "micro_recall": 0.842,
+      "micro_f1": 0.842,
+      "weighted_precision": 0.868464601541087,
+      "weighted_recall": 0.842,
+      "weighted_f1": 0.8391110785260131
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "imdb",
+      "model": "distilbert",
+      "seed": 44,
+      "test_n": 1000,
+      "accuracy": 0.864,
+      "mcc": 0.7311005925030404,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8333333333333334,
+          "recall": 0.91,
+          "f1-score": 0.869980879541109,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9008810572687225,
+          "recall": 0.818,
+          "f1-score": 0.8574423480083857,
+          "support": 500.0
+        },
+        "accuracy": 0.864,
+        "macro avg": {
+          "precision": 0.8671071953010279,
+          "recall": 0.864,
+          "f1-score": 0.8637116137747474,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8671071953010279,
+          "recall": 0.864,
+          "f1-score": 0.8637116137747474,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          455,
+          45
+        ],
+        [
+          91,
+          409
+        ]
+      ],
+      "macro_precision": 0.8671071953010279,
+      "macro_recall": 0.864,
+      "macro_f1": 0.8637116137747474,
+      "micro_precision": 0.864,
+      "micro_recall": 0.864,
+      "micro_f1": 0.864,
+      "weighted_precision": 0.8671071953010279,
+      "weighted_recall": 0.864,
+      "weighted_f1": 0.8637116137747474
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "rotten_tomatoes",
+      "model": "distilbert",
+      "seed": 44,
+      "test_n": 1000,
+      "accuracy": 0.843,
+      "mcc": 0.6861660722866721,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8507157464212679,
+          "recall": 0.832,
+          "f1-score": 0.8412537917087968,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8356164383561644,
+          "recall": 0.854,
+          "f1-score": 0.8447082096933729,
+          "support": 500.0
+        },
+        "accuracy": 0.843,
+        "macro avg": {
+          "precision": 0.8431660923887161,
+          "recall": 0.843,
+          "f1-score": 0.8429810007010848,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8431660923887162,
+          "recall": 0.843,
+          "f1-score": 0.842981000701085,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          416,
+          84
+        ],
+        [
+          73,
+          427
+        ]
+      ],
+      "macro_precision": 0.8431660923887161,
+      "macro_recall": 0.843,
+      "macro_f1": 0.8429810007010848,
+      "micro_precision": 0.843,
+      "micro_recall": 0.843,
+      "micro_f1": 0.843,
+      "weighted_precision": 0.8431660923887162,
+      "weighted_recall": 0.843,
+      "weighted_f1": 0.842981000701085
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "yelp",
+      "model": "distilbert",
+      "seed": 44,
+      "test_n": 1000,
+      "accuracy": 0.886,
+      "mcc": 0.7737910778570398,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8614232209737828,
+          "recall": 0.92,
+          "f1-score": 0.8897485493230174,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9141630901287554,
+          "recall": 0.852,
+          "f1-score": 0.8819875776397516,
+          "support": 500.0
+        },
+        "accuracy": 0.886,
+        "macro avg": {
+          "precision": 0.887793155551269,
+          "recall": 0.886,
+          "f1-score": 0.8858680634813845,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8877931555512691,
+          "recall": 0.886,
+          "f1-score": 0.8858680634813845,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          460,
+          40
+        ],
+        [
+          74,
+          426
+        ]
+      ],
+      "macro_precision": 0.887793155551269,
+      "macro_recall": 0.886,
+      "macro_f1": 0.8858680634813845,
+      "micro_precision": 0.886,
+      "micro_recall": 0.886,
+      "micro_f1": 0.886,
+      "weighted_precision": 0.8877931555512691,
+      "weighted_recall": 0.886,
+      "weighted_f1": 0.8858680634813845
+    },
+    {
+      "source": "yelp",
+      "target": "imdb",
+      "model": "logistic_regression",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.796,
+      "mcc": 0.6068683523974999,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.7426229508196721,
+          "recall": 0.906,
+          "f1-score": 0.8162162162162162,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8794871794871795,
+          "recall": 0.686,
+          "f1-score": 0.7707865168539326,
+          "support": 500.0
+        },
+        "accuracy": 0.796,
+        "macro avg": {
+          "precision": 0.8110550651534258,
+          "recall": 0.796,
+          "f1-score": 0.7935013665350744,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8110550651534258,
+          "recall": 0.796,
+          "f1-score": 0.7935013665350744,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          453,
+          47
+        ],
+        [
+          157,
+          343
+        ]
+      ],
+      "macro_precision": 0.8110550651534258,
+      "macro_recall": 0.796,
+      "macro_f1": 0.7935013665350744,
+      "micro_precision": 0.796,
+      "micro_recall": 0.796,
+      "micro_f1": 0.796,
+      "weighted_precision": 0.8110550651534258,
+      "weighted_recall": 0.796,
+      "weighted_f1": 0.7935013665350744
+    },
+    {
+      "source": "yelp",
+      "target": "rotten_tomatoes",
+      "model": "logistic_regression",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.646,
+      "mcc": 0.29324364424572497,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.6607929515418502,
+          "recall": 0.6,
+          "f1-score": 0.6289308176100629,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.6336996336996337,
+          "recall": 0.692,
+          "f1-score": 0.6615678776290631,
+          "support": 500.0
+        },
+        "accuracy": 0.646,
+        "macro avg": {
+          "precision": 0.647246292620742,
+          "recall": 0.6459999999999999,
+          "f1-score": 0.645249347619563,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.647246292620742,
+          "recall": 0.646,
+          "f1-score": 0.645249347619563,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          300,
+          200
+        ],
+        [
+          154,
+          346
+        ]
+      ],
+      "macro_precision": 0.647246292620742,
+      "macro_recall": 0.6459999999999999,
+      "macro_f1": 0.645249347619563,
+      "micro_precision": 0.646,
+      "micro_recall": 0.646,
+      "micro_f1": 0.646,
+      "weighted_precision": 0.647246292620742,
+      "weighted_recall": 0.646,
+      "weighted_f1": 0.645249347619563
+    },
+    {
+      "source": "yelp",
+      "target": "yelp",
+      "model": "logistic_regression",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.934,
+      "mcc": 0.8681736520973661,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.9254901960784314,
+          "recall": 0.944,
+          "f1-score": 0.9346534653465347,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9428571428571428,
+          "recall": 0.924,
+          "f1-score": 0.9333333333333333,
+          "support": 500.0
+        },
+        "accuracy": 0.934,
+        "macro avg": {
+          "precision": 0.9341736694677871,
+          "recall": 0.9339999999999999,
+          "f1-score": 0.9339933993399341,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.9341736694677871,
+          "recall": 0.934,
+          "f1-score": 0.9339933993399341,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          472,
+          28
+        ],
+        [
+          38,
+          462
+        ]
+      ],
+      "macro_precision": 0.9341736694677871,
+      "macro_recall": 0.9339999999999999,
+      "macro_f1": 0.9339933993399341,
+      "micro_precision": 0.934,
+      "micro_recall": 0.934,
+      "micro_f1": 0.934,
+      "weighted_precision": 0.9341736694677871,
+      "weighted_recall": 0.934,
+      "weighted_f1": 0.9339933993399341
+    },
+    {
+      "source": "yelp",
+      "target": "imdb",
+      "model": "linear_svm",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.792,
+      "mcc": 0.5975832672837779,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.740924092409241,
+          "recall": 0.898,
+          "f1-score": 0.8119349005424955,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8705583756345178,
+          "recall": 0.686,
+          "f1-score": 0.767337807606264,
+          "support": 500.0
+        },
+        "accuracy": 0.792,
+        "macro avg": {
+          "precision": 0.8057412340218794,
+          "recall": 0.792,
+          "f1-score": 0.7896363540743798,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8057412340218794,
+          "recall": 0.792,
+          "f1-score": 0.7896363540743798,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          449,
+          51
+        ],
+        [
+          157,
+          343
+        ]
+      ],
+      "macro_precision": 0.8057412340218794,
+      "macro_recall": 0.792,
+      "macro_f1": 0.7896363540743798,
+      "micro_precision": 0.792,
+      "micro_recall": 0.792,
+      "micro_f1": 0.792,
+      "weighted_precision": 0.8057412340218794,
+      "weighted_recall": 0.792,
+      "weighted_f1": 0.7896363540743798
+    },
+    {
+      "source": "yelp",
+      "target": "rotten_tomatoes",
+      "model": "linear_svm",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.633,
+      "mcc": 0.26608995360904986,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.6365503080082136,
+          "recall": 0.62,
+          "f1-score": 0.6281661600810537,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.6296296296296297,
+          "recall": 0.646,
+          "f1-score": 0.6377097729516288,
+          "support": 500.0
+        },
+        "accuracy": 0.633,
+        "macro avg": {
+          "precision": 0.6330899688189215,
+          "recall": 0.633,
+          "f1-score": 0.6329379665163413,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.6330899688189215,
+          "recall": 0.633,
+          "f1-score": 0.6329379665163413,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          310,
+          190
+        ],
+        [
+          177,
+          323
+        ]
+      ],
+      "macro_precision": 0.6330899688189215,
+      "macro_recall": 0.633,
+      "macro_f1": 0.6329379665163413,
+      "micro_precision": 0.633,
+      "micro_recall": 0.633,
+      "micro_f1": 0.633,
+      "weighted_precision": 0.6330899688189215,
+      "weighted_recall": 0.633,
+      "weighted_f1": 0.6329379665163413
+    },
+    {
+      "source": "yelp",
+      "target": "yelp",
+      "model": "linear_svm",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.931,
+      "mcc": 0.8621396779426567,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.9233791748526523,
+          "recall": 0.94,
+          "f1-score": 0.931615460852329,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9389002036659878,
+          "recall": 0.922,
+          "f1-score": 0.9303733602421796,
+          "support": 500.0
+        },
+        "accuracy": 0.931,
+        "macro avg": {
+          "precision": 0.93113968925932,
+          "recall": 0.931,
+          "f1-score": 0.9309944105472543,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.93113968925932,
+          "recall": 0.931,
+          "f1-score": 0.9309944105472543,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          470,
+          30
+        ],
+        [
+          39,
+          461
+        ]
+      ],
+      "macro_precision": 0.93113968925932,
+      "macro_recall": 0.931,
+      "macro_f1": 0.9309944105472543,
+      "micro_precision": 0.931,
+      "micro_recall": 0.931,
+      "micro_f1": 0.931,
+      "weighted_precision": 0.93113968925932,
+      "weighted_recall": 0.931,
+      "weighted_f1": 0.9309944105472543
+    },
+    {
+      "source": "yelp",
+      "target": "imdb",
+      "model": "distilbert",
+      "seed": 42,
+      "test_n": 1000,
+      "accuracy": 0.846,
+      "mcc": 0.7005771271301291,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.7993079584775087,
+          "recall": 0.924,
+          "f1-score": 0.8571428571428571,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.909952606635071,
+          "recall": 0.768,
+          "f1-score": 0.8329718004338394,
+          "support": 500.0
+        },
+        "accuracy": 0.846,
+        "macro avg": {
+          "precision": 0.8546302825562899,
+          "recall": 0.8460000000000001,
+          "f1-score": 0.8450573287883483,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8546302825562898,
+          "recall": 0.846,
+          "f1-score": 0.8450573287883483,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          462,
+          38
+        ],
+        [
+          116,
+          384
+        ]
+      ],
+      "macro_precision": 0.8546302825562899,
+      "macro_recall": 0.8460000000000001,
+      "macro_f1": 0.8450573287883483,
+      "micro_precision": 0.846,
+      "micro_recall": 0.846,
+      "micro_f1": 0.846,
+      "weighted_precision": 0.8546302825562898,
+      "weighted_recall": 0.846,
+      "weighted_f1": 0.8450573287883483
+    },
+    {
+      "source": "yelp",
+      "target": "rotten_tomatoes",
+      "model": "distilbert",
+      "seed": 42,
+      "test_n": 1000,
+      "accuracy": 0.768,
+      "mcc": 0.5389224161235215,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.7427536231884058,
+          "recall": 0.82,
+          "f1-score": 0.779467680608365,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.7991071428571429,
+          "recall": 0.716,
+          "f1-score": 0.7552742616033755,
+          "support": 500.0
+        },
+        "accuracy": 0.768,
+        "macro avg": {
+          "precision": 0.7709303830227743,
+          "recall": 0.768,
+          "f1-score": 0.7673709711058703,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.7709303830227743,
+          "recall": 0.768,
+          "f1-score": 0.7673709711058703,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          410,
+          90
+        ],
+        [
+          142,
+          358
+        ]
+      ],
+      "macro_precision": 0.7709303830227743,
+      "macro_recall": 0.768,
+      "macro_f1": 0.7673709711058703,
+      "micro_precision": 0.768,
+      "micro_recall": 0.768,
+      "micro_f1": 0.768,
+      "weighted_precision": 0.7709303830227743,
+      "weighted_recall": 0.768,
+      "weighted_f1": 0.7673709711058703
+    },
+    {
+      "source": "yelp",
+      "target": "yelp",
+      "model": "distilbert",
+      "seed": 42,
+      "test_n": 1000,
+      "accuracy": 0.939,
+      "mcc": 0.8780158044267208,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.9416498993963782,
+          "recall": 0.936,
+          "f1-score": 0.9388164493480441,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9363817097415507,
+          "recall": 0.942,
+          "f1-score": 0.9391824526420738,
+          "support": 500.0
+        },
+        "accuracy": 0.939,
+        "macro avg": {
+          "precision": 0.9390158045689645,
+          "recall": 0.9390000000000001,
+          "f1-score": 0.938999450995059,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.9390158045689645,
+          "recall": 0.939,
+          "f1-score": 0.938999450995059,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          468,
+          32
+        ],
+        [
+          29,
+          471
+        ]
+      ],
+      "macro_precision": 0.9390158045689645,
+      "macro_recall": 0.9390000000000001,
+      "macro_f1": 0.938999450995059,
+      "micro_precision": 0.939,
+      "micro_recall": 0.939,
+      "micro_f1": 0.939,
+      "weighted_precision": 0.9390158045689645,
+      "weighted_recall": 0.939,
+      "weighted_f1": 0.938999450995059
+    },
+    {
+      "source": "yelp",
+      "target": "imdb",
+      "model": "distilbert",
+      "seed": 43,
+      "test_n": 1000,
+      "accuracy": 0.854,
+      "mcc": 0.7124827944953311,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8183453237410072,
+          "recall": 0.91,
+          "f1-score": 0.8617424242424242,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8986486486486487,
+          "recall": 0.798,
+          "f1-score": 0.8453389830508474,
+          "support": 500.0
+        },
+        "accuracy": 0.854,
+        "macro avg": {
+          "precision": 0.858496986194828,
+          "recall": 0.8540000000000001,
+          "f1-score": 0.8535407036466358,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.858496986194828,
+          "recall": 0.854,
+          "f1-score": 0.8535407036466358,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          455,
+          45
+        ],
+        [
+          101,
+          399
+        ]
+      ],
+      "macro_precision": 0.858496986194828,
+      "macro_recall": 0.8540000000000001,
+      "macro_f1": 0.8535407036466358,
+      "micro_precision": 0.854,
+      "micro_recall": 0.854,
+      "micro_f1": 0.854,
+      "weighted_precision": 0.858496986194828,
+      "weighted_recall": 0.854,
+      "weighted_f1": 0.8535407036466358
+    },
+    {
+      "source": "yelp",
+      "target": "rotten_tomatoes",
+      "model": "distilbert",
+      "seed": 43,
+      "test_n": 1000,
+      "accuracy": 0.771,
+      "mcc": 0.5488946036140491,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.7340241796200345,
+          "recall": 0.85,
+          "f1-score": 0.7877664504170528,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8218527315914489,
+          "recall": 0.692,
+          "f1-score": 0.751357220412595,
+          "support": 500.0
+        },
+        "accuracy": 0.771,
+        "macro avg": {
+          "precision": 0.7779384556057417,
+          "recall": 0.7709999999999999,
+          "f1-score": 0.7695618354148239,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.7779384556057416,
+          "recall": 0.771,
+          "f1-score": 0.7695618354148239,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          425,
+          75
+        ],
+        [
+          154,
+          346
+        ]
+      ],
+      "macro_precision": 0.7779384556057417,
+      "macro_recall": 0.7709999999999999,
+      "macro_f1": 0.7695618354148239,
+      "micro_precision": 0.771,
+      "micro_recall": 0.771,
+      "micro_f1": 0.771,
+      "weighted_precision": 0.7779384556057416,
+      "weighted_recall": 0.771,
+      "weighted_f1": 0.7695618354148239
+    },
+    {
+      "source": "yelp",
+      "target": "yelp",
+      "model": "distilbert",
+      "seed": 43,
+      "test_n": 1000,
+      "accuracy": 0.946,
+      "mcc": 0.892028545370185,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.9424603174603174,
+          "recall": 0.95,
+          "f1-score": 0.9462151394422311,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9495967741935484,
+          "recall": 0.942,
+          "f1-score": 0.9457831325301205,
+          "support": 500.0
+        },
+        "accuracy": 0.946,
+        "macro avg": {
+          "precision": 0.9460285458269329,
+          "recall": 0.946,
+          "f1-score": 0.9459991359861758,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.946028545826933,
+          "recall": 0.946,
+          "f1-score": 0.9459991359861758,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          475,
+          25
+        ],
+        [
+          29,
+          471
+        ]
+      ],
+      "macro_precision": 0.9460285458269329,
+      "macro_recall": 0.946,
+      "macro_f1": 0.9459991359861758,
+      "micro_precision": 0.946,
+      "micro_recall": 0.946,
+      "micro_f1": 0.946,
+      "weighted_precision": 0.946028545826933,
+      "weighted_recall": 0.946,
+      "weighted_f1": 0.9459991359861758
+    },
+    {
+      "source": "yelp",
+      "target": "imdb",
+      "model": "distilbert",
+      "seed": 44,
+      "test_n": 1000,
+      "accuracy": 0.843,
+      "mcc": 0.6911629176719005,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8057040998217468,
+          "recall": 0.904,
+          "f1-score": 0.8520263901979265,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8906605922551253,
+          "recall": 0.782,
+          "f1-score": 0.832800851970181,
+          "support": 500.0
+        },
+        "accuracy": 0.843,
+        "macro avg": {
+          "precision": 0.8481823460384361,
+          "recall": 0.843,
+          "f1-score": 0.8424136210840538,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.848182346038436,
+          "recall": 0.843,
+          "f1-score": 0.8424136210840538,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          452,
+          48
+        ],
+        [
+          109,
+          391
+        ]
+      ],
+      "macro_precision": 0.8481823460384361,
+      "macro_recall": 0.843,
+      "macro_f1": 0.8424136210840538,
+      "micro_precision": 0.843,
+      "micro_recall": 0.843,
+      "micro_f1": 0.843,
+      "weighted_precision": 0.848182346038436,
+      "weighted_recall": 0.843,
+      "weighted_f1": 0.8424136210840538
+    },
+    {
+      "source": "yelp",
+      "target": "rotten_tomatoes",
+      "model": "distilbert",
+      "seed": 44,
+      "test_n": 1000,
+      "accuracy": 0.768,
+      "mcc": 0.5387002689789376,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.7436363636363637,
+          "recall": 0.818,
+          "f1-score": 0.7790476190476191,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.7977777777777778,
+          "recall": 0.718,
+          "f1-score": 0.7557894736842106,
+          "support": 500.0
+        },
+        "accuracy": 0.768,
+        "macro avg": {
+          "precision": 0.7707070707070707,
+          "recall": 0.768,
+          "f1-score": 0.7674185463659149,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.7707070707070707,
+          "recall": 0.768,
+          "f1-score": 0.7674185463659149,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          409,
+          91
+        ],
+        [
+          141,
+          359
+        ]
+      ],
+      "macro_precision": 0.7707070707070707,
+      "macro_recall": 0.768,
+      "macro_f1": 0.7674185463659149,
+      "micro_precision": 0.768,
+      "micro_recall": 0.768,
+      "micro_f1": 0.768,
+      "weighted_precision": 0.7707070707070707,
+      "weighted_recall": 0.768,
+      "weighted_f1": 0.7674185463659149
+    },
+    {
+      "source": "yelp",
+      "target": "yelp",
+      "model": "distilbert",
+      "seed": 44,
+      "test_n": 1000,
+      "accuracy": 0.944,
+      "mcc": 0.8882558545344659,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.93359375,
+          "recall": 0.956,
+          "f1-score": 0.9446640316205533,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9549180327868853,
+          "recall": 0.932,
+          "f1-score": 0.9433198380566802,
+          "support": 500.0
+        },
+        "accuracy": 0.944,
+        "macro avg": {
+          "precision": 0.9442558913934427,
+          "recall": 0.944,
+          "f1-score": 0.9439919348386168,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.9442558913934427,
+          "recall": 0.944,
+          "f1-score": 0.9439919348386168,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          478,
+          22
+        ],
+        [
+          34,
+          466
+        ]
+      ],
+      "macro_precision": 0.9442558913934427,
+      "macro_recall": 0.944,
+      "macro_f1": 0.9439919348386168,
+      "micro_precision": 0.944,
+      "micro_recall": 0.944,
+      "micro_f1": 0.944,
+      "weighted_precision": 0.9442558913934427,
+      "weighted_recall": 0.944,
+      "weighted_f1": 0.9439919348386168
+    },
+    {
+      "source": "imdb",
+      "target": "imdb",
+      "model": "word2vec_svm",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.861,
+      "mcc": 0.722001444004332,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8602794411177644,
+          "recall": 0.862,
+          "f1-score": 0.8611388611388612,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8617234468937875,
+          "recall": 0.86,
+          "f1-score": 0.8608608608608609,
+          "support": 500.0
+        },
+        "accuracy": 0.861,
+        "macro avg": {
+          "precision": 0.861001444005776,
+          "recall": 0.861,
+          "f1-score": 0.860999860999861,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8610014440057759,
+          "recall": 0.861,
+          "f1-score": 0.860999860999861,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          431,
+          69
+        ],
+        [
+          70,
+          430
+        ]
+      ],
+      "macro_precision": 0.861001444005776,
+      "macro_recall": 0.861,
+      "macro_f1": 0.860999860999861,
+      "micro_precision": 0.861,
+      "micro_recall": 0.861,
+      "micro_f1": 0.861,
+      "weighted_precision": 0.8610014440057759,
+      "weighted_recall": 0.861,
+      "weighted_f1": 0.860999860999861
+    },
+    {
+      "source": "imdb",
+      "target": "imdb",
+      "model": "bilstm",
+      "seed": 42,
+      "test_n": 1000,
+      "accuracy": 0.833,
+      "mcc": 0.6697734165235703,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.87248322147651,
+          "recall": 0.78,
+          "f1-score": 0.8236536430834214,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8010849909584087,
+          "recall": 0.886,
+          "f1-score": 0.8414055080721747,
+          "support": 500.0
+        },
+        "accuracy": 0.833,
+        "macro avg": {
+          "precision": 0.8367841062174594,
+          "recall": 0.833,
+          "f1-score": 0.832529575577798,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8367841062174594,
+          "recall": 0.833,
+          "f1-score": 0.832529575577798,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          390,
+          110
+        ],
+        [
+          57,
+          443
+        ]
+      ],
+      "macro_precision": 0.8367841062174594,
+      "macro_recall": 0.833,
+      "macro_f1": 0.832529575577798,
+      "micro_precision": 0.833,
+      "micro_recall": 0.833,
+      "micro_f1": 0.833,
+      "weighted_precision": 0.8367841062174594,
+      "weighted_recall": 0.833,
+      "weighted_f1": 0.832529575577798
+    },
+    {
+      "source": "imdb",
+      "target": "imdb",
+      "model": "bilstm",
+      "seed": 43,
+      "test_n": 1000,
+      "accuracy": 0.834,
+      "mcc": 0.6680213770261028,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8313492063492064,
+          "recall": 0.838,
+          "f1-score": 0.8346613545816733,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8366935483870968,
+          "recall": 0.83,
+          "f1-score": 0.8333333333333334,
+          "support": 500.0
+        },
+        "accuracy": 0.834,
+        "macro avg": {
+          "precision": 0.8340213773681515,
+          "recall": 0.834,
+          "f1-score": 0.8339973439575034,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8340213773681515,
+          "recall": 0.834,
+          "f1-score": 0.8339973439575032,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          419,
+          81
+        ],
+        [
+          85,
+          415
+        ]
+      ],
+      "macro_precision": 0.8340213773681515,
+      "macro_recall": 0.834,
+      "macro_f1": 0.8339973439575034,
+      "micro_precision": 0.834,
+      "micro_recall": 0.834,
+      "micro_f1": 0.834,
+      "weighted_precision": 0.8340213773681515,
+      "weighted_recall": 0.834,
+      "weighted_f1": 0.8339973439575032
+    },
+    {
+      "source": "imdb",
+      "target": "imdb",
+      "model": "bilstm",
+      "seed": 44,
+      "test_n": 1000,
+      "accuracy": 0.845,
+      "mcc": 0.691696738064813,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8709677419354839,
+          "recall": 0.81,
+          "f1-score": 0.8393782383419689,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.822429906542056,
+          "recall": 0.88,
+          "f1-score": 0.8502415458937198,
+          "support": 500.0
+        },
+        "accuracy": 0.845,
+        "macro avg": {
+          "precision": 0.84669882423877,
+          "recall": 0.845,
+          "f1-score": 0.8448098921178444,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.84669882423877,
+          "recall": 0.845,
+          "f1-score": 0.8448098921178444,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          405,
+          95
+        ],
+        [
+          60,
+          440
+        ]
+      ],
+      "macro_precision": 0.84669882423877,
+      "macro_recall": 0.845,
+      "macro_f1": 0.8448098921178444,
+      "micro_precision": 0.845,
+      "micro_recall": 0.845,
+      "micro_f1": 0.845,
+      "weighted_precision": 0.84669882423877,
+      "weighted_recall": 0.845,
+      "weighted_f1": 0.8448098921178444
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "rotten_tomatoes",
+      "model": "word2vec_svm",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.644,
+      "mcc": 0.28800230402764837,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.6445783132530121,
+          "recall": 0.642,
+          "f1-score": 0.6432865731462926,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.6434262948207171,
+          "recall": 0.646,
+          "f1-score": 0.6447105788423154,
+          "support": 500.0
+        },
+        "accuracy": 0.644,
+        "macro avg": {
+          "precision": 0.6440023040368645,
+          "recall": 0.644,
+          "f1-score": 0.643998575994304,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.6440023040368646,
+          "recall": 0.644,
+          "f1-score": 0.643998575994304,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          321,
+          179
+        ],
+        [
+          177,
+          323
+        ]
+      ],
+      "macro_precision": 0.6440023040368645,
+      "macro_recall": 0.644,
+      "macro_f1": 0.643998575994304,
+      "micro_precision": 0.644,
+      "micro_recall": 0.644,
+      "micro_f1": 0.644,
+      "weighted_precision": 0.6440023040368646,
+      "weighted_recall": 0.644,
+      "weighted_f1": 0.643998575994304
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "rotten_tomatoes",
+      "model": "bilstm",
+      "seed": 42,
+      "test_n": 1000,
+      "accuracy": 0.754,
+      "mcc": 0.5136567160402221,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.7981220657276995,
+          "recall": 0.68,
+          "f1-score": 0.734341252699784,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.7212543554006968,
+          "recall": 0.828,
+          "f1-score": 0.770949720670391,
+          "support": 500.0
+        },
+        "accuracy": 0.754,
+        "macro avg": {
+          "precision": 0.7596882105641982,
+          "recall": 0.754,
+          "f1-score": 0.7526454866850876,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.7596882105641981,
+          "recall": 0.754,
+          "f1-score": 0.7526454866850875,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          340,
+          160
+        ],
+        [
+          86,
+          414
+        ]
+      ],
+      "macro_precision": 0.7596882105641982,
+      "macro_recall": 0.754,
+      "macro_f1": 0.7526454866850876,
+      "micro_precision": 0.754,
+      "micro_recall": 0.754,
+      "micro_f1": 0.754,
+      "weighted_precision": 0.7596882105641981,
+      "weighted_recall": 0.754,
+      "weighted_f1": 0.7526454866850875
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "rotten_tomatoes",
+      "model": "bilstm",
+      "seed": 43,
+      "test_n": 1000,
+      "accuracy": 0.76,
+      "mcc": 0.5201498247273899,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.75390625,
+          "recall": 0.772,
+          "f1-score": 0.7628458498023716,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.7663934426229508,
+          "recall": 0.748,
+          "f1-score": 0.757085020242915,
+          "support": 500.0
+        },
+        "accuracy": 0.76,
+        "macro avg": {
+          "precision": 0.7601498463114754,
+          "recall": 0.76,
+          "f1-score": 0.7599654350226432,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.7601498463114753,
+          "recall": 0.76,
+          "f1-score": 0.7599654350226434,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          386,
+          114
+        ],
+        [
+          126,
+          374
+        ]
+      ],
+      "macro_precision": 0.7601498463114754,
+      "macro_recall": 0.76,
+      "macro_f1": 0.7599654350226432,
+      "micro_precision": 0.76,
+      "micro_recall": 0.76,
+      "micro_f1": 0.76,
+      "weighted_precision": 0.7601498463114753,
+      "weighted_recall": 0.76,
+      "weighted_f1": 0.7599654350226434
+    },
+    {
+      "source": "rotten_tomatoes",
+      "target": "rotten_tomatoes",
+      "model": "bilstm",
+      "seed": 44,
+      "test_n": 1000,
+      "accuracy": 0.746,
+      "mcc": 0.49634314333294416,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.7173144876325088,
+          "recall": 0.812,
+          "f1-score": 0.7617260787992496,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.783410138248848,
+          "recall": 0.68,
+          "f1-score": 0.728051391862955,
+          "support": 500.0
+        },
+        "accuracy": 0.746,
+        "macro avg": {
+          "precision": 0.7503623129406785,
+          "recall": 0.746,
+          "f1-score": 0.7448887353311022,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.7503623129406785,
+          "recall": 0.746,
+          "f1-score": 0.7448887353311022,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          406,
+          94
+        ],
+        [
+          160,
+          340
+        ]
+      ],
+      "macro_precision": 0.7503623129406785,
+      "macro_recall": 0.746,
+      "macro_f1": 0.7448887353311022,
+      "micro_precision": 0.746,
+      "micro_recall": 0.746,
+      "micro_f1": 0.746,
+      "weighted_precision": 0.7503623129406785,
+      "weighted_recall": 0.746,
+      "weighted_f1": 0.7448887353311022
+    },
+    {
+      "source": "yelp",
+      "target": "yelp",
+      "model": "word2vec_svm",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.888,
+      "mcc": 0.776503337296725,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8745173745173745,
+          "recall": 0.906,
+          "f1-score": 0.8899803536345776,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9024896265560166,
+          "recall": 0.87,
+          "f1-score": 0.8859470468431772,
+          "support": 500.0
+        },
+        "accuracy": 0.888,
+        "macro avg": {
+          "precision": 0.8885035005366956,
+          "recall": 0.888,
+          "f1-score": 0.8879637002388774,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8885035005366956,
+          "recall": 0.888,
+          "f1-score": 0.8879637002388774,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          453,
+          47
+        ],
+        [
+          65,
+          435
+        ]
+      ],
+      "macro_precision": 0.8885035005366956,
+      "macro_recall": 0.888,
+      "macro_f1": 0.8879637002388774,
+      "micro_precision": 0.888,
+      "micro_recall": 0.888,
+      "micro_f1": 0.888,
+      "weighted_precision": 0.8885035005366956,
+      "weighted_recall": 0.888,
+      "weighted_f1": 0.8879637002388774
+    },
+    {
+      "source": "yelp",
+      "target": "yelp",
+      "model": "bilstm",
+      "seed": 42,
+      "test_n": 1000,
+      "accuracy": 0.897,
+      "mcc": 0.79618294144293,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8696461824953445,
+          "recall": 0.934,
+          "f1-score": 0.9006750241080038,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9287257019438445,
+          "recall": 0.86,
+          "f1-score": 0.893042575285566,
+          "support": 500.0
+        },
+        "accuracy": 0.897,
+        "macro avg": {
+          "precision": 0.8991859422195945,
+          "recall": 0.897,
+          "f1-score": 0.896858799696785,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8991859422195946,
+          "recall": 0.897,
+          "f1-score": 0.896858799696785,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          467,
+          33
+        ],
+        [
+          70,
+          430
+        ]
+      ],
+      "macro_precision": 0.8991859422195945,
+      "macro_recall": 0.897,
+      "macro_f1": 0.896858799696785,
+      "micro_precision": 0.897,
+      "micro_recall": 0.897,
+      "micro_f1": 0.897,
+      "weighted_precision": 0.8991859422195946,
+      "weighted_recall": 0.897,
+      "weighted_f1": 0.896858799696785
+    },
+    {
+      "source": "yelp",
+      "target": "yelp",
+      "model": "bilstm",
+      "seed": 43,
+      "test_n": 1000,
+      "accuracy": 0.88,
+      "mcc": 0.7663034838396502,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.9357798165137615,
+          "recall": 0.816,
+          "f1-score": 0.8717948717948718,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.8368794326241135,
+          "recall": 0.944,
+          "f1-score": 0.8872180451127819,
+          "support": 500.0
+        },
+        "accuracy": 0.88,
+        "macro avg": {
+          "precision": 0.8863296245689375,
+          "recall": 0.8799999999999999,
+          "f1-score": 0.8795064584538268,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8863296245689375,
+          "recall": 0.88,
+          "f1-score": 0.8795064584538268,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          408,
+          92
+        ],
+        [
+          28,
+          472
+        ]
+      ],
+      "macro_precision": 0.8863296245689375,
+      "macro_recall": 0.8799999999999999,
+      "macro_f1": 0.8795064584538268,
+      "micro_precision": 0.88,
+      "micro_recall": 0.88,
+      "micro_f1": 0.88,
+      "weighted_precision": 0.8863296245689375,
+      "weighted_recall": 0.88,
+      "weighted_f1": 0.8795064584538268
+    },
+    {
+      "source": "yelp",
+      "target": "yelp",
+      "model": "bilstm",
+      "seed": 44,
+      "test_n": 1000,
+      "accuracy": 0.908,
+      "mcc": 0.8165292825182057,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.8938223938223938,
+          "recall": 0.926,
+          "f1-score": 0.9096267190569745,
+          "support": 500.0
+        },
+        "Positive": {
+          "precision": 0.9232365145228216,
+          "recall": 0.89,
+          "f1-score": 0.9063136456211812,
+          "support": 500.0
+        },
+        "accuracy": 0.908,
+        "macro avg": {
+          "precision": 0.9085294541726077,
+          "recall": 0.908,
+          "f1-score": 0.9079701823390778,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.9085294541726078,
+          "recall": 0.908,
+          "f1-score": 0.9079701823390779,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          463,
+          37
+        ],
+        [
+          55,
+          445
+        ]
+      ],
+      "macro_precision": 0.9085294541726077,
+      "macro_recall": 0.908,
+      "macro_f1": 0.9079701823390778,
+      "micro_precision": 0.908,
+      "micro_recall": 0.908,
+      "micro_f1": 0.908,
+      "weighted_precision": 0.9085294541726078,
+      "weighted_recall": 0.908,
+      "weighted_f1": 0.9079701823390779
+    },
+    {
+      "source": "ag_news",
+      "target": "ag_news",
+      "model": "logistic_regression",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.88,
+      "mcc": 0.8400302416330581,
+      "classification_report": {
+        "World": {
+          "precision": 0.8943089430894309,
+          "recall": 0.88,
+          "f1-score": 0.8870967741935484,
+          "support": 250.0
+        },
+        "Sports": {
+          "precision": 0.9523809523809523,
+          "recall": 0.96,
+          "f1-score": 0.9561752988047809,
+          "support": 250.0
+        },
+        "Business": {
+          "precision": 0.8380566801619433,
+          "recall": 0.828,
+          "f1-score": 0.8329979879275654,
+          "support": 250.0
+        },
+        "Sci/Tech": {
+          "precision": 0.8352941176470589,
+          "recall": 0.852,
+          "f1-score": 0.8435643564356435,
+          "support": 250.0
+        },
+        "accuracy": 0.88,
+        "macro avg": {
+          "precision": 0.8800101733198463,
+          "recall": 0.8799999999999999,
+          "f1-score": 0.8799586043403845,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8800101733198463,
+          "recall": 0.88,
+          "f1-score": 0.8799586043403844,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          220,
+          6,
+          16,
+          8
+        ],
+        [
+          5,
+          240,
+          2,
+          3
+        ],
+        [
+          10,
+          2,
+          207,
+          31
+        ],
+        [
+          11,
+          4,
+          22,
+          213
+        ]
+      ],
+      "macro_precision": 0.8800101733198463,
+      "macro_recall": 0.8799999999999999,
+      "macro_f1": 0.8799586043403845,
+      "micro_precision": 0.88,
+      "micro_recall": 0.88,
+      "micro_f1": 0.88,
+      "weighted_precision": 0.8800101733198463,
+      "weighted_recall": 0.88,
+      "weighted_f1": 0.8799586043403844
+    },
+    {
+      "source": "ag_news",
+      "target": "ag_news",
+      "model": "linear_svm",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.878,
+      "mcc": 0.8374059116575407,
+      "classification_report": {
+        "World": {
+          "precision": 0.8861788617886179,
+          "recall": 0.872,
+          "f1-score": 0.8790322580645161,
+          "support": 250.0
+        },
+        "Sports": {
+          "precision": 0.9416342412451362,
+          "recall": 0.968,
+          "f1-score": 0.9546351084812623,
+          "support": 250.0
+        },
+        "Business": {
+          "precision": 0.8436213991769548,
+          "recall": 0.82,
+          "f1-score": 0.8316430020283976,
+          "support": 250.0
+        },
+        "Sci/Tech": {
+          "precision": 0.8385826771653543,
+          "recall": 0.852,
+          "f1-score": 0.8452380952380952,
+          "support": 250.0
+        },
+        "accuracy": 0.878,
+        "macro avg": {
+          "precision": 0.8775042948440158,
+          "recall": 0.8779999999999999,
+          "f1-score": 0.8776371159530678,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8775042948440158,
+          "recall": 0.878,
+          "f1-score": 0.8776371159530679,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          218,
+          8,
+          16,
+          8
+        ],
+        [
+          5,
+          242,
+          0,
+          3
+        ],
+        [
+          13,
+          2,
+          205,
+          30
+        ],
+        [
+          10,
+          5,
+          22,
+          213
+        ]
+      ],
+      "macro_precision": 0.8775042948440158,
+      "macro_recall": 0.8779999999999999,
+      "macro_f1": 0.8776371159530678,
+      "micro_precision": 0.878,
+      "micro_recall": 0.878,
+      "micro_f1": 0.878,
+      "weighted_precision": 0.8775042948440158,
+      "weighted_recall": 0.878,
+      "weighted_f1": 0.8776371159530679
+    },
+    {
+      "source": "ag_news",
+      "target": "ag_news",
+      "model": "word2vec_svm",
+      "seed": null,
+      "test_n": 1000,
+      "accuracy": 0.85,
+      "mcc": 0.8000885480325779,
+      "classification_report": {
+        "World": {
+          "precision": 0.8571428571428571,
+          "recall": 0.864,
+          "f1-score": 0.8605577689243028,
+          "support": 250.0
+        },
+        "Sports": {
+          "precision": 0.9215686274509803,
+          "recall": 0.94,
+          "f1-score": 0.9306930693069307,
+          "support": 250.0
+        },
+        "Business": {
+          "precision": 0.7874015748031497,
+          "recall": 0.8,
+          "f1-score": 0.7936507936507936,
+          "support": 250.0
+        },
+        "Sci/Tech": {
+          "precision": 0.8326359832635983,
+          "recall": 0.796,
+          "f1-score": 0.8139059304703476,
+          "support": 250.0
+        },
+        "accuracy": 0.85,
+        "macro avg": {
+          "precision": 0.8496872606651463,
+          "recall": 0.8500000000000001,
+          "f1-score": 0.8497018905880936,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8496872606651463,
+          "recall": 0.85,
+          "f1-score": 0.8497018905880938,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          216,
+          8,
+          18,
+          8
+        ],
+        [
+          8,
+          235,
+          3,
+          4
+        ],
+        [
+          20,
+          2,
+          200,
+          28
+        ],
+        [
+          8,
+          10,
+          33,
+          199
+        ]
+      ],
+      "macro_precision": 0.8496872606651463,
+      "macro_recall": 0.8500000000000001,
+      "macro_f1": 0.8497018905880936,
+      "micro_precision": 0.85,
+      "micro_recall": 0.85,
+      "micro_f1": 0.85,
+      "weighted_precision": 0.8496872606651463,
+      "weighted_recall": 0.85,
+      "weighted_f1": 0.8497018905880938
+    },
+    {
+      "source": "ag_news",
+      "target": "ag_news",
+      "model": "bilstm",
+      "seed": 42,
+      "test_n": 1000,
+      "accuracy": 0.874,
+      "mcc": 0.8321586800506036,
+      "classification_report": {
+        "World": {
+          "precision": 0.8760330578512396,
+          "recall": 0.848,
+          "f1-score": 0.8617886178861789,
+          "support": 250.0
+        },
+        "Sports": {
+          "precision": 0.963855421686747,
+          "recall": 0.96,
+          "f1-score": 0.9619238476953907,
+          "support": 250.0
+        },
+        "Business": {
+          "precision": 0.8068181818181818,
+          "recall": 0.852,
+          "f1-score": 0.8287937743190662,
+          "support": 250.0
+        },
+        "Sci/Tech": {
+          "precision": 0.8530612244897959,
+          "recall": 0.836,
+          "f1-score": 0.8444444444444444,
+          "support": 250.0
+        },
+        "accuracy": 0.874,
+        "macro avg": {
+          "precision": 0.8749419714614911,
+          "recall": 0.8739999999999999,
+          "f1-score": 0.8742376710862702,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.874941971461491,
+          "recall": 0.874,
+          "f1-score": 0.8742376710862699,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          212,
+          5,
+          24,
+          9
+        ],
+        [
+          8,
+          240,
+          1,
+          1
+        ],
+        [
+          11,
+          0,
+          213,
+          26
+        ],
+        [
+          11,
+          4,
+          26,
+          209
+        ]
+      ],
+      "macro_precision": 0.8749419714614911,
+      "macro_recall": 0.8739999999999999,
+      "macro_f1": 0.8742376710862702,
+      "micro_precision": 0.874,
+      "micro_recall": 0.874,
+      "micro_f1": 0.874,
+      "weighted_precision": 0.874941971461491,
+      "weighted_recall": 0.874,
+      "weighted_f1": 0.8742376710862699
+    },
+    {
+      "source": "ag_news",
+      "target": "ag_news",
+      "model": "bilstm",
+      "seed": 43,
+      "test_n": 1000,
+      "accuracy": 0.857,
+      "mcc": 0.8109731570085743,
+      "classification_report": {
+        "World": {
+          "precision": 0.8806584362139918,
+          "recall": 0.856,
+          "f1-score": 0.8681541582150102,
+          "support": 250.0
+        },
+        "Sports": {
+          "precision": 0.9444444444444444,
+          "recall": 0.952,
+          "f1-score": 0.9482071713147411,
+          "support": 250.0
+        },
+        "Business": {
+          "precision": 0.8551401869158879,
+          "recall": 0.732,
+          "f1-score": 0.7887931034482759,
+          "support": 250.0
+        },
+        "Sci/Tech": {
+          "precision": 0.7628865979381443,
+          "recall": 0.888,
+          "f1-score": 0.8207024029574861,
+          "support": 250.0
+        },
+        "accuracy": 0.857,
+        "macro avg": {
+          "precision": 0.860782416378117,
+          "recall": 0.857,
+          "f1-score": 0.8564642089838783,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8607824163781173,
+          "recall": 0.857,
+          "f1-score": 0.8564642089838783,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          214,
+          8,
+          15,
+          13
+        ],
+        [
+          8,
+          238,
+          2,
+          2
+        ],
+        [
+          12,
+          1,
+          183,
+          54
+        ],
+        [
+          9,
+          5,
+          14,
+          222
+        ]
+      ],
+      "macro_precision": 0.860782416378117,
+      "macro_recall": 0.857,
+      "macro_f1": 0.8564642089838783,
+      "micro_precision": 0.857,
+      "micro_recall": 0.857,
+      "micro_f1": 0.857,
+      "weighted_precision": 0.8607824163781173,
+      "weighted_recall": 0.857,
+      "weighted_f1": 0.8564642089838783
+    },
+    {
+      "source": "ag_news",
+      "target": "ag_news",
+      "model": "bilstm",
+      "seed": 44,
+      "test_n": 1000,
+      "accuracy": 0.873,
+      "mcc": 0.8312387557970612,
+      "classification_report": {
+        "World": {
+          "precision": 0.8931623931623932,
+          "recall": 0.836,
+          "f1-score": 0.8636363636363636,
+          "support": 250.0
+        },
+        "Sports": {
+          "precision": 0.9356060606060606,
+          "recall": 0.988,
+          "f1-score": 0.9610894941634242,
+          "support": 250.0
+        },
+        "Business": {
+          "precision": 0.7835820895522388,
+          "recall": 0.84,
+          "f1-score": 0.8108108108108109,
+          "support": 250.0
+        },
+        "Sci/Tech": {
+          "precision": 0.8846153846153846,
+          "recall": 0.828,
+          "f1-score": 0.8553719008264463,
+          "support": 250.0
+        },
+        "accuracy": 0.873,
+        "macro avg": {
+          "precision": 0.8742414819840193,
+          "recall": 0.8729999999999999,
+          "f1-score": 0.8727271423592612,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.8742414819840192,
+          "recall": 0.873,
+          "f1-score": 0.8727271423592613,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          209,
+          10,
+          27,
+          4
+        ],
+        [
+          3,
+          247,
+          0,
+          0
+        ],
+        [
+          15,
+          2,
+          210,
+          23
+        ],
+        [
+          7,
+          5,
+          31,
+          207
+        ]
+      ],
+      "macro_precision": 0.8742414819840193,
+      "macro_recall": 0.8729999999999999,
+      "macro_f1": 0.8727271423592612,
+      "micro_precision": 0.873,
+      "micro_recall": 0.873,
+      "micro_f1": 0.873,
+      "weighted_precision": 0.8742414819840192,
+      "weighted_recall": 0.873,
+      "weighted_f1": 0.8727271423592613
+    },
+    {
+      "source": "ag_news",
+      "target": "ag_news",
+      "model": "distilbert",
+      "seed": 42,
+      "test_n": 1000,
+      "accuracy": 0.918,
+      "mcc": 0.8906797300651733,
+      "classification_report": {
+        "World": {
+          "precision": 0.9123505976095617,
+          "recall": 0.916,
+          "f1-score": 0.9141716566866267,
+          "support": 250.0
+        },
+        "Sports": {
+          "precision": 0.9878048780487805,
+          "recall": 0.972,
+          "f1-score": 0.9798387096774194,
+          "support": 250.0
+        },
+        "Business": {
+          "precision": 0.876984126984127,
+          "recall": 0.884,
+          "f1-score": 0.8804780876494024,
+          "support": 250.0
+        },
+        "Sci/Tech": {
+          "precision": 0.896414342629482,
+          "recall": 0.9,
+          "f1-score": 0.8982035928143712,
+          "support": 250.0
+        },
+        "accuracy": 0.918,
+        "macro avg": {
+          "precision": 0.9183884863179879,
+          "recall": 0.9179999999999999,
+          "f1-score": 0.9181730117069549,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.9183884863179879,
+          "recall": 0.918,
+          "f1-score": 0.9181730117069549,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          229,
+          2,
+          11,
+          8
+        ],
+        [
+          5,
+          243,
+          1,
+          1
+        ],
+        [
+          12,
+          0,
+          221,
+          17
+        ],
+        [
+          5,
+          1,
+          19,
+          225
+        ]
+      ],
+      "macro_precision": 0.9183884863179879,
+      "macro_recall": 0.9179999999999999,
+      "macro_f1": 0.9181730117069549,
+      "micro_precision": 0.918,
+      "micro_recall": 0.918,
+      "micro_f1": 0.918,
+      "weighted_precision": 0.9183884863179879,
+      "weighted_recall": 0.918,
+      "weighted_f1": 0.9181730117069549
+    },
+    {
+      "source": "ag_news",
+      "target": "ag_news",
+      "model": "distilbert",
+      "seed": 43,
+      "test_n": 1000,
+      "accuracy": 0.917,
+      "mcc": 0.8893724665828134,
+      "classification_report": {
+        "World": {
+          "precision": 0.8937007874015748,
+          "recall": 0.908,
+          "f1-score": 0.9007936507936508,
+          "support": 250.0
+        },
+        "Sports": {
+          "precision": 0.9836734693877551,
+          "recall": 0.964,
+          "f1-score": 0.9737373737373738,
+          "support": 250.0
+        },
+        "Business": {
+          "precision": 0.8858267716535433,
+          "recall": 0.9,
+          "f1-score": 0.8928571428571429,
+          "support": 250.0
+        },
+        "Sci/Tech": {
+          "precision": 0.9068825910931174,
+          "recall": 0.896,
+          "f1-score": 0.9014084507042254,
+          "support": 250.0
+        },
+        "accuracy": 0.917,
+        "macro avg": {
+          "precision": 0.9175209048839977,
+          "recall": 0.9169999999999999,
+          "f1-score": 0.9171991545230982,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.9175209048839976,
+          "recall": 0.917,
+          "f1-score": 0.9171991545230983,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          227,
+          3,
+          9,
+          11
+        ],
+        [
+          7,
+          241,
+          1,
+          1
+        ],
+        [
+          14,
+          0,
+          225,
+          11
+        ],
+        [
+          6,
+          1,
+          19,
+          224
+        ]
+      ],
+      "macro_precision": 0.9175209048839977,
+      "macro_recall": 0.9169999999999999,
+      "macro_f1": 0.9171991545230982,
+      "micro_precision": 0.917,
+      "micro_recall": 0.917,
+      "micro_f1": 0.917,
+      "weighted_precision": 0.9175209048839976,
+      "weighted_recall": 0.917,
+      "weighted_f1": 0.9171991545230983
+    },
+    {
+      "source": "ag_news",
+      "target": "ag_news",
+      "model": "distilbert",
+      "seed": 44,
+      "test_n": 1000,
+      "accuracy": 0.923,
+      "mcc": 0.8974829262881667,
+      "classification_report": {
+        "World": {
+          "precision": 0.9214876033057852,
+          "recall": 0.892,
+          "f1-score": 0.9065040650406504,
+          "support": 250.0
+        },
+        "Sports": {
+          "precision": 0.991869918699187,
+          "recall": 0.976,
+          "f1-score": 0.9838709677419355,
+          "support": 250.0
+        },
+        "Business": {
+          "precision": 0.8669201520912547,
+          "recall": 0.912,
+          "f1-score": 0.8888888888888888,
+          "support": 250.0
+        },
+        "Sci/Tech": {
+          "precision": 0.9156626506024096,
+          "recall": 0.912,
+          "f1-score": 0.9138276553106213,
+          "support": 250.0
+        },
+        "accuracy": 0.923,
+        "macro avg": {
+          "precision": 0.923985081174659,
+          "recall": 0.9229999999999999,
+          "f1-score": 0.923272894245524,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.923985081174659,
+          "recall": 0.923,
+          "f1-score": 0.923272894245524,
+          "support": 1000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          223,
+          2,
+          17,
+          8
+        ],
+        [
+          4,
+          244,
+          1,
+          1
+        ],
+        [
+          10,
+          0,
+          228,
+          12
+        ],
+        [
+          5,
+          0,
+          17,
+          228
+        ]
+      ],
+      "macro_precision": 0.923985081174659,
+      "macro_recall": 0.9229999999999999,
+      "macro_f1": 0.923272894245524,
+      "micro_precision": 0.923,
+      "micro_recall": 0.923,
+      "micro_f1": 0.923,
+      "weighted_precision": 0.923985081174659,
+      "weighted_recall": 0.923,
+      "weighted_f1": 0.923272894245524
+    }
+  ]
+}

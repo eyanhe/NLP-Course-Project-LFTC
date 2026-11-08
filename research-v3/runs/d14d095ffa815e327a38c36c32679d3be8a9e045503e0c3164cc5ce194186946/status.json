@@ -1,0 +1,8 @@
+{
+  "status": "interrupted",
+  "run_id": "d14d095ffa815e327a38c36c32679d3be8a9e045503e0c3164cc5ce194186946",
+  "pid": 7244,
+  "request_hash": "67b31c159764361a86b7acfe726f8cf643280e85edaed323cf5a13e54daed6f4",
+  "reason": "User requested stopping local training and moving to the school cluster",
+  "interrupted_at_utc": "2026-11-07T08:56:05.687280+00:00"
+}

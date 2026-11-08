@@ -1,0 +1,26 @@
+{
+  "PDF_pages": 12,
+  "context_pages": 1,
+  "result_figures": 11,
+  "Q_models_represented": 42,
+  "source_hashes_verified": 229,
+  "historical_package_files_verified": 8,
+  "logic_source_hashes_verified": 47,
+  "report_section_matches_generator": true,
+  "context_and_logic_visual_reviewed": true,
+  "artifact_sha256": {
+    "00-交接前后研究接续.png": "433d89bfd09888b3cd75f4da4cb842ff415ff20a6fc28557c7845d4858b5fcab",
+    "01-数据规模与模型差距.png": "f8f29c8f9fdccf6c8fd02f0c2b16ce732719eb8c4343bf4a7f4866c6cb7db2a5",
+    "02-优化配方的Q敏感性.png": "5d18e4efa2ee1ec115135ef76ff56ad38660315c6a27d0b36210f2ce0608d1e8",
+    "03-实际训练与早停曲线.png": "ff39e4324b36654f155babcfc4ee4b6f310458f0838d3d129546eb69f097770b",
+    "04-优化后的正式Q比较.png": "cba01fd2ffe6f66d26b1f137b8ed0934287f3bb299c1a360d0c68d266f738f36",
+    "05-预训练与任务适配.png": "d312cc668b94c0b4497082662da2de5faa9a335c4c6b34b68a4a58d736a238c0",
+    "06-类别倾斜的任务差异.png": "2dec8fbc04adb2c93b8dd269fd982d78c2baf3ca5a73d9c4192b0cdb3269c934",
+    "07-标注支持与尾类失效.png": "da79f08bdb2872a2df0cf562430aa3f3a23602f344a4230054a555d96596df77",
+    "08-逐样本错误迁移.png": "2475325f92a783c41a1d9b75626e36c9062f6c165664f54d99a85f217f8d4e50",
+    "09-词汇干预的配对比较.png": "7a82399d67817121800e0e26e0a5d7fe89e69634dd253c8bdd95a645244de578",
+    "10-词汇失败的具体案例.png": "a171417d94908830bedde36b9448d1705de742c4561f66919a6ff25fab591d0c",
+    "11-训练与推理成本.png": "a2659d0d24c1c1af222dabf3e881082ce9cd85ba42d5c3a9b6ac9ba6745792dd",
+    "完整研究图册.pdf": "6c77f613e955db88083f4d1555233e947266c2be62f8b48dd84bbc27ccbdf157"
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "status": "complete",
+  "run_id": "b367eeaede84d3139ad2d29b7c1a42612dfe8fc780581777f6c3f4b24decfe6f",
+  "request_hash": "6f3ce6ae9ec21e7f04b8446a769ca8de0a38e893e0c043e048766351e42a6eb3",
+  "run": {
+    "run_id": "b367eeaede84d3139ad2d29b7c1a42612dfe8fc780581777f6c3f4b24decfe6f",
+    "condition_id": "627aa9daf0f1cd15fa354a3996ebe520ef1d2b0604762de2671ee0c925fe50f8",
+    "model_id": "modernbert",
+    "training_seed": 42,
+    "hparams": {
+      "max_epochs": 5,
+      "effective_batch": 16,
+      "warmup_ratio": 0.1,
+      "lr": 1e-05,
+      "weight_decay": 0,
+      "role_ids_hash": {
+        "train": "32e7891f679cf5ce28f0ef965a4d616829e00ff95159303bc24b8e342eb07441",
+        "select": "af354d52fc40cb0f5e121879b26e07d5e533d4ed054c53b6bb637410b75fac99",
+        "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "target_task": "multilabel",
+      "select_ap_mask": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "device": "cuda",
+      "micro_batch": 4,
+      "cpu_threads": 4,
+      "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+      "label_count": 28
+    },
+    "input_hash": "3d5c0471f7e31e1511976a82080453fca0619fca96f37cbfcbc413cbbdab5658",
+    "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+    "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+    "strict_no_val": false
+  },
+  "training_unique_rows": 6000,
+  "training_ids_sha256": "32e7891f679cf5ce28f0ef965a4d616829e00ff95159303bc24b8e342eb07441",
+  "holdout_labels_accessed": 3237,
+  "score_kind": "logit",
+  "files": {
+    "bundle.joblib": "9f4c87d745ea633800a6b210cbc4d9a2c1bd2000db4a126bfcb0b02c50fb09b6",
+    "history.json": "acdd025129295d0af9991cc53ce1abaf83c1a8805a4e1da507c7c52ac4962fa1",
+    "checkpoint/config.json": "3d5c30a9c582ed72694a33cb91b807af272e53760746471d9333f9b6d7a6aafa",
+    "checkpoint/model.safetensors": "619381f28ccc3922e3c82e1e2c559c59797217b51ba7280118d04d449ceeb09c"
+  },
+  "feature_degenerate": false,
+  "feature_seconds": 0.0,
+  "fit_seconds": 612.0620000001509,
+  "total_seconds": 631.094000000041,
+  "epochs_completed": 5,
+  "selected_epoch": 5,
+  "optimizer_updates": 1875,
+  "micro_batch": 4,
+  "effective_batch": 16,
+  "oom_attempts": [],
+  "reload_verified": true,
+  "actual_model_training_run": true,
+  "official_test_predictions_generated": false,
+  "reload_max_absolute_difference": 0.0,
+  "validation": {
+    "task": "multilabel",
+    "score_kind": "logit",
+    "threshold": 0.0,
+    "rows": 3237,
+    "macro_ap": 0.3480555262819433,
+    "ap_mask": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "macro_f1": 0.26597220714243747,
+    "masked_macro_f1": 0.26597220714243747,
+    "micro_f1": 0.4844221105527638,
+    "per_label": [
+      {
+        "label_id": 0,
+        "precision": 0.7104072398190046,
+        "recall": 0.5627240143369175,
+        "f1": 0.628,
+        "support": 279,
+        "ap": 0.6921876706065015
+      },
+      {
+        "label_id": 1,
+        "precision": 0.7902097902097902,
+        "recall": 0.6141304347826086,
+        "f1": 0.691131498470948,
+        "support": 184,
+        "ap": 0.7245972145820149
+      },
+      {
+        "label_id": 2,
+        "precision": 0.6410256410256411,
+        "recall": 0.21929824561403508,
+        "f1": 0.32679738562091504,
+        "support": 114,
+        "ap": 0.377858233839135
+      },
+      {
+        "label_id": 3,
+        "precision": 0.4375,
+        "recall": 0.07650273224043716,
+        "f1": 0.13023255813953488,
+        "support": 183,
+        "ap": 0.23943380913714332
+      },
+      {
+        "label_id": 4,
+        "precision": 0.42,
+        "recall": 0.09292035398230089,
+        "f1": 0.15217391304347827,
+        "support": 226,
+        "ap": 0.21887198461629126
+      },
+      {
+        "label_id": 5,
+        "precision": 0.2727272727272727,
+        "recall": 0.03125,
+        "f1": 0.056074766355140186,
+        "support": 96,
+        "ap": 0.18896099773011005
+      },
+      {
+        "label_id": 6,
+        "precision": 0.2777777777777778,
+        "recall": 0.056179775280898875,
+        "f1": 0.09345794392523364,
+        "support": 89,
+        "ap": 0.1911478263782335
+      },
+      {
+        "label_id": 7,
+        "precision": 0.5514018691588785,
+        "recall": 0.34705882352941175,
+        "f1": 0.4259927797833935,
+        "support": 170,
+        "ap": 0.44355020298581427
+      },
+      {
+        "label_id": 8,
+        "precision": 1.0,
+        "recall": 0.18181818181818182,
+        "f1": 0.3076923076923077,
+        "support": 44,
+        "ap": 0.3753105038724383
+      },
+      {
+        "label_id": 9,
+        "precision": 0.6666666666666666,
+        "recall": 0.04395604395604396,
+        "f1": 0.08247422680412371,
+        "support": 91,
+        "ap": 0.15915779769634833
+      },
+      {
+        "label_id": 10,
+        "precision": 0.5277777777777778,
+        "recall": 0.1,
+        "f1": 0.168141592920354,
+        "support": 190,
+        "ap": 0.2826891077133269
+      },
+      {
+        "label_id": 11,
+        "precision": 0.6666666666666666,
+        "recall": 0.1016949152542373,
+        "f1": 0.17647058823529413,
+        "support": 59,
+        "ap": 0.2794198985570846
+      },
+      {
+        "label_id": 12,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 25,
+        "ap": 0.12749259602617227
+      },
+      {
+        "label_id": 13,
+        "precision": 0.75,
+        "recall": 0.10909090909090909,
+        "f1": 0.19047619047619047,
+        "support": 55,
+        "ap": 0.2126612882870828
+      },
+      {
+        "label_id": 14,
+        "precision": 0.3333333333333333,
+        "recall": 0.044444444444444446,
+        "f1": 0.0784313725490196,
+        "support": 45,
+        "ap": 0.2589550831434307
+      },
+      {
+        "label_id": 15,
+        "precision": 0.9705882352941176,
+        "recall": 0.825,
+        "f1": 0.8918918918918919,
+        "support": 200,
+        "ap": 0.9497697543307901
+      },
+      {
+        "label_id": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 8,
+        "ap": 0.011438486214999075
+      },
+      {
+        "label_id": 17,
+        "precision": 0.6060606060606061,
+        "recall": 0.20618556701030927,
+        "f1": 0.3076923076923077,
+        "support": 97,
+        "ap": 0.39005090336654263
+      },
+      {
+        "label_id": 18,
+        "precision": 0.8,
+        "recall": 0.6709677419354839,
+        "f1": 0.7298245614035088,
+        "support": 155,
+        "ap": 0.7851173771151346
+      },
+      {
+        "label_id": 19,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11,
+        "ap": 0.06484028307594211
+      },
+      {
+        "label_id": 20,
+        "precision": 0.7551020408163265,
+        "recall": 0.296,
+        "f1": 0.42528735632183906,
+        "support": 125,
+        "ap": 0.4441451292572846
+      },
+      {
+        "label_id": 21,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7,
+        "ap": 0.35650237860042694
+      },
+      {
+        "label_id": 22,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 76,
+        "ap": 0.0733202445712978
+      },
+      {
+        "label_id": 23,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11,
+        "ap": 0.008246997443533998
+      },
+      {
+        "label_id": 24,
+        "precision": 0.6470588235294118,
+        "recall": 0.275,
+        "f1": 0.38596491228070173,
+        "support": 40,
+        "ap": 0.5072984428462084
+      },
+      {
+        "label_id": 25,
+        "precision": 0.4418604651162791,
+        "recall": 0.21839080459770116,
+        "f1": 0.2923076923076923,
+        "support": 87,
+        "ap": 0.33330689828587384
+      },
+      {
+        "label_id": 26,
+        "precision": 0.8235294117647058,
+        "recall": 0.1794871794871795,
+        "f1": 0.29473684210526313,
+        "support": 78,
+        "ap": 0.4028807791663651
+      },
+      {
+        "label_id": 27,
+        "precision": 0.628968253968254,
+        "recall": 0.5958646616541353,
+        "f1": 0.611969111969112,
+        "support": 1064,
+        "ap": 0.646342846448885
+      }
+    ]
+  },
+  "resources": {
+    "peak_rss_sampled_bytes": 3961954304,
+    "sample_count": 1246,
+    "rss_sample_interval_seconds": 0.5,
+    "elapsed_seconds": 631.1569999998901,
+    "torch_cuda_peak_allocated_bytes": 3161367552,
+    "torch_cuda_peak_reserved_bytes": 3378511872,
+    "gpu_name": "NVIDIA GeForce RTX 4060",
+    "note": "sampled RSS maximum; allocated/reserved Torch memory is not total device usage"
+  }
+}

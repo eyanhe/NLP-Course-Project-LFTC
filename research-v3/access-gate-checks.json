@@ -1,0 +1,24 @@
+{
+  "checks": [
+    {
+      "command": "train",
+      "exit_code": 2,
+      "status": "blocked",
+      "reason": "Actual model fitting is disabled: this is the pretraining preparation stage"
+    },
+    {
+      "command": "evaluate",
+      "exit_code": 2,
+      "status": "blocked",
+      "reason": "Official-test model predictions are disabled before evaluation.freeze"
+    },
+    {
+      "command": "training_smoke",
+      "exit_code": 2,
+      "status": "blocked",
+      "reason": "Actual model fitting is disabled: this is the pretraining preparation stage"
+    }
+  ],
+  "all_passed": true,
+  "actual_model_training_run": false
+}

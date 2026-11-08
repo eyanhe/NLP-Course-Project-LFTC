@@ -1,0 +1,36 @@
+{
+  "scope": "training_only",
+  "user_instruction": "????????????????????",
+  "learner_code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+  "diagnostics_code_hash": "876f4dc4b90cc369ccc181015e25ec950abae445460d7de769e9cb254fd21b55",
+  "official_test_predictions_allowed": false,
+  "human_pilots_verified": false,
+  "required_physical_runs": 2859,
+  "files": {
+    "design.lock.json": {
+      "path": "design.lock.json",
+      "sha256": "be0947b9df36b537e935488f65cdb7bc698f8dad77573bfc19a071cf3732b385"
+    },
+    "matrix/design_manifest.json": {
+      "path": "matrix/design_manifest.json",
+      "sha256": "4a45a3703e4e9237115fe62fd4c5a99a34e40328239a6464a02eb0c70274359e"
+    },
+    "data/prepared_manifest.json": {
+      "path": "data/prepared_manifest.json",
+      "sha256": "f2c98d4079362aab8164d96fc4cf5011f168f8e5f9096e5f2426e44c9d51fefd"
+    },
+    "assets/assets.lock.json": {
+      "path": "assets/assets.lock.json",
+      "sha256": "46cdd79fead3856f29ebe2dd279118a0a765c146c22a961965d1b19d37f0bbdc"
+    },
+    "training/fixed-hyperparameters.json": {
+      "path": "training/fixed-hyperparameters.json",
+      "sha256": "9ca3d714778a71538ce8cfbdad75a7304a2f80833aa114609ddf28a559cf1df1"
+    },
+    "training/fixed-main-run-manifest.json": {
+      "path": "training/fixed-main-run-manifest.json",
+      "sha256": "f30acc37813e973e32faa95e7e02c1df5167ab1df304189e0d1f790df21accfd"
+    }
+  },
+  "lock_hash": "669dc8a6f986f636a4616fb02794e0a1d43db4b17e74566316d2ed3d519f3402"
+}

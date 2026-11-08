@@ -1,0 +1,26 @@
+{
+  "recorded_at_utc": "2026-11-07T14:52:06.590564+00:00",
+  "host_fingerprint_verified": true,
+  "downloaded": [
+    {
+      "name": "manifest.json",
+      "bytes": 952,
+      "sha256": "a7cfbfcbf0facdbf233c5b146b47f7025e7aee65d12b814459f1e9bd97784a19"
+    },
+    {
+      "name": "cases.jsonl",
+      "bytes": 224194,
+      "sha256": "07c4a7554c96ff3481a6de0b2984a63337ec6ca9d77a3076c3727392c1a3590b"
+    },
+    {
+      "name": "D-predictions.jsonl",
+      "bytes": 3439786,
+      "sha256": "27fb14540be64958890a03333277ddf99c109f7ad43a378b4f9212294a979f87"
+    }
+  ],
+  "total_cases": 80,
+  "actual_human_reviews_completed": 0,
+  "official_Q_predictions_generated": false,
+  "snapshot_recorded_at_utc": "2026-11-07T14:52:08.587116+00:00",
+  "cluster_jobs_changed": false
+}

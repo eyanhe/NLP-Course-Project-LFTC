@@ -1,0 +1,270 @@
+{
+  "status": "complete",
+  "run_id": "de3bc54092bfb7255050f26126533543abd15add64fda5c540676114812a5858",
+  "request_hash": "ca6b7dd953cc64eda8e74e2ea5be7054afbe9d2e23baffc3a76b6ded7adde420",
+  "run": {
+    "run_id": "de3bc54092bfb7255050f26126533543abd15add64fda5c540676114812a5858",
+    "condition_id": "70e4d1a271f45a313c482ad8698a9a32021f0350d3733048982fb13752f9e27e",
+    "model_id": "tfidf_svm",
+    "training_seed": null,
+    "hparams": {
+      "max_features": 30000,
+      "min_df": 1,
+      "sublinear_tf": true,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "C": 1,
+      "role_ids_hash": {
+        "train": "ded7dc625e6fafb1ef7e76448e2f9bfecf22e55f9ddc2e7a7ca61ee3774377e1",
+        "select": "2cad2aba5c9dcd5751159b1c0078d53d1ccd6783650c4da3f84f65e75a5f81b2",
+        "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "target_task": "single_label",
+      "device": "cuda",
+      "micro_batch": 4,
+      "cpu_threads": 4,
+      "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+      "label_count": 10
+    },
+    "input_hash": "ae127c115dfba4361a40f8f0e386b3a9c19f0c04616e91af5e401c901fe6d8b6",
+    "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+    "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+    "strict_no_val": false
+  },
+  "training_unique_rows": 20000,
+  "training_ids_sha256": "ded7dc625e6fafb1ef7e76448e2f9bfecf22e55f9ddc2e7a7ca61ee3774377e1",
+  "holdout_labels_accessed": 9989,
+  "score_kind": "svm_margin",
+  "files": {
+    "bundle.joblib": "3c98eb64241e6f91afbb805df406bc83f9d599c104790e1b5317d27ce6d19970"
+  },
+  "feature_degenerate": false,
+  "feature_seconds": 3.860518026165664,
+  "fit_seconds": 2.1243845019489527,
+  "total_seconds": 6.943015727913007,
+  "epochs_completed": 0,
+  "selected_epoch": null,
+  "optimizer_updates": 0,
+  "micro_batch": null,
+  "effective_batch": null,
+  "oom_attempts": [],
+  "reload_verified": true,
+  "actual_model_training_run": true,
+  "official_test_predictions_generated": false,
+  "reload_max_absolute_difference": 0.0,
+  "validation": {
+    "task": "single_label",
+    "score_kind": "svm_margin",
+    "rows": 9989,
+    "macro_f1": 0.6350320385147767,
+    "micro_f1": 0.6378015817399139,
+    "accuracy": 0.6378015817399139,
+    "worst_label_f1": 0.4621893178212586,
+    "confusion_matrix": [
+      [
+        471,
+        29,
+        32,
+        84,
+        18,
+        18,
+        66,
+        87,
+        106,
+        89
+      ],
+      [
+        32,
+        645,
+        68,
+        101,
+        21,
+        30,
+        44,
+        15,
+        14,
+        28
+      ],
+      [
+        31,
+        42,
+        703,
+        38,
+        18,
+        11,
+        37,
+        24,
+        80,
+        11
+      ],
+      [
+        85,
+        149,
+        31,
+        437,
+        37,
+        18,
+        86,
+        51,
+        27,
+        79
+      ],
+      [
+        11,
+        25,
+        10,
+        30,
+        799,
+        16,
+        54,
+        43,
+        5,
+        6
+      ],
+      [
+        21,
+        23,
+        26,
+        23,
+        17,
+        782,
+        36,
+        44,
+        12,
+        16
+      ],
+      [
+        74,
+        45,
+        49,
+        76,
+        72,
+        30,
+        450,
+        64,
+        68,
+        70
+      ],
+      [
+        82,
+        18,
+        30,
+        33,
+        41,
+        44,
+        47,
+        624,
+        55,
+        26
+      ],
+      [
+        49,
+        4,
+        49,
+        21,
+        12,
+        13,
+        37,
+        46,
+        749,
+        19
+      ],
+      [
+        59,
+        20,
+        5,
+        48,
+        9,
+        13,
+        85,
+        25,
+        25,
+        711
+      ]
+    ],
+    "per_label": [
+      {
+        "label_id": 0,
+        "precision": 0.5147540983606558,
+        "recall": 0.471,
+        "f1": 0.4919060052219321,
+        "support": 1000
+      },
+      {
+        "label_id": 1,
+        "precision": 0.645,
+        "recall": 0.6462925851703407,
+        "f1": 0.6456456456456456,
+        "support": 998
+      },
+      {
+        "label_id": 2,
+        "precision": 0.7008973080757727,
+        "recall": 0.7065326633165829,
+        "f1": 0.7037037037037037,
+        "support": 995
+      },
+      {
+        "label_id": 3,
+        "precision": 0.4904601571268238,
+        "recall": 0.437,
+        "f1": 0.4621893178212586,
+        "support": 1000
+      },
+      {
+        "label_id": 4,
+        "precision": 0.7653256704980843,
+        "recall": 0.7997997997997998,
+        "f1": 0.7821830641213902,
+        "support": 999
+      },
+      {
+        "label_id": 5,
+        "precision": 0.8020512820512821,
+        "recall": 0.782,
+        "f1": 0.7918987341772152,
+        "support": 1000
+      },
+      {
+        "label_id": 6,
+        "precision": 0.47770700636942676,
+        "recall": 0.45090180360721444,
+        "f1": 0.4639175257731959,
+        "support": 998
+      },
+      {
+        "label_id": 7,
+        "precision": 0.6099706744868035,
+        "recall": 0.624,
+        "f1": 0.6169055857637172,
+        "support": 1000
+      },
+      {
+        "label_id": 8,
+        "precision": 0.656441717791411,
+        "recall": 0.7497497497497497,
+        "f1": 0.7,
+        "support": 999
+      },
+      {
+        "label_id": 9,
+        "precision": 0.6739336492890995,
+        "recall": 0.711,
+        "f1": 0.691970802919708,
+        "support": 1000
+      }
+    ]
+  },
+  "resources": {
+    "peak_rss_sampled_bytes": 2506555392,
+    "sample_count": 14,
+    "rss_sample_interval_seconds": 0.5,
+    "elapsed_seconds": 7.031580863986164,
+    "torch_cuda_peak_allocated_bytes": 0,
+    "torch_cuda_peak_reserved_bytes": 0,
+    "gpu_name": null,
+    "note": "sampled RSS maximum; allocated/reserved Torch memory is not total device usage"
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "checked_at_sgt":  "2026-11-08T07:06:38+08:00",
+    "status":  "S1_and_S3_Q_complete_downloaded",
+    "new_training_performed":  false,
+    "authorization_hash":  "60d6abff718758518d8b9e17f238556c06991d301af57fbbce3366dd7094dacc",
+    "tests_passed":  28,
+    "independent_review":  "No residual Critical/Important findings",
+    "deployment_tar_sha256":  "1b31a33ecc42f78f2f1d07240ad8bca9dacec0d5ed6ddad85d0441269eea2459",
+    "previous_Q_code_and_freeze_unchanged":  true,
+    "monitor_pid":  55472,
+    "jobs":  [
+                 {
+                     "stage":  "S3",
+                     "job_id":  278262,
+                     "state":  "COMPLETED",
+                     "node":  "cpu-1",
+                     "allocated_cpus":  16,
+                     "memory_gb":  48,
+                     "completed_models":  8,
+                     "total_models":  8,
+                     "started_at_sgt":  "2026-11-08T06:55:11+08:00",
+                     "ended_at_sgt":  "2026-11-08T06:56:31+08:00",
+                     "slurm_elapsed_seconds":  80
+                 },
+                 {
+                     "stage":  "S1",
+                     "job_id":  278263,
+                     "state":  "COMPLETED",
+                     "node":  "cpu-1",
+                     "allocated_cpus":  16,
+                     "memory_gb":  48,
+                     "completed_models":  16,
+                     "total_models":  16,
+                     "started_at_sgt":  "2026-11-08T06:55:11+08:00",
+                     "ended_at_sgt":  "2026-11-08T06:58:38+08:00",
+                     "slurm_elapsed_seconds":  207
+                 }
+             ],
+    "downloaded_prediction_files_sha_verified":  24,
+    "cumulative_unique_Q_models":  42
+}

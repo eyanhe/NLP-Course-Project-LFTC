@@ -1,0 +1,237 @@
+{
+  "dataset_id": "yahoo_answers_topics",
+  "task": "single_label",
+  "label_names": [
+    "Society & Culture",
+    "Science & Mathematics",
+    "Health",
+    "Education & Reference",
+    "Computers & Internet",
+    "Sports",
+    "Business & Finance",
+    "Entertainment & Music",
+    "Family & Relationships",
+    "Politics & Government"
+  ],
+  "manifest_hash": "08ef746b1a15285a2e325015455a9566e225b53668d54337520c529b11d8125b",
+  "partitions": {
+    "train": {
+      "file": "data/yahoo_answers_topics/train.parquet",
+      "sha256": "77ac6e0d9be412208d8e3ab59ce8830bb71c3e5f67ca2210f533aea76430bc05",
+      "bytes": 743693048,
+      "rows": 1383616,
+      "label_support": [
+        138438,
+        138373,
+        138232,
+        138358,
+        138362,
+        138399,
+        138152,
+        138436,
+        138463,
+        138403
+      ],
+      "ap_mask": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "select": {
+      "file": "data/yahoo_answers_topics/select.parquet",
+      "sha256": "7a2d09ab4d85a206b6eb76bcce64628b06470c789e5fcf2cf19d41ab39ba6cc0",
+      "bytes": 5325182,
+      "rows": 9989,
+      "label_support": [
+        1000,
+        998,
+        995,
+        1000,
+        999,
+        1000,
+        998,
+        1000,
+        999,
+        1000
+      ],
+      "ap_mask": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "discovery": {
+      "file": "data/yahoo_answers_topics/discovery.parquet",
+      "sha256": "14db3565b3d66086eb67e3d0febf193561a75ca31235a2d52dc4897afa085c6a",
+      "bytes": 2745898,
+      "rows": 4993,
+      "label_support": [
+        500,
+        500,
+        498,
+        499,
+        499,
+        500,
+        498,
+        500,
+        500,
+        499
+      ],
+      "ap_mask": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "test": {
+      "file": "data/yahoo_answers_topics/test.parquet",
+      "sha256": "940a3f87b3f37da794ae89d73ac2307c8c4dab4d71a6bbc1581e174483a1f140",
+      "bytes": 32357245,
+      "rows": 59998,
+      "label_support": [
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        5998,
+        6000,
+        6000,
+        6000
+      ],
+      "ap_mask": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "quarantine": {
+      "file": "data/yahoo_answers_topics/quarantine.parquet",
+      "sha256": "c865e24663abbfe04aeb96e59d55248ddf3cd784b41f8724cb43feb530de45bb",
+      "bytes": 707420,
+      "rows": 1404,
+      "label_support": [
+        62,
+        129,
+        275,
+        143,
+        140,
+        101,
+        354,
+        64,
+        38,
+        98
+      ],
+      "ap_mask": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {
+        "exact_label_conflict": 56,
+        "duplicate_lower_priority_partition": 1279,
+        "redundant_exact_text": 69
+      }
+    }
+  },
+  "official_source_counts": {
+    "test": 60000,
+    "train": 1400000
+  },
+  "post_isolation_holdout_counts_are_actual": true,
+  "inputs": {
+    "dataset_id": "yahoo_answers_topics",
+    "rows": 1458596,
+    "input_hash": "ae127c115dfba4361a40f8f0e386b3a9c19f0c04616e91af5e401c901fe6d8b6",
+    "file": "inputs/yahoo_answers_topics.parquet",
+    "file_sha256": "8febf28c85c789de624166b306eac0646d57e3b40a72f013316736bc8767b7b0",
+    "span_basis": "normalized_text_python_character_offsets",
+    "partitions": {
+      "train": {
+        "n": 1383616,
+        "truncated_n": 175503,
+        "truncated_fraction": 0.12684371964475694,
+        "median_full_tokens": 94.0,
+        "p95_full_tokens": 392.0,
+        "zero_content_tokens": 0
+      },
+      "select": {
+        "n": 9989,
+        "truncated_n": 1251,
+        "truncated_fraction": 0.12523776153769145,
+        "median_full_tokens": 93.0,
+        "p95_full_tokens": 394.0,
+        "zero_content_tokens": 0
+      },
+      "discovery": {
+        "n": 4993,
+        "truncated_n": 688,
+        "truncated_fraction": 0.13779291007410374,
+        "median_full_tokens": 95.0,
+        "p95_full_tokens": 403.7999999999993,
+        "zero_content_tokens": 0
+      },
+      "test": {
+        "n": 59998,
+        "truncated_n": 7740,
+        "truncated_fraction": 0.1290043001433381,
+        "median_full_tokens": 94.0,
+        "p95_full_tokens": 399.0,
+        "zero_content_tokens": 0
+      }
+    },
+    "actual_model_training_run": false,
+    "model_predictions_generated": false
+  }
+}

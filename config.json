@@ -1,0 +1,22 @@
+{
+  "sample_seed": 2026,
+  "train_size": 6000,
+  "validation_size": 1000,
+  "test_size": 1000,
+  "max_length": 256,
+  "batch_size": 16,
+  "epochs": 3,
+  "learning_rates": [0.00002, 0.00005],
+  "training_seeds": [42, 43, 44],
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "tfidf_max_features": 30000,
+  "tfidf_min_df": 2,
+  "tfidf_ngrams": [[1, 1], [1, 2]],
+  "linear_C": [0.1, 1.0, 10.0],
+  "cpu_threads": 4,
+  "bootstrap_replicates": 1000,
+  "benchmark_samples": 200,
+  "benchmark_repeats": 5,
+  "optional_learning_curve": false
+}

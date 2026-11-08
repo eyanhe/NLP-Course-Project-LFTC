@@ -1,0 +1,56 @@
+{
+  "completed_selected_modern_anchors": 2,
+  "records": [
+    {
+      "dataset_id": "yelp",
+      "run_id": "e7b69f96a2a85eac5e942f2991f03ecd4eb779d9337dcfc6c796d70f679e0d95",
+      "roles": {
+        "train": {
+          "rows": 6000,
+          "content_tokens": 816963,
+          "tokens_with_specials": 828963,
+          "max_content_tokens": 306,
+          "max_tokens_with_specials": 308,
+          "includes_padding": false,
+          "scope": "unique_visible_rows_not_optimizer_exposures"
+        },
+        "select": {
+          "rows": 600,
+          "content_tokens": 80804,
+          "tokens_with_specials": 82004,
+          "max_content_tokens": 268,
+          "max_tokens_with_specials": 270,
+          "includes_padding": false,
+          "scope": "unique_visible_rows_not_optimizer_exposures"
+        }
+      }
+    },
+    {
+      "dataset_id": "go_emotions",
+      "run_id": "b17902f7b67007dfbe6a4522c084805553ea7749627002a157de2b74afdc63d7",
+      "roles": {
+        "train": {
+          "rows": 6000,
+          "content_tokens": 102114,
+          "tokens_with_specials": 114114,
+          "max_content_tokens": 65,
+          "max_tokens_with_specials": 67,
+          "includes_padding": false,
+          "scope": "unique_visible_rows_not_optimizer_exposures"
+        },
+        "select": {
+          "rows": 3237,
+          "content_tokens": 54222,
+          "tokens_with_specials": 60696,
+          "max_content_tokens": 68,
+          "max_tokens_with_specials": 70,
+          "includes_padding": false,
+          "scope": "unique_visible_rows_not_optimizer_exposures"
+        }
+      }
+    }
+  ],
+  "all_required_main_budgets_complete": false,
+  "learner_code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+  "official_test_predictions_generated": false
+}

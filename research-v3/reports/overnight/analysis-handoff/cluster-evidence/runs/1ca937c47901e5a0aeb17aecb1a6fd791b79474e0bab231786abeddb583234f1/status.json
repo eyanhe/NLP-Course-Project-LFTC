@@ -1,0 +1,270 @@
+{
+  "status": "complete",
+  "run_id": "1ca937c47901e5a0aeb17aecb1a6fd791b79474e0bab231786abeddb583234f1",
+  "request_hash": "2a030fa8b39978ba0363c7e7d318c0fd32e522e214a1102e0745becff3e7bfed",
+  "run": {
+    "run_id": "1ca937c47901e5a0aeb17aecb1a6fd791b79474e0bab231786abeddb583234f1",
+    "condition_id": "d1a986b38b23361018321d9ae25795be8f70a4fac78fc17df27395d52dff031d",
+    "model_id": "distilbert",
+    "training_seed": 42,
+    "hparams": {
+      "max_epochs": 5,
+      "effective_batch": 16,
+      "warmup_ratio": 0.1,
+      "lr": 2e-05,
+      "weight_decay": 0.01,
+      "role_ids_hash": {
+        "train": "a9678c09e5c359af53c2ea1b0dcead64d9bbbae14c34f3f55eda51a80f2582be",
+        "select": "2cad2aba5c9dcd5751159b1c0078d53d1ccd6783650c4da3f84f65e75a5f81b2",
+        "discovery": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "target_task": "single_label",
+      "device": "cuda",
+      "micro_batch": 4,
+      "cpu_threads": 4,
+      "protocol_hash": "f5422a66f0f81790b5eccd420555e9e2ee03132ffbdf307cc1fb47fe3ff78ca7",
+      "label_count": 10
+    },
+    "input_hash": "ae127c115dfba4361a40f8f0e386b3a9c19f0c04616e91af5e401c901fe6d8b6",
+    "asset_hash": "b8c818299d29f3b442edf48261993acce3c5555af1fa2c72e5fb6828a829a266",
+    "code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+    "strict_no_val": false
+  },
+  "training_unique_rows": 6000,
+  "training_ids_sha256": "a9678c09e5c359af53c2ea1b0dcead64d9bbbae14c34f3f55eda51a80f2582be",
+  "holdout_labels_accessed": 9989,
+  "score_kind": "logit",
+  "files": {
+    "bundle.joblib": "17253584279a919aa21a0a9a2683d27fef345b8ae7b40dcc2b491855b1f48668",
+    "history.json": "cd8a78c7f7f2419293f8c00756afde1a228b6957e4466681cb7942389bc102ef",
+    "checkpoint/config.json": "5c9421772f714903eff98cab89b44f895450878d10ec434f2f8c7e927fc260d4",
+    "checkpoint/model.safetensors": "731a046119449ea0de1af92febd562ecd6005b65914aefe17f0e83c2bb944b0c"
+  },
+  "feature_degenerate": false,
+  "feature_seconds": 0.0036309221759438515,
+  "fit_seconds": 140.9490332021378,
+  "total_seconds": 152.07237266981974,
+  "epochs_completed": 5,
+  "selected_epoch": 4,
+  "optimizer_updates": 1875,
+  "micro_batch": 4,
+  "effective_batch": 16,
+  "oom_attempts": [],
+  "reload_verified": true,
+  "actual_model_training_run": true,
+  "official_test_predictions_generated": false,
+  "reload_max_absolute_difference": 0.0,
+  "validation": {
+    "task": "single_label",
+    "score_kind": "logit",
+    "rows": 9989,
+    "macro_f1": 0.6650058754746417,
+    "micro_f1": 0.6627290019020923,
+    "accuracy": 0.6627290019020923,
+    "worst_label_f1": 0.5079131394920868,
+    "confusion_matrix": [
+      [
+        640,
+        9,
+        53,
+        128,
+        14,
+        6,
+        36,
+        12,
+        49,
+        53
+      ],
+      [
+        32,
+        450,
+        102,
+        355,
+        18,
+        14,
+        18,
+        3,
+        1,
+        5
+      ],
+      [
+        38,
+        7,
+        848,
+        49,
+        3,
+        10,
+        12,
+        1,
+        21,
+        6
+      ],
+      [
+        94,
+        54,
+        36,
+        690,
+        23,
+        7,
+        49,
+        10,
+        6,
+        31
+      ],
+      [
+        15,
+        2,
+        3,
+        42,
+        890,
+        2,
+        36,
+        3,
+        3,
+        3
+      ],
+      [
+        19,
+        1,
+        19,
+        51,
+        9,
+        863,
+        9,
+        8,
+        4,
+        17
+      ],
+      [
+        104,
+        14,
+        73,
+        156,
+        72,
+        21,
+        465,
+        11,
+        39,
+        43
+      ],
+      [
+        185,
+        6,
+        45,
+        88,
+        78,
+        36,
+        39,
+        480,
+        31,
+        12
+      ],
+      [
+        137,
+        0,
+        130,
+        33,
+        17,
+        5,
+        35,
+        21,
+        613,
+        8
+      ],
+      [
+        98,
+        2,
+        19,
+        125,
+        5,
+        3,
+        57,
+        2,
+        8,
+        681
+      ]
+    ],
+    "per_label": [
+      {
+        "label_id": 0,
+        "precision": 0.4698972099853157,
+        "recall": 0.64,
+        "f1": 0.541913632514818,
+        "support": 1000
+      },
+      {
+        "label_id": 1,
+        "precision": 0.8256880733944955,
+        "recall": 0.45090180360721444,
+        "f1": 0.5832793259883344,
+        "support": 998
+      },
+      {
+        "label_id": 2,
+        "precision": 0.6385542168674698,
+        "recall": 0.8522613065326633,
+        "f1": 0.7300904003443822,
+        "support": 995
+      },
+      {
+        "label_id": 3,
+        "precision": 0.40186371578334307,
+        "recall": 0.69,
+        "f1": 0.5079131394920868,
+        "support": 1000
+      },
+      {
+        "label_id": 4,
+        "precision": 0.7883082373782108,
+        "recall": 0.8908908908908909,
+        "f1": 0.8364661654135338,
+        "support": 999
+      },
+      {
+        "label_id": 5,
+        "precision": 0.8924508790072389,
+        "recall": 0.863,
+        "f1": 0.8774783934926284,
+        "support": 1000
+      },
+      {
+        "label_id": 6,
+        "precision": 0.6150793650793651,
+        "recall": 0.46593186372745493,
+        "f1": 0.5302166476624858,
+        "support": 998
+      },
+      {
+        "label_id": 7,
+        "precision": 0.8711433756805808,
+        "recall": 0.48,
+        "f1": 0.6189555125725339,
+        "support": 1000
+      },
+      {
+        "label_id": 8,
+        "precision": 0.7909677419354839,
+        "recall": 0.6136136136136137,
+        "f1": 0.6910935738444194,
+        "support": 999
+      },
+      {
+        "label_id": 9,
+        "precision": 0.7927823050058207,
+        "recall": 0.681,
+        "f1": 0.7326519634211942,
+        "support": 1000
+      }
+    ]
+  },
+  "resources": {
+    "peak_rss_sampled_bytes": 3469680640,
+    "sample_count": 306,
+    "rss_sample_interval_seconds": 0.5,
+    "elapsed_seconds": 152.28394993999973,
+    "torch_cuda_peak_allocated_bytes": 1440844800,
+    "torch_cuda_peak_reserved_bytes": 1545601024,
+    "gpu_name": "NVIDIA L40S",
+    "note": "sampled RSS maximum; allocated/reserved Torch memory is not total device usage"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "figures": [
+    {
+      "file": "01-样本量改变模型差距.png",
+      "question": "样本量从1,000到6,000时，DistilBERT相对SVM的差距如何变化"
+    },
+    {
+      "file": "02-分布倾斜后的退化.png",
+      "question": "固定每个任务的训练总量，比较均衡与倾斜训练的退化幅度"
+    },
+    {
+      "file": "03-同一样本的失败轨迹.png",
+      "question": "在同一批D样本上统计持续错误、纠错、新增错误和持续正确"
+    },
+    {
+      "file": "04-预训练与适配四臂机制.png",
+      "question": "同架构四臂，分别比较初始化与编码器适配"
+    },
+    {
+      "file": "05-训练预算与验证曲线.png",
+      "question": "充分训练尚未确认：验证曲线是否仍受预算上限限制"
+    }
+  ],
+  "source_snapshot_utc": "2026-11-07T14:54:21.322212+00:00",
+  "scope": "matched_data_conditions_error_transitions_and_local_mechanism_evidence",
+  "new_training_started": false,
+  "official_Q_generated": false,
+  "source_sha256": {
+    "research-status.json": "d3502b2deecf8954cae5ca6f31c8be7435417e611ad0e10184f34d6f973d324c",
+    "all-completed-records.csv": "315989d59b9367932a050fe132b91687de910b756176f0064ed29eeb02ec330c",
+    "failure-transition-summary.csv": "bcd49e8544f03f5d724028f104250933fcc8824d05a5cafa5ebd7df888fa24ec",
+    "convergence-audit.json": "21cd49a0ee30bfdeb6590f9a4eabc75780ffb0d323983c6f75b5d522c02c64b0"
+  },
+  "artifact_sha256": {
+    "01-样本量改变模型差距.png": "77331abbefdf7719aecd7361cc48370fc7716fd444b7ea39c7dc02f143151337",
+    "02-分布倾斜后的退化.png": "a6bd2d31b6ac94a8f105e04b65533372c6efd212ed33c0337ae4780faff8b9e0",
+    "03-同一样本的失败轨迹.png": "46199ee42259a5fab255c5bb6fa534e871b9510e5f20c80008447a015b1b79a2",
+    "04-预训练与适配四臂机制.png": "07148604ec4da2692f2d6347014f3eb91b4faeb989dc67ae5aae6d87c56643a7",
+    "05-训练预算与验证曲线.png": "a1a3fe28decc5ab6e5ad1215b48a40585e9d5e2f1431a561941e68ea27536989",
+    "能力边界与失败机制-研究主图.pdf": "3259df6b3a20351d1281434d223e0f25c46d40dc78952a13a3e316d8ccfe99d4"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "dataset_id": "yelp",
+  "task": "single_label",
+  "label_names": [
+    "1",
+    "2"
+  ],
+  "manifest_hash": "c678559ed535fcd1407b17efe488ad7e07c7cb3443c287cfdad0027c79a1dc91",
+  "partitions": {
+    "train": {
+      "file": "data/yelp/train.parquet",
+      "sha256": "2a0b14d28e3881dd2fa676bc17d8090a4392c7476ae4a0b6f7469b944fe94194",
+      "bytes": 196860069,
+      "rows": 558896,
+      "label_support": [
+        279429,
+        279467
+      ],
+      "ap_mask": [
+        0,
+        1
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "select": {
+      "file": "data/yelp/select.parquet",
+      "sha256": "062dbddadbd7978928328d45af4864516407b7f45547c5c0a3bb016522badb75",
+      "bytes": 223014,
+      "rows": 600,
+      "label_support": [
+        294,
+        306
+      ],
+      "ap_mask": [
+        0,
+        1
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "discovery": {
+      "file": "data/yelp/discovery.parquet",
+      "sha256": "26c5d6bfef357a9b2497ec29956b1e4d818269701f20b41d173d741b1d52afc6",
+      "bytes": 160406,
+      "rows": 400,
+      "label_support": [
+        206,
+        194
+      ],
+      "ap_mask": [
+        0,
+        1
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "test": {
+      "file": "data/yelp/test.parquet",
+      "sha256": "cbb54e57cb1602384be1b9f8c0594caf27af61603bcb3e9616ad92db4eacc5e4",
+      "bytes": 13616937,
+      "rows": 38000,
+      "label_support": [
+        19000,
+        19000
+      ],
+      "ap_mask": [
+        0,
+        1
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "quarantine": {
+      "file": "data/yelp/quarantine.parquet",
+      "sha256": "43ff467efd8bd572c6090a4fe4ca0f0dd3f9d8ea73db585d17c4335420f76d77",
+      "bytes": 30782,
+      "rows": 104,
+      "label_support": [
+        71,
+        33
+      ],
+      "ap_mask": [
+        0,
+        1
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {
+        "duplicate_lower_priority_partition": 38,
+        "redundant_exact_text": 62,
+        "exact_label_conflict": 4
+      }
+    }
+  },
+  "official_source_counts": {
+    "test": 38000,
+    "train": 560000
+  },
+  "post_isolation_holdout_counts_are_actual": true,
+  "inputs": {
+    "dataset_id": "yelp",
+    "rows": 597896,
+    "input_hash": "cd3d46601afa6020651a7d726da96b4a01f6ea5edb56c2700c60c9c16d79dbe0",
+    "file": "inputs/yelp.parquet",
+    "file_sha256": "822579ed2896443a7b9191f771f80262fac461d024282dc41fbb4598c3811df0",
+    "span_basis": "normalized_text_python_character_offsets",
+    "partitions": {
+      "train": {
+        "n": 558896,
+        "truncated_n": 120001,
+        "truncated_fraction": 0.21471078698004636,
+        "median_full_tokens": 128.0,
+        "p95_full_tokens": 499.0,
+        "zero_content_tokens": 0
+      },
+      "select": {
+        "n": 600,
+        "truncated_n": 130,
+        "truncated_fraction": 0.21666666666666667,
+        "median_full_tokens": 119.5,
+        "p95_full_tokens": 520.1999999999998,
+        "zero_content_tokens": 0
+      },
+      "discovery": {
+        "n": 400,
+        "truncated_n": 95,
+        "truncated_fraction": 0.2375,
+        "median_full_tokens": 139.5,
+        "p95_full_tokens": 543.2999999999997,
+        "zero_content_tokens": 0
+      },
+      "test": {
+        "n": 38000,
+        "truncated_n": 8110,
+        "truncated_fraction": 0.21342105263157896,
+        "median_full_tokens": 127.5,
+        "p95_full_tokens": 497.0,
+        "zero_content_tokens": 0
+      }
+    },
+    "actual_model_training_run": false,
+    "model_predictions_generated": false
+  }
+}

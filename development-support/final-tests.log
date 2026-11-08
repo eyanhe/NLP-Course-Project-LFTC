@@ -1,0 +1,27 @@
+test_macro_f1_and_paired_resampling (test_project.ProtocolChecks.test_macro_f1_and_paired_resampling) ... ok
+test_normalization_preserves_negation (test_project.ProtocolChecks.test_normalization_preserves_negation) ... ok
+test_real_data_separation_and_labels (test_project.ProtocolChecks.test_real_data_separation_and_labels) ... ok
+test_reload_and_vocabulary_isolation (test_project.ProtocolChecks.test_reload_and_vocabulary_isolation) ... ok
+test_saved_predictions_reproduce_metrics_and_protocol_order (test_project.ProtocolChecks.test_saved_predictions_reproduce_metrics_and_protocol_order) ... ok
+test_bilstm_padding_is_not_a_real_token (test_extension.V2Checks.test_bilstm_padding_is_not_a_real_token) ... ok
+test_four_class_metrics_do_not_collapse_to_binary (test_extension.V2Checks.test_four_class_metrics_do_not_collapse_to_binary) ... ok
+test_gui_has_no_chinese_text (test_extension.V2Checks.test_gui_has_no_chinese_text) ... ok
+test_news_partition_labels_and_balance (test_extension.V2Checks.test_news_partition_labels_and_balance) ... ok
+test_news_predictions_have_four_class_outputs (test_extension.V2Checks.test_news_predictions_have_four_class_outputs) ... ok
+test_recorded_metrics_reproduce_from_all_predictions (test_extension.V2Checks.test_recorded_metrics_reproduce_from_all_predictions) ... ok
+test_real_premise_group_separation_and_genres (test_hard.PairBenchmarkChecks.test_real_premise_group_separation_and_genres) ... ok
+test_real_three_way_prediction_outputs (test_hard.PairBenchmarkChecks.test_real_three_way_prediction_outputs) ... ok
+test_saved_pair_metrics_and_freeze (test_hard.PairBenchmarkChecks.test_saved_pair_metrics_and_freeze) ... ok
+test_shared_pair_encoder_ignores_padding (test_hard.PairBenchmarkChecks.test_shared_pair_encoder_ignores_padding) ... ok
+test_sparse_pair_direction_and_training_vocabulary (test_hard.PairBenchmarkChecks.test_sparse_pair_direction_and_training_vocabulary) ... ok
+test_three_class_metrics (test_hard.PairBenchmarkChecks.test_three_class_metrics) ... ok
+test_transformer_pair_boundaries_and_budget (test_hard.PairBenchmarkChecks.test_transformer_pair_boundaries_and_budget) ... ok
+test_fixed_total_nested_minority_and_isolation (test_imbalance.ImbalanceChecks.test_fixed_total_nested_minority_and_isolation) ... ok
+test_frozen_checkpoints_and_recomputed_metrics (test_imbalance.ImbalanceChecks.test_frozen_checkpoints_and_recomputed_metrics) ... ok
+test_frozen_hyperparameters_and_weighted_loss (test_imbalance.ImbalanceChecks.test_frozen_hyperparameters_and_weighted_loss) ... ok
+test_majority_dummy_and_simulated_prior (test_imbalance.ImbalanceChecks.test_majority_dummy_and_simulated_prior) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 16.239s
+
+OK

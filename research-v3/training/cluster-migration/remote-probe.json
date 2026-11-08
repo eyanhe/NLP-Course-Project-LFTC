@@ -1,0 +1,66 @@
+{
+  "recorded_at_utc": "2026-11-07T10:12:36.533967+00:00",
+  "authenticated": true,
+  "host": "10.97.216.128",
+  "username": "yiyan002",
+  "host_key_fingerprint": "SHA256:AhYlWQBTsN/4GAzYTVTiZzrVhPhcurFMu1sBMglqvdM",
+  "probe": {
+    "hostname": {
+      "exit_code": 0,
+      "stdout": "login-3.cluster02.eee.ntu.edu.sg\n",
+      "stderr": ""
+    },
+    "system": {
+      "exit_code": 0,
+      "stdout": "Linux 6.8.0-142-generic x86_64\n",
+      "stderr": ""
+    },
+    "identity": {
+      "exit_code": 0,
+      "stdout": "yiyan002\n",
+      "stderr": ""
+    },
+    "home": {
+      "exit_code": 0,
+      "stdout": "/home/yiyan002\n",
+      "stderr": ""
+    },
+    "nodes": {
+      "exit_code": 0,
+      "stdout": "            NODELIST   CPUS   MEMORY                         GRES      STATE\n           cpu-[1-2]     96   339968                       (null)        mix\n         gpu-a6000-1     40   233472                 gpu:a6000:10        mix\n           gpu-l40-1     24   244736             gpu:l40:4(S:0-1)        mix\n           gpu-l40-2     16   205824                    gpu:l40:4        mix\n      gpu-5090-[1-5]     16   215568                gpu:rtx5090:4      alloc\n   gpu-6000ada-[1-3]     16   265216                gpu:6000ada:4      alloc\n           gpu-a40-1     40   488542                   gpu:a40:10      alloc\n           gpu-a40-2     48   442880                    gpu:a40:8      alloc\ngpu-pro6000-[1-4,11,     16  373760+                gpu:pro6000:4      alloc\ngpu-pro6000-[5-6,12]     64  376000+        gpu:pro6000:10(S:0-1)      alloc\n  gpu-pro6000-[7-10]     64   760832         gpu:pro6000:8(S:0-1)      alloc\n         gpu-gh200-1     72   578560                  gpu:gh200:1       idle\n",
+      "stderr": ""
+    },
+    "associations": {
+      "exit_code": 0,
+      "stdout": "msc|msc,override-limits-but-killable|msc\n",
+      "stderr": ""
+    },
+    "qos": {
+      "exit_code": 0,
+      "stdout": "normal|||\nphd|gres/gpu:6000ada=4,gres/gpu:a40=4,gres/gpu:a6000=4,gres/gpu:l40=4,gres/gpu:pro6000=8,gres/gpu:rtx5090=4|2|5\nmsc|gres/gpu:6000ada=2,gres/gpu:a40=2,gres/gpu:a6000=2,gres/gpu:l40=2,gres/gpu:pro6000=2,gres/gpu:rtx5090=1|2|5\nug|gres/gpu:6000ada=2,gres/gpu:a40=2,gres/gpu:a6000=2,gres/gpu:l40=2,gres/gpu:pro6000=2,gres/gpu:rtx5090=1|2|5\nug-course|gres/gpu:6000ada=1,gres/gpu:a40=1,gres/gpu:a6000=1,gres/gpu:l40=1,gres/gpu:pro6000=1,gres/gpu:rtx5090=1|1|5\nrose|gres/gpu:6000ada=4,gres/gpu:a40=8,gres/gpu:a6000=4,gres/gpu:l40=4,gres/gpu:pro6000=8,gres/gpu:rtx5090=4|2|5\noverride-limits-but-killable|gres/gpu=8||5\ndtc-2024-05-01--2027-04-30|||5\nots-2025-01-01--2027-06-30|||5\ndso-2025-08-01--2027-07-31|||5\nhmgics-2025-09-01--2029-08-31|||5\nsoujanya-poria-startfund-2026-03|||5\nscale-2026-04-25|gres/gpu:6000ada=0,gres/gpu:a40=8,gres/gpu:a6000=0,gres/gpu:l40=0,gres/gpu:pro6000=0||5\nexperimental|||\nwong_liangjie_2026_05|||5\nwang_ziwei_2026_05|||5\nyang_jianfei_2026_05|||5\ntay_wee_peng_2026_05|||5\nchau_yuen_2026_05|||5\nyap_kim_hui_2026_05|||5\nli_wanhua_2026_05|||5\nxie_lihua_2026_05|||5\nzhang_qing_2026_05|||5\ndaniel_bennett_2026_05|||5\ntang_yi_2026_05|||5\nsang_ho_yun_2026_05|||5\nlee_seok_woo_2026_05|||5\ngwee_bah_hwee_2026_05_00|||5\ngwee_bah_hwee_2026_05_01|||5\ngwee_bah_hwee_2026_05_02|||5\nchen_lihui_2026_05_00|||5\nchen_lihui_2026_05_01|||5\nmatthew_foreman_2026_05_00|||5\nmatthew_foreman_2026_05_01|||5\nmatthew_foreman_2026_05_02|||5\nwanglin_2026_08|||5\nwang_ziwei_gpu|||\nsysmex-2026-08-01--2028-07-31|||\ngh200-exp|||\n",
+      "stderr": ""
+    },
+    "jobs": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "personal_quota": {
+      "exit_code": 0,
+      "stdout": "billing=180000|cpu=0,mem=0,energy=0,node=0,billing=0,fs/disk=0,vmem=0,pages=0,gres/gpu=0,gres/gpu:6000ada=0,gres/gpu:a40=0,gres/gpu:a6000=0,gres/gpu:gh200=0,gres/gpu:l40=0,gres/gpu:pro6000=0,gres/gpu:rtx5090=0,gres/gpumem=0,gres/gpuutil=0\n",
+      "stderr": ""
+    },
+    "modules": {
+      "exit_code": 0,
+      "stdout": "/cluster/apps/modules/all/Core:\nAutoconf/\nAutoconf/2.71\nAutomake/\nAutomake/1.16.5\nAutotools/\nAutotools/20220317\nBison/\nBison/3.8.2\nCUDA/\nCUDA/11.3.1\nCUDA/11.4.2\nCUDA/11.5.2\nCUDA/11.6.0\nCUDA/11.7.0\nCUDA/11.8.0\nCUDA/12.0.0\nCUDA/12.1.1\nCUDA/12.2.2\nCUDA/12.3.0\nCUDA/12.3.2\nCUDA/12.4.0\nCUDA/12.5.0\nCUDA/12.6.0\nCUDA/12.8.0\nCUDA/12.9.0\nCUDA/13.0.0\nEasyBuild/\nEasyBuild/5.1.1\nEasyBuild/5.2.1\nGCC/\nGCC/11.4.0\nGCC/12.3.0\nGCC/13.1.0\nGCC/13.2.0\nGCC/13.3.0\nGCC/14.1.0\nGCC/14.3.0\nGCC/15.1.0\nGCCcore/\nGCCcore/11.3.0\nGCCcore/11.4.0\nGCCcore/12.3.0\nGCCcore/13.1.0\nGCCcore/13.2.0\nGCCcore/13.3.0\nGCCcore/14.1.0\nGCCcore/14.2.0\nGCCcore/14.3.0\nGCCcore/15.1.0\nGo/\nGo/1.23.6\nM4/\nM4/1.4.18\nM4/1.4.19\nM4/1.4.20\nMiniconda3/\nMiniconda3/25.5.1-0\nMiniforge3/\nMiniforge3/24.11.3-1\nOpenSSL/\nOpenSSL/1.1\nOpenSSL/3\nPerl/\nPerl/5.38.0\nbinutils/\nbinutils/2.36.1\nbinutils/2.38\nbinutils/2.40\nbinutils/2.42\nbinutils/2.44\ncuDNN/\ncuDNN/8.2.1.32-CUDA-11.3.1\ncuDNN/8.4.0.27-CUDA-11.6.0\ncuDNN/8.4.1.50-CUDA-11.5.2\ncuDNN/8.4.1.50-CUDA-11.6.0\ncuDNN/8.4.1.50-CUDA-11.7.0\ncuDNN/8.5.0.96-CUDA-11.7.0\ncuDNN/8.6.0.163-CUDA-11.8.0\ncuDNN/8.7.0.84-CUDA-11.8.0\ncuDNN/8.8.0.121-CUDA-12.0.0\ncuDNN/8.9.2.26-CUDA-12.1.1\ncuDNN/9.1.1.17-CUDA-12.4.0\ncuDNN/9.5.0.50-CUDA-12.6.0\ncuDNN/9.10.1.4-CUDA-12.8.0\nffnvcodec/\nffnvcodec/11.1.5.2\nffnvcodec/12.2.72.0\nffnvcodec/13.0.19.0\nflex/\nflex/2.6.4\ngettext/\ngettext/0.21\ngettext/0.21.1\ngettext/0.22\ngettext/0.22.5\ngettext/0.25\ngit-lfs/\ngit-lfs/3.6.1\nlibtool/\nlibtool/2.4.7\nncurses/\nncurses/6.2\nncurses/6.3\nncurses/6.4\nncurses/6.5\npkgconf/\npkgconf/1.8.0\nzlib/\nzlib/1.2.11\nzlib/1.2.12\nzlib/1.2.13\nzlib/1.3.1\n",
+      "stderr": ""
+    },
+    "storage_manager": {
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": ""
+    }
+  },
+  "local_training_enabled": false,
+  "cluster_submitted": false
+}

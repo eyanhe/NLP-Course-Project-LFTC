@@ -1,0 +1,148 @@
+{
+  "dataset_id": "imdb",
+  "task": "single_label",
+  "label_names": [
+    "neg",
+    "pos"
+  ],
+  "manifest_hash": "1f2c9440de04513ee1b320afe6c93ef9d837acbc5de55888b525ce25d91aea30",
+  "partitions": {
+    "train": {
+      "file": "data/imdb/train.parquet",
+      "sha256": "fef1d3f89b3c82964106ba96baf11a2ba18ba532e36dcd291a4d19bef0bc69cb",
+      "bytes": 14553466,
+      "rows": 23779,
+      "label_support": [
+        11836,
+        11943
+      ],
+      "ap_mask": [
+        0,
+        1
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "select": {
+      "file": "data/imdb/select.parquet",
+      "sha256": "f091b2106b6e23617068a69d3aa1241a16413a0a812350fc1dba994b4fb21742",
+      "bytes": 377065,
+      "rows": 600,
+      "label_support": [
+        309,
+        291
+      ],
+      "ap_mask": [
+        0,
+        1
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "discovery": {
+      "file": "data/imdb/discovery.parquet",
+      "sha256": "2d5c7fbce179aeb048986f21e9e88263e026ee9e62bb759c9bad0c51b6d9b470",
+      "bytes": 266631,
+      "rows": 400,
+      "label_support": [
+        191,
+        209
+      ],
+      "ap_mask": [
+        0,
+        1
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "test": {
+      "file": "data/imdb/test.parquet",
+      "sha256": "23b49c23774d495278ea7ef4823c904ccfecc7f46cc92389e2f9b7e6bca1f6f8",
+      "bytes": 14849240,
+      "rows": 24799,
+      "label_support": [
+        12360,
+        12439
+      ],
+      "ap_mask": [
+        0,
+        1
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {}
+    },
+    "quarantine": {
+      "file": "data/imdb/quarantine.parquet",
+      "sha256": "997acc1836eeb299e6cd7cbcfc0c743918e6d06ce4891435f6ae02bc68bdeebc",
+      "bytes": 232154,
+      "rows": 422,
+      "label_support": [
+        304,
+        118
+      ],
+      "ap_mask": [
+        0,
+        1
+      ],
+      "zero_positive_labels": [],
+      "all_positive_labels": [],
+      "quarantine_reasons": {
+        "redundant_exact_text": 294,
+        "duplicate_lower_priority_partition": 128
+      }
+    }
+  },
+  "official_source_counts": {
+    "test": 25000,
+    "train": 25000
+  },
+  "post_isolation_holdout_counts_are_actual": true,
+  "inputs": {
+    "dataset_id": "imdb",
+    "rows": 49578,
+    "input_hash": "ef6807831141a8170c304cdb612a5942c0050eaf32e0ce5ebf2808cbac6d08ef",
+    "file": "inputs/imdb.parquet",
+    "file_sha256": "ecd18ac375bf284a65cf50e0039c09fc8e6239e62858a23e3627787978ccb9c4",
+    "span_basis": "normalized_text_python_character_offsets",
+    "partitions": {
+      "train": {
+        "n": 23779,
+        "truncated_n": 9792,
+        "truncated_fraction": 0.411791917237899,
+        "median_full_tokens": 220.0,
+        "p95_full_tokens": 761.0,
+        "zero_content_tokens": 0
+      },
+      "select": {
+        "n": 600,
+        "truncated_n": 244,
+        "truncated_fraction": 0.4066666666666667,
+        "median_full_tokens": 216.0,
+        "p95_full_tokens": 731.4999999999995,
+        "zero_content_tokens": 0
+      },
+      "discovery": {
+        "n": 400,
+        "truncated_n": 174,
+        "truncated_fraction": 0.435,
+        "median_full_tokens": 229.0,
+        "p95_full_tokens": 870.5499999999986,
+        "zero_content_tokens": 0
+      },
+      "test": {
+        "n": 24799,
+        "truncated_n": 9956,
+        "truncated_fraction": 0.40146780112101293,
+        "median_full_tokens": 217.0,
+        "p95_full_tokens": 742.0999999999985,
+        "zero_content_tokens": 0
+      }
+    },
+    "actual_model_training_run": false,
+    "model_predictions_generated": false
+  }
+}

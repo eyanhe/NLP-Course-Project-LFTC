@@ -1,0 +1,38 @@
+{
+  "source": "all common visible text rows in E5 datasets",
+  "tokenizer_revision": "8949b909ec900327062f0ebf497f51aef5e6f0c8",
+  "no_additional_truncation": true,
+  "datasets": {
+    "yelp": {
+      "rows": 597896,
+      "maximum_tokens_including_special": 745,
+      "over_positional_capacity": 0,
+      "positional_capacity": 8192,
+      "input_hash": "cd3d46601afa6020651a7d726da96b4a01f6ea5edb56c2700c60c9c16d79dbe0"
+    },
+    "go_emotions": {
+      "rows": 53860,
+      "maximum_tokens_including_special": 1437,
+      "over_positional_capacity": 0,
+      "positional_capacity": 8192,
+      "input_hash": "3d5c0471f7e31e1511976a82080453fca0619fca96f37cbfcbc413cbbdab5658"
+    },
+    "banking77": {
+      "rows": 13065,
+      "maximum_tokens_including_special": 93,
+      "over_positional_capacity": 0,
+      "positional_capacity": 8192,
+      "input_hash": "6189de258ce049b13ede1cbee10166166125f9aa0eeb6836428e8073a5e672e7"
+    },
+    "yahoo_answers_topics": {
+      "rows": 1458596,
+      "maximum_tokens_including_special": 2039,
+      "over_positional_capacity": 0,
+      "positional_capacity": 8192,
+      "input_hash": "ae127c115dfba4361a40f8f0e386b3a9c19f0c04616e91af5e401c901fe6d8b6"
+    }
+  },
+  "actual_model_training_run": false,
+  "official_test_predictions_generated": false,
+  "all_passed": true
+}

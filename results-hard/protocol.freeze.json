@@ -1,0 +1,88 @@
+{
+  "config_sha256": "f3d9eec9849735135b91a99bb0d00c50b8a5feea0a2b846eee472713b4ca81d4",
+  "split_sha256": {
+    "train": "926dcb06afc73131fb90e69c7a1306404699b01e31d197a2d1ffaeb86f46cffa",
+    "validation": "8ea3ad22ea09ccb58696ea7a7e847ba371ad9a804f00b5ef7e80dc83aa5cb982",
+    "matched": "892cfc7591321c46c3177be476a6eabef1a89bbc0581183b186bfe7d59c08ae6",
+    "mismatched": "cc232f28319747f00fa609bec6991183e2d561cec2f49481a5ed7b45575abd39"
+  },
+  "model_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "created_utc": "2026-11-06T11:03:09.837227+00:00",
+  "artifacts": [
+    {
+      "model": "logistic_regression",
+      "seed": null,
+      "path": "models-hard\\logistic_regression",
+      "file": "model.joblib",
+      "sha256": "7e03ceaed4c0fb06dfca332855727e357961abcaa98aa71db0baf654eaa5d6ab"
+    },
+    {
+      "model": "linear_svm",
+      "seed": null,
+      "path": "models-hard\\linear_svm",
+      "file": "model.joblib",
+      "sha256": "87cb4b4180637efda43a57ede3e019ef33d8e4f77c1d114ebe8bbd430727acad"
+    },
+    {
+      "model": "word2vec_svm",
+      "seed": null,
+      "path": "models-hard\\word2vec_svm",
+      "file": "model.joblib",
+      "sha256": "b71640a4ccaa6b2a69171551212cbb18565efd3e924c06a2b0fbf9c21c720b54"
+    },
+    {
+      "model": "bilstm",
+      "seed": 42,
+      "path": "models-hard\\bilstm_seed42",
+      "file": "model.pt",
+      "sha256": "f1f8b4384fc076fbb589362f7c796c3d1d47120a6dac4b631ed11dcebc33b65d"
+    },
+    {
+      "model": "bilstm",
+      "seed": 43,
+      "path": "models-hard\\bilstm_seed43",
+      "file": "model.pt",
+      "sha256": "3a3c20b41c953f3ae3a15e63b56de13a1db32b15205d338642c215488fc86bb9"
+    },
+    {
+      "model": "bilstm",
+      "seed": 44,
+      "path": "models-hard\\bilstm_seed44",
+      "file": "model.pt",
+      "sha256": "4b8d92c44c1e6894fce524c4d9746d0d4cc44c350804cfc0bbd5b559549eef3c"
+    },
+    {
+      "model": "distilbert",
+      "seed": 42,
+      "path": "models-hard\\distilbert_seed42",
+      "file": "model.safetensors",
+      "sha256": "dfc88050ae786e6419ec580ae59f1f89ec2a483f36053c00efa7fc9caa8dca03"
+    },
+    {
+      "model": "distilbert",
+      "seed": 43,
+      "path": "models-hard\\distilbert_seed43",
+      "file": "model.safetensors",
+      "sha256": "1af21623ee8bc62f7d6671ad92e8d833656b7fca510f73d060ea3993b434648d"
+    },
+    {
+      "model": "distilbert",
+      "seed": 44,
+      "path": "models-hard\\distilbert_seed44",
+      "file": "model.safetensors",
+      "sha256": "06f20ff30a5505e3cba6d2714339aa9e185653ab2d7a0eff2f71194d8dbcee08"
+    },
+    {
+      "model": "hypothesis_only_svm",
+      "seed": null,
+      "path": "models-hard\\hypothesis_only_svm",
+      "file": "model.joblib",
+      "sha256": "41100757dfbc9496c6eb1808f62749c60345ad3a15bbd3a4d624cda47ddbd8c0"
+    }
+  ],
+  "evaluation_pools": [
+    "matched",
+    "mismatched"
+  ],
+  "selection": "source-train validation only; no target evaluation tuning"
+}

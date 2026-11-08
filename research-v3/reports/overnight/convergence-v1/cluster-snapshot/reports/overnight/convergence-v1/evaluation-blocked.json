@@ -1,0 +1,6 @@
+{
+  "status": "blocked",
+  "reason": "Required evidence is missing: /projects/_ssd/yiyan002humanoid/textclass-overnight-20261107/repo/research-v3/data/banking77/test.parquet",
+  "official_test_predictions_generated": false,
+  "checked_at_utc": "2026-11-07T21:50:24.252141+00:00"
+}

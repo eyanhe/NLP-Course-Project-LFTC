@@ -1,0 +1,7 @@
+{
+    "pid":  35744,
+    "started_at_utc":  "2026-11-07T21:37:18.2068351Z",
+    "read_only_cluster":  true,
+    "interval_seconds":  60,
+    "purpose":  "sync evidence, compile training/inference timing ledger, and update Excel once formal predictions complete"
+}

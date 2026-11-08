@@ -1,0 +1,55 @@
+{
+  "recorded_at_utc": "2026-11-07T08:26:32.620783+00:00",
+  "reason": "Windows atomic progress replacement denied while a reader held the destination open",
+  "previous_session": 48889,
+  "previous_pid": 46792,
+  "previous_session_exit_code": 1,
+  "last_old_checkpoint": "b7be4a392d9bb09863dc0bba3bb72b811518fe336a4983f673787d18b8887300",
+  "last_old_checkpoint_complete": true,
+  "previous_complete_fits": 60,
+  "current_session": 69490,
+  "current_pid": 7244,
+  "current_process_created": 1794039800.7448196,
+  "current_progress": {
+    "phase": "fixed_main",
+    "status": "fitting",
+    "pid": 7244,
+    "process_created": 1794039800.7448196,
+    "run_id": "cae642fc4c47c558b480a411d7938f587db5e17b68426a6049df52cc31542577",
+    "dataset": "banking77",
+    "model_id": "distilbert",
+    "experiment_id": "E1",
+    "training_rows": 1000,
+    "data_seed": 2028,
+    "training_seed": 43,
+    "completed_fits": 67,
+    "total_fits": 2859,
+    "reused_checkpoints": 60,
+    "grid_search_enabled": false,
+    "official_test_predictions_generated": false,
+    "recorded_at_utc": "2026-11-07T08:26:30.549280+00:00"
+  },
+  "learner_code_hash": "c883ed44959bddf088bb78b37bbb961a1874a73b33e510a6e9a147d3160c90a9",
+  "diagnostics_code_hash": "876f4dc4b90cc369ccc181015e25ec950abae445460d7de769e9cb254fd21b55",
+  "training_lock_hash": "669dc8a6f986f636a4616fb02794e0a1d43db4b17e74566316d2ed3d519f3402",
+  "design_lock_hash": "25298e295d2231241d6b360fbf1de3f59ecf8a6c207c6c72fd29ffc7efdce53b",
+  "dispatcher_sha256": "80eb35b4110a3f2447f68ffd2be1f88460c5bf0aa486a439d68c79dcc1530cee",
+  "controller_write_retry": {
+    "windows_error_codes": [
+      5,
+      32,
+      33
+    ],
+    "maximum_attempts": 20,
+    "retry_delay_seconds": 0.05,
+    "persistent_errors_propagate": true
+  },
+  "planned_physical_runs": 2859,
+  "training_parameters_changed": false,
+  "official_test_predictions_generated": false,
+  "verification_logs": {
+    "progress-write-red.log": "456cab5963510e5592c79f511879c42d7dcfa038023afc1766db2f16bbf7f5b0",
+    "progress-write-green.log": "8b8706a43e301daa10ce7acc6b0c3cbf903bca55bb45209a9ebc203e1a973305",
+    "progress-write-full-suite.log": "980bfdf664d645798e7179bb6f67012f04b8ce1d0587b038e4095bc0811126d1"
+  }
+}

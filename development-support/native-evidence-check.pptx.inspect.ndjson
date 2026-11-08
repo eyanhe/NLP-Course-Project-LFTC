@@ -1,0 +1,12 @@
+{"kind":"deck","id":"pr/6a26wt","name":"Deck"}
+{"kind":"layout","id":"ly/5oba54rq","editable":false,"name":"Master","type":"master"}
+{"kind":"layout","id":"ly/t4fyx0nu","editable":false,"name":"Title Slide","type":"title","placeholders":[{"name":"title","type":"title"},{"name":"subtitle","type":"subtitle"}]}
+{"kind":"layout","id":"ly/pk7exwfa","editable":false,"name":"Section Header","type":"sectionHeader","placeholders":[{"name":"title","type":"title"}]}
+{"kind":"layout","id":"ly/pgr25ozm","editable":false,"name":"Title and Body","type":"tx","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"}]}
+{"kind":"layout","id":"ly/d4na9gfy","editable":false,"name":"Title and Two Column","type":"twoColTx","placeholders":[{"name":"title","type":"title"},{"name":"Left column","type":"body"},{"name":"Right column","type":"body"}]}
+{"kind":"layout","id":"ly/m58r65kv","editable":false,"name":"Title and One Column","type":"tx","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"}]}
+{"kind":"layout","id":"ly/21sjm1wr","editable":false,"name":"Blank","type":"blank"}
+{"kind":"slide","id":"sl/w2jjke","slideIndex":0,"layout":{"id":"ly/21sjm1wr","name":"Blank"},"title":"Slide 1","textShapes":0,"backgroundColor":"rgba(255,255,255,1)"}
+{"kind":"chart","id":"ch/a1oj6t8b","slideIndex":0,"position":{"left":50,"top":250,"width":1100,"height":400},"name":"","chartType":"bar","title":"Planned training samples"}
+{"kind":"table","id":"tb/0nahojuh","slideIndex":0,"position":{"left":50,"top":50,"width":500,"height":160},"name":"","rows":2,"cols":2,"preview":"Dataset | Train"}
+{"kind":"notes","id":"nt/w2jjke","slideIndex":0,"text":""}
