@@ -8,6 +8,6 @@
 - 24份文档的258个本地链接有效。训练计数仍为当前232、V 226、Q 42；全部v3完成记录428。
 - 每个传输包均做移动前后SHA校验。用户侧恢复脚本另以 `-VerifyOnly`校验18个实际包并返回成功。
 - 小文件恢复检查通过：只读不移动、恢复后内容哈希一致、重复运行跳过；不同内容覆盖、目标路径越界、来源路径越界均拒绝且不移动源文件。小文件检查结果在 `.superpowers/repository-tidy-20261108/restore-checks/result.json`。
-- Windows执行策略仅对核验进程使用 `-ExecutionPolicy Bypass`，没有更改系统执行策略。现有虚拟环境无法找到基础Python，是整理前状态；没有运行Python功能测试，也没有修改Python研究实现。
+- Windows执行策略仅对核验进程使用 `-ExecutionPolicy Bypass`，没有更改系统执行策略。整理时沙箱无法启动本机Python，因此该阶段没有运行Python功能测试。后续发布确认沙箱外Python 3.11可用，并完成12项前端检查与22项原功能检查；研究实现未改动。
 
 完整机器记录：`.superpowers/repository-tidy-20261108/before.json`与`verification.json`。移动及成品清单分别位于`docs/repository-archive-manifest.json`和`report/research-v3/deliverables-manifest.json`。

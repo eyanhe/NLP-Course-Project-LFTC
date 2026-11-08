@@ -10,6 +10,7 @@
 - [完整分析报告](report/research-v3/final-report-zh.md)：42个正式Q模型、定量对照与具体错误案例。
 - [完整研究图册](report/research-v3/figures/完整研究图册.pdf)：12页研究接续与结果图；[实验逻辑链](report/research-v3/figures/当前研究问题与实验逻辑链.pdf)解释问题与对照关系。
 - [研究图表演示PPT](report/research-v3/final-presentation.pptx)、[Excel表格与全部成品](report/research-v3/README.md)。
+- [Streamlit交互研究界面](docs/FRONTEND.md)：筛选Q结果、查看机制/案例/图表、下载成品；保留原实时预测演示。
 
 ## 当前研究范围
 
@@ -37,13 +38,20 @@
 
 ## 使用与复现
 
-原课程GUI、依赖安装与离线演示见[HANDOFF.md](HANDOFF.md)。在已安装项目依赖的Python环境中，从本目录运行：
+先看当前v3研究，安装轻量前端依赖即可，不需要下载模型：
+
+```powershell
+python -m pip install -r requirements-frontend.txt
+python -m streamlit run research_ui/viewer.py --server.address 127.0.0.1 --server.port 8501 --browser.gatherUsageStats false
+```
+
+完整[前端使用说明](docs/FRONTEND.md)。原课程GUI、依赖安装与离线演示见[HANDOFF.md](HANDOFF.md)。在已安装完整项目依赖的Python环境中，运行原入口：
 
 ```powershell
 python -m streamlit run app.py --server.address 127.0.0.1 --server.port 8501 --browser.gatherUsageStats false
 ```
 
-该GUI展示原交接项目；当前v3研究从上述报告与图册阅读。研究原始预测、模型、冻结范围与生成器保持原路径，详见[分析复现说明](research-v3/reports/overnight/analysis-v2/README.md)和[开发支持](development-support/README.md)。现有虚拟环境在整理前已找不到基础Python，复现时需先配置可用环境。
+原GUI新增通向当前研究页的导航，原预测功能继续保留。研究原始预测、模型、冻结范围与生成器保持原路径，详见[分析复现说明](research-v3/reports/overnight/analysis-v2/README.md)和[开发支持](development-support/README.md)。整理时受限沙箱无法启动本机虚拟环境；后续已在沙箱外验证Python 3.11的发布与研究环境可用，并完成前端及原功能检查。
 
 ## 归档与空间
 

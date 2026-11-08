@@ -65,7 +65,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\development-support\re
 - 编辑器搜索及文件监视排除环境、权重、原始数据和归档，避免扫描大量生成文件。
 - `.gitignore`补齐v3大工件、环境及传输包的规则。忽略仅影响未来Git收录，不删除磁盘文件。当前目录没有 `.git`，本次没有创建仓库或提交。
 - 原 `package_full.py` 和 `package_project.py`针对旧交接布局编写，不按新 `.gitignore`筛选；不要把它们当作当前轻量交付命令。只分享当前成品可复制 `report/research-v3/`；复现还需要模型、数据及原证据。
-- 整理前的Python虚拟环境已无法找到基础解释器，本次没有修复或移动环境；因此没有重新运行Python功能测试。
+- 整理时受限沙箱无法启动本机虚拟环境，因此当时没有运行Python功能测试。后续发布已确认沙箱外的Python 3.11环境可用；新增前端的12项检查及22项原功能检查均已通过，环境没有移动。
 
 ## 核验记录
 

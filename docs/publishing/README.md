@@ -1,7 +1,9 @@
 # GitHub与Hugging Face分工
 
+Hugging Face资产已在提交`5fd879463414b2059ae05b4e188da58e706456dd`完成核验：2,044个文件、56,530,278,162字节。[查看固定版本](https://huggingface.co/datasets/Eyanhe/LFTC_Dataset_And_Checkpoints/tree/5fd879463414b2059ae05b4e188da58e706456dd)。当前Streamlit前端的启动与测试见[前端说明](../FRONTEND.md)。
+
 - [GitHub](https://github.com/eyanhe/NLP-Course-Project-LFTC)：源码、配置、研究设计、报告、图表、PPT、Excel、结果CSV/JSON和逐样本预测。
-- [Hugging Face](https://huggingface.co/datasets/Eyanhe/LFTC_Dataset_And_Checkpoints)：数据集、统一输入、基础模型、训练权重、特征，以及历史候选检查点。文件在`artifacts/`下保留原仓库相对路径。
+- [Hugging Face](https://huggingface.co/datasets/Eyanhe/LFTC_Dataset_And_Checkpoints)：数据集、统一输入、基础模型、训练权重、特征，以及历史候选检查点。文件通常在`artifacts/`下保留原仓库相对路径；原`.cache/`候选检查点改存`artifacts/legacy-candidates/`，恢复时映射回`.cache/`，因为平台保留了该目录名。
 - [文件清单](file-manifest.json)：每项的原路径、目标、大小和内容校验值；`both`表示必要的小型元数据在两处保留。
 
 GitHub源码与结果可以单独阅读；运行推理或复现需要下载相应的大资产。Hugging Face下载后，将其中`artifacts/`的内容按原相对路径合并到GitHub项目目录。

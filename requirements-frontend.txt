@@ -1,0 +1,4 @@
+# Read-only current-research viewer; Python 3.11 recommended.
+streamlit==1.40.1
+pandas==2.2.1
+numpy==1.26.4

@@ -1,0 +1,14 @@
+{
+    "date_sgt":  "2026-11-08",
+    "github_repository":  "https://github.com/eyanhe/NLP-Course-Project-LFTC",
+    "first_github_commit":  "0ed1b0823eadebc7d54906c48434973178f86cdf",
+    "huggingface_repository":  "https://huggingface.co/datasets/Eyanhe/LFTC_Dataset_And_Checkpoints",
+    "huggingface_revision":  "5fd879463414b2059ae05b4e188da58e706456dd",
+    "huggingface_files_verified":  2044,
+    "huggingface_bytes_verified":  56530278162,
+    "frontend_tests_passed":  12,
+    "legacy_tests_passed":  22,
+    "frontend_entry":  "research_ui/viewer.py",
+    "legacy_prediction_entry":  "app.py",
+    "scientific_training_or_re_evaluation_performed":  false
+}

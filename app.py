@@ -10,6 +10,7 @@ from models_extra import words
 st.set_page_config(page_title='Text Classification Lab',layout='wide')
 st.title('Text Classification Lab')
 st.caption('Traditional NLP features, sequential deep learning and a pretrained Transformer')
+st.page_link('pages/1_Current_Research.py',label='Explore current v3 research: 42 fixed-model Q results, figures and downloads')
 DATASETS={'imdb':'IMDb — long movie reviews','rotten_tomatoes':'Rotten Tomatoes — short movie reviews','yelp':'Yelp — business reviews','ag_news':'AG News — four news topics'}
 DATASETS.update({'mnli':'MultiNLI — sentence-pair inference','mnli_matched':'MultiNLI — matched genres','mnli_mismatched':'MultiNLI — mismatched genres'})
 LABELS={**LABELS,'mnli':hard.LABELS,'mnli_matched':hard.LABELS,'mnli_mismatched':hard.LABELS}
