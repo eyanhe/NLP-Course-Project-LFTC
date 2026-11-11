@@ -1,96 +1,98 @@
-# LFTC 文本分类研究工程
+# LFTC Text Classification Research
 
-重构后的工程统一使用 `src/lftc/` 运行新实验、评估报告和 PPT 交互前端；历史代码与研究结果保留在 `archive/2026-11-08/` 供查阅。
+**English** | [简体中文](docs/README.zh-CN.md)
 
-[GitHub 仓库](https://github.com/eyanhe/NLP-Course-Project-LFTC)保存源码、历史报告、图表、PPT、Excel 和结果数据；[Hugging Face 资产仓库](https://huggingface.co/datasets/Eyanhe/LFTC_Dataset_And_Checkpoints/tree/5fd879463414b2059ae05b4e188da58e706456dd)保存原始数据、特征与模型权重。GitHub 保留原有提交历史，历史材料按本次重构的位置归档。
+The refactored project uses `src/lftc/` for new experiments, evaluation reports, and the interactive presentation app. Historical code and research results are preserved in `archive/2026-11-08/`.
 
-## 直接使用
+The [GitHub repository](https://github.com/eyanhe/NLP-Course-Project-LFTC) contains source code, historical reports, figures, presentations, Excel workbooks, and result data. The [Hugging Face asset repository](https://huggingface.co/datasets/Eyanhe/LFTC_Dataset_And_Checkpoints/tree/5fd879463414b2059ae05b4e188da58e706456dd) stores original datasets, features, and model weights. Existing Git history is preserved, with historical materials moved to their refactored archive locations.
 
-在 `sentiment-project/` 中执行：
+## Quick start
+
+Run from the project root:
 
 ```powershell
-# 打开基于 project ppt 原稿的交互式研究展示
+# Open the interactive app based on the original course presentation
 .\.venv-research\Scripts\python.exe -m lftc app
 ```
 
-直接运行 `.\apps\start.ps1`，脚本会优先使用本机 `.venv-research`。
+You can also run `.\apps\start.ps1`, which prefers the local `.venv-research` environment.
 
-前端沿用 PPT 的英文内容、深蓝/米白配色和三条研究问题，包含总览、性能与成本、鲁棒性、机制、实时预测、方法与证据、结论七个页面。图表读取原研究结果；实时预测比较原来的五个模型，支持三个评论数据集、AG News 和 MultiNLI 文本对。侧栏可下载源 PPT。[前端说明](apps/README.md)列出了页面与模型来源。
+The app follows the presentation's English narrative, navy and cream palette, and three research questions. Its seven pages cover overview, performance and cost, robustness, mechanisms, live prediction, methods and evidence, and conclusions. Charts read the original research results. Live prediction compares the five original models across three review datasets, AG News, and MultiNLI sentence pairs. The original presentation is available to download from the sidebar. See the [app guide](apps/README.md) for page details and model sources.
 
-新实验仍通过以下 CLI 运行。已有 `quickstart-local` 是 200 条训练样本的流程示例，不参与前端的原研究展示或模型预测。
+Use the CLI below for new experiments. The existing `quickstart-local` run demonstrates the workflow with 200 training examples; it supplies neither research results nor prediction models to the presentation app.
 
 ```powershell
-# 新建一个小规模实验，输出模型、逐样本预测和指标
+# Run a small experiment and save the model, per-example predictions, and metrics
 .\.venv-research\Scripts\python.exe -m lftc run --config configs/experiments/quickstart.yaml --run-id my-first-run
 
-# 用保存的模型预测并生成报告
+# Predict with the saved model and generate a report
 .\.venv-research\Scripts\python.exe -m lftc predict --run-id my-first-run --text "A thoughtful and enjoyable film."
 .\.venv-research\Scripts\python.exe -m lftc report --run-id my-first-run
 ```
 
-## 阅读入口
+## Documentation
 
-- [使用说明](docs/USAGE.md)：实验配置、完整命令、模型与输出文件。
-- [工程架构](docs/ARCHITECTURE.md)：分层职责与数据流。
-- [历史资料入口](docs/archive/2026-11-08.md)：原研究报告、模型、数据和旧代码。
-- [资产注册表](configs/assets.yaml)：8 套数据集、2 套底座模型的来源和目录。
-- [操作工具](ops/README.md)：集群模板、运行包装器和源码打包。
+- [Usage](docs/USAGE.md): experiment configuration, commands, models, and output files.
+- [Architecture](docs/ARCHITECTURE.md): layers, responsibilities, and data flow.
+- [Historical materials](docs/archive/2026-11-08.md): original reports, models, data, and legacy code.
+- [Asset registry](configs/assets.yaml): sources and directories for eight datasets and two base models.
+- [Operations](ops/README.md): cluster templates, run wrappers, and source packaging.
 
-## 已整理的能力
+## Capabilities
 
-- **数据与实验**：8 个本地 Parquet 数据集；单标签、多标签和文本对分类；训练集抽样、规模、少样本与长尾条件；数据集/模型/随机种子/条件组合。
-- **模型**：TF-IDF + 逻辑回归、TF-IDF + SVM、Word2Vec + SVM、BiLSTM、DistilBERT、ModernBERT。特征只从训练数据学习，Transformer 使用本地模型。
-- **评估与分析**：完整类别空间的 F1、AP、混淆矩阵、验证集阈值选择、配对 Bootstrap、McNemar、Holm 校正、文本长度与错误案例诊断。
-- **报告**：新实验的 Markdown、JSON、CSV 和统计图；历史研究的数据与原始成品导出。
-- **PPT 交互前端**：按原演示的三条研究问题展示真实结果、成本和机制案例，比较五个原研究模型的预测，下载源 PPT 与报告。
-- **工程工具**：Windows/Linux 运行脚本、Slurm 模板、排除本地大文件与归档的源码 ZIP 打包器。
+- **Data and experiments:** eight local Parquet datasets; single-label, multilabel, and sentence-pair classification; training sample selection, dataset size, few-shot and long-tail conditions; dataset/model/seed/condition combinations.
+- **Models:** TF-IDF + logistic regression, TF-IDF + SVM, Word2Vec + SVM, BiLSTM, DistilBERT, and ModernBERT. Features are learned from training data only, and Transformers use local models.
+- **Evaluation and analysis:** F1 over the full label space, AP, confusion matrices, validation-based threshold selection, paired bootstrap, McNemar tests, Holm correction, text-length analysis, and error diagnosis.
+- **Reports:** Markdown, JSON, CSV, and statistical plots for new experiments; data and original deliverable exports for historical research.
+- **Interactive presentation:** original results, costs, and mechanism examples organized around the three research questions; prediction comparisons across five original models; presentation and report downloads.
+- **Engineering tools:** Windows/Linux run scripts, a Slurm template, and a source ZIP packager that excludes local large files and runtime archives.
 
-## 目录
+## Repository layout
 
 ```text
 sentiment-project/
-├── pyproject.toml          包声明与可选依赖
-├── src/lftc/               唯一活跃 Python 核心包
-├── configs/                路径、资产与实验配置
-├── apps/                   PPT 交互式 Streamlit 展示及演示素材
-├── ops/                    运行、集群和打包工具
-├── tests/                  新工程测试
-├── docs/                   使用说明、架构和历史资料导航
-├── artifacts/              本地资产、新模型、结果和报告
-└── archive/2026-11-08/     历史代码、已有实验产物和文档
+├── pyproject.toml          Package metadata and optional dependencies
+├── src/lftc/               Active Python core package
+├── configs/                Paths, assets, and experiment configurations
+├── apps/                   Streamlit presentation app and bundled materials
+├── ops/                    Run scripts, cluster tools, and source packaging
+├── tests/                  Tests for the refactored project
+├── docs/                   Usage, architecture, and historical navigation
+├── artifacts/              Local assets, new models, results, and reports
+└── archive/2026-11-08/     Historical code, experiment outputs, and documents
 ```
 
-`.venv*`、`.tools/`、`.cache/`、`.superpowers/` 保留原位，由编辑器隐藏；归档与产物排除出默认搜索。项目旁的 PPT、录音文稿和传输包归档保持原位。
+Local `.venv*`, `.tools/`, `.cache/`, and `.superpowers/` directories stay in place and are hidden by the editor. Archives and generated artifacts are excluded from default searches. Presentations, transcripts, and archived transfer packages alongside the project remain in their original locations.
 
-## 环境与路径
+## Environment and paths
 
-本机现有 `.venv-research` 已登记 `src/` 路径。新环境可按需安装：
+The existing local `.venv-research` environment already includes `src/` on its Python path. For a new environment, install the extras you need:
 
 ```powershell
-python -m pip install -e .           # 基础 CLI 和配置
-python -m pip install -e ".[ml]"     # 传统模型、评估和报告
-python -m pip install -e ".[train]"  # 神经网络
-python -m pip install -e ".[ui]"     # 前端
+python -m pip install -e .           # Base CLI and configuration
+python -m pip install -e ".[ml]"     # Traditional models, evaluation, and reports
+python -m pip install -e ".[train]"  # Neural networks
+python -m pip install -e ".[ui]"     # Presentation app
 ```
 
-CUDA 环境按集群环境选择匹配的 PyTorch 安装。原始数据和底座模型保留本地，不随源码包分发。
+For CUDA, choose a PyTorch build compatible with the cluster environment. Original datasets and base model weights are stored locally and are excluded from the source package.
 
-Hugging Face 的固定版本沿用重构前路径。恢复所需资产时，先移除其外层 `artifacts/`，再按下表放入当前工程；不必下载全部资产：
+The pinned Hugging Face revision retains the paths used before the refactor. Restore only the assets you need, using the mapping below to place files in the current project:
 
-| 资产仓库中的路径 | 当前工程位置 |
+| Path in the asset repository | Current project location |
 | --- | --- |
 | `artifacts/assets/distilbert/` | `artifacts/assets/models/distilbert/` |
 | `artifacts/research-v3/assets/modernbert/` | `artifacts/assets/models/modernbert/` |
-| `artifacts/assets/<数据集>/` | `artifacts/assets/datasets/<数据集>/` |
-| `artifacts/research-v3/assets/<数据集>/` | `artifacts/assets/datasets/<数据集>/` |
-| `artifacts/models*/`、`artifacts/data*/`、`artifacts/research-v3/` 中其余历史资产 | `archive/2026-11-08/` 下对应的原相对路径 |
+| `artifacts/assets/<dataset>/` | `artifacts/assets/datasets/<dataset>/` |
+| `artifacts/research-v3/assets/<dataset>/` | `artifacts/assets/datasets/<dataset>/` |
+| Other historical assets under `artifacts/models*/`, `artifacts/data*/`, or `artifacts/research-v3/` | The corresponding original relative path under `archive/2026-11-08/`, after removing the outer `artifacts/` prefix |
 
-例如，原 `artifacts/models/imdb/linear_svm/model.joblib` 应恢复为 `archive/2026-11-08/models/imdb/linear_svm/model.joblib`。只浏览研究图表无需下载权重；实时预测需要对应的历史检查点，新实验需要相应数据集和底座模型。历史发布清单保存在 [归档发布说明](archive/2026-11-08/docs/publishing/README.md)。
+For example, restore `artifacts/models/imdb/linear_svm/model.joblib` to `archive/2026-11-08/models/imdb/linear_svm/model.joblib`. Browsing research charts does not require model weights. Live prediction needs the corresponding historical checkpoints, while new experiments need their datasets and base models. The historical publication manifest is available in the [archived publishing guide](archive/2026-11-08/docs/publishing/README.md).
 
-`configs/paths.yaml` 中 `artifacts_dir` 相对工程根目录，其余产物目录相对 `artifacts_dir`。支持 `LFTC_ROOT`、`LFTC_CONFIG_DIR`、`LFTC_ARTIFACTS_DIR` 环境变量覆盖，以及全局 `--root` 参数。
+In `configs/paths.yaml`, `artifacts_dir` is relative to the project root, and the other artifact directories are relative to `artifacts_dir`. Paths can be overridden through `LFTC_ROOT`, `LFTC_CONFIG_DIR`, and `LFTC_ARTIFACTS_DIR`, or the global `--root` option.
 
-## 当前状态
+## Project status
 
-四个子项目的本地实现与整合均已完成。前端按原 PPT 组织研究展示，新实验保留 CLI 入口，不将示例成绩混入原来的实验数量。原系统不再维护运行入口，一次性调试与绘图脚本留在归档。
+Local implementation and integration of all four subprojects are complete. The app presents the original research following the course slides, while new experiments remain available through the CLI. Example runs are kept separate from the original experiment counts. Legacy application entry points are no longer maintained; one-off debugging and plotting scripts are preserved in the archive.
 
-发布前完整测试：`python -m unittest discover -s tests -v`，53 项通过。未重跑历史实验、未新建资产锁或执行大文件哈希核验。
+The full test suite passed before publication: `python -m unittest discover -s tests -v`, 53 tests passed. Historical experiments were not rerun, and no new asset lock or large-file hash verification was performed.
