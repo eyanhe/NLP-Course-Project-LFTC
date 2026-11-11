@@ -1,0 +1,11 @@
+schema_version: 1
+name: neural-comparison
+datasets: [banking77, go_emotions]
+models: [bilstm, distilbert, modernbert]
+seeds: [42, 43, 44]
+training:
+  epochs: 5
+  patience: 2
+  batch_size: 16
+  max_length: 256
+  device: auto

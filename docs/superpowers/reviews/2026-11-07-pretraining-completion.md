@@ -2,9 +2,9 @@
 
 目标：先把模型训练前的所有配置按正式计划完成。本次完成计划Task1–6及其需要的加载、前向检查与独立验收。没有启动正式研究拟合、锚点搜索、真实D试点或官方Q模型预测。后续学习器/训练器、完整训练smoke和研究分析不冒充本次已执行事项。
 
-最终机器验收：[pretraining-verification.json](../../../research-v3/pretraining-verification.json)，`complete=true`、`failures=[]`。当前设计hash为`f3b17e32567e75337ee9326cacfae12c0ed5e587543100909421a8a37ae5280d`，设计锁hash为`8f62970c64e3b34fa7e1f4b7830a9aab31ded47ed12c18723de0e32504a7c58d`。终态退出码为0，并在交付前再次复读核验414个锁定资源和50个项目文件绑定。
+最终机器验收：[pretraining-verification.json](../../../archive/2026-11-08/research-v3/pretraining-verification.json)，`complete=true`、`failures=[]`。当前设计hash为`f3b17e32567e75337ee9326cacfae12c0ed5e587543100909421a8a37ae5280d`，设计锁hash为`8f62970c64e3b34fa7e1f4b7830a9aab31ded47ed12c18723de0e32504a7c58d`。终态退出码为0，并在交付前再次复读核验414个锁定资源和50个项目文件绑定。
 
-[逐项完成审计](../../../research-v3/completion-audit.json)中的32项要求全部通过，另保存补充工件的SHA；这份审计同时核对当前锁、E0实际ID、Go锚点复用和ModernBERT全部公共输入。
+[逐项完成审计](../../../archive/2026-11-08/research-v3/completion-audit.json)中的32项要求全部通过，另保存补充工件的SHA；这份审计同时核对当前锁、E0实际ID、Go锚点复用和ModernBERT全部公共输入。
 
 ## 环境与固定资产
 
@@ -70,4 +70,4 @@ M1–M5规则、M2四臂与随机初始化敏感性、M3支持×目标风险四�
 
 延期小项：准备阶段的空AP mask guard只识别`multi_label`，未统一正式`multilabel`别名。实际Go的V mask全28列有效，最终独立验收识别两种别名并阻断空mask，所以当前交付不受影响；后续适配器整理时修正。独立审查发现的运行身份重要问题已按RED→GREEN修复。
 
-后续从Task7学习器/指标和训练器、三锁实现开始，再做E0工程拟合、锚点选择与真实D试点；不能直接跳到长批次或Q预测。操作命令见[PRETRAINING.md](../../../research-v3/PRETRAINING.md)。
+后续从Task7学习器/指标和训练器、三锁实现开始，再做E0工程拟合、锚点选择与真实D试点；不能直接跳到长批次或Q预测。操作命令见[PRETRAINING.md](../../../archive/2026-11-08/research-v3/PRETRAINING.md)。

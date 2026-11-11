@@ -1,0 +1,235 @@
+schema_version: 1
+datasets:
+- id: imdb
+  directory: datasets/imdb
+  task: single_label
+  label_count: 2
+  repo: stanfordnlp/imdb
+  revision: e6281661ce1c48d982bc483cf8a173c1bbeb5d31
+  files:
+  - plain_text/test-00000-of-00001.parquet
+  - plain_text/train-00000-of-00001.parquet
+  label_names:
+  - neg
+  - pos
+- id: rotten_tomatoes
+  directory: datasets/rotten_tomatoes
+  task: single_label
+  label_count: 2
+  repo: cornell-movie-review-data/rotten_tomatoes
+  revision: aa13bc287fa6fcab6daf52f0dfb9994269ffea28
+  files:
+  - test.parquet
+  - train.parquet
+  - validation.parquet
+  label_names:
+  - neg
+  - pos
+- id: yelp
+  directory: datasets/yelp
+  task: single_label
+  label_count: 2
+  repo: fancyzhx/yelp_polarity
+  revision: bbf1c97a1f0cf005e5aded43839fd814654a1557
+  files:
+  - plain_text/test-00000-of-00001.parquet
+  - plain_text/train-00000-of-00001.parquet
+  label_names:
+  - '1'
+  - '2'
+- id: ag_news
+  directory: datasets/ag_news
+  task: single_label
+  label_count: 4
+  repo: fancyzhx/ag_news
+  revision: eb185aade064a813bc0b7f42de02595523103ca4
+  files:
+  - data/test-00000-of-00001.parquet
+  - data/train-00000-of-00001.parquet
+  label_names:
+  - World
+  - Sports
+  - Business
+  - Sci/Tech
+- id: mnli
+  directory: datasets/mnli
+  task: pair_classification
+  label_count: 3
+  repo: nyu-mll/multi_nli
+  revision: da70db2af9d09693783c3320c4249840212ee221
+  files:
+  - data/train-00000-of-00001.parquet
+  - data/validation_matched-00000-of-00001.parquet
+  - data/validation_mismatched-00000-of-00001.parquet
+- id: banking77
+  directory: datasets/banking77
+  task: single_label
+  label_count: 77
+  repo: PolyAI/banking77
+  revision: 1846984189f2bc0ac51c6fc3a600fa9e1714e0c6
+  files:
+  - README.md
+  - data/test-00000-of-00001.parquet
+  - data/train-00000-of-00001.parquet
+  label_names:
+  - activate_my_card
+  - age_limit
+  - apple_pay_or_google_pay
+  - atm_support
+  - automatic_top_up
+  - balance_not_updated_after_bank_transfer
+  - balance_not_updated_after_cheque_or_cash_deposit
+  - beneficiary_not_allowed
+  - cancel_transfer
+  - card_about_to_expire
+  - card_acceptance
+  - card_arrival
+  - card_delivery_estimate
+  - card_linking
+  - card_not_working
+  - card_payment_fee_charged
+  - card_payment_not_recognised
+  - card_payment_wrong_exchange_rate
+  - card_swallowed
+  - cash_withdrawal_charge
+  - cash_withdrawal_not_recognised
+  - change_pin
+  - compromised_card
+  - contactless_not_working
+  - country_support
+  - declined_card_payment
+  - declined_cash_withdrawal
+  - declined_transfer
+  - direct_debit_payment_not_recognised
+  - disposable_card_limits
+  - edit_personal_details
+  - exchange_charge
+  - exchange_rate
+  - exchange_via_app
+  - extra_charge_on_statement
+  - failed_transfer
+  - fiat_currency_support
+  - get_disposable_virtual_card
+  - get_physical_card
+  - getting_spare_card
+  - getting_virtual_card
+  - lost_or_stolen_card
+  - lost_or_stolen_phone
+  - order_physical_card
+  - passcode_forgotten
+  - pending_card_payment
+  - pending_cash_withdrawal
+  - pending_top_up
+  - pending_transfer
+  - pin_blocked
+  - receiving_money
+  - Refund_not_showing_up
+  - request_refund
+  - reverted_card_payment?
+  - supported_cards_and_currencies
+  - terminate_account
+  - top_up_by_bank_transfer_charge
+  - top_up_by_card_charge
+  - top_up_by_cash_or_cheque
+  - top_up_failed
+  - top_up_limits
+  - top_up_reverted
+  - topping_up_by_card
+  - transaction_charged_twice
+  - transfer_fee_charged
+  - transfer_into_account
+  - transfer_not_received_by_recipient
+  - transfer_timing
+  - unable_to_verify_identity
+  - verify_my_identity
+  - verify_source_of_funds
+  - verify_top_up
+  - virtual_card_not_working
+  - visa_or_mastercard
+  - why_verify_identity
+  - wrong_amount_of_cash_received
+  - wrong_exchange_rate_for_cash_withdrawal
+- id: go_emotions
+  directory: datasets/go_emotions
+  task: multilabel
+  label_count: 28
+  repo: google-research-datasets/go_emotions
+  revision: add492243ff905527e67aeb8b80c082af02207c3
+  files:
+  - README.md
+  - simplified/test-00000-of-00001.parquet
+  - simplified/train-00000-of-00001.parquet
+  - simplified/validation-00000-of-00001.parquet
+  label_names:
+  - admiration
+  - amusement
+  - anger
+  - annoyance
+  - approval
+  - caring
+  - confusion
+  - curiosity
+  - desire
+  - disappointment
+  - disapproval
+  - disgust
+  - embarrassment
+  - excitement
+  - fear
+  - gratitude
+  - grief
+  - joy
+  - love
+  - nervousness
+  - optimism
+  - pride
+  - realization
+  - relief
+  - remorse
+  - sadness
+  - surprise
+  - neutral
+- id: yahoo_answers_topics
+  directory: datasets/yahoo_answers_topics
+  task: single_label
+  label_count: 10
+  repo: community-datasets/yahoo_answers_topics
+  revision: 6652a1e7c94f7260a0bfd0c9092dd48e2d536ea1
+  files:
+  - README.md
+  - yahoo_answers_topics/test-00000-of-00001.parquet
+  - yahoo_answers_topics/train-00000-of-00002.parquet
+  - yahoo_answers_topics/train-00001-of-00002.parquet
+  label_names:
+  - Society & Culture
+  - Science & Mathematics
+  - Health
+  - Education & Reference
+  - Computers & Internet
+  - Sports
+  - Business & Finance
+  - Entertainment & Music
+  - Family & Relationships
+  - Politics & Government
+models:
+- id: distilbert
+  directory: models/distilbert
+  repo: distilbert/distilbert-base-uncased
+  revision: 12040accade4e8a0f71eabdb258fecc2e7e948be
+  files:
+  - config.json
+  - tokenizer_config.json
+  - tokenizer.json
+  - vocab.txt
+  - model.safetensors
+- id: modernbert
+  directory: models/modernbert
+  repo: answerdotai/ModernBERT-base
+  revision: 8949b909ec900327062f0ebf497f51aef5e6f0c8
+  files:
+  - README.md
+  - config.json
+  - model.safetensors
+  - special_tokens_map.json
+  - tokenizer.json
+  - tokenizer_config.json

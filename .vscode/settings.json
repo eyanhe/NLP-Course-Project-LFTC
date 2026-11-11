@@ -1,4 +1,8 @@
 {
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv-research/Scripts/python.exe",
+  "python.analysis.extraPaths": [
+    "./src"
+  ],
   "files.exclude": {
     "**/.venv*": true,
     "**/__pycache__": true,
@@ -12,24 +16,17 @@
     "**/.tools/**": true,
     "**/.cache/**": true,
     "**/.superpowers/**": true,
-    "**/sentiment-project-archive/**": true,
-    "**/assets/**": true,
-    "**/models*/**": true,
-    "**/runs/**": true,
-    "**/features/**": true,
-    "**/data*/**": true,
-    "**/inputs/**": true
+    "**/archive/**": true,
+    "**/artifacts/**": true,
+    "**/sentiment-project-archive/**": true
   },
   "files.watcherExclude": {
     "**/.venv*/**": true,
     "**/.tools/**": true,
     "**/.cache/**": true,
-    "**/sentiment-project-archive/**": true,
-    "**/assets/**": true,
-    "**/models*/**": true,
-    "**/runs/**": true,
-    "**/features/**": true,
-    "**/data*/**": true,
-    "**/inputs/**": true
+    "**/.superpowers/**": true,
+    "**/archive/**": true,
+    "**/artifacts/**": true,
+    "**/sentiment-project-archive/**": true
   }
 }

@@ -1,0 +1,11 @@
+schema_version: 1
+name: baselines
+datasets: [imdb, rotten_tomatoes, yelp, ag_news, mnli, banking77, go_emotions, yahoo_answers_topics]
+models: [tfidf_lr, tfidf_svm, w2v_svm]
+seeds: [42]
+conditions:
+  - mode: all
+training:
+  max_features: 30000
+  vector_size: 100
+  max_iter: 10000

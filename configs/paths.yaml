@@ -1,0 +1,8 @@
+schema_version: 1
+# artifacts_dir 相对项目根目录；下列子目录相对 artifacts_dir。
+artifacts_dir: artifacts
+assets_dir: assets
+prepared_dir: prepared
+runs_dir: runs
+results_dir: results
+reports_dir: reports

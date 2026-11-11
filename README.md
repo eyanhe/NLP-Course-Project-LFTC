@@ -1,64 +1,96 @@
-# Text Classification Lab：文本分类模型的能力边界与失败机制
+# LFTC 文本分类研究工程
 
-当前主线：**模型在什么数据条件下表现更好，以及优化、预训练、标注支持和词汇线索如何影响失败。** 承接原常规分类、MultiNLI和AG News不平衡比较，优先阅读下列当前成品。
+重构后的工程统一使用 `src/lftc/` 运行新实验、评估报告和 PPT 交互前端；历史代码与研究结果保留在 `archive/2026-11-08/` 供查阅。
 
-远程文件分工：[GitHub源码、报告与结果](https://github.com/eyanhe/NLP-Course-Project-LFTC) · [Hugging Face数据与检查点](https://huggingface.co/datasets/Eyanhe/LFTC_Dataset_And_Checkpoints)。大资产的路径、发布状态和恢复方法见[发布说明](docs/publishing/README.md)。
+[GitHub 仓库](https://github.com/eyanhe/NLP-Course-Project-LFTC)保存源码、历史报告、图表、PPT、Excel 和结果数据；[Hugging Face 资产仓库](https://huggingface.co/datasets/Eyanhe/LFTC_Dataset_And_Checkpoints/tree/5fd879463414b2059ae05b4e188da58e706456dd)保存原始数据、特征与模型权重。GitHub 保留原有提交历史，历史材料按本次重构的位置归档。
 
-## 最终报告与展示
+## 直接使用
 
-- [中文综合结论](report/research-v3/final-synthesis-zh.md)：研究主线与六组证据。
-- [完整分析报告](report/research-v3/final-report-zh.md)：42个正式Q模型、定量对照与具体错误案例。
-- [完整研究图册](report/research-v3/figures/完整研究图册.pdf)：12页研究接续与结果图；[实验逻辑链](report/research-v3/figures/当前研究问题与实验逻辑链.pdf)解释问题与对照关系。
-- [研究图表演示PPT](report/research-v3/final-presentation.pptx)、[Excel表格与全部成品](report/research-v3/README.md)。
-- [Streamlit交互研究界面](docs/FRONTEND.md)：筛选Q结果、查看机制/案例/图表、下载成品；保留原实时预测演示。
+在 `sentiment-project/` 中执行：
 
-## 当前研究范围
+```powershell
+# 打开基于 project ppt 原稿的交互式研究展示
+.\.venv-research\Scripts\python.exe -m lftc app
+```
 
-截至2026-11-08，v3完成记录共 **428条**，其中当前研究 **232条**、额外早期选参181条、工程检查15条；另2条中断不计完成。当前研究中 **226条有V指标，42个固定模型完成正式Q评估**。
+直接运行 `.\apps\start.ps1`，脚本会优先使用本机 `.venv-research`。
 
-当前232条由首批184、S1新增16、S3新增8和后续优化新增24组成。V用于选择/验证，D用于探索，Q用于固定模型的正式测试。S2/S4复用已有模型，不增加训练数量。原2859项设计只执行其中184项，不能把全部计划写成已完成。
+前端沿用 PPT 的英文内容、深蓝/米白配色和三条研究问题，包含总览、性能与成本、鲁棒性、机制、实时预测、方法与证据、结论七个页面。图表读取原研究结果；实时预测比较原来的五个模型，支持三个评论数据集、AG News 和 MultiNLI 文本对。侧栏可下载源 PPT。[前端说明](apps/README.md)列出了页面与模型来源。
 
-具体口径见[项目沿革](docs/PROJECT-HISTORY.md)，研究衔接见[交接前后的连续论证](docs/RESEARCH-CONTINUITY.md)。
+新实验仍通过以下 CLI 运行。已有 `quickstart-local` 是 200 条训练样本的流程示例，不参与前端的原研究展示或模型预测。
 
-## 文件结构
+```powershell
+# 新建一个小规模实验，输出模型、逐样本预测和指标
+.\.venv-research\Scripts\python.exe -m lftc run --config configs/experiments/quickstart.yaml --run-id my-first-run
 
-| 路径 | 内容 |
+# 用保存的模型预测并生成报告
+.\.venv-research\Scripts\python.exe -m lftc predict --run-id my-first-run --text "A thoughtful and enjoyable film."
+.\.venv-research\Scripts\python.exe -m lftc report --run-id my-first-run
+```
+
+## 阅读入口
+
+- [使用说明](docs/USAGE.md)：实验配置、完整命令、模型与输出文件。
+- [工程架构](docs/ARCHITECTURE.md)：分层职责与数据流。
+- [历史资料入口](docs/archive/2026-11-08.md)：原研究报告、模型、数据和旧代码。
+- [资产注册表](configs/assets.yaml)：8 套数据集、2 套底座模型的来源和目录。
+- [操作工具](ops/README.md)：集群模板、运行包装器和源码打包。
+
+## 已整理的能力
+
+- **数据与实验**：8 个本地 Parquet 数据集；单标签、多标签和文本对分类；训练集抽样、规模、少样本与长尾条件；数据集/模型/随机种子/条件组合。
+- **模型**：TF-IDF + 逻辑回归、TF-IDF + SVM、Word2Vec + SVM、BiLSTM、DistilBERT、ModernBERT。特征只从训练数据学习，Transformer 使用本地模型。
+- **评估与分析**：完整类别空间的 F1、AP、混淆矩阵、验证集阈值选择、配对 Bootstrap、McNemar、Holm 校正、文本长度与错误案例诊断。
+- **报告**：新实验的 Markdown、JSON、CSV 和统计图；历史研究的数据与原始成品导出。
+- **PPT 交互前端**：按原演示的三条研究问题展示真实结果、成本和机制案例，比较五个原研究模型的预测，下载源 PPT 与报告。
+- **工程工具**：Windows/Linux 运行脚本、Slurm 模板、排除本地大文件与归档的源码 ZIP 打包器。
+
+## 目录
+
+```text
+sentiment-project/
+├── pyproject.toml          包声明与可选依赖
+├── src/lftc/               唯一活跃 Python 核心包
+├── configs/                路径、资产与实验配置
+├── apps/                   PPT 交互式 Streamlit 展示及演示素材
+├── ops/                    运行、集群和打包工具
+├── tests/                  新工程测试
+├── docs/                   使用说明、架构和历史资料导航
+├── artifacts/              本地资产、新模型、结果和报告
+└── archive/2026-11-08/     历史代码、已有实验产物和文档
+```
+
+`.venv*`、`.tools/`、`.cache/`、`.superpowers/` 保留原位，由编辑器隐藏；归档与产物排除出默认搜索。项目旁的 PPT、录音文稿和传输包归档保持原位。
+
+## 环境与路径
+
+本机现有 `.venv-research` 已登记 `src/` 路径。新环境可按需安装：
+
+```powershell
+python -m pip install -e .           # 基础 CLI 和配置
+python -m pip install -e ".[ml]"     # 传统模型、评估和报告
+python -m pip install -e ".[train]"  # 神经网络
+python -m pip install -e ".[ui]"     # 前端
+```
+
+CUDA 环境按集群环境选择匹配的 PyTorch 安装。原始数据和底座模型保留本地，不随源码包分发。
+
+Hugging Face 的固定版本沿用重构前路径。恢复所需资产时，先移除其外层 `artifacts/`，再按下表放入当前工程；不必下载全部资产：
+
+| 资产仓库中的路径 | 当前工程位置 |
 | --- | --- |
-| `report/research-v3/` | 当前成品：综合结论、完整报告、PDF图册、PPT、Excel及来源清单 |
-| `report/`中的原文件 | 原交接课程项目的报告、PPT、录制安排与草稿，保留原路径 |
-| `research_v3/` | 当前研究的Python源码包 |
-| `research-v3/` | 当前研究的数据、模型、实验矩阵、预测、冻结协议和分析源 |
-| `data*/`、`models*/`、`results*/`、`assets/` | 原交接的数据、模型、结果和基础资产 |
-| `outputs/` | 原工作簿、生成工件和预览 |
-| `development-support/` | 构建器、检查工具与归档恢复脚本 |
-| `docs/` | 研究设计、沿革、执行记录、目录与归档清单 |
-| `app.py`、`pipeline.py`等 | 原交接GUI和实验入口，沿用原路径 |
+| `artifacts/assets/distilbert/` | `artifacts/assets/models/distilbert/` |
+| `artifacts/research-v3/assets/modernbert/` | `artifacts/assets/models/modernbert/` |
+| `artifacts/assets/<数据集>/` | `artifacts/assets/datasets/<数据集>/` |
+| `artifacts/research-v3/assets/<数据集>/` | `artifacts/assets/datasets/<数据集>/` |
+| `artifacts/models*/`、`artifacts/data*/`、`artifacts/research-v3/` 中其余历史资产 | `archive/2026-11-08/` 下对应的原相对路径 |
 
-[详细布局与体积说明](docs/REPOSITORY-LAYOUT.md) · [研究源码说明](research_v3/README.md) · [实验原始目录](research-v3/README.md) · [设计与执行记录](docs/superpowers/README.md)
+例如，原 `artifacts/models/imdb/linear_svm/model.joblib` 应恢复为 `archive/2026-11-08/models/imdb/linear_svm/model.joblib`。只浏览研究图表无需下载权重；实时预测需要对应的历史检查点，新实验需要相应数据集和底座模型。历史发布清单保存在 [归档发布说明](archive/2026-11-08/docs/publishing/README.md)。
 
-## 使用与复现
+`configs/paths.yaml` 中 `artifacts_dir` 相对工程根目录，其余产物目录相对 `artifacts_dir`。支持 `LFTC_ROOT`、`LFTC_CONFIG_DIR`、`LFTC_ARTIFACTS_DIR` 环境变量覆盖，以及全局 `--root` 参数。
 
-先看当前v3研究，安装轻量前端依赖即可，不需要下载模型：
+## 当前状态
 
-```powershell
-python -m pip install -r requirements-frontend.txt
-python -m streamlit run research_ui/viewer.py --server.address 127.0.0.1 --server.port 8501 --browser.gatherUsageStats false
-```
+四个子项目的本地实现与整合均已完成。前端按原 PPT 组织研究展示，新实验保留 CLI 入口，不将示例成绩混入原来的实验数量。原系统不再维护运行入口，一次性调试与绘图脚本留在归档。
 
-完整[前端使用说明](docs/FRONTEND.md)。原课程GUI、依赖安装与离线演示见[HANDOFF.md](HANDOFF.md)。在已安装完整项目依赖的Python环境中，运行原入口：
-
-```powershell
-python -m streamlit run app.py --server.address 127.0.0.1 --server.port 8501 --browser.gatherUsageStats false
-```
-
-原GUI新增通向当前研究页的导航，原预测功能继续保留。研究原始预测、模型、冻结范围与生成器保持原路径，详见[分析复现说明](research-v3/reports/overnight/analysis-v2/README.md)和[开发支持](development-support/README.md)。整理时受限沙箱无法启动本机虚拟环境；后续已在沙箱外验证Python 3.11的发布与研究环境可用，并完成前端及原功能检查。
-
-## 归档与空间
-
-18个集群传输tar包（29.51 GiB）移到项目旁的 `sentiment-project-archive/2026-11-08/transfer-packages/`，原目录保留传输脚本与校验说明。[归档清单](docs/repository-archive-manifest.json)记录原/新路径与SHA256，[恢复方法](docs/REPOSITORY-LAYOUT.md)可将它们移回原位置。
-
-本次没有删除模型、数据或预测。移出主目录只减少主目录体积，不等于释放磁盘空间。编辑器默认隐藏本地环境、缓存、工具与相邻归档；数据和模型仍可在文件树中访问。
-
-## 原交接与历史
-
-原交接使用方式见[交接README原文](docs/archive/README-handoff-20261108.md)、[HANDOFF](HANDOFF.md)和[原报告入口](report/README.md)。历史状态JSON、旧图和旧报告保留为当时快照；当前结论以本页链接的报告为准。原打包脚本针对旧布局，不适合作为当前轻量交付命令。
+发布前完整测试：`python -m unittest discover -s tests -v`，53 项通过。未重跑历史实验、未新建资产锁或执行大文件哈希核验。

@@ -1,0 +1,17 @@
+schema_version: 1
+name: data-conditions
+dataset: ag_news
+models: [tfidf_lr, tfidf_svm, bilstm, distilbert]
+seeds: [42, 43, 44]
+conditions:
+  - mode: all
+  - mode: scale
+    size: 1000
+  - mode: kshot
+    k: 16
+  - mode: long_tail
+    imbalance_ratio: 10.0
+training:
+  epochs: 5
+  patience: 2
+  max_length: 256
